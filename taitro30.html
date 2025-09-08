@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Danh sách tài trợ</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif;}
+    body{background:#fff;padding:10px;color:#2c3e50;line-height:1.6;}
+    .container{max-width:1000px;margin:0 auto;background:white;padding:20px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);}
+    .header{text-align:center;margin-bottom:20px;padding-bottom:10px;border-bottom:2px solid #3498db;}
+    .header h1{color:#2c3e50;font-size:22px;margin-bottom:6px;text-transform:uppercase;}
+    .header h2{color:#3498db;font-size:18px;font-weight:600;}
+    .update-info{text-align:right;font-style:italic;color:#7f8c8d;margin-bottom:12px;font-size:13px;}
+    .summary{background:#e8f5e9;padding:10px;border-radius:8px;margin-bottom:15px;border-left:4px solid #4caf50;font-size:14px;}
+    .search-box{margin-bottom:15px;padding:8px;background:#f1f8e9;border-radius:8px;display:flex;gap:8px;flex-wrap:wrap;}
+    #searchInput{padding:6px 10px;flex:1;border:1px solid #c8e6c9;border-radius:4px;font-size:13px;}
+    #rowCount{font-weight:bold;color:#388e3c;background:#e8f5e9;padding:3px 8px;border-radius:12px;}
+    table{width:100%;border-collapse:collapse;margin-bottom:15px;font-size:14px;}
+    th{background:#3498db;color:white;padding:8px;text-align:left;border:1px solid #2980b9;}
+    td{padding:8px;border:1px solid #ddd;vertical-align:top;}
+    tr:nth-child(even){background:#f8f9fa;}
+    tr:hover{background:#e3f2fd;}
+    .stt{width:40px;text-align:center;font-weight:bold;}
+    .name{font-weight:bold;color:#2c3e50;}
+    .highlight{color:#e74c3c;font-weight:bold;}
+    .footer{text-align:center;margin-top:15px;padding-top:8px;border-top:1px dashed #95a5a6;color:#7f8c8d;font-style:italic;font-size:13px;}
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>DANH SÁCH TẤM LÒNG VÀNG</h1>
+    <h2>ỦNG HỘ LỄ HỘI KỶ NIỆM 30 NĂM THÀNH LẬP TRƯỜNG THPT NGUYỄN ĐÌNH CHIỂU</h2>
+  </div>
+  <div class="update-info">Cập nhật: 02/09/2025</div>
+  <div class="summary">
+    <p>Tổng số dòng: <b><span id="totalRowCount">0</span></b></p>
+    <p>Tổng số tiền tài trợ: <span class="highlight" id="totalAmount">0 VNĐ</span></p>
+  </div>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Tìm kiếm theo tên, số tiền...">
+    <div id="visibleRowCount">0 dòng</div>
+  </div>
+  <table>
+    <thead>
+      <tr><th class="stt">STT</th><th>Cá nhân / tập thể tài trợ</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="stt">1</td>
+        <td><span class="name">Thầy Mai Trọng Đạt</span> - Hiệu trưởng<br><span class="highlight">Số tiền: 3,000,000 VNĐ</span></td>
+      </tr>
+      <tr>
+        <td class="stt">2</td>
+        <td><span class="name">Thầy Nguyễn Xuân Quang</span> - Phó Hiệu trưởng<br><span class="highlight">Số tiền: 2,000,000 VNĐ</span></td>
+      </tr>
+      <tr>
+        <td class="stt">3</td>
+        <td><span class="name">Tập thể 12A3 (2000-2003)</span><br><span class="highlight">Số tiền: 3,800,000 VNĐ</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="footer">Xin trân trọng cảm ơn sự ủng hộ của quý thầy cô, phụ huynh và cựu học sinh!</div>
+</div>
+<script>
+function countTotalRows(){const rows=document.querySelectorAll('tbody tr');document.getElementById('totalRowCount').textContent=rows.length;document.getElementById('visibleRowCount').textContent=rows.length+' dòng';}
+document.getElementById('searchInput').addEventListener('keyup',function(){const s=this.value.toLowerCase();const rows=document.querySelectorAll('tbody tr');let v=0;rows.forEach(r=>{if(r.textContent.toLowerCase().includes(s)){r.style.display='';v++;}else{r.style.display='none';}});document.getElementById('visibleRowCount').textContent=v+' dòng';});
+function calculateTotal(){let t=0;document.querySelectorAll('.highlight').forEach(e=>{const m=e.textContent.match(/([\d,]+) VNĐ/);if(m)t+=parseInt(m[1].replace(/,/g,''));});document.getElementById('totalAmount').textContent=new Intl.NumberFormat('vi-VN').format(t)+' VNĐ';}
+window.addEventListener('load',()=>{countTotalRows();calculateTotal();});
+</script>
+</body>
+</html>
