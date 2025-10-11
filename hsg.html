@@ -302,7 +302,7 @@
             const stats = calculatePrizeStats(students);
             const statsElement = document.getElementById('prizeStats');
             
-            let statsText = `Tổng số giải: ${students.length} (trong đó `;
+            let statsText = `Trong ${students.length} giải, có: `;
             const parts = [];
             
             if (stats.nhat > 0) parts.push(`${stats.nhat} giải Nhất`);
@@ -310,7 +310,7 @@
             if (stats.ba > 0) parts.push(`${stats.ba} giải Ba`);
             if (stats.kk > 0) parts.push(`${stats.kk} giải KK`);
             
-            statsText += parts.join(', ') + ')';
+            statsText += parts.join(', ') + '.';
             statsElement.textContent = statsText;
         }
 
@@ -344,7 +344,7 @@
             years.forEach(year => {
                 const yearStudents = students.filter(student => student.year === year);
                 
-                html += `<h3 class="academic-year">Năm học: ${year}</h3>`;
+                html += `<h3 class="academic-year">Năm học ${year}</h3>`;
                 html += `<div class="table-container">`;
                 html += `<table>`;
                 html += `<thead><tr><th>STT</th><th>Học sinh</th><th>Giải</th><th>Điểm</th><th>GVBD</th></tr></thead>`;
