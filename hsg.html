@@ -205,13 +205,8 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>DANH SÁCH HỌC SINH ĐẠT GIẢI MÔN TOÁN</h1>
-            <h1>CẤP TỈNH/TP, TỪ NĂM 2017</h1>
             <div class="stats">
-                Tổng số lượt học sinh đạt giải: <span id="totalCount">32</span> học sinh
-            </div>
-            <div class="prize-stats" id="prizeStats">
-                <!-- Thống kê giải sẽ được hiển thị ở đây -->
+                Tổng số lượt học sinh đạt giải: <span id="totalCount">32</span> (từ năm 2017)
             </div>
         </div>
 
@@ -278,7 +273,9 @@
             { stt: 31, year: "2024-2025", name: "Hoàng Bá Trọng Quyền", gender: "Nam", birthYear: 2007, class: "12A3", prize: "Ba", score: 13.75, teacher: "Thầy Long" },
             { stt: 32, year: "2024-2025", name: "Hồ Đức Thiện", gender: "Nam", birthYear: 2007, class: "12A3", prize: "KK", score: 13.10, teacher: "Thầy Long" }
         ];
-
+<div class="prize-stats" id="prizeStats">
+                <!-- Thống kê giải sẽ được hiển thị ở đây -->
+</div>
         // Hàm thống kê giải thưởng
         function calculatePrizeStats(students) {
             const stats = {
