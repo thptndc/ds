@@ -323,13 +323,13 @@
             const stats = calculatePrizeStats(students);
             const statsElement = document.getElementById('prizeStats');
             
-            let statsText = `Trong ${students.length} giải, có: `;
+            let statsText = `Trong đó có: `;
             const parts = [];
             
-            if (stats.nhat > 0) parts.push(`${stats.nhat} Nhất`);
-            if (stats.nhi > 0) parts.push(`${stats.nhi} Nhì`);
-            if (stats.ba > 0) parts.push(`${stats.ba} Ba`);
-            if (stats.kk > 0) parts.push(`${stats.kk} KK`);
+            if (stats.nhat > 0) parts.push(`${stats.nhat} giải Nhất`);
+            if (stats.nhi > 0) parts.push(`${stats.nhi} giải Nhì`);
+            if (stats.ba > 0) parts.push(`${stats.ba} giải Ba`);
+            if (stats.kk > 0) parts.push(`${stats.kk} giải KK`);
             
             statsText += parts.join(', ') + '.';
             statsElement.textContent = statsText;
