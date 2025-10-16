@@ -216,7 +216,7 @@
         </div>
       <div class="search-container">
             <div class="search-box">
-                <input class="search-input" id="searchInput" placeholder="Tìm kiếm theo tên học sinh" type="text" />
+                <input class="search-input" id="searchInput" placeholder="Tìm kiếm theo tên học sinh, môn học" type="text" />
                 <button class="search-btn" onclick="searchStudents()">Tìm kiếm</button>
             </div>
         </div>
@@ -395,26 +395,25 @@
         }
            
         // Hàm tìm kiếm
-        function searchStudents() {
-            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
-            
-            if (searchTerm === '') {
-                displayStudents();
-                return;
-            }
+function searchStudents() {
+    const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+    
+    if (searchTerm === '') {
+        displayStudents();
+        return;
+    }
 
-            const filteredStudents = studentsData.filter(student => 
-                student.name.toLowerCase().includes(searchTerm) ||
-                student.teacher.toLowerCase().includes(searchTerm) ||
-                student.class.toLowerCase().includes(searchTerm) ||
-                student.prize.toLowerCase().includes(searchTerm) ||
-                student.gender.toLowerCase().includes(searchTerm) ||
-                student.birthYear.toString().includes(searchTerm)
-            );
+    const filteredStudents = studentsData.filter(student => 
+        student.name.toLowerCase().includes(searchTerm) ||
+        student.class.toLowerCase().includes(searchTerm) ||
+        student.prize.toLowerCase().includes(searchTerm) ||
+        student.gender.toLowerCase().includes(searchTerm) ||
+        student.birthYear.toString().includes(searchTerm) ||
+        student.year.toLowerCase().includes(searchTerm)
+    );
 
-            displayStudents(filteredStudents);
-        }
-
+    displayStudents(filteredStudents);
+}
         // Tìm kiếm khi nhấn Enter
         document.getElementById('searchInput').addEventListener('keypress', function(e) {
             if (e.key === 'Enter') {
