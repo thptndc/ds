@@ -208,7 +208,7 @@
     <div class="container">
         <div class="header">
             <div class="stats">
-                TỔNG SỐ GIẢI: <span style="display:inline-block; padding:3px 10px; margin:0 5px; background-color:#fff; border:2px solid #e74c3c; border-radius:6px; color:#e74c3c; font-weight:bold; font-size:1.1em;"><span id="totalCount">Tong_giai</span></span>
+                NĂM HỌC 2025-2026, TRƯỜNG ĐẠT <span style="display:inline-block; padding:3px 10px; margin:0 5px; background-color:#fff; border:2px solid #e74c3c; border-radius:6px; color:#e74c3c; font-weight:bold; font-size:1.1em;"><span id="totalCount">Tong_giai</span></span> GIẢI HSG CẤP THÀNH PHỐ
             </div>
             <div class="prize-stats" id="prizeStats">
                 <!-- Thống kê giải sẽ được hiển thị ở đây -->
@@ -383,7 +383,7 @@
                     html += `<td>
                         <div class="student-info">
                             <div class="student-name">${displayName}</div>
-                            <div class="student-details">${student.gender}, sinh ${student.birthYear}, lớp ${student.class}</div>
+                            <div class="student-details">${student.gender}, ${student.birthYear}, lớp ${student.class}</div>
                         </div>
                     </td>`;
                     html += `<td><span class="prize-badge ${getPrizeClass(student.prize)}">${student.prize}</span></td>`;
