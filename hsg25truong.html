@@ -1,0 +1,441 @@
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Danh Sách Học Sinh Đạt Giải Môn Toán Cấp Tỉnh/TP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .search-container {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            border: 1px solid #dee2e6;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .search-input {
+            flex: 1;
+            min-width: 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .search-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: background 0.3s;
+        }
+
+        .search-btn:hover {
+            background: #2980b9;
+        }
+
+        .stats {
+            background: #e8f4fc;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .prize-stats {
+            background: #fff3cd;
+            padding: 12px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid #ffeaa7;
+        }
+
+        .academic-year {
+            color: #2c3e50;
+            margin: 30px 0 15px 0;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th {
+            background: #34495e;
+            color: white;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .student-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .student-name {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .student-details {
+            color: #3498db;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .prize-badge {
+            display: inline-block;
+            padding: 3px 6px;
+            border-radius: 3px;
+            font-weight: bold;
+            text-align: center;
+            min-width: 60px;
+        }
+
+        .prize-1 { background: #ffd700; color: #000; } /* Nhất */
+        .prize-2 { background: #e74c3c; color: #fff; } /* Nhì */
+        .prize-3 { background: #cd7f32; color: #fff; } /* Ba */
+        .prize-kk { background: #c0c0c0 ; color: #000; } /* KK */
+
+        .no-results {
+            text-align: center;
+            padding: 40px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            th, td {
+                padding: 8px 5px;
+                font-size: 14px;
+            }
+            
+            .search-box {
+                flex-wrap: nowrap;
+            }
+            
+            .search-input {
+                min-width: 0;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 20px;
+            }
+            
+            th, td {
+                padding: 6px 3px;
+                font-size: 12px;
+            }
+            
+            .student-details {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="stats">
+                TỔNG SỐ GIẢI CẤP TỈNH/TP MÔN TOÁN: <span style="display:inline-block; padding:3px 10px; margin:0 5px; background-color:#fff; border:2px solid #e74c3c; border-radius:6px; color:#e74c3c; font-weight:bold; font-size:1.1em;"><span id="totalCount">Tong_giai</span></span>
+            </div>
+            <div class="prize-stats" id="prizeStats">
+                <!-- Thống kê giải sẽ được hiển thị ở đây -->
+            </div>
+        </div>
+
+        <div class="search-container">
+            <div class="search-box">
+                <input class="search-input" id="searchInput" placeholder="Tìm kiếm theo tên học sinh" type="text" />
+                <button class="search-btn" onclick="searchStudents()">Tìm kiếm</button>
+            </div>
+        </div>
+
+        <div id="resultsContainer">
+            <!-- Nội dung danh sách sẽ được hiển thị ở đây -->
+        </div>
+    </div>
+
+    <script>
+        // Dữ liệu học sinh
+        const studentsData = [
+   // 2008-2009
+    { stt: 1, year: "2008-2009", name: "Nguyễn Thị Hồng Hạnh", gender: "Nữ", birthYear: 1991, class: "12A2", prize: "KK", score: "...", teacher: "Thầy Tường" },
+    { stt: 2, year: "2008-2009", name: "Hoàng Thị Kiều My", gender: "Nữ", birthYear: 1991, class: "12A2", prize: "KK", score: "...", teacher: "Thầy Tường" },
+    
+    // 2009-2010
+    { stt: 3, year: "2009-2010", name: "Trần Thị Thu Sương", gender: "Nữ", birthYear: 1992, class: "12A1", prize: "Ba", score: "...", teacher: "Thầy Long" },
+    
+    // 2010-2011
+    { stt: 4, year: "2010-2011", name: "Đỗ Nhật Minh", gender: "Nam", birthYear: 1993, class: "12A1", prize: "KK", score: "...", teacher: "Thầy Thạnh" },
+    
+    // 2011-2012
+    { stt: 5, year: "2011-2012", name: "Nguyễn Văn Thịnh", gender: "Nam", birthYear: 1994, class: "12A1", prize: "Nhì", score: 16.75, teacher: "Thầy Quý" },
+    { stt: 6, year: "2011-2012", name: "Nguyễn Xuân Tân", gender: "Nam", birthYear: 1994, class: "12A1", prize: "Ba", score: "...", teacher: "Thầy Quý" },
+    { stt: 7, year: "2011-2012", name: "Trương Thoại Minh Khoa", gender: "Nam", birthYear: 1994, class: "12A2", prize: "KK", score: "...", teacher: "Thầy Quý" },
+    
+    // 2013-2014
+    { stt: 8, year: "2013-2014", name: "Nguyễn Thị Ái Như", gender: "Nữ", birthYear: 1996, class: "12B1", prize: "Ba", score: "...", teacher: "Cô Hải" },
+    
+    // 2016-2017
+    { stt: 9, year: "2016-2017", name: "Hồ Thị Thanh Nhàn", gender: "Nữ", birthYear: 1999, class: "12B1", prize: "KK", score: "...", teacher: "Thầy Thạnh" },
+    
+    // 2017-2018
+{ stt: 10, year: "2017-2018", name: "Nguyễn Bình", gender: "Nam", birthYear: 2000, class: "12B1", prize: "Ba", score: "12.25", teacher: "Cô Tính" },
+
+// 2018-2019
+{ stt: 11, year: "2018-2019", name: "Trương Viết Trường", gender: "Nam", birthYear: 2002, class: "<strong style='color: darkred;'>11B2</strong>", prize: "Ba", score: "14.00", teacher: "Thầy Quý" },
+{ stt: 12, year: "2018-2019", name: "Hồ Viễn Triết", gender: "Nam", birthYear: 2002, class: "<strong style='color: darkred;'>11B2</strong>", prize: "Ba", score: "13.75", teacher: "Thầy Quý" },
+    
+    // 2019-2020
+{ stt: 13, year: "2019-2020", name: "Hồ Viễn Triết", gender: "Nam", birthYear: 2002, class: "12B2", prize: "Nhì", score: "17.75", teacher: "Thầy Quý" },
+{ stt: 14, year: "2019-2020", name: "Nguyễn Thị Kiều", gender: "Nữ", birthYear: 2002, class: "12B2", prize: "Ba", score: "15.25", teacher: "Thầy Quý" },
+{ stt: 15, year: "2019-2020", name: "Nguyễn Đắc Hoàng Long", gender: "Nam", birthYear: 2002, class: "12B2", prize: "Ba", score: "15.25", teacher: "Thầy Quý" },
+{ stt: 16, year: "2019-2020", name: "Phan Tiến Đạt", gender: "Nam", birthYear: 2002, class: "12B2", prize: "KK", score: "12.25", teacher: "Thầy Quý" },
+{ stt: 17, year: "2019-2020", name: "Nguyễn Đình Nhật", gender: "Nam", birthYear: 2002, class: "12B2", prize: "KK", score: "12.00", teacher: "Thầy Quý" },
+
+// 2020-2021
+{ stt: 18, year: "2020-2021", name: "Nguyễn Bá An", gender: "Nam", birthYear: 2004, class: "<strong style='color: darkred;'>11B2</strong>", prize: "Ba", score: "16.25", teacher: "Cô Tính" },
+
+// 2021-2022
+{ stt: 19, year: "2021-2022", name: "Nguyễn Bá An", gender: "Nam", birthYear: 2004, class: "12B2", prize: "Nhì", score: "18.00", teacher: "Cô Tính" },
+{ stt: 20, year: "2021-2022", name: "Trịnh Nam Thuận", gender: "Nam", birthYear: 2004, class: "12B2", prize: "Ba", score: "13.25", teacher: "Cô Tính" },
+{ stt: 21, year: "2021-2022", name: "Hoàng Ngọc Thạch", gender: "Nam", birthYear: 2004, class: "12B2", prize: "KK", score: "13.00", teacher: "Cô Tính" },
+{ stt: 22, year: "2021-2022", name: "Đỗ Quốc Chung", gender: "Nam", birthYear: 2005, class: "<strong style='color: darkred;'>11B1</strong>", prize: "KK", score: "10.50", teacher: "Cô Linh" },
+    
+    // 2022-2023
+{ stt: 23, year: "2022-2023", name: "Thái Viết Đại", gender: "Nam", birthYear: 2005, class: "12B2", prize: "Ba", score: "13.00", teacher: "Cô Linh" },
+{ stt: 24, year: "2022-2023", name: "Nguyễn Công Phú", gender: "Nam", birthYear: 2006, class: "<strong style='color: darkred;'>11B2</strong>", prize: "Ba", score: "13.00", teacher: "Thầy Đài" },
+{ stt: 25, year: "2022-2023", name: "Nguyễn Đình Hoàng", gender: "Nam", birthYear: 2006, class: "<strong style='color: darkred;'>11B2</strong>", prize: "Ba", score: "12.25", teacher: "Thầy Đài" },
+
+// 2023-2024
+{ stt: 26, year: "2023-2024", name: "Nguyễn Đình Hoàng", gender: "Nam", birthYear: 2006, class: "12B2", prize: "Nhất", score: "18.75", teacher: "Thầy Đài", specialNote: "🥇" },
+{ stt: 27, year: "2023-2024", name: "Nguyễn Công Phú", gender: "Nam", birthYear: 2006, class: "12B2", prize: "Nhì", score: "17.50", teacher: "Thầy Đài" },
+{ stt: 28, year: "2023-2024", name: "Lê Phi Hùng", gender: "Nam", birthYear: 2006, class: "12B2", prize: "Nhì", score: "16.75", teacher: "Thầy Đài" },
+{ stt: 29, year: "2023-2024", name: "Huỳnh Trịnh Công Nguyên", gender: "Nam", birthYear: 2006, class: "12B2", prize: "Nhì", score: "16.00", teacher: "Thầy Đài" },
+{ stt: 30, year: "2023-2024", name: "Hoàng Thị Như Ý", gender: "Nữ", birthYear: 2006, class: "12B2", prize: "Ba", score: "14.50", teacher: "Thầy Đài" },
+{ stt: 31, year: "2023-2024", name: "Trần Quang Hữu", gender: "Nam", birthYear: 2006, class: "12B2", prize: "KK", score: "13.50", teacher: "Thầy Đài" },
+{ stt: 32, year: "2023-2024", name: "Võ Thị Thu Thùy", gender: "Nữ", birthYear: 2006, class: "12B2", prize: "KK", score: "13.50", teacher: "Thầy Đài" },
+{ stt: 33, year: "2023-2024", name: "Nguyễn Văn Quang", gender: "Nam", birthYear: 2006, class: "12B10", prize: "KK", score: "12.75", teacher: "Thầy Đài" },
+    
+    // 2024-2025
+{ stt: 34, year: "2024-2025", name: "Thân Nguyên Thanh Nhã", gender: "Nam", birthYear: 2007, class: "12A3", prize: "Nhì", score: "16.50", teacher: "Thầy Long" },
+{ stt: 35, year: "2024-2025", name: "Hồ Thanh Nhật Phước", gender: "Nam", birthYear: 2008, class: "<strong style='color: darkred;'>11A1</strong>", prize: "Nhì", score: "16.35", teacher: "Thầy Đài" },
+{ stt: 36, year: "2024-2025", name: "Lê Ngọc Quý Châu", gender: "Nữ", birthYear: 2007, class: "12A1", prize: "Ba", score: "15.60", teacher: "Thầy Long" },
+{ stt: 37, year: "2024-2025", name: "Trần Văn Dương", gender: "Nam", birthYear: 2007, class: "12B5", prize: "Ba", score: "15.00", teacher: "Thầy Long" },
+{ stt: 38, year: "2024-2025", name: "Phạm Đình Phi Long", gender: "Nam", birthYear: 2007, class: "12A1", prize: "Ba", score: "14.60", teacher: "Thầy Long" },
+{ stt: 39, year: "2024-2025", name: "Bùi Hồng Phúc", gender: "Nam", birthYear: 2007, class: "12A1", prize: "Ba", score: "14.10", teacher: "Thầy Long" },
+{ stt: 40, year: "2024-2025", name: "Hoàng Bá Trọng Quyền", gender: "Nam", birthYear: 2007, class: "12A3", prize: "Ba", score: "13.75", teacher: "Thầy Long" },
+{ stt: 41, year: "2024-2025", name: "Hồ Đức Thiện", gender: "Nam", birthYear: 2007, class: "12A3", prize: "KK", score: "13.10", teacher: "Thầy Long" },
+        // 2025-2026
+{ stt: 42, year: "2025-2026", name: "Hồ Thanh Nhật Phước", gender: "Nam", birthYear: 2008, class: "12A1", prize: "Nhì", score: "17.75", teacher: "Thầy Đài", specialNote: "🥇" },
+{ stt: 43, year: "2025-2026", name: "Trần Văn Minh Thiện", gender: "Nam", birthYear: 2008, class: "12A1", prize: "Ba", score: "14.50", teacher: "Thầy Đài" },
+{ stt: 44, year: "2025-2026", name: "Giáp Duy Khang", gender: "Nam", birthYear: 2008, class: "12A1", prize: "Ba", score: "14.25", teacher: "Thầy Đài" },
+{ stt: 45, year: "2025-2026", name: "Hoàng Dương Khang", gender: "Nam", birthYear: 2008, class: "12A2", prize: "Ba", score: "14.25", teacher: "Thầy Đài" },
+{ stt: 46, year: "2025-2026", name: "Phùng Nguyễn Hoàng Long", gender: "Nam", birthYear: 2008, class: "12A1", prize: "Ba", score: "13.75", teacher: "Thầy Đài" },
+{ stt: 47, year: "2025-2026", name: "Hoàng Nhân Trọng", gender: "Nam", birthYear: 2008, class: "12A1", prize: "Ba", score: "13.50", teacher: "Thầy Đài" },
+{ stt: 48, year: "2025-2026", name: "Trần Lê Quang Huy", gender: "Nam", birthYear: 2008, class: "12A1", prize: "Ba", score: "13.25", teacher: "Thầy Đài" },
+{ stt: 49, year: "2025-2026", name: "Ngô Nhật Minh", gender: "Nam", birthYear: 2008, class: "12A1", prize: "KK", score: "11.50", teacher: "Thầy Đài" }];
+        // Hàm thống kê giải thưởng
+        function calculatePrizeStats(students) {
+            const stats = {
+                nhat: 0,
+                nhi: 0,
+                ba: 0,
+                kk: 0
+            };
+
+            students.forEach(student => {
+                switch(student.prize) {
+                    case 'Nhất': stats.nhat++; break;
+                    case 'Nhì': stats.nhi++; break;
+                    case 'Ba': stats.ba++; break;
+                    case 'KK': stats.kk++; break;
+                }
+            });
+
+            return stats;
+        }
+
+        // Hàm hiển thị thống kê giải thưởng
+        function displayPrizeStats(students) {
+            const stats = calculatePrizeStats(students);
+            const statsElement = document.getElementById('prizeStats');
+            
+            let statsText = `Trong ${students.length} giải, có: `;
+            const parts = [];
+            
+            if (stats.nhat > 0) parts.push(`${stats.nhat} Nhất`);
+            if (stats.nhi > 0) parts.push(`${stats.nhi} Nhì`);
+            if (stats.ba > 0) parts.push(`${stats.ba} Ba`);
+            if (stats.kk > 0) parts.push(`${stats.kk} KK`);
+            
+            statsText += parts.join(', ') + '.';
+            statsElement.textContent = statsText;
+        }
+
+        // Hàm lấy class cho badge giải thưởng
+        function getPrizeClass(prize) {
+            switch(prize) {
+                case 'Nhất': return 'prize-1';
+                case 'Nhì': return 'prize-2';
+                case 'Ba': return 'prize-3';
+                case 'KK': return 'prize-kk';
+                default: return '';
+            }
+        }
+
+        // Hàm hiển thị danh sách
+        function displayStudents(students = studentsData) {
+            const container = document.getElementById('resultsContainer');
+            const totalCount = document.getElementById('totalCount');
+            
+            totalCount.textContent = students.length;
+            displayPrizeStats(students);
+            
+            if (students.length === 0) {
+                container.innerHTML = '<div class="no-results">Không tìm thấy kết quả phù hợp</div>';
+                return;
+            }
+
+            let html = '';
+            const years = [...new Set(students.map(student => student.year))].sort();
+
+            years.forEach(year => {
+                const yearStudents = students.filter(student => student.year === year);
+                
+                html += `<h3 class="academic-year">Năm học ${year}</h3>`;
+                html += `<div class="table-container">`;
+                html += `<table>`;
+                html += `<thead><tr><th>STT</th><th>Họ tên học sinh</th><th>Giải</th><th>Điểm</th></tr></thead>`;
+                html += `<tbody>`;
+                
+                yearStudents.forEach(student => {
+                    const displayName = student.specialNote ? 
+                        `${student.name} ${student.specialNote}` : student.name;
+                    
+                    html += `<tr>`;
+                    html += `<td>${student.stt}</td>`;
+                    html += `<td>
+                        <div class="student-info">
+                            <div class="student-name">${displayName}</div>
+                            <div class="student-details">${student.gender}, sinh ${student.birthYear}, lớp ${student.class}</div>
+                        </div>
+                    </td>`;
+                    html += `<td><span class="prize-badge ${getPrizeClass(student.prize)}">${student.prize}</span></td>`;
+                    html += `<td>${student.score}</td>`;
+                    html += `</tr>`;
+                });
+                
+                html += `</tbody></table></div>`;
+            });
+
+            container.innerHTML = html;
+        }
+           
+        // Hàm tìm kiếm
+        function searchStudents() {
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
+            
+            if (searchTerm === '') {
+                displayStudents();
+                return;
+            }
+
+            const filteredStudents = studentsData.filter(student => 
+                student.name.toLowerCase().includes(searchTerm) ||
+                student.teacher.toLowerCase().includes(searchTerm) ||
+                student.class.toLowerCase().includes(searchTerm) ||
+                student.prize.toLowerCase().includes(searchTerm) ||
+                student.gender.toLowerCase().includes(searchTerm) ||
+                student.birthYear.toString().includes(searchTerm)
+            );
+
+            displayStudents(filteredStudents);
+        }
+
+        // Tìm kiếm khi nhấn Enter
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchStudents();
+            }
+        });
+
+        // Hiển thị danh sách ban đầu khi trang load
+        document.addEventListener('DOMContentLoaded', function() {
+            displayStudents();
+        });
+    </script>
+</body>
+</html>
