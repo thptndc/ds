@@ -229,7 +229,7 @@
         // Dữ liệu học sinh
         const studentsData = [
    // Ngữ văn
-{ stt: 1, year: "01. Môn Ngữ văn", name: "Nguyễn Thanh Trà", gender: "Nữ", birthYear: "30/03/2009", class: "11A1", prize: "Ba", score: "13.00" },
+{ stt: 1, year: "01. Môn Ngữ văn", name: "Nguyễn Thanh Trà", gender: "Nữ", birthYear: "30/03/2009", class: "<span style='color: #e74c3c; font-weight: bold;'>11A1</span>", prize: "Ba", score: "13.00" },
 { stt: 2, year: "01. Môn Ngữ văn", name: "Thân Thị Kiều Trinh", gender: "Nữ", birthYear: "10/05/2008", class: "12A1", prize: "Ba", score: "12.00" },
 { stt: 3, year: "01. Môn Ngữ văn", name: "Nguyễn Thị Ngọc Khuê", gender: "Nữ", birthYear: "08/03/2008", class: "12D7", prize: "KK", score: "11.50" },
 { stt: 4, year: "01. Môn Ngữ văn", name: "Lê Nguyễn Nhã Phương", gender: "Nữ", birthYear: "04/01/2008", class: "12D7", prize: "KK", score: "11.50" },
@@ -248,7 +248,7 @@
 { stt: 15, year: "02. Môn Toán", name: "Ngô Nhật Minh", gender: "Nam", birthYear: "07/03/2008", class: "12A1", prize: "KK", score: "11.50" },
 
 // Sinh học
-{ stt: 16, year: "03. Môn Sinh học", name: "Lê Thị Hồng Nhung", gender: "Nữ", birthYear: "08/12/2009", class: "11B4", prize: "Ba", score: "14.50" },
+{ stt: 16, year: "03. Môn Sinh học", name: "Lê Thị Hồng Nhung", gender: "Nữ", birthYear: "08/12/2009", class: "<span style='color: #e74c3c; font-weight: bold;'>11B4</span>", prize: "Ba", score: "14.50" },
 { stt: 17, year: "03. Môn Sinh học", name: "Nguyễn Đình Thái", gender: "Nam", birthYear: "04/01/2008", class: "12A1", prize: "Ba", score: "13.75" },
 
 // Lịch sử
@@ -276,16 +276,16 @@
 // Hoá học
 { stt: 32, year: "08. Môn Hoá học", name: "Trần Thanh Tâm", gender: "Nữ", birthYear: "09/10/2008", class: "12A1", prize: "KK", score: "11.75" },
 { stt: 33, year: "08. Môn Hoá học", name: "Nguyễn Đình Thái", gender: "Nam", birthYear: "04/01/2008", class: "12A1", prize: "KK", score: "11.00" },
-{ stt: 34, year: "08. Môn Hoá học", name: "Trần Duy Thiên Bảo", gender: "Nam", birthYear: "13/09/2009", class: "11A1", prize: "KK", score: "10.60" },
+{ stt: 34, year: "08. Môn Hoá học", name: "Trần Duy Thiên Bảo", gender: "Nam", birthYear: "13/09/2009", class: "<span style='color: #e74c3c; font-weight: bold;'>11A1</span>", prize: "KK", score: "10.60" },
 
 // Tiếng Anh
 { stt: 35, year: "09. Môn Tiếng Anh", name: "Huỳnh Ngọc Khánh Nguyên", gender: "Nữ", birthYear: "31/10/2008", class: "12A1", prize: "Ba", score: "12.30" },
-{ stt: 36, year: "09. Môn Tiếng Anh", name: "Thân Huỳnh Bội Trân", gender: "Nữ", birthYear: "16/09/2009", class: "11D8", prize: "KK", score: "11.00" },
-{ stt: 37, year: "09. Môn Tiếng Anh", name: "Nguyễn Thị Ngọc Minh", gender: "Nữ", birthYear: "11/03/2009", class: "11A1", prize: "KK", score: "10.10" },
+{ stt: 36, year: "09. Môn Tiếng Anh", name: "Thân Huỳnh Bội Trân", gender: "Nữ", birthYear: "16/09/2009", class: "<span style='color: #e74c3c; font-weight: bold;'>11D8</span>", prize: "KK", score: "11.00" },
+{ stt: 37, year: "09. Môn Tiếng Anh", name: "Nguyễn Thị Ngọc Minh", gender: "Nữ", birthYear: "11/03/2009", class: "<span style='color: #e74c3c; font-weight: bold;'>11A1</span>", prize: "KK", score: "10.10" },
 { stt: 38, year: "09. Môn Tiếng Anh", name: "Hồ Nguyễn Khánh Ngọc", gender: "Nữ", birthYear: "30/09/2008", class: "12D7", prize: "KK", score: "10.00" },
 
 // Tin học
-{ stt: 39, year: "10. Môn Tin học", name: "Hồ Ngọc Tuân", gender: "Nam", birthYear: "20/03/2009", class: "11A1", prize: "Ba", score: "13.80" },
+{ stt: 39, year: "10. Môn Tin học", name: "Hồ Ngọc Tuân", gender: "Nam", birthYear: "20/03/2009", class: "<span style='color: #e74c3c; font-weight: bold;'>11A1</span>", prize: "Ba", score: "13.80" },
 
 // Địa lí
 { stt: 40, year: "11. Môn Địa lí", name: "Nguyễn Thị Thúy Hằng", gender: "Nữ", birthYear: "10/04/2008", class: "12C4", prize: "KK", score: "12.00" },
@@ -296,7 +296,8 @@
 { stt: 43, year: "12. Môn GDKT&PL", name: "Lê Thị Mỹ Duyên", gender: "Nữ", birthYear: "23/06/2008", class: "12D10", prize: "KK", score: "12.50" },
 { stt: 44, year: "12. Môn GDKT&PL", name: "Nguyễn Ngọc Bảo Trân", gender: "Nữ", birthYear: "25/01/2008", class: "12D7", prize: "KK", score: "12.50" },
 { stt: 45, year: "12. Môn GDKT&PL", name: "Văn Thị Hồng Loan", gender: "Nữ", birthYear: "15/11/2008", class: "12D7", prize: "KK", score: "12.25" },
-{ stt: 46, year: "12. Môn GDKT&PL", name: "Nguyễn Thị Thanh Ngân", gender: "Nữ", birthYear: "20/04/2008", class: "12D7", prize: "KK", score: "12.25" }     ];
+{ stt: 46, year: "12. Môn GDKT&PL", name: "Nguyễn Thị Thanh Ngân", gender: "Nữ", birthYear: "20/04/2008", class: "12D7", prize: "KK", score: "12.25" }     
+        ];
         // Hàm thống kê giải thưởng
         function calculatePrizeStats(students) {
             const stats = {
