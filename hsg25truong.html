@@ -369,7 +369,7 @@
                 html += `<h3 class="academic-year">${year}</h3>`;
                 html += `<div class="table-container">`;
                 html += `<table>`;
-                html += `<thead><tr><th>STT</th><th>Họ tên học sinh</th><th>Giải</th><th>Điểm</th></tr></thead>`;
+                html += `<thead><tr><th>STT</th><th>Họ và tên học sinh</th><th>Điểm</th><th>Giải</th></tr></thead>`;
                 html += `<tbody>`;
                 
                 yearStudents.forEach(student => {
@@ -384,8 +384,8 @@
                             <div class="student-details">${student.gender}, ${student.birthYear}, lớp ${student.class}</div>
                         </div>
                     </td>`;
-                    html += `<td><span class="prize-badge ${getPrizeClass(student.prize)}">${student.prize}</span></td>`;
                     html += `<td>${student.score}</td>`;
+                    html += `<td><span class="prize-badge ${getPrizeClass(student.prize)}">${student.prize}</span></td>`;
                     html += `</tr>`;
                 });
                 
