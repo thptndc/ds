@@ -1,9290 +1,15932 @@
 /**
- * Dữ liệu Kỳ thi Học sinh giỏi (HSG) 2026 - 2027
- * Tổng số học sinh: 1326
+ * Dữ liệu Kỳ thi Chọn Học sinh giỏi THPT
+ * Tổng số học sinh: 1327
  */
 
 const hsgData2627 = [
   {
-    "sbd": "HSG2627-0001",
-    "name": "Đặng Đức Tâm",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0002",
-    "name": "Đỗ Thị Hưng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0003",
-    "name": "Trần Thị Tâm",
+    "tt": 1,
+    "sbd": "46010088",
+    "name": "Hoàng Anh Minh",
+    "gender": "Nam",
+    "dob": "2009-01-02",
     "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 10
+    "grade": "12/04",
+    "subject": "Toán",
+    "score": 17.75,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0004",
-    "name": "Phạm Mậu Đạt",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 10
+    "tt": 2,
+    "sbd": "46010035",
+    "name": "Trương Quang Hiệp",
+    "gender": "Nam",
+    "dob": "2009-07-02",
+    "school": "THPT An Lương Đông",
+    "grade": "12A2",
+    "subject": "Toán",
+    "score": 17.0,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0005",
-    "name": "Đỗ Đức Linh",
+    "tt": 3,
+    "sbd": "46010139",
+    "name": "Nguyễn Đặng Hoàng Phi",
+    "gender": "Nam",
+    "dob": "2009-08-25",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A5",
+    "subject": "Toán",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 4,
+    "sbd": "46010190",
+    "name": "Lê Hữu Triết",
+    "gender": "Nam",
+    "dob": "2009-07-06",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/4",
+    "subject": "Toán",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 5,
+    "sbd": "46010115",
+    "name": "Hồ Thị Phương Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-06-06",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A5",
+    "subject": "Toán",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 6,
+    "sbd": "46010196",
+    "name": "Hoàng Minh Tuấn",
+    "gender": "Nam",
+    "dob": "2009-03-09",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 7,
+    "sbd": "46010204",
+    "name": "Lê Duy Quốc Ân",
+    "gender": "Nam",
+    "dob": "2009-09-14",
     "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Pháp",
-    "grade": 12
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 15.5,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0006",
-    "name": "Võ Thị Linh",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0007",
-    "name": "Lê Đức Khoa",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0008",
-    "name": "Võ Đình Linh",
+    "tt": 8,
+    "sbd": "46010099",
+    "name": "Đặng Quang Mừng",
+    "gender": "Nam",
+    "dob": "2009-02-16",
     "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 11
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 15.0,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0009",
-    "name": "Lê Anh Đạt",
+    "tt": 9,
+    "sbd": "46010171",
+    "name": "Hoàng Tấn Thuận",
+    "gender": "Nam",
+    "dob": "2009-04-07",
     "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 10
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 15.0,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0010",
-    "name": "Bùi Thị Minh",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Anh",
-    "grade": 11
+    "tt": 10,
+    "sbd": "46010082",
+    "name": "Hồ Tấn Nhật Long",
+    "gender": "Nam",
+    "dob": "2009-03-25",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 14.75,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0011",
-    "name": "Bùi Văn Phú",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 11
+    "tt": 11,
+    "sbd": "46010194",
+    "name": "Hoàng Việt Trường",
+    "gender": "Nam",
+    "dob": "2009-12-09",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 14.75,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0012",
-    "name": "Hoàng Đức Trang",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 12
+    "tt": 12,
+    "sbd": "46010087",
+    "name": "Trần Kiêm Lộc",
+    "gender": "Nam",
+    "dob": "2009-03-16",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/2",
+    "subject": "Toán",
+    "score": 14.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0013",
-    "name": "Đặng Xuân Đạt",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 10
+    "tt": 13,
+    "sbd": "46010095",
+    "name": "Võ Nguyễn Hà My",
+    "gender": "Nữ",
+    "dob": "2009-12-21",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 14.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0014",
-    "name": "Hoàng Mậu Đạt",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Lịch sử",
-    "grade": 10
+    "tt": 14,
+    "sbd": "46010118",
+    "name": "Nguyễn Thế Ngọc",
+    "gender": "Nam",
+    "dob": "2009-04-21",
+    "school": "THPT An Lương Đông",
+    "grade": "12A3",
+    "subject": "Toán",
+    "score": 14.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0015",
-    "name": "Bùi Anh Tâm",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 11
+    "tt": 15,
+    "sbd": "46010121",
+    "name": "Dương Nguyễn Tuyết Nhi",
+    "gender": "Nữ",
+    "dob": "2009-08-04",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A4",
+    "subject": "Toán",
+    "score": 14.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0016",
-    "name": "Vũ Thị Hoàng",
+    "tt": 16,
+    "sbd": "46010207",
+    "name": "Lê Hoàng Phước Đạt",
+    "gender": "Nam",
+    "dob": "2009-01-01",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 17,
+    "sbd": "46010210",
+    "name": "Phạm Minh Đức",
+    "gender": "Nam",
+    "dob": "2009-12-04",
     "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0017",
-    "name": "Hoàng Bảo Đạt",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0018",
-    "name": "Trần Bảo Quý",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0019",
-    "name": "Đỗ Anh Quý",
-    "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0020",
-    "name": "Hồ Mậu Phương",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0021",
-    "name": "Bùi Văn Anh",
-    "school": "THPT Phú Lộc",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0022",
-    "name": "Lê Quốc Quý",
-    "school": "THPT Gia Hội",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0023",
-    "name": "Trần Quốc Minh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0024",
-    "name": "Phạm Minh Tâm",
-    "school": "THPT Cao Thắng",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0025",
-    "name": "Trần Hoàng Hà",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0026",
-    "name": "Phạm Đức Quý",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0027",
-    "name": "Lê Bảo Khánh",
-    "school": "THPT Hương Trà",
+    "grade": "12A4",
     "subject": "Toán",
-    "grade": 10
+    "score": 14.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0028",
-    "name": "Võ Thanh Linh",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0029",
-    "name": "Nguyễn Quốc Khánh",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0030",
-    "name": "Võ Mậu Hùng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0031",
-    "name": "Phạm Mậu Khoa",
-    "school": "THPT Phong Điền",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0032",
-    "name": "Lê Văn Phú",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0033",
-    "name": "Trần Anh Hưng",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0034",
-    "name": "Bùi Thị Hoàng",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0035",
-    "name": "Hồ Mậu Tâm",
-    "school": "THPT Phú Lộc",
+    "tt": 18,
+    "sbd": "46010075",
+    "name": "Trần Hiếu Kiệt",
+    "gender": "Nam",
+    "dob": "2009-01-13",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A5",
     "subject": "Toán",
-    "grade": 10
+    "score": 14.25,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0036",
-    "name": "Đỗ Quốc Anh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0037",
-    "name": "Võ Hoàng Hùng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0038",
-    "name": "Đặng Anh Khánh",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0039",
-    "name": "Lê Thanh Đạt",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0040",
-    "name": "Lê Thị Phương",
-    "school": "THPT Phong Điền",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0041",
-    "name": "Đỗ Thanh Hà",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0042",
-    "name": "Trần Đức Khánh",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0043",
-    "name": "Vũ Bảo Nam",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0044",
-    "name": "Hoàng Quốc Hưng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0045",
-    "name": "Đặng Mậu Hưng",
-    "school": "THPT Phong Điền",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0046",
-    "name": "Trần Bảo Hoàng",
-    "school": "THPT Hương Trà",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0047",
-    "name": "Hồ Xuân Phương",
-    "school": "THPT Gia Hội",
+    "tt": 19,
+    "sbd": "46010096",
+    "name": "Lê Anh Mẫn",
+    "gender": "Nam",
+    "dob": "2009-12-10",
+    "school": "THPT Cao Thắng",
+    "grade": "12/3",
     "subject": "Toán",
-    "grade": 10
+    "score": 14.25,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0048",
-    "name": "Vũ Quốc Hà",
+    "tt": 20,
+    "sbd": "46010147",
+    "name": "Lê Nguyễn Quỳnh Phương",
+    "gender": "Nữ",
+    "dob": "2010-01-12",
+    "school": "THPT Phú Bài",
+    "grade": "11B3",
+    "subject": "Toán",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 21,
+    "sbd": "46010183",
+    "name": "Trương Thắng",
+    "gender": "Nam",
+    "dob": "2009-04-26",
     "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 12
+    "grade": "12/4",
+    "subject": "Toán",
+    "score": 14.25,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0049",
-    "name": "Phạm Bảo Phương",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0050",
-    "name": "Lê Thanh Nam",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0051",
-    "name": "Đỗ Văn Hoàng",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0052",
-    "name": "Trần Bảo Phú",
-    "school": "THPT Phú Lộc",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0053",
-    "name": "Trần Văn Trang",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0054",
-    "name": "Phạm Đình Anh",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0055",
-    "name": "Võ Văn Hoàng",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0056",
-    "name": "Nguyễn Thị Linh",
-    "school": "THPT Phong Điền",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0057",
-    "name": "Võ Văn Hoàng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0058",
-    "name": "Hoàng Đình Khoa",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0059",
-    "name": "Hồ Thanh Đạt",
-    "school": "THPT Gia Hội",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0060",
-    "name": "Võ Thanh Hoàng",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0061",
-    "name": "Vũ Văn Khoa",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0062",
-    "name": "Bùi Quốc Hưng",
+    "tt": 22,
+    "sbd": "46010051",
+    "name": "Nguyễn Khánh Hà",
+    "gender": "Nữ",
+    "dob": "2009-09-22",
     "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0063",
-    "name": "Trần Thị Hưng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0064",
-    "name": "Nguyễn Anh Hà",
-    "school": "THPT Phong Điền",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0065",
-    "name": "Phạm Bảo Hà",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0066",
-    "name": "Võ Bảo Trang",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0067",
-    "name": "Đặng Quốc Phương",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0068",
-    "name": "Nguyễn Minh Nam",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0069",
-    "name": "Lê Minh Hải",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0070",
-    "name": "Đỗ Anh Tâm",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0071",
-    "name": "Võ Hoàng Khánh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0072",
-    "name": "Vũ Xuân Hùng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0073",
-    "name": "Trần Anh Khánh",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0074",
-    "name": "Hoàng Hoàng Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0075",
-    "name": "Hồ Thị Phú",
-    "school": "THPT Hương Trà",
+    "grade": "12A6",
     "subject": "Toán",
-    "grade": 12
+    "score": 14.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0076",
-    "name": "Phạm Anh Khánh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0077",
-    "name": "Vũ Đức Khoa",
-    "school": "THPT Gia Hội",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0078",
-    "name": "Phạm Mậu Hải",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0079",
-    "name": "Hồ Minh Hoàng",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0080",
-    "name": "Hoàng Mậu Hùng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0081",
-    "name": "Đỗ Thanh Linh",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0082",
-    "name": "Hồ Mậu Nam",
-    "school": "THPT Quảng Điền",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0083",
-    "name": "Nguyễn Xuân Nam",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0084",
-    "name": "Đặng Quốc Tâm",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0085",
-    "name": "Hồ Thị Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0086",
-    "name": "Trần Đình Phú",
-    "school": "THPT Gia Hội",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0087",
-    "name": "Đỗ Văn Đạt",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0088",
-    "name": "Bùi Mậu Quý",
-    "school": "THPT Gia Hội",
+    "tt": 23,
+    "sbd": "46010125",
+    "name": "Văn Nguyễn Uyên Nhi",
+    "gender": "Nữ",
+    "dob": "2009-11-10",
+    "school": "THPT Tam Giang",
+    "grade": "12A1",
     "subject": "Toán",
-    "grade": 11
+    "score": 14.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0089",
-    "name": "Đặng Bảo Đạt",
+    "tt": 24,
+    "sbd": "46010143",
+    "name": "Trần Hưng Tiến Phát",
+    "gender": "Nam",
+    "dob": "2009-08-15",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Toán",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 25,
+    "sbd": "46010169",
+    "name": "Lê Văn Thiện",
+    "gender": "Nam",
+    "dob": "2009-10-27",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/4",
+    "subject": "Toán",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 26,
+    "sbd": "46010177",
+    "name": "Hoàng Văn Thông",
+    "gender": "Nam",
+    "dob": "2009-09-10",
+    "school": "THPT Tố Hữu",
+    "grade": "12B2",
+    "subject": "Toán",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 27,
+    "sbd": "46010003",
+    "name": "Nguyễn Lê Hồng Anh",
+    "gender": "Nữ",
+    "dob": "2009-06-29",
+    "school": "THPT Nam Đông",
+    "grade": "12/4",
+    "subject": "Toán",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 28,
+    "sbd": "46010021",
+    "name": "Lê Hoài Kim Châu",
+    "gender": "Nữ",
+    "dob": "2009-03-31",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A2",
+    "subject": "Toán",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 29,
+    "sbd": "46010024",
+    "name": "Huỳnh Văn Công",
+    "gender": "Nam",
+    "dob": "2009-07-05",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A5",
+    "subject": "Toán",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 30,
+    "sbd": "46010054",
+    "name": "Nguyễn Thiên Hào",
+    "gender": "Nam",
+    "dob": "2009-09-20",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A6",
+    "subject": "Toán",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 31,
+    "sbd": "46010072",
+    "name": "Lê Hoàng Anh Kiệt",
+    "gender": "Nam",
+    "dob": "2009-01-05",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 32,
+    "sbd": "46010135",
+    "name": "Trần Duy Quang Nhật",
+    "gender": "Nam",
+    "dob": "2009-09-14",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Toán",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 33,
+    "sbd": "46010150",
+    "name": "Nguyễn Văn Nhật Quang",
+    "gender": "Nam",
+    "dob": "2009-09-30",
+    "school": "THPT An Lương Đông",
+    "grade": "12A2",
+    "subject": "Toán",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 34,
+    "sbd": "46010010",
+    "name": "Nguyễn Văn Bình",
+    "gender": "Nam",
+    "dob": "2009-03-30",
+    "school": "THPT An Lương Đông",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 35,
+    "sbd": "46010040",
+    "name": "Hồ Quốc Huy",
+    "gender": "Nam",
+    "dob": "2009-10-15",
     "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 11
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 13.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0090",
-    "name": "Hồ Bảo Hoàng",
+    "tt": 36,
+    "sbd": "46010105",
+    "name": "Nguyễn Hà Trung Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-01-30",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 37,
+    "sbd": "46010138",
+    "name": "Trần Hàng Ny",
+    "gender": "Nữ",
+    "dob": "2009-09-11",
     "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Sinh học",
-    "grade": 10
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 13.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0091",
-    "name": "Trần Hoàng Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 12
+    "tt": 38,
+    "sbd": "46010156",
+    "name": "Đỗ Văn Minh Quân",
+    "gender": "Nam",
+    "dob": "2009-04-20",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/3",
+    "subject": "Toán",
+    "score": 13.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0092",
-    "name": "Bùi Hoàng Hải",
+    "tt": 39,
+    "sbd": "46010161",
+    "name": "Trần Ngọc Như Quỳnh",
+    "gender": "Nữ",
+    "dob": "2009-10-13",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 40,
+    "sbd": "46010175",
+    "name": "Võ Kim Thành",
+    "gender": "Nam",
+    "dob": "2010-03-25",
+    "school": "THPT Phú Bài",
+    "grade": "11B3",
+    "subject": "Toán",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 41,
+    "sbd": "46010176",
+    "name": "Trương Quốc Thái",
+    "gender": "Nam",
+    "dob": "2009-04-26",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 42,
+    "sbd": "46010186",
+    "name": "Hồ Đăng Anh Tiến",
+    "gender": "Nam",
+    "dob": "2009-05-20",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 43,
+    "sbd": "46010001",
+    "name": "Ngô Văn An",
+    "gender": "Nam",
+    "dob": "2009-06-11",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/4",
+    "subject": "Toán",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 44,
+    "sbd": "46010037",
+    "name": "Bạch Văn Lý Hoàng",
+    "gender": "Nam",
+    "dob": "2009-10-15",
+    "school": "THPT Cao Thắng",
+    "grade": "12/3",
+    "subject": "Toán",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 45,
+    "sbd": "46010151",
+    "name": "Thân Nhật Quang",
+    "gender": "Nam",
+    "dob": "2009-07-17",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 46,
+    "sbd": "46010032",
+    "name": "Võ Minh Hiếu",
+    "gender": "Nam",
+    "dob": "2009-10-02",
+    "school": "THPT Cao Thắng",
+    "grade": "12/4",
+    "subject": "Toán",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 47,
+    "sbd": "46010052",
+    "name": "Nguyễn Khánh Hà",
+    "gender": "Nữ",
+    "dob": "2009-10-28",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A7",
+    "subject": "Toán",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 48,
+    "sbd": "46010094",
+    "name": "Phan Nguyễn Thảo My",
+    "gender": "Nữ",
+    "dob": "2009-07-11",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A5",
+    "subject": "Toán",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 49,
+    "sbd": "46010116",
+    "name": "Nguyễn Bá Ngọc",
+    "gender": "Nam",
+    "dob": "2009-11-07",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 50,
+    "sbd": "46010117",
+    "name": "Nguyễn Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-08-23",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 51,
+    "sbd": "46010153",
+    "name": "Lê Duy Chấn Quân",
+    "gender": "Nam",
+    "dob": "2009-03-07",
+    "school": "THPT Gia Hội",
+    "grade": "12/7",
+    "subject": "Toán",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 52,
+    "sbd": "46010165",
+    "name": "Hoàng Văn Thi",
+    "gender": "Nam",
+    "dob": "2009-08-26",
+    "school": "THPT Phú Lộc",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 53,
+    "sbd": "46010178",
+    "name": "Võ Thị Thanh Thúy",
+    "gender": "Nữ",
+    "dob": "2009-03-01",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Toán",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 54,
+    "sbd": "46010195",
+    "name": "Hồ Ngọc Tuân",
+    "gender": "Nam",
+    "dob": "2009-03-20",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 55,
+    "sbd": "46010022",
+    "name": "Nguyễn Hoàng Ngọc Châu",
+    "gender": "Nữ",
+    "dob": "2010-09-29",
+    "school": "THPT Hương Trà",
+    "grade": "11B1",
+    "subject": "Toán",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 56,
+    "sbd": "46010023",
+    "name": "Võ Kim Chứng",
+    "gender": "Nam",
+    "dob": "2009-02-20",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Toán",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 57,
+    "sbd": "46010057",
+    "name": "Nguyễn Thị Gia Hân",
+    "gender": "Nữ",
+    "dob": "2009-01-12",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 58,
+    "sbd": "46010073",
+    "name": "Nguyễn Anh Kiệt",
+    "gender": "Nam",
+    "dob": "2009-06-23",
+    "school": "THPT Cao Thắng",
+    "grade": "12/4",
+    "subject": "Toán",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 59,
+    "sbd": "46010130",
+    "name": "Hoàng Thị Thanh Nhã",
+    "gender": "Nữ",
+    "dob": "2009-03-26",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 60,
+    "sbd": "46010154",
+    "name": "Nguyễn Văn Duy Quân",
+    "gender": "Nam",
+    "dob": "2009-05-02",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 61,
+    "sbd": "46010172",
+    "name": "Nguyễn Cao Ngọc Thuỷ",
+    "gender": "Nữ",
+    "dob": "2009-01-26",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 62,
+    "sbd": "46010179",
+    "name": "Hồ Nguyễn Như Thảo",
+    "gender": "Nữ",
+    "dob": "2009-01-20",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 63,
+    "sbd": "46010008",
+    "name": "Trần Huỳnh Vân Anh",
+    "gender": "Nữ",
+    "dob": "2009-10-31",
+    "school": "THPT An Lương Đông",
+    "grade": "12A2",
+    "subject": "Toán",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 64,
+    "sbd": "46010036",
+    "name": "Trần Thanh Hiệp",
+    "gender": "Nam",
+    "dob": "2009-08-22",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 65,
+    "sbd": "46010065",
+    "name": "Nguyễn Minh Hằng",
+    "gender": "Nữ",
+    "dob": "2009-04-11",
     "school": "THPT Hương Thủy",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0093",
-    "name": "Đặng Văn Hùng",
-    "school": "THPT Hương Thủy",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0094",
-    "name": "Đặng Mậu Phương",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0095",
-    "name": "Phạm Văn Hưng",
-    "school": "THPT Quảng Điền",
+    "grade": "12/03",
     "subject": "Toán",
-    "grade": 10
+    "score": 12.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0096",
-    "name": "Lê Anh Quý",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0097",
-    "name": "Lê Hoàng Linh",
-    "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0098",
-    "name": "Phạm Xuân Đạt",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0099",
-    "name": "Vũ Mậu Minh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0100",
-    "name": "Nguyễn Hoàng Đạt",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0101",
-    "name": "Võ Đức Quý",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0102",
-    "name": "Hoàng Quốc Khoa",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0103",
-    "name": "Bùi Đình Quý",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0104",
-    "name": "Nguyễn Minh Anh",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0105",
-    "name": "Nguyễn Đức Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0106",
-    "name": "Trần Văn Trang",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0107",
-    "name": "Lê Văn Hà",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0108",
-    "name": "Võ Thanh Đạt",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0109",
-    "name": "Đỗ Thị Hưng",
-    "school": "THPT Cao Thắng",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0110",
-    "name": "Nguyễn Mậu Trang",
-    "school": "THPT Gia Hội",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0111",
-    "name": "Phạm Đình Khánh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0112",
-    "name": "Võ Văn Khánh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0113",
-    "name": "Hồ Bảo Khoa",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0114",
-    "name": "Vũ Đình Khánh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0115",
-    "name": "Phạm Anh Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0116",
-    "name": "Nguyễn Đức Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0117",
-    "name": "Phạm Xuân Phương",
+    "tt": 66,
+    "sbd": "46010111",
+    "name": "Trần Thanh Nguyên",
+    "gender": "Nam",
+    "dob": "2009-03-06",
     "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0118",
-    "name": "Lê Thị Tâm",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0119",
-    "name": "Võ Thanh Đạt",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0120",
-    "name": "Bùi Xuân Phương",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0121",
-    "name": "Hoàng Hoàng Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0122",
-    "name": "Vũ Văn Quý",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0123",
-    "name": "Bùi Thanh Hưng",
-    "school": "THPT Hương Trà",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0124",
-    "name": "Hồ Văn Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0125",
-    "name": "Võ Đức Tâm",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0126",
-    "name": "Trần Thị Anh",
-    "school": "THPT Hương Trà",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0127",
-    "name": "Vũ Thị Anh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0128",
-    "name": "Phạm Văn Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0129",
-    "name": "Hồ Văn Hoàng",
-    "school": "THPT Quảng Điền",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0130",
-    "name": "Nguyễn Hoàng Quý",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0131",
-    "name": "Võ Hoàng Hoàng",
-    "school": "THPT Hương Trà",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0132",
-    "name": "Vũ Hoàng Hải",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0133",
-    "name": "Đặng Đình Hoàng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0134",
-    "name": "Lê Đình Minh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0135",
-    "name": "Hoàng Mậu Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0136",
-    "name": "Trần Minh Nam",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0137",
-    "name": "Lê Anh Khoa",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0138",
-    "name": "Võ Văn Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0139",
-    "name": "Lê Thanh Trang",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0140",
-    "name": "Hồ Hoàng Nam",
-    "school": "THPT Hương Thủy",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0141",
-    "name": "Bùi Anh Nam",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0142",
-    "name": "Vũ Xuân Nam",
-    "school": "THPT Quảng Điền",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0143",
-    "name": "Lê Đức Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0144",
-    "name": "Đặng Bảo Trang",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0145",
-    "name": "Đỗ Văn Phương",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0146",
-    "name": "Hoàng Bảo Hùng",
-    "school": "THPT Nguyễn Huệ",
+    "grade": "12A1",
     "subject": "Toán",
-    "grade": 10
+    "score": 12.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0147",
+    "tt": 67,
+    "sbd": "46010129",
+    "name": "Nguyễn Duy Nhân",
+    "gender": "Nam",
+    "dob": "2009-08-02",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Toán",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 68,
+    "sbd": "46010025",
+    "name": "Nguyễn Anh Duy",
+    "gender": "Nam",
+    "dob": "2009-02-01",
+    "school": "THPT Tố Hữu",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 69,
+    "sbd": "46010027",
+    "name": "Nguyễn Quang Dũng",
+    "gender": "Nam",
+    "dob": "2009-10-31",
+    "school": "THPT Nam Đông",
+    "grade": "12/4",
+    "subject": "Toán",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 70,
+    "sbd": "46010028",
+    "name": "Phạm Việt Dũng",
+    "gender": "Nam",
+    "dob": "2009-11-18",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 71,
+    "sbd": "46010066",
+    "name": "Phạm Thanh Hằng",
+    "gender": "Nữ",
+    "dob": "2009-01-20",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Toán",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 72,
+    "sbd": "46010017",
+    "name": "Nguyễn Văn Gia Bảo",
+    "gender": "Nam",
+    "dob": "2009-06-23",
+    "school": "THPT Phú Lộc",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 73,
+    "sbd": "46010055",
+    "name": "Hồ Ngọc Hân",
+    "gender": "Nam",
+    "dob": "2009-08-05",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 74,
+    "sbd": "46010071",
+    "name": "Trương Nguyễn Thế Khôi",
+    "gender": "Nam",
+    "dob": "2009-10-06",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Toán",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 75,
+    "sbd": "46010086",
+    "name": "Hồ Bảo Lộc",
+    "gender": "Nam",
+    "dob": "2009-04-30",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Toán",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 76,
+    "sbd": "46010090",
+    "name": "Nguyễn Phạm Nhật Minh",
+    "gender": "Nam",
+    "dob": "2009-07-14",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 77,
+    "sbd": "46010104",
+    "name": "Lê Ngọc Bảo Nguyên",
+    "gender": "Nam",
+    "dob": "2009-01-24",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 78,
+    "sbd": "46010141",
+    "name": "Nguyễn Ngọc Phong",
+    "gender": "Nam",
+    "dob": "2009-01-01",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Toán",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 79,
+    "sbd": "46010184",
+    "name": "Trương Công Thắng",
+    "gender": "Nam",
+    "dob": "2009-07-04",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 80,
+    "sbd": "46010187",
+    "name": "Trần Nhơn Tiến",
+    "gender": "Nam",
+    "dob": "2009-09-15",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 81,
+    "sbd": "46010164",
+    "name": "Ngô Thị Phương Uyên",
+    "gender": "Nữ",
+    "dob": "2009-06-03",
+    "school": "THPT Hương Thủy",
+    "grade": "12/04",
+    "subject": "Toán",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 82,
+    "sbd": "46010100",
+    "name": "Dương Ái Mỹ",
+    "gender": "Nữ",
+    "dob": "2009-01-06",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 83,
+    "sbd": "46010102",
+    "name": "Đặng Nguyễn Hoài Nam",
+    "gender": "Nam",
+    "dob": "2009-06-06",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 84,
+    "sbd": "46010128",
+    "name": "Dương Chí Thiện Nhân",
+    "gender": "Nam",
+    "dob": "2009-01-16",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 85,
+    "sbd": "46010136",
+    "name": "Trần Tiến Nhật",
+    "gender": "Nam",
+    "dob": "2009-03-16",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/2",
+    "subject": "Toán",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 86,
+    "sbd": "46010198",
+    "name": "Nguyễn Lê Anh Tài",
+    "gender": "Nam",
+    "dob": "2009-05-30",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 87,
+    "sbd": "46010011",
+    "name": "Bùi Phước Nguyên Bảo",
+    "gender": "Nam",
+    "dob": "2010-05-21",
+    "school": "THPT A Lưới",
+    "grade": "11A1",
+    "subject": "Toán",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 88,
+    "sbd": "46010047",
+    "name": "Trần Đức Huy",
+    "gender": "Nam",
+    "dob": "2010-12-04",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B1",
+    "subject": "Toán",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 89,
+    "sbd": "46010070",
+    "name": "Trịnh Ngọc Khánh",
+    "gender": "Nam",
+    "dob": "2009-01-29",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 90,
+    "sbd": "46010089",
+    "name": "Lê Văn Minh",
+    "gender": "Nam",
+    "dob": "2010-05-04",
+    "school": "THPT A Lưới",
+    "grade": "11A1",
+    "subject": "Toán",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 91,
+    "sbd": "46010142",
+    "name": "Đào Duy Pháp",
+    "gender": "Nam",
+    "dob": "2010-06-27",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "11/1",
+    "subject": "Toán",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 92,
+    "sbd": "46010144",
+    "name": "Bạch Văn Phước Phú",
+    "gender": "Nam",
+    "dob": "2009-01-30",
+    "school": "THPT An Lương Đông",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 93,
+    "sbd": "46010191",
+    "name": "La Văn Trung",
+    "gender": "Nam",
+    "dob": "2009-03-22",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B3",
+    "subject": "Toán",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 94,
+    "sbd": "46010012",
+    "name": "Dương Văn Quốc Bảo",
+    "gender": "Nam",
+    "dob": "2009-05-04",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 95,
+    "sbd": "46010038",
+    "name": "Đặng Phan Huy Hoàng",
+    "gender": "Nam",
+    "dob": "2009-07-16",
+    "school": "THPT Tam Giang",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 96,
+    "sbd": "46010058",
+    "name": "Nguyễn Võ Bảo Hân",
+    "gender": "Nữ",
+    "dob": "2009-08-17",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 97,
+    "sbd": "46010208",
+    "name": "Phan Văn Quốc Đạt",
+    "gender": "Nam",
+    "dob": "2010-04-11",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "11/1",
+    "subject": "Toán",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 98,
+    "sbd": "46010077",
+    "name": "Trương Khải Kỳ",
+    "gender": "Nam",
+    "dob": "2009-06-04",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 99,
+    "sbd": "46010092",
+    "name": "Trần Kiên Minh",
+    "gender": "Nam",
+    "dob": "2009-12-24",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/3",
+    "subject": "Toán",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 100,
+    "sbd": "46010107",
+    "name": "Nguyễn Đức Bảo Nguyên",
+    "gender": "Nam",
+    "dob": "2009-09-30",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Toán",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 101,
+    "sbd": "46010131",
+    "name": "Nguyễn Huỳnh Thanh Nhã",
+    "gender": "Nữ",
+    "dob": "2009-06-23",
+    "school": "THPT Thuận An",
+    "grade": "12/01",
+    "subject": "Toán",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 102,
+    "sbd": "46010168",
+    "name": "Võ Thị Kim Thi",
+    "gender": "Nữ",
+    "dob": "2009-12-20",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A4",
+    "subject": "Toán",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 103,
+    "sbd": "46010182",
+    "name": "Nguyễn Quốc Thắng",
+    "gender": "Nam",
+    "dob": "2009-11-24",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/5",
+    "subject": "Toán",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 104,
+    "sbd": "46010026",
+    "name": "Hoàng Trần Khánh Duyên",
+    "gender": "Nữ",
+    "dob": "2009-04-12",
+    "school": "THPT Gia Hội",
+    "grade": "12/4",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 105,
+    "sbd": "46010029",
+    "name": "Cao Thị Thùy Dương",
+    "gender": "Nữ",
+    "dob": "2009-11-06",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 106,
+    "sbd": "46010034",
+    "name": "Trần Minh Hiển",
+    "gender": "Nam",
+    "dob": "2009-07-22",
+    "school": "THPT Tố Hữu",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 107,
+    "sbd": "46010069",
+    "name": "Ngô Đắc Anh Khoa",
+    "gender": "Nam",
+    "dob": "2009-08-02",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/11",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 108,
+    "sbd": "46010074",
+    "name": "Ngô Đức Tuấn Kiệt",
+    "gender": "Nam",
+    "dob": "2009-05-13",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 109,
+    "sbd": "46010084",
+    "name": "Trần Văn Nhật Long",
+    "gender": "Nam",
+    "dob": "2009-03-02",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 110,
+    "sbd": "46010091",
+    "name": "Ngô Quang Minh",
+    "gender": "Nam",
+    "dob": "2010-06-27",
+    "school": "THPT An Lương Đông",
+    "grade": "11A2",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 111,
+    "sbd": "46010098",
+    "name": "Nguyễn Thị Mừng",
+    "gender": "Nữ",
+    "dob": "2009-11-26",
+    "school": "THPT Phú Lộc",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 112,
+    "sbd": "46010113",
+    "name": "Đoàn Thị Minh Nguyệt",
+    "gender": "Nữ",
+    "dob": "2009-02-20",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B8",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 113,
+    "sbd": "46010192",
+    "name": "Nguyễn Ngọc Huyền Trân",
+    "gender": "Nữ",
+    "dob": "2009-06-17",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 114,
+    "sbd": "46010202",
+    "name": "Phan Văn Túy",
+    "gender": "Nam",
+    "dob": "2009-03-05",
+    "school": "THPT Phú Lộc",
+    "grade": "12B3",
+    "subject": "Toán",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 115,
+    "sbd": "46010015",
+    "name": "Lê Trần Gia Bảo",
+    "gender": "Nam",
+    "dob": "2009-05-21",
+    "school": "THPT Phong Điền",
+    "grade": "12/01",
+    "subject": "Toán",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 116,
+    "sbd": "46010019",
+    "name": "Trương Bùi Thái Bảo",
+    "gender": "Nam",
+    "dob": "2009-01-29",
+    "school": "THPT Hoá Châu",
+    "grade": "12B4",
+    "subject": "Toán",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 117,
+    "sbd": "46010042",
+    "name": "Lê Minh Huy",
+    "gender": "Nam",
+    "dob": "2010-02-23",
+    "school": "THPT Thừa Lưu",
+    "grade": "11A2",
+    "subject": "Toán",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 118,
+    "sbd": "46010049",
+    "name": "Trần Bảo Huân",
+    "gender": "Nam",
+    "dob": "2009-08-05",
+    "school": "THPT Tố Hữu",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 119,
+    "sbd": "46010103",
+    "name": "Trần Hữu Nghĩa",
+    "gender": "Nam",
+    "dob": "2009-01-19",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 120,
+    "sbd": "46010108",
+    "name": "Phan Kiều Kim Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-09-12",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Toán",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 121,
+    "sbd": "46010112",
+    "name": "Đào Văn Nguyên",
+    "gender": "Nam",
+    "dob": "2009-05-13",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Toán",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 122,
+    "sbd": "46010126",
+    "name": "Đoàn Yến Nhi",
+    "gender": "Nữ",
+    "dob": "2009-12-23",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 123,
+    "sbd": "46010132",
+    "name": "Lê Minh Nhật",
+    "gender": "Nam",
+    "dob": "2009-01-26",
+    "school": "THPT Cao Thắng",
+    "grade": "12/2",
+    "subject": "Toán",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 124,
+    "sbd": "46010159",
+    "name": "La Chí Quốc",
+    "gender": "Nam",
+    "dob": "2009-05-20",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A1",
+    "subject": "Toán",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 125,
+    "sbd": "46020089",
+    "name": "Văn Viết Huy Lộc",
+    "gender": "Nam",
+    "dob": "2009-03-11",
+    "school": "THPT Thuận An",
+    "grade": "12/02",
+    "subject": "Vật lí",
+    "score": 18.0,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 126,
+    "sbd": "46020090",
+    "name": "Lê Văn Lợi",
+    "gender": "Nam",
+    "dob": "2009-11-06",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A3",
+    "subject": "Vật lí",
+    "score": 17.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 127,
+    "sbd": "46020152",
+    "name": "Nguyễn Văn Vĩnh Sang",
+    "gender": "Nam",
+    "dob": "2009-01-17",
+    "school": "THPT Thuận An",
+    "grade": "12/04",
+    "subject": "Vật lí",
+    "score": 17.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 128,
+    "sbd": "46020179",
+    "name": "Nguyễn Như Nhật Trí",
+    "gender": "Nam",
+    "dob": "2009-11-16",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B7",
+    "subject": "Vật lí",
+    "score": 17.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 129,
+    "sbd": "46020023",
+    "name": "Phan Văn Duy",
+    "gender": "Nam",
+    "dob": "2009-03-28",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/5",
+    "subject": "Vật lí",
+    "score": 17.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 130,
+    "sbd": "46020102",
+    "name": "Huỳnh Trọng Nghĩa",
+    "gender": "Nam",
+    "dob": "2009-11-08",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 17.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 131,
+    "sbd": "46020116",
+    "name": "Nguyễn Thị Thuý Ngân",
+    "gender": "Nữ",
+    "dob": "2009-04-02",
+    "school": "THPT Thuận An",
+    "grade": "12/02",
+    "subject": "Vật lí",
+    "score": 17.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 132,
+    "sbd": "46020059",
+    "name": "Dương Minh Hải",
+    "gender": "Nam",
+    "dob": "2009-12-16",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 16.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 133,
+    "sbd": "46020210",
+    "name": "Trần Việt Thành Đạt",
+    "gender": "Nam",
+    "dob": "2009-05-15",
+    "school": "THPT Thuận An",
+    "grade": "12/02",
+    "subject": "Vật lí",
+    "score": 16.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 134,
+    "sbd": "46020026",
+    "name": "Diệp Quốc Dũng",
+    "gender": "Nam",
+    "dob": "2009-04-13",
+    "school": "THPT Phong Điền",
+    "grade": "12/02",
+    "subject": "Vật lí",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 135,
+    "sbd": "46020207",
+    "name": "Nguyễn Hữu Nhật Đăng",
+    "gender": "Nam",
+    "dob": "2009-01-22",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 136,
+    "sbd": "46020111",
+    "name": "Nguyễn Xuân Nguyễn",
+    "gender": "Nam",
+    "dob": "2009-02-10",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 137,
+    "sbd": "46020174",
+    "name": "Lê Thị Bảo Trâm",
+    "gender": "Nữ",
+    "dob": "2009-09-22",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Vật lí",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 138,
+    "sbd": "46020001",
+    "name": "Nguyễn Ngọc An",
+    "gender": "Nam",
+    "dob": "2009-01-30",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 139,
+    "sbd": "46020014",
+    "name": "Phạm Văn Bảo",
+    "gender": "Nam",
+    "dob": "2009-07-26",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 140,
+    "sbd": "46020052",
+    "name": "Nguyễn Thị Thanh Huyền",
+    "gender": "Nữ",
+    "dob": "2009-07-10",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A3",
+    "subject": "Vật lí",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 141,
+    "sbd": "46020113",
+    "name": "Nguyễn Thị Thu Nguyệt",
+    "gender": "Nữ",
+    "dob": "2009-09-29",
+    "school": "THPT Thuận An",
+    "grade": "12/03",
+    "subject": "Vật lí",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 142,
+    "sbd": "46020161",
+    "name": "Nguyễn Thị Minh Thư",
+    "gender": "Nữ",
+    "dob": "2010-06-09",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "11A3",
+    "subject": "Vật lí",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 143,
+    "sbd": "46020066",
+    "name": "Nguyễn Lê Tấn Khang",
+    "gender": "Nam",
+    "dob": "2009-10-06",
+    "school": "THPT Phú Lộc",
+    "grade": "12B3",
+    "subject": "Vật lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 144,
+    "sbd": "46020108",
+    "name": "Trần Hoàng Nguyên",
+    "gender": "Nam",
+    "dob": "2009-09-13",
+    "school": "THPT An Lương Đông",
+    "grade": "12A2",
+    "subject": "Vật lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 145,
+    "sbd": "46020212",
+    "name": "Trần Đăng Đạt",
+    "gender": "Nam",
+    "dob": "2009-07-08",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 146,
+    "sbd": "46020003",
+    "name": "Hồ Công Tuấn Anh",
+    "gender": "Nam",
+    "dob": "2009-11-23",
+    "school": "THPT Tố Hữu",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 147,
+    "sbd": "46020034",
+    "name": "Dương Văn Phước Hiếu",
+    "gender": "Nam",
+    "dob": "2009-11-01",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 148,
+    "sbd": "46020060",
+    "name": "Hoàng Minh Hải",
+    "gender": "Nam",
+    "dob": "2009-07-23",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 149,
+    "sbd": "46020075",
+    "name": "Trương Thị Kiều",
+    "gender": "Nữ",
+    "dob": "2009-04-21",
+    "school": "THPT Thuận An",
+    "grade": "12/01",
+    "subject": "Vật lí",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 150,
+    "sbd": "46020144",
+    "name": "Phan Đình Tâm Quang",
+    "gender": "Nam",
+    "dob": "2009-02-09",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 151,
+    "sbd": "46020194",
+    "name": "Đặng Thị Huyền Vi",
+    "gender": "Nữ",
+    "dob": "2009-09-26",
+    "school": "THPT Hà Trung",
+    "grade": "12B5",
+    "subject": "Vật lí",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 152,
+    "sbd": "46020171",
+    "name": "Lê Thị Thùy Trang",
+    "gender": "Nữ",
+    "dob": "2009-07-18",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 153,
+    "sbd": "46020035",
+    "name": "Lê Quang Hiếu",
+    "gender": "Nam",
+    "dob": "2010-02-10",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/1",
+    "subject": "Vật lí",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 154,
+    "sbd": "46020049",
+    "name": "Trần Lê Quốc Huy",
+    "gender": "Nam",
+    "dob": "2009-01-02",
+    "school": "THPT Phú Lộc",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 155,
+    "sbd": "46020148",
+    "name": "Mai Xuân Hữu Quốc",
+    "gender": "Nam",
+    "dob": "2009-01-20",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 156,
+    "sbd": "46020170",
+    "name": "Đặng Khánh Toàn",
+    "gender": "Nam",
+    "dob": "2009-12-04",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 157,
+    "sbd": "46020172",
+    "name": "Hồ Đăng Triển",
+    "gender": "Nam",
+    "dob": "2009-10-18",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/1",
+    "subject": "Vật lí",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 158,
+    "sbd": "46020189",
+    "name": "Phan Lê Anh Tùng",
+    "gender": "Nam",
+    "dob": "2009-02-16",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A11",
+    "subject": "Vật lí",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 159,
+    "sbd": "46020070",
+    "name": "Trần Duy Khánh",
+    "gender": "Nam",
+    "dob": "2009-03-29",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 160,
+    "sbd": "46020030",
+    "name": "Trần Tiến Dũng",
+    "gender": "Nam",
+    "dob": "2009-11-02",
+    "school": "THPT Phú Lộc",
+    "grade": "12B3",
+    "subject": "Vật lí",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 161,
+    "sbd": "46020137",
+    "name": "Huỳnh Quang Phú",
+    "gender": "Nam",
+    "dob": "2009-10-08",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 162,
+    "sbd": "46020204",
+    "name": "La Thị Ý",
+    "gender": "Nữ",
+    "dob": "2009-04-11",
+    "school": "THPT Thuận An",
+    "grade": "12/02",
+    "subject": "Vật lí",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 163,
+    "sbd": "46020050",
+    "name": "Võ Văn Huy",
+    "gender": "Nam",
+    "dob": "2009-05-18",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
+    "subject": "Vật lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 164,
+    "sbd": "46020069",
+    "name": "Nguyễn Xuân Bảo Khánh",
+    "gender": "Nam",
+    "dob": "2009-07-05",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 165,
+    "sbd": "46020079",
+    "name": "Ngô Viết Tuấn Kiệt",
+    "gender": "Nam",
+    "dob": "2009-08-03",
+    "school": "THPT Phú Bài",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 166,
+    "sbd": "46020140",
+    "name": "Phạm Văn Quang Phước",
+    "gender": "Nam",
+    "dob": "2010-10-29",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "11A1",
+    "subject": "Vật lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 167,
+    "sbd": "46020159",
+    "name": "Lê Minh Thơ",
+    "gender": "Nữ",
+    "dob": "2009-12-22",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/1",
+    "subject": "Vật lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 168,
+    "sbd": "46020006",
+    "name": "Nguyễn Quỳnh Anh",
+    "gender": "Nữ",
+    "dob": "2009-01-09",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A4",
+    "subject": "Vật lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 169,
+    "sbd": "46020025",
+    "name": "Nguyễn Thị Hồng Duyên",
+    "gender": "Nữ",
+    "dob": "2009-11-28",
+    "school": "THPT An Lương Đông",
+    "grade": "12A3",
+    "subject": "Vật lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 170,
+    "sbd": "46020042",
+    "name": "Hoàng Khánh Hoàng",
+    "gender": "Nam",
+    "dob": "2008-06-24",
+    "school": "THPT An Lương Đông",
+    "grade": "12A2",
+    "subject": "Vật lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 171,
+    "sbd": "46020048",
+    "name": "Trương Gia Huy",
+    "gender": "Nam",
+    "dob": "2010-10-18",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "11/2",
+    "subject": "Vật lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 172,
+    "sbd": "46020063",
+    "name": "Nguyễn Phúc Miên Kha",
+    "gender": "Nữ",
+    "dob": "2009-02-13",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 173,
+    "sbd": "46020178",
+    "name": "Võ Lệ Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2009-11-10",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/4",
+    "subject": "Vật lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 174,
+    "sbd": "46020196",
+    "name": "Hà Thúc Thanh Vân",
+    "gender": "Nữ",
+    "dob": "2009-06-29",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A4",
+    "subject": "Vật lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 175,
+    "sbd": "46020208",
+    "name": "Trần Hải Đăng",
+    "gender": "Nam",
+    "dob": "2010-11-15",
+    "school": "THPT Hương Thủy",
+    "grade": "11/02",
+    "subject": "Vật lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 176,
+    "sbd": "46020047",
+    "name": "Lê Nguyễn Bảo Huy",
+    "gender": "Nam",
+    "dob": "2010-12-07",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "11/3",
+    "subject": "Vật lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 177,
+    "sbd": "46020051",
+    "name": "Đặng Văn Huy",
+    "gender": "Nam",
+    "dob": "2009-10-15",
+    "school": "THPT Cao Thắng",
+    "grade": "12/2",
+    "subject": "Vật lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 178,
+    "sbd": "46020147",
+    "name": "Trần Mạnh Quân",
+    "gender": "Nam",
+    "dob": "2008-08-20",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 179,
+    "sbd": "46020162",
+    "name": "Nguyễn Thị Minh Thư",
+    "gender": "Nữ",
+    "dob": "2009-03-08",
+    "school": "THPT Tam Giang",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 180,
+    "sbd": "46020195",
+    "name": "Ngô Thị Tường Vy",
+    "gender": "Nữ",
+    "dob": "2010-03-19",
+    "school": "THPT Phong Điền",
+    "grade": "11/01",
+    "subject": "Vật lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 181,
+    "sbd": "46020028",
+    "name": "Mai Tiến Dũng",
+    "gender": "Nam",
+    "dob": "2010-01-16",
+    "school": "THPT Hà Trung",
+    "grade": "11/01",
+    "subject": "Vật lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 182,
+    "sbd": "46020062",
+    "name": "Trần Viết Hải",
+    "gender": "Nam",
+    "dob": "2010-05-05",
+    "school": "THPT Hà Trung",
+    "grade": "11/01",
+    "subject": "Vật lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 183,
+    "sbd": "46020073",
+    "name": "Nguyễn Hữu Trung Kiên",
+    "gender": "Nam",
+    "dob": "2009-10-19",
+    "school": "THPT Phú Bài",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 184,
+    "sbd": "46020087",
+    "name": "Nguyễn Đình Khôi Lượng",
+    "gender": "Nam",
+    "dob": "2009-11-10",
+    "school": "THPT Hương Thủy",
+    "grade": "12/01",
+    "subject": "Vật lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 185,
+    "sbd": "46020157",
+    "name": "Đoàn Đình Thành",
+    "gender": "Nam",
+    "dob": "2009-05-08",
+    "school": "THPT Hoá Châu",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 186,
+    "sbd": "46020167",
+    "name": "Nguyễn Duy Bảo Tiên",
+    "gender": "Nữ",
+    "dob": "2009-04-11",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 187,
+    "sbd": "46020177",
+    "name": "Trần Nguyễn Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2009-02-06",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A5",
+    "subject": "Vật lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 188,
+    "sbd": "46020011",
+    "name": "Phan Phước An Bình",
+    "gender": "Nữ",
+    "dob": "2009-10-04",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/2",
+    "subject": "Vật lí",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 189,
+    "sbd": "46020020",
+    "name": "Đoàn Đình Danh",
+    "gender": "Nam",
+    "dob": "2010-12-20",
+    "school": "THPT Hoá Châu",
+    "grade": "11B5",
+    "subject": "Vật lí",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 190,
+    "sbd": "46020029",
+    "name": "Nguyễn Minh Dũng",
+    "gender": "Nam",
+    "dob": "2009-09-15",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 191,
+    "sbd": "46020072",
+    "name": "Đoàn Nguyên Khải",
+    "gender": "Nam",
+    "dob": "2010-01-10",
+    "school": "THPT Vinh Lộc",
+    "grade": "11A1",
+    "subject": "Vật lí",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 192,
+    "sbd": "46020091",
+    "name": "Nguyễn Văn Lực",
+    "gender": "Nam",
+    "dob": "2009-09-21",
+    "school": "THPT Cao Thắng",
+    "grade": "12/2",
+    "subject": "Vật lí",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 193,
+    "sbd": "46020100",
+    "name": "Võ Quang Bảo Nam",
+    "gender": "Nam",
+    "dob": "2009-07-23",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 194,
+    "sbd": "46020112",
+    "name": "Nguyễn Phan Ánh Nguyệt",
+    "gender": "Nữ",
+    "dob": "2010-09-15",
+    "school": "THPT Phú Lộc",
+    "grade": "11B1",
+    "subject": "Vật lí",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 195,
+    "sbd": "46020150",
+    "name": "Nguyễn Lê Trúc Quỳnh",
+    "gender": "Nữ",
+    "dob": "2009-04-16",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B8",
+    "subject": "Vật lí",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 196,
+    "sbd": "46020004",
+    "name": "Lương Nguyễn Thục Anh",
+    "gender": "Nữ",
+    "dob": "2009-08-23",
+    "school": "THPT Hương Thủy",
+    "grade": "12/01",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 197,
+    "sbd": "46020027",
+    "name": "Hoàng Tiến Dũng",
+    "gender": "Nam",
+    "dob": "2009-12-04",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A6",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 198,
+    "sbd": "46020031",
+    "name": "Hồ Đăng Thái Dương",
+    "gender": "Nam",
+    "dob": "2009-08-04",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 199,
+    "sbd": "46020067",
+    "name": "Lê Văn Khiển",
+    "gender": "Nam",
+    "dob": "2009-04-21",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 200,
+    "sbd": "46020084",
+    "name": "Đặng Gia Linh",
+    "gender": "Nữ",
+    "dob": "2009-02-04",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A10",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 201,
+    "sbd": "46020085",
+    "name": "Trương Văn Long",
+    "gender": "Nam",
+    "dob": "2009-09-13",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 202,
+    "sbd": "46020098",
+    "name": "Trần Văn Mạnh",
+    "gender": "Nam",
+    "dob": "2010-03-16",
+    "school": "THPT Hương Trà",
+    "grade": "11B1",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 203,
+    "sbd": "46020107",
+    "name": "Nguyễn Trần Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-10-03",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A5",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 204,
+    "sbd": "46020121",
+    "name": "Nguyễn Thị Yến Nhi",
+    "gender": "Nữ",
+    "dob": "2009-10-18",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 205,
+    "sbd": "46020184",
+    "name": "Hoàng Nhân Tài",
+    "gender": "Nam",
+    "dob": "2010-01-10",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "11A1",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 206,
+    "sbd": "46020192",
+    "name": "Nguyễn Thị Phương Uyên",
+    "gender": "Nữ",
+    "dob": "2009-08-08",
+    "school": "THPT Hương Thủy",
+    "grade": "12/02",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 207,
+    "sbd": "46020197",
+    "name": "Hồ Hoàng Vũ",
+    "gender": "Nam",
+    "dob": "2009-09-30",
+    "school": "Phổ thông DTNT thành phố",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 208,
+    "sbd": "46020012",
+    "name": "Lê Nguyễn Quốc Bảo",
+    "gender": "Nam",
+    "dob": "2010-11-11",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B1",
+    "subject": "Vật lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 209,
+    "sbd": "46020038",
+    "name": "Nguyễn Thị Như Hiền",
+    "gender": "Nữ",
+    "dob": "2010-11-04",
+    "school": "THPT An Lương Đông",
+    "grade": "11A1",
+    "subject": "Vật lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 210,
+    "sbd": "46020077",
+    "name": "Nguyến Quang Đăng Kiệt",
+    "gender": "Nam",
+    "dob": "2009-06-29",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B8",
+    "subject": "Vật lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 211,
+    "sbd": "46020095",
+    "name": "Hoàng Thị Thảo My",
+    "gender": "Nữ",
+    "dob": "2009-09-15",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 212,
+    "sbd": "46020103",
+    "name": "Văn Trần Đại Nghĩa",
+    "gender": "Nam",
+    "dob": "2009-08-19",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 213,
+    "sbd": "46020134",
+    "name": "Lê Phạm Thanh Phong",
+    "gender": "Nam",
+    "dob": "2009-01-09",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 214,
+    "sbd": "46020145",
+    "name": "Trần Hoàng Đỗ Quyên",
+    "gender": "Nữ",
+    "dob": "2009-03-08",
+    "school": "THPT Nam Đông",
+    "grade": "12/4",
+    "subject": "Vật lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 215,
+    "sbd": "46020206",
+    "name": "Nguyễn Hải Đăng",
+    "gender": "Nam",
+    "dob": "2009-01-16",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Vật lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 216,
+    "sbd": "46020008",
+    "name": "Ngô Viết Tuấn Anh",
+    "gender": "Nam",
+    "dob": "2009-08-03",
+    "school": "THPT Phú Bài",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 217,
+    "sbd": "46020054",
+    "name": "Mai Đức Hào",
+    "gender": "Nam",
+    "dob": "2009-08-28",
+    "school": "THPT Phú Bài",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 218,
+    "sbd": "46020080",
+    "name": "Phan Trần Nhân Kiệt",
+    "gender": "Nam",
+    "dob": "2010-01-23",
+    "school": "THPT Phú Bài",
+    "grade": "11B1",
+    "subject": "Vật lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 219,
+    "sbd": "46020092",
+    "name": "Nguyễn Ngọc Anh Minh",
+    "gender": "Nam",
+    "dob": "2009-07-17",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/1",
+    "subject": "Vật lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 220,
+    "sbd": "46020128",
+    "name": "Ngô Gia Như",
+    "gender": "Nữ",
+    "dob": "2010-03-18",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/1",
+    "subject": "Vật lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 221,
+    "sbd": "46020130",
+    "name": "Dương Văn Nhật",
+    "gender": "Nam",
+    "dob": "2009-10-02",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A6",
+    "subject": "Vật lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 222,
+    "sbd": "46020154",
+    "name": "Lương Trường Thiện",
+    "gender": "Nam",
+    "dob": "2009-09-24",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Vật lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 223,
+    "sbd": "46020203",
+    "name": "Nguyễn Thị Bảo Yến",
+    "gender": "Nữ",
+    "dob": "2009-10-29",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 224,
+    "sbd": "46020209",
+    "name": "Hoàng Phước Đạt",
+    "gender": "Nam",
+    "dob": "2009-09-24",
+    "school": "THPT Hương Vinh",
+    "grade": "12/01",
+    "subject": "Vật lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 225,
+    "sbd": "46020082",
+    "name": "Phùng Phương Linh",
+    "gender": "Nữ",
+    "dob": "2009-04-07",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Vật lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 226,
+    "sbd": "46020083",
+    "name": "Trần Hoàng Nhật Linh",
+    "gender": "Nữ",
+    "dob": "2009-02-24",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Vật lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 227,
+    "sbd": "46020110",
+    "name": "Võ Trần Hoàng Nguyên",
+    "gender": "Nam",
+    "dob": "2009-09-12",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Vật lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 228,
+    "sbd": "46020122",
+    "name": "Văn Thị Ngọc Nhi",
+    "gender": "Nữ",
+    "dob": "2009-11-24",
+    "school": "THPT An Lương Đông",
+    "grade": "12A2",
+    "subject": "Vật lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 229,
+    "sbd": "46020173",
+    "name": "Nguyễn Việt Trung",
+    "gender": "Nam",
+    "dob": "2010-01-07",
+    "school": "THPT Phú Lộc",
+    "grade": "11B1",
+    "subject": "Vật lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 230,
+    "sbd": "46020193",
+    "name": "Võ Lê Phương Uyên",
+    "gender": "Nữ",
+    "dob": "2009-12-04",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 231,
+    "sbd": "46020053",
+    "name": "Trương Lê Thanh Huyền",
+    "gender": "Nữ",
+    "dob": "2009-03-18",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Vật lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 232,
+    "sbd": "46020106",
+    "name": "Nguyễn Hoàng Nguyên",
+    "gender": "Nam",
+    "dob": "2010-06-30",
+    "school": "THPT Phú Lộc",
+    "grade": "11B1",
+    "subject": "Vật lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 233,
+    "sbd": "46020117",
+    "name": "Trương Thị Kim Ngân",
+    "gender": "Nữ",
+    "dob": "2010-10-02",
+    "school": "THPT Tam Giang",
+    "grade": "11A1",
+    "subject": "Vật lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 234,
+    "sbd": "46020153",
+    "name": "Phan Bá Sang",
+    "gender": "Nam",
+    "dob": "2009-11-18",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/3",
+    "subject": "Vật lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 235,
+    "sbd": "46020188",
+    "name": "Cao Hữu Tín",
+    "gender": "Nam",
+    "dob": "2010-12-20",
+    "school": "THPT Phong Điền",
+    "grade": "11/01",
+    "subject": "Vật lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 236,
+    "sbd": "46020009",
+    "name": "Đỗ Đức Anh",
+    "gender": "Nam",
+    "dob": "2009-12-01",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Vật lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 237,
+    "sbd": "46020041",
+    "name": "Phạm Văn Hiệu",
+    "gender": "Nam",
+    "dob": "2009-09-01",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/2",
+    "subject": "Vật lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 238,
+    "sbd": "46020058",
+    "name": "Bạch Văn Hải",
+    "gender": "Nam",
+    "dob": "2009-08-04",
+    "school": "THPT An Lương Đông",
+    "grade": "12A2",
+    "subject": "Vật lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 239,
+    "sbd": "46020061",
+    "name": "Trần Thiên Thanh Hải",
+    "gender": "Nam",
+    "dob": "2009-09-04",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A5",
+    "subject": "Vật lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 240,
+    "sbd": "46020074",
+    "name": "Trần Phước Kiên",
+    "gender": "Nam",
+    "dob": "2009-06-13",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A2",
+    "subject": "Vật lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 241,
+    "sbd": "46020126",
+    "name": "Trương Thành Nhân",
+    "gender": "Nam",
+    "dob": "2009-08-04",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Vật lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 242,
+    "sbd": "46020127",
+    "name": "Hoàng Trần Quỳnh Như",
+    "gender": "Nữ",
+    "dob": "2009-10-27",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/3",
+    "subject": "Vật lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 243,
+    "sbd": "46020133",
+    "name": "Hà Phong",
+    "gender": "Nam",
+    "dob": "2009-10-21",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A2",
+    "subject": "Vật lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 244,
+    "sbd": "46020201",
+    "name": "Huỳnh Tuấn Vỹ",
+    "gender": "Nam",
+    "dob": "2010-12-01",
+    "school": "THPT Hà Trung",
+    "grade": "11/01",
+    "subject": "Vật lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 245,
+    "sbd": "46020101",
+    "name": "Nguyễn Thị Thanh Nga",
+    "gender": "Nữ",
+    "dob": "2010-09-28",
+    "school": "THPT Vinh Lộc",
+    "grade": "11A1",
+    "subject": "Vật lí",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 246,
+    "sbd": "46020131",
+    "name": "Nguyễn Minh Nhật",
+    "gender": "Nam",
+    "dob": "2009-07-22",
+    "school": "THPT Hương Thủy",
+    "grade": "12/03",
+    "subject": "Vật lí",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 247,
+    "sbd": "46020158",
+    "name": "Hồ Thị Thơ",
+    "gender": "Nữ",
+    "dob": "2009-04-04",
+    "school": "Phổ thông DTNT thành phố",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 248,
+    "sbd": "46020180",
+    "name": "Văn Đình Trí",
+    "gender": "Nam",
+    "dob": "2009-01-29",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 249,
+    "sbd": "46020183",
+    "name": "Trần Thị Tuệ",
+    "gender": "Nữ",
+    "dob": "2009-08-15",
+    "school": "THPT Thuận An",
+    "grade": "12/03",
+    "subject": "Vật lí",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 250,
+    "sbd": "46020036",
+    "name": "Phạm Nhật Minh Hiếu",
+    "gender": "Nam",
+    "dob": "2009-06-29",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Vật lí",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 251,
+    "sbd": "46020105",
+    "name": "Lê Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-06-03",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Vật lí",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 252,
+    "sbd": "46020125",
+    "name": "Nguyễn Thành Nhân",
+    "gender": "Nam",
+    "dob": "2009-04-11",
+    "school": "THPT Tam Giang",
+    "grade": "12A1",
+    "subject": "Vật lí",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 253,
+    "sbd": "46020163",
+    "name": "Nguyễn Bảo Thạch",
+    "gender": "Nam",
+    "dob": "2006-04-23",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A4",
+    "subject": "Vật lí",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 254,
+    "sbd": "46020205",
+    "name": "Võ Thị Như Ý",
+    "gender": "Nữ",
+    "dob": "2009-04-26",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12A2",
+    "subject": "Vật lí",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 255,
+    "sbd": "46030125",
+    "name": "Hà Công Thiện",
+    "gender": "Nam",
+    "dob": "2009-02-01",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 17.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 256,
+    "sbd": "46030166",
+    "name": "Nguyễn Đức Nguyên Vũ",
+    "gender": "Nam",
+    "dob": "2009-04-02",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 17.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 257,
+    "sbd": "46030108",
+    "name": "Nguyễn Viết Phúc",
+    "gender": "Nam",
+    "dob": "2009-02-03",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B3",
+    "subject": "Hoá học",
+    "score": 17.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 258,
+    "sbd": "46030112",
     "name": "Trần Hoàng Phương",
-    "school": "THPT Hương Thủy",
-    "subject": "Địa lý",
-    "grade": 11
+    "gender": "Nam",
+    "dob": "2009-08-10",
+    "school": "THPT Phong Điền",
+    "grade": "12/02",
+    "subject": "Hoá học",
+    "score": 17.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 259,
+    "sbd": "46030161",
+    "name": "Lê Nhật Việt",
+    "gender": "Nam",
+    "dob": "2009-10-08",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 17.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 260,
+    "sbd": "46030165",
+    "name": "Nguyễn Nguyên Vũ",
+    "gender": "Nam",
+    "dob": "2009-10-15",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A3",
+    "subject": "Hoá học",
+    "score": 16.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 261,
+    "sbd": "46030128",
+    "name": "Trần Văn Thiện",
+    "gender": "Nam",
+    "dob": "2009-09-26",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/2",
+    "subject": "Hoá học",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 262,
+    "sbd": "46030022",
+    "name": "Lê Thị Minh Châu",
+    "gender": "Nữ",
+    "dob": "2009-04-22",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Hoá học",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 263,
+    "sbd": "46030120",
+    "name": "Mai Văn Nhật Quân",
+    "gender": "Nam",
+    "dob": "2009-05-18",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 264,
+    "sbd": "46030155",
+    "name": "Lê Tô Duy Tùng",
+    "gender": "Nam",
+    "dob": "2009-01-05",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A3",
+    "subject": "Hoá học",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 265,
+    "sbd": "46030015",
+    "name": "Hoàng Gia Bảo",
+    "gender": "Nam",
+    "dob": "2009-02-21",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 266,
+    "sbd": "46030018",
+    "name": "Trần Duy Thiên Bảo",
+    "gender": "Nam",
+    "dob": "2009-09-13",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 267,
+    "sbd": "46030031",
+    "name": "Phan Cảnh Dũng",
+    "gender": "Nam",
+    "dob": "2009-05-19",
+    "school": "THPT Hoá Châu",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 268,
+    "sbd": "46030034",
+    "name": "Trịnh Đức Hoà",
+    "gender": "Nam",
+    "dob": "2009-11-11",
+    "school": "THPT Phong Điền",
+    "grade": "12/02",
+    "subject": "Hoá học",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 269,
+    "sbd": "46030040",
+    "name": "Nguyễn Vũ Quang Huy",
+    "gender": "Nam",
+    "dob": "2009-12-10",
+    "school": "THPT Phong Điền",
+    "grade": "12/02",
+    "subject": "Hoá học",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 270,
+    "sbd": "46030049",
+    "name": "Trần Minh Gia Hưng",
+    "gender": "Nam",
+    "dob": "2009-03-24",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A2",
+    "subject": "Hoá học",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 271,
+    "sbd": "46030061",
+    "name": "Hoàng Tuấn Kiên",
+    "gender": "Nam",
+    "dob": "2009-02-28",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Hoá học",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 272,
+    "sbd": "46030017",
+    "name": "Hồ Gia Bảo",
+    "gender": "Nam",
+    "dob": "2009-12-24",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 273,
+    "sbd": "46030098",
+    "name": "Đỗ Hữu Long Nhật",
+    "gender": "Nam",
+    "dob": "2009-07-16",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B3",
+    "subject": "Hoá học",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 274,
+    "sbd": "46030164",
+    "name": "Nguyễn Mậu Nhật Vũ",
+    "gender": "Nam",
+    "dob": "2009-12-21",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A8",
+    "subject": "Hoá học",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 275,
+    "sbd": "46030167",
+    "name": "Đinh Bá Điền",
+    "gender": "Nam",
+    "dob": "2009-09-10",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/4",
+    "subject": "Hoá học",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 276,
+    "sbd": "46030003",
+    "name": "Hoàng Minh Anh",
+    "gender": "Nam",
+    "dob": "2009-05-22",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 277,
+    "sbd": "46030064",
+    "name": "Hoàng Tuấn Kiệt",
+    "gender": "Nam",
+    "dob": "2009-02-19",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A6",
+    "subject": "Hoá học",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 278,
+    "sbd": "46030126",
+    "name": "Hồ Văn Thiện",
+    "gender": "Nam",
+    "dob": "2009-01-07",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 279,
+    "sbd": "46030107",
+    "name": "La Phước Phúc",
+    "gender": "Nam",
+    "dob": "2009-09-09",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 14.85,
+    "prize": "Ba"
+  },
+  {
+    "tt": 280,
+    "sbd": "46030009",
+    "name": "Phạm Đăng Nhất Anh",
+    "gender": "Nam",
+    "dob": "2009-11-13",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 281,
+    "sbd": "46030150",
+    "name": "Nguyễn Thị Tuyền",
+    "gender": "Nữ",
+    "dob": "2009-10-01",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 282,
+    "sbd": "46030119",
+    "name": "Hồ Văn Quân",
+    "gender": "Nam",
+    "dob": "2010-02-28",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A1",
+    "subject": "Hoá học",
+    "score": 14.6,
+    "prize": "Ba"
+  },
+  {
+    "tt": 283,
+    "sbd": "46030006",
+    "name": "Nguyễn Ngọc Anh",
+    "gender": "Nữ",
+    "dob": "2009-01-14",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 284,
+    "sbd": "46030007",
+    "name": "Nguyễn Quốc Anh",
+    "gender": "Nam",
+    "dob": "2009-10-07",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 285,
+    "sbd": "46030025",
+    "name": "Trương Viết Duy Chương",
+    "gender": "Nam",
+    "dob": "2009-04-13",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 286,
+    "sbd": "46030029",
+    "name": "Võ Trọng Tấn Danh",
+    "gender": "Nam",
+    "dob": "2009-09-04",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Hoá học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 287,
+    "sbd": "46030030",
+    "name": "Phan Ánh Hồng Diễm",
+    "gender": "Nữ",
+    "dob": "2009-03-10",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 288,
+    "sbd": "46030075",
+    "name": "Trịnh Quốc Minh",
+    "gender": "Nam",
+    "dob": "2009-02-01",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12B4",
+    "subject": "Hoá học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 289,
+    "sbd": "46030078",
+    "name": "Cung Trọng Bảo Nam",
+    "gender": "Nam",
+    "dob": "2009-07-22",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 290,
+    "sbd": "46030106",
+    "name": "Trương Đức Phú",
+    "gender": "Nam",
+    "dob": "2009-06-01",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 291,
+    "sbd": "46030115",
+    "name": "Ngô Đức Lưu Quang",
+    "gender": "Nam",
+    "dob": "2009-09-19",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Hoá học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 292,
+    "sbd": "46030016",
+    "name": "Hoàng Ngô Gia Bảo",
+    "gender": "Nam",
+    "dob": "2009-09-08",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Hoá học",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 293,
+    "sbd": "46030062",
+    "name": "Huỳnh Trung Kiên",
+    "gender": "Nam",
+    "dob": "2009-08-25",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 294,
+    "sbd": "46030151",
+    "name": "Hồ Đức Anh Tài",
+    "gender": "Nam",
+    "dob": "2009-02-16",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A5",
+    "subject": "Hoá học",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 295,
+    "sbd": "46030089",
+    "name": "Lương Ngọc Quỳnh Nhi",
+    "gender": "Nữ",
+    "dob": "2009-02-06",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A4",
+    "subject": "Hoá học",
+    "score": 14.1,
+    "prize": "Ba"
+  },
+  {
+    "tt": 296,
+    "sbd": "46030012",
+    "name": "Trần Đình Anh",
+    "gender": "Nam",
+    "dob": "2009-08-14",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 297,
+    "sbd": "46030019",
+    "name": "Trần Quốc Gia Bảo",
+    "gender": "Nam",
+    "dob": "2009-02-10",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/8",
+    "subject": "Hoá học",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 298,
+    "sbd": "46030085",
+    "name": "Hồ Thị Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-11-24",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 299,
+    "sbd": "46030100",
+    "name": "Hồ Yến Phi",
+    "gender": "Nữ",
+    "dob": "2009-08-21",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A6",
+    "subject": "Hoá học",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 300,
+    "sbd": "46030072",
+    "name": "Trần Khánh Lộc",
+    "gender": "Nam",
+    "dob": "2009-04-10",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 301,
+    "sbd": "46030148",
+    "name": "Nguyễn Thị Lê Trân",
+    "gender": "Nữ",
+    "dob": "2009-09-18",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/3",
+    "subject": "Hoá học",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 302,
+    "sbd": "46030046",
+    "name": "Trần Công Huỳnh",
+    "gender": "Nam",
+    "dob": "2009-03-12",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 303,
+    "sbd": "46030057",
+    "name": "Trần Công Nguyên Khang",
+    "gender": "Nam",
+    "dob": "2010-08-09",
+    "school": "THPT Hương Trà",
+    "grade": "11B1",
+    "subject": "Hoá học",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 304,
+    "sbd": "46030076",
+    "name": "Huỳnh Trần Thảo My",
+    "gender": "Nam",
+    "dob": "2009-07-31",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/4",
+    "subject": "Hoá học",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 305,
+    "sbd": "46030141",
+    "name": "Lê Ích Nhật Tiến",
+    "gender": "Nam",
+    "dob": "2009-10-11",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/4",
+    "subject": "Hoá học",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 306,
+    "sbd": "46030163",
+    "name": "Lý Đắc Minh Vũ",
+    "gender": "Nam",
+    "dob": "2009-04-03",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 307,
+    "sbd": "46030004",
+    "name": "Lê Vũ Quốc Anh",
+    "gender": "Nam",
+    "dob": "2009-10-25",
+    "school": "THPT Tố Hữu",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 308,
+    "sbd": "46030045",
+    "name": "Phan Thị Thanh Huyền",
+    "gender": "Nữ",
+    "dob": "2009-10-07",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/2",
+    "subject": "Hoá học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 309,
+    "sbd": "46030101",
+    "name": "Lê Ngọc Thanh Phong",
+    "gender": "Nam",
+    "dob": "2009-12-14",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A4",
+    "subject": "Hoá học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 310,
+    "sbd": "46030138",
+    "name": "Trần Duy Thịnh",
+    "gender": "Nam",
+    "dob": "2009-05-01",
+    "school": "THPT An Lương Đông",
+    "grade": "12A3",
+    "subject": "Hoá học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 311,
+    "sbd": "46030114",
+    "name": "Phạm Hữu Phước",
+    "gender": "Nam",
+    "dob": "2009-07-27",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A5",
+    "subject": "Hoá học",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 312,
+    "sbd": "46030130",
+    "name": "Nguyễn Lương Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-07-16",
+    "school": "THPT Phú Lộc",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 313,
+    "sbd": "46030153",
+    "name": "Ngô Quý Nhật Tâm",
+    "gender": "Nam",
+    "dob": "2009-09-18",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 314,
+    "sbd": "46030010",
+    "name": "Trần Hải Anh",
+    "gender": "Nữ",
+    "dob": "2009-02-27",
+    "school": "THPT Hoá Châu",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 315,
+    "sbd": "46030037",
+    "name": "Lương Viết Hoàng",
+    "gender": "Nam",
+    "dob": "2009-10-27",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 316,
+    "sbd": "46030065",
+    "name": "Nguyễn Sỹ Du Kiệt",
+    "gender": "Nam",
+    "dob": "2009-12-07",
+    "school": "THPT Hương Thủy",
+    "grade": "12/01",
+    "subject": "Hoá học",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 317,
+    "sbd": "46030092",
+    "name": "Hoàng Thị Quỳnh Như",
+    "gender": "Nữ",
+    "dob": "2009-04-26",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 318,
+    "sbd": "46030144",
+    "name": "Lê Thị Yến Trinh",
+    "gender": "Nữ",
+    "dob": "2009-04-28",
+    "school": "THPT An Lương Đông",
+    "grade": "12A2",
+    "subject": "Hoá học",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 319,
+    "sbd": "46030060",
+    "name": "Phan Ngọc Khánh",
+    "gender": "Nữ",
+    "dob": "2009-03-08",
+    "school": "THPT Phú Bài",
+    "grade": "12B2",
+    "subject": "Hoá học",
+    "score": 12.6,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 320,
+    "sbd": "46030026",
+    "name": "Lê Văn Chỉnh",
+    "gender": "Nam",
+    "dob": "2009-01-06",
+    "school": "THPT Hoá Châu",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 321,
+    "sbd": "46030002",
+    "name": "Trịnh Phan Bình An",
+    "gender": "Nữ",
+    "dob": "2009-05-19",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 322,
+    "sbd": "46030033",
+    "name": "Huỳnh Thị Quỳnh Giao",
+    "gender": "Nữ",
+    "dob": "2010-08-05",
+    "school": "THPT An Lương Đông",
+    "grade": "11A1",
+    "subject": "Hoá học",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 323,
+    "sbd": "46030070",
+    "name": "Phạm Trần Sĩ Luân",
+    "gender": "Nam",
+    "dob": "2009-09-06",
+    "school": "THPT An Lương Đông",
+    "grade": "12A2",
+    "subject": "Hoá học",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 324,
+    "sbd": "46030071",
+    "name": "Ngô Hồng Lượng",
+    "gender": "Nam",
+    "dob": "2009-07-24",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 325,
+    "sbd": "46030032",
+    "name": "Trương Tấn Dũng",
+    "gender": "Nam",
+    "dob": "2009-06-07",
+    "school": "THPT Tam Giang",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 12.1,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 326,
+    "sbd": "46030039",
+    "name": "Nguyễn Hữu Bảo Huy",
+    "gender": "Nam",
+    "dob": "2009-12-11",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 327,
+    "sbd": "46030048",
+    "name": "Nguyễn Gia Hưng",
+    "gender": "Nam",
+    "dob": "2009-06-11",
+    "school": "THPT Phú Lộc",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 328,
+    "sbd": "46030068",
+    "name": "Trần Hoàng Long",
+    "gender": "Nam",
+    "dob": "2009-01-28",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 329,
+    "sbd": "46030156",
+    "name": "Trần Võ Thanh Tú",
+    "gender": "Nam",
+    "dob": "2009-12-22",
+    "school": "THPT Hoá Châu",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 330,
+    "sbd": "46030011",
+    "name": "Trần Thúy Anh",
+    "gender": "Nữ",
+    "dob": "2009-11-22",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 331,
+    "sbd": "46030020",
+    "name": "Nguyễn Lê Diễm Chi",
+    "gender": "Nữ",
+    "dob": "2009-11-01",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A2",
+    "subject": "Hoá học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 332,
+    "sbd": "46030027",
+    "name": "Lê Kim Biên Cương",
+    "gender": "Nam",
+    "dob": "2009-06-21",
+    "school": "THPT Gia Hội",
+    "grade": "12/06",
+    "subject": "Hoá học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 333,
+    "sbd": "46030036",
+    "name": "Cao Huy Hoàng",
+    "gender": "Nam",
+    "dob": "2009-02-28",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 334,
+    "sbd": "46030059",
+    "name": "Hoàng Minh Khánh",
+    "gender": "Nam",
+    "dob": "2009-08-30",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12A2",
+    "subject": "Hoá học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 335,
+    "sbd": "46030111",
+    "name": "Trần Phúc",
+    "gender": "Nam",
+    "dob": "2010-05-17",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "11A1",
+    "subject": "Hoá học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 336,
+    "sbd": "46030121",
+    "name": "Nguyễn Minh Quân",
+    "gender": "Nam",
+    "dob": "2009-04-29",
+    "school": "THPT An Lương Đông",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 337,
+    "sbd": "46030129",
+    "name": "Nguyễn Việt Thông",
+    "gender": "Nam",
+    "dob": "2009-06-17",
+    "school": "THPT Tố Hữu",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 338,
+    "sbd": "46030136",
+    "name": "Trần Quốc Thắng",
+    "gender": "Nam",
+    "dob": "2010-11-25",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A3",
+    "subject": "Hoá học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 339,
+    "sbd": "46030142",
+    "name": "Nguyễn Viết Tiến",
+    "gender": "Nam",
+    "dob": "2009-07-28",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 340,
+    "sbd": "46030028",
+    "name": "Nguyễn Tất Danh",
+    "gender": "Nam",
+    "dob": "2009-08-21",
+    "school": "THPT Hương Thủy",
+    "grade": "12/04",
+    "subject": "Hoá học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 341,
+    "sbd": "46030082",
+    "name": "Hồ Đức Khôi Nguyên",
+    "gender": "Nam",
+    "dob": "2009-12-15",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A1",
+    "subject": "Hoá học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 342,
+    "sbd": "46030172",
+    "name": "Nguyễn Đình Ngọc Định",
+    "gender": "Nam",
+    "dob": "2010-09-27",
+    "school": "THPT Phong Điền",
+    "grade": "11/01",
+    "subject": "Hoá học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 343,
+    "sbd": "46030102",
+    "name": "Nguyễn Trương Đăng Phong",
+    "gender": "Nam",
+    "dob": "2010-10-15",
+    "school": "THPT Bình Điền",
+    "grade": "11/1",
+    "subject": "Hoá học",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 344,
+    "sbd": "46030024",
+    "name": "Lê Văn Chính",
+    "gender": "Nam",
+    "dob": "2009-10-29",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 345,
+    "sbd": "46030044",
+    "name": "Nguyễn Phạm Khánh Huyền",
+    "gender": "Nữ",
+    "dob": "2009-11-08",
+    "school": "THPT Gia Hội",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 346,
+    "sbd": "46030069",
+    "name": "Đặng Nguyễn Bảo Long",
+    "gender": "Nam",
+    "dob": "2010-04-06",
+    "school": "THPT Hà Trung",
+    "grade": "11/01",
+    "subject": "Hoá học",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 347,
+    "sbd": "46030096",
+    "name": "Nguyễn Đăng Nhật",
+    "gender": "Nam",
+    "dob": "2009-03-13",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12A2",
+    "subject": "Hoá học",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 348,
+    "sbd": "46030122",
+    "name": "Trần Hữu Nhật Quân",
+    "gender": "Nam",
+    "dob": "2009-06-22",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Hoá học",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 349,
+    "sbd": "46030157",
+    "name": "Nguyễn Công Tường",
+    "gender": "Nam",
+    "dob": "2009-11-05",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B2",
+    "subject": "Hoá học",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 350,
+    "sbd": "46030008",
+    "name": "Nguyễn Thị Phương Anh",
+    "gender": "Nữ",
+    "dob": "2009-11-26",
+    "school": "THPT Hương Thủy",
+    "grade": "12/01",
+    "subject": "Hoá học",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 351,
+    "sbd": "46030052",
+    "name": "Hồ Đăng Hải",
+    "gender": "Nam",
+    "dob": "2010-08-09",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/2",
+    "subject": "Hoá học",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 352,
+    "sbd": "46030055",
+    "name": "Hồ Thị Diễm Hằng",
+    "gender": "Nữ",
+    "dob": "2009-01-05",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Hoá học",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 353,
+    "sbd": "46030067",
+    "name": "Nguyễn Thị Bích Loan",
+    "gender": "Nữ",
+    "dob": "2009-12-17",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Hoá học",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 354,
+    "sbd": "46030117",
+    "name": "Võ Cao Quyền",
+    "gender": "Nam",
+    "dob": "2010-10-20",
+    "school": "THPT Phú Bài",
+    "grade": "11B3",
+    "subject": "Hoá học",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 355,
+    "sbd": "46030118",
+    "name": "Hồ Tấn Nam Quân",
+    "gender": "Nam",
+    "dob": "2010-07-08",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/1",
+    "subject": "Hoá học",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 356,
+    "sbd": "46030038",
+    "name": "Cao Hoàng Huy",
+    "gender": "Nam",
+    "dob": "2009-08-21",
+    "school": "THPT Hương Trà",
+    "grade": "12B4",
+    "subject": "Hoá học",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 357,
+    "sbd": "46030139",
+    "name": "Huỳnh Thị Thuỷ Tiên",
+    "gender": "Nữ",
+    "dob": "2010-06-06",
+    "school": "THPT An Lương Đông",
+    "grade": "11A1",
+    "subject": "Hoá học",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 358,
+    "sbd": "46030145",
+    "name": "Hồ Nhật Trung",
+    "gender": "Nam",
+    "dob": "2009-04-03",
+    "school": "THPT Phú Bài",
+    "grade": "12B8",
+    "subject": "Hoá học",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 359,
+    "sbd": "46040018",
+    "name": "Lê Hoàng Khánh Băng",
+    "gender": "Nữ",
+    "dob": "2009-09-24",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Sinh học",
+    "score": 18.0,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 360,
+    "sbd": "46040090",
+    "name": "Lê Thị Hồng Nhung",
+    "gender": "Nữ",
+    "dob": "2009-12-08",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12B4",
+    "subject": "Sinh học",
+    "score": 17.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 361,
+    "sbd": "46040139",
+    "name": "Nguyễn Minh Trí",
+    "gender": "Nam",
+    "dob": "2009-10-09",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A1",
+    "subject": "Sinh học",
+    "score": 17.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 362,
+    "sbd": "46040148",
+    "name": "Lê Trần Hữu Việt",
+    "gender": "Nam",
+    "dob": "2009-02-27",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A9",
+    "subject": "Sinh học",
+    "score": 17.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 363,
+    "sbd": "46040016",
+    "name": "Nguyễn Thị Thanh Bình",
+    "gender": "Nữ",
+    "dob": "2009-10-24",
+    "school": "THPT Cao Thắng",
+    "grade": "12/5",
+    "subject": "Sinh học",
+    "score": 16.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 364,
+    "sbd": "46040028",
+    "name": "Hoàng Minh Hiển",
+    "gender": "Nam",
+    "dob": "2009-11-11",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A1",
+    "subject": "Sinh học",
+    "score": 16.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 365,
+    "sbd": "46040046",
+    "name": "Hồ Đăng Anh Khoa",
+    "gender": "Nam",
+    "dob": "2010-04-25",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A2",
+    "subject": "Sinh học",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 366,
+    "sbd": "46040091",
+    "name": "Hoàng Thanh Nhàn",
+    "gender": "Nữ",
+    "dob": "2009-04-10",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/11",
+    "subject": "Sinh học",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 367,
+    "sbd": "46040048",
+    "name": "Ngô Xuân Bảo Khoa",
+    "gender": "Nam",
+    "dob": "2009-09-05",
+    "school": "THPT Phú Bài",
+    "grade": "12B2",
+    "subject": "Sinh học",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 368,
+    "sbd": "46040073",
+    "name": "Phan Bảo Nam",
+    "gender": "Nam",
+    "dob": "2009-06-23",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A4",
+    "subject": "Sinh học",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 369,
+    "sbd": "46040113",
+    "name": "Hoàng Kim Quân",
+    "gender": "Nam",
+    "dob": "2009-10-14",
+    "school": "THPT Hương Trà",
+    "grade": "12B3",
+    "subject": "Sinh học",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 370,
+    "sbd": "46040135",
+    "name": "Hồ Thị Nhã Trân",
+    "gender": "Nữ",
+    "dob": "2009-04-13",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 371,
+    "sbd": "46040031",
+    "name": "Trần Đăng Thiên Hoàng",
+    "gender": "Nam",
+    "dob": "2009-11-02",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Sinh học",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 372,
+    "sbd": "46040063",
+    "name": "Trần Tăng Hiền Lương",
+    "gender": "Nữ",
+    "dob": "2009-10-02",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 373,
+    "sbd": "46040075",
+    "name": "Lê Trung Nghĩa",
+    "gender": "Nam",
+    "dob": "2009-12-14",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 374,
+    "sbd": "46040096",
+    "name": "Trần Thị Minh Nhã",
+    "gender": "Nữ",
+    "dob": "2009-02-12",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/9",
+    "subject": "Sinh học",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 375,
+    "sbd": "46040120",
+    "name": "Vũ Lê Anh Thi",
+    "gender": "Nữ",
+    "dob": "2009-12-19",
+    "school": "THPT Phú Lộc",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 376,
+    "sbd": "46040125",
+    "name": "Phan Phương Thảo",
+    "gender": "Nữ",
+    "dob": "2009-09-27",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Sinh học",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 377,
+    "sbd": "46040146",
+    "name": "Châu Lê Bảo Uyên",
+    "gender": "Nữ",
+    "dob": "2010-03-10",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/1",
+    "subject": "Sinh học",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 378,
+    "sbd": "46040043",
+    "name": "Nguyễn Trần Quốc Học",
+    "gender": "Nam",
+    "dob": "2010-11-22",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A1",
+    "subject": "Sinh học",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 379,
+    "sbd": "46040128",
+    "name": "Trần Văn Tiến",
+    "gender": "Nam",
+    "dob": "2009-01-18",
+    "school": "THPT Vinh Lộc",
+    "grade": "11A1",
+    "subject": "Sinh học",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 380,
+    "sbd": "46040152",
+    "name": "Đặng Bá Vũ",
+    "gender": "Nam",
+    "dob": "2009-01-02",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 381,
+    "sbd": "46040003",
+    "name": "Hoàng Võ Trung Anh",
+    "gender": "Nam",
+    "dob": "2009-04-27",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A3",
+    "subject": "Sinh học",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 382,
+    "sbd": "46040079",
+    "name": "Văn Nguyên",
+    "gender": "Nam",
+    "dob": "2009-01-23",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 383,
+    "sbd": "46040124",
+    "name": "Đỗ Ngọc Anh Thư",
+    "gender": "Nữ",
+    "dob": "2010-07-25",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B1",
+    "subject": "Sinh học",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 384,
+    "sbd": "46040130",
+    "name": "Lê Khánh Trinh",
+    "gender": "Nữ",
+    "dob": "2009-11-16",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/2",
+    "subject": "Sinh học",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 385,
+    "sbd": "46040011",
+    "name": "Trần Ngọc Phương Anh",
+    "gender": "Nữ",
+    "dob": "2009-06-15",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A8",
+    "subject": "Sinh học",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 386,
+    "sbd": "46040065",
+    "name": "Phan Quỳnh Mai",
+    "gender": "Nữ",
+    "dob": "2009-11-04",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 387,
+    "sbd": "46040094",
+    "name": "Hoàng Nguyễn Thanh Nhã",
+    "gender": "Nữ",
+    "dob": "2009-09-15",
+    "school": "THPT An Lương Đông",
+    "grade": "12A3",
+    "subject": "Sinh học",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 388,
+    "sbd": "46040033",
+    "name": "Nguyễn Phan Nhật Huy",
+    "gender": "Nam",
+    "dob": "2010-01-26",
+    "school": "THPT Tam Giang",
+    "grade": "11A1",
+    "subject": "Sinh học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 389,
+    "sbd": "46040077",
+    "name": "Nguyễn Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-10-29",
+    "school": "THPT An Lương Đông",
+    "grade": "12A3",
+    "subject": "Sinh học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 390,
+    "sbd": "46040084",
+    "name": "Nguyễn Hồng Nhi",
+    "gender": "Nữ",
+    "dob": "2009-05-21",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A1",
+    "subject": "Sinh học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 391,
+    "sbd": "46040140",
+    "name": "Đinh Hoàng Bảo Trí",
+    "gender": "Nam",
+    "dob": "2009-09-19",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A1",
+    "subject": "Sinh học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 392,
+    "sbd": "46040141",
+    "name": "Đặng Như Thanh Trúc",
+    "gender": "Nữ",
+    "dob": "2009-02-07",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Sinh học",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 393,
+    "sbd": "46040054",
+    "name": "Lê Gia Linh",
+    "gender": "Nữ",
+    "dob": "2009-04-14",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 394,
+    "sbd": "46040145",
+    "name": "Trương Đăng Anh Tú",
+    "gender": "Nam",
+    "dob": "2009-04-25",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 395,
+    "sbd": "46040032",
+    "name": "Võ Văn Quốc Hoàng",
+    "gender": "Nam",
+    "dob": "2009-11-12",
+    "school": "THPT Phú Bài",
+    "grade": "12B2",
+    "subject": "Sinh học",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 396,
+    "sbd": "46040047",
+    "name": "Lê Hồ Anh Khoa",
+    "gender": "Nam",
+    "dob": "2010-03-05",
+    "school": "THPT Tam Giang",
+    "grade": "11A1",
+    "subject": "Sinh học",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 397,
+    "sbd": "46040076",
+    "name": "Nguyễn Ngọc Bảo Nguyên",
+    "gender": "Nam",
+    "dob": "2009-08-19",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/3",
+    "subject": "Sinh học",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 398,
+    "sbd": "46040156",
+    "name": "Võ Ngọc Khánh Đan",
+    "gender": "Nữ",
+    "dob": "2010-01-08",
+    "school": "THPT Tam Giang",
+    "grade": "11A1",
+    "subject": "Sinh học",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 399,
+    "sbd": "46040008",
+    "name": "Nguyễn Tuấn Anh",
+    "gender": "Nam",
+    "dob": "2009-07-11",
+    "school": "THPT Cao Thắng",
+    "grade": "12/5",
+    "subject": "Sinh học",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 400,
+    "sbd": "46040025",
+    "name": "Lê Văn Giáp",
+    "gender": "Nam",
+    "dob": "2009-11-16",
+    "school": "THPT An Lương Đông",
+    "grade": "12A4",
+    "subject": "Sinh học",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 401,
+    "sbd": "46040095",
+    "name": "Hoàng Thanh Nhã",
+    "gender": "Nữ",
+    "dob": "2009-04-10",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/11",
+    "subject": "Sinh học",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 402,
+    "sbd": "46040029",
+    "name": "Huỳnh Ngọc Hoàng",
+    "gender": "Nam",
+    "dob": "2009-05-13",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/3",
+    "subject": "Sinh học",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 403,
+    "sbd": "46040050",
+    "name": "Nguyễn Thị Vân Khánh",
+    "gender": "Nữ",
+    "dob": "2009-01-01",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 404,
+    "sbd": "46040072",
+    "name": "Lê Nguyễn Thành Nam",
+    "gender": "Nam",
+    "dob": "2010-08-10",
+    "school": "THPT Tam Giang",
+    "grade": "11A1",
+    "subject": "Sinh học",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 405,
+    "sbd": "46040085",
+    "name": "Nguyễn Thị Phương Nhi",
+    "gender": "Nữ",
+    "dob": "2009-02-15",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A4",
+    "subject": "Sinh học",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 406,
+    "sbd": "46040014",
+    "name": "Đoàn Thị Quỳnh Anh",
+    "gender": "Nữ",
+    "dob": "2009-08-06",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 407,
+    "sbd": "46040017",
+    "name": "Cao Khánh Băng",
+    "gender": "Nữ",
+    "dob": "2009-06-22",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12B4",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 408,
+    "sbd": "46040021",
+    "name": "Trần Lê Minh Châu",
+    "gender": "Nữ",
+    "dob": "2009-08-22",
+    "school": "THPT Hương Thủy",
+    "grade": "12/04",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 409,
+    "sbd": "46040042",
+    "name": "Lê Thị Thanh Hải",
+    "gender": "Nữ",
+    "dob": "2009-06-22",
+    "school": "THPT Phú Bài",
+    "grade": "12B2",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 410,
+    "sbd": "46040056",
+    "name": "Nguyễn Thị Kim Linh",
+    "gender": "Nữ",
+    "dob": "2009-11-03",
+    "school": "THPT Phú Lộc",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 411,
+    "sbd": "46040074",
+    "name": "Nguyễn Bùi Tuệ Nghi",
+    "gender": "Nữ",
+    "dob": "2009-03-01",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 412,
+    "sbd": "46040089",
+    "name": "Đặng Thị Ái Nhi",
+    "gender": "Nữ",
+    "dob": "2009-08-28",
+    "school": "THPT Hà Trung",
+    "grade": "12B5",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 413,
+    "sbd": "46040106",
+    "name": "Hà Ngọc Minh Phương",
+    "gender": "Nữ",
+    "dob": "2009-03-04",
+    "school": "THPT An Lương Đông",
+    "grade": "12A4",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 414,
+    "sbd": "46040108",
+    "name": "Lê Thị Hoài Phương",
+    "gender": "Nữ",
+    "dob": "2009-06-01",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 415,
+    "sbd": "46040122",
+    "name": "Nguyễn Đặng Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-05-30",
+    "school": "THPT Hương Trà",
+    "grade": "12B2",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 416,
+    "sbd": "46040155",
+    "name": "Nguyễn Ngọc Như Ý",
+    "gender": "Nữ",
+    "dob": "2009-11-20",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A1",
+    "subject": "Sinh học",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 417,
+    "sbd": "46040055",
+    "name": "Nguyễn Thị Diệu Linh",
+    "gender": "Nữ",
+    "dob": "2009-06-01",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 418,
+    "sbd": "46040070",
+    "name": "Đoàn Thị Trà My",
+    "gender": "Nữ",
+    "dob": "2009-02-10",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A1",
+    "subject": "Sinh học",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 419,
+    "sbd": "46040138",
+    "name": "Lê Đình Minh Trí",
+    "gender": "Nam",
+    "dob": "2009-02-02",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/11",
+    "subject": "Sinh học",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 420,
+    "sbd": "46040153",
+    "name": "Bùi Thị Xuân",
+    "gender": "Nữ",
+    "dob": "2009-09-25",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 421,
+    "sbd": "46040053",
+    "name": "Hoàng Thị Khánh Linh",
+    "gender": "Nữ",
+    "dob": "2009-01-15",
+    "school": "THPT Phú Bài",
+    "grade": "12B2",
+    "subject": "Sinh học",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 422,
+    "sbd": "46040078",
+    "name": "NguyễnPhúc Nguyên",
+    "gender": "Nam",
+    "dob": "2009-03-17",
+    "school": "THPT Cao Thắng",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 423,
+    "sbd": "46040093",
+    "name": "Văn Viết Nhân",
+    "gender": "Nam",
+    "dob": "2009-09-22",
+    "school": "THPT Phú Lộc",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 424,
+    "sbd": "46040158",
+    "name": "Trần Kiêm Đạt",
+    "gender": "Nam",
+    "dob": "2009-06-20",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 425,
+    "sbd": "46040010",
+    "name": "Trần Hoàng Phương Anh",
+    "gender": "Nữ",
+    "dob": "2009-02-05",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 426,
+    "sbd": "46040034",
+    "name": "Trần Nhật Huy",
+    "gender": "Nam",
+    "dob": "2009-03-31",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A8",
+    "subject": "Sinh học",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 427,
+    "sbd": "46040045",
+    "name": "Huỳnh Nhật Khang",
+    "gender": "Nam",
+    "dob": "2009-08-13",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/11",
+    "subject": "Sinh học",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 428,
+    "sbd": "46040064",
+    "name": "Phan Thị Mỹ Lụa",
+    "gender": "Nữ",
+    "dob": "2010-06-16",
+    "school": "THPT Thừa Lưu",
+    "grade": "11A1",
+    "subject": "Sinh học",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 429,
+    "sbd": "46040092",
+    "name": "Nguyễn Hồ Bảo Nhân",
+    "gender": "Nam",
+    "dob": "2009-09-05",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Sinh học",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 430,
+    "sbd": "46040127",
+    "name": "Trần Nguyễn Thủy Tiên",
+    "gender": "Nữ",
+    "dob": "2009-05-14",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 431,
+    "sbd": "46040154",
+    "name": "Hồ Nguyễn Như Ý",
+    "gender": "Nữ",
+    "dob": "2009-05-04",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A14",
+    "subject": "Sinh học",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 432,
+    "sbd": "46040006",
+    "name": "Lê Thị Diệu Anh",
+    "gender": "Nữ",
+    "dob": "2009-10-24",
+    "school": "THPT Hương Thủy",
+    "grade": "12/04",
+    "subject": "Sinh học",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 433,
+    "sbd": "46040012",
+    "name": "Trần Thiện Ngân Anh",
+    "gender": "Nữ",
+    "dob": "2009-11-28",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 434,
+    "sbd": "46040071",
+    "name": "Nguyễn Viết Mẫn",
+    "gender": "Nam",
+    "dob": "2009-04-06",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 435,
+    "sbd": "46040117",
+    "name": "Đỗ Văn Quốc",
+    "gender": "Nam",
+    "dob": "2010-04-24",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B2",
+    "subject": "Sinh học",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 436,
+    "sbd": "46040119",
+    "name": "Dương Huỳnh Khánh  Rin",
+    "gender": "Nam",
+    "dob": "2009-06-18",
+    "school": "THPT Tố Hữu",
+    "grade": "12B2",
+    "subject": "Sinh học",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 437,
+    "sbd": "46040013",
+    "name": "Trần Thị Hồng Anh",
+    "gender": "Nữ",
+    "dob": "2009-01-14",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Sinh học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 438,
+    "sbd": "46040023",
+    "name": "Nguyễn Thị Phương Dung",
+    "gender": "Nữ",
+    "dob": "2009-02-17",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 439,
+    "sbd": "46040027",
+    "name": "Mai Thị Diệu Hiền",
+    "gender": "Nữ",
+    "dob": "2010-02-26",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A1",
+    "subject": "Sinh học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 440,
+    "sbd": "46040058",
+    "name": "Phan Nhật Long",
+    "gender": "Nam",
+    "dob": "2009-02-07",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A3",
+    "subject": "Sinh học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 441,
+    "sbd": "46040099",
+    "name": "Ngô Vòong Long Nhật",
+    "gender": "Nam",
+    "dob": "2009-01-04",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 442,
+    "sbd": "46040149",
+    "name": "Lê Thị Thảo Vy",
+    "gender": "Nữ",
+    "dob": "2010-08-09",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B2",
+    "subject": "Sinh học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 443,
+    "sbd": "46040022",
+    "name": "Nguyễn Sun Din",
+    "gender": "Nữ",
+    "dob": "2009-11-01",
+    "school": "THPT Phú Bài",
+    "grade": "12B2",
+    "subject": "Sinh học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 444,
+    "sbd": "46040038",
+    "name": "Trương Ngọc Hùng",
+    "gender": "Nam",
+    "dob": "2010-07-20",
+    "school": "THPT Phú Bài",
+    "grade": "11B2",
+    "subject": "Sinh học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 445,
+    "sbd": "46040041",
+    "name": "Dương Thị Mỹ Hạnh",
+    "gender": "Nữ",
+    "dob": "2009-01-20",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/3",
+    "subject": "Sinh học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 446,
+    "sbd": "46040083",
+    "name": "Đoàn Phương Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-02-03",
+    "school": "THPT An Lương Đông",
+    "grade": "12A2",
+    "subject": "Sinh học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 447,
+    "sbd": "46040086",
+    "name": "Nguyễn Thị Tuyết Nhi",
+    "gender": "Nữ",
+    "dob": "2009-01-17",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Sinh học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 448,
+    "sbd": "46040101",
+    "name": "Huỳnh Thị Thảo Ny",
+    "gender": "Nữ",
+    "dob": "2009-05-06",
+    "school": "THPT Hương Thủy",
+    "grade": "12/03",
+    "subject": "Sinh học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 449,
+    "sbd": "46040103",
+    "name": "Trần Nguyễn Mỹ Ny",
+    "gender": "Nữ",
+    "dob": "2009-06-04",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Sinh học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 450,
+    "sbd": "46040143",
+    "name": "Nguyễn Phúc Tân",
+    "gender": "Nam",
+    "dob": "2009-10-23",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/3",
+    "subject": "Sinh học",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 451,
+    "sbd": "46040068",
+    "name": "Phan Nguyệt Minh",
+    "gender": "Nữ",
+    "dob": "2009-11-15",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/9",
+    "subject": "Sinh học",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 452,
+    "sbd": "46040134",
+    "name": "Trần Bảo Trâm",
+    "gender": "Nữ",
+    "dob": "2009-11-27",
+    "school": "THPT Hương Vinh",
+    "grade": "12/02",
+    "subject": "Sinh học",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 453,
+    "sbd": "46040024",
+    "name": "Lê Văn Dương",
+    "gender": "Nam",
+    "dob": "2009-03-14",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A8",
+    "subject": "Sinh học",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 454,
+    "sbd": "46040062",
+    "name": "Dương Văn Lâm",
+    "gender": "Nam",
+    "dob": "2009-09-09",
+    "school": "THPT Tố Hữu",
+    "grade": "12B2",
+    "subject": "Sinh học",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 455,
+    "sbd": "46040109",
+    "name": "Nguyễn Phương",
+    "gender": "Nam",
+    "dob": "2009-09-28",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A4",
+    "subject": "Sinh học",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 456,
+    "sbd": "46050142",
+    "name": "Nguyễn Ngọc Thiện",
+    "gender": "Nam",
+    "dob": "2009-06-16",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A7",
+    "subject": "Tiếng Anh",
+    "score": 18.3,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 457,
+    "sbd": "46050138",
+    "name": "Tôn Thất Nguyên Sơn",
+    "gender": "Nam",
+    "dob": "2010-06-01",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A12",
+    "subject": "Tiếng Anh",
+    "score": 18.2,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 458,
+    "sbd": "46050052",
+    "name": "Đỗ Việt Khôi",
+    "gender": "Nam",
+    "dob": "2009-08-13",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/14",
+    "subject": "Tiếng Anh",
+    "score": 17.85,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 459,
+    "sbd": "46050117",
+    "name": "Trần Anh Nhật",
+    "gender": "Nam",
+    "dob": "2010-07-08",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A8",
+    "subject": "Tiếng Anh",
+    "score": 17.8,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 460,
+    "sbd": "46050079",
+    "name": "Nguyễn Thị Ngọc Minh",
+    "gender": "Nữ",
+    "dob": "2009-03-11",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Tiếng Anh",
+    "score": 17.75,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 461,
+    "sbd": "46050189",
+    "name": "Thái Văn Xuân",
+    "gender": "Nam",
+    "dob": "2009-08-28",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12D10",
+    "subject": "Tiếng Anh",
+    "score": 17.7,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 462,
+    "sbd": "46050048",
+    "name": "Lê Nguyễn Đăng Khoa",
+    "gender": "Nam",
+    "dob": "2009-03-03",
+    "school": "THPT An Lương Đông",
+    "grade": "12A1",
+    "subject": "Tiếng Anh",
+    "score": 17.55,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 463,
+    "sbd": "46050122",
+    "name": "Phạm Hà Phương",
+    "gender": "Nữ",
+    "dob": "2009-07-22",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A12",
+    "subject": "Tiếng Anh",
+    "score": 17.3,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 464,
+    "sbd": "46050003",
+    "name": "Nguyễn Đăng Thiện Anh",
+    "gender": "Nam",
+    "dob": "2010-07-19",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A3",
+    "subject": "Tiếng Anh",
+    "score": 17.15,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 465,
+    "sbd": "46050100",
+    "name": "Lê Hoàng Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-02-08",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A4",
+    "subject": "Tiếng Anh",
+    "score": 17.15,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 466,
+    "sbd": "46050177",
+    "name": "Hồ Đắc Thanh Tâm",
+    "gender": "Nam",
+    "dob": "2009-02-20",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A6",
+    "subject": "Tiếng Anh",
+    "score": 17.15,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 467,
+    "sbd": "46050167",
+    "name": "Thân Huỳnh Bội Trân",
+    "gender": "Nữ",
+    "dob": "2009-09-16",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12D8",
+    "subject": "Tiếng Anh",
+    "score": 17.05,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 468,
+    "sbd": "46050101",
+    "name": "Phan Thảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-07-19",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/12",
+    "subject": "Tiếng Anh",
+    "score": 17.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 469,
+    "sbd": "46050081",
+    "name": "Phan Nguyên Hoàng Minh",
+    "gender": "Nam",
+    "dob": "2010-04-20",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "11/10",
+    "subject": "Tiếng Anh",
+    "score": 16.95,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 470,
+    "sbd": "46050022",
+    "name": "Nguyễn Lê Hương Giang",
+    "gender": "Nữ",
+    "dob": "2009-01-03",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Tiếng Anh",
+    "score": 16.9,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 471,
+    "sbd": "46050027",
+    "name": "Nguyễn Đình Gia Huy",
+    "gender": "Nam",
+    "dob": "2009-09-07",
+    "school": "THPT An Lương Đông",
+    "grade": "12A1",
+    "subject": "Tiếng Anh",
+    "score": 16.8,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 472,
+    "sbd": "46050040",
+    "name": "Trần Nguyên Hương",
+    "gender": "Nữ",
+    "dob": "2009-06-25",
+    "school": "THPT Hương Thủy",
+    "grade": "12/3",
+    "subject": "Tiếng Anh",
+    "score": 16.8,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 473,
+    "sbd": "46050088",
+    "name": "Hoàng Văn Bảo Nam",
+    "gender": "Nam",
+    "dob": "2009-01-09",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A1",
+    "subject": "Tiếng Anh",
+    "score": 16.8,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 474,
+    "sbd": "46050004",
+    "name": "Phạm Thị Lan Anh",
+    "gender": "Nữ",
+    "dob": "2009-04-10",
+    "school": "THPT Phú Bài",
+    "grade": "12B1",
+    "subject": "Tiếng Anh",
+    "score": 16.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 475,
+    "sbd": "46050087",
+    "name": "Hoàng Thị A Na",
+    "gender": "Nữ",
+    "dob": "2009-12-14",
+    "school": "THPT Hoá Châu",
+    "grade": "12B1",
+    "subject": "Tiếng Anh",
+    "score": 16.7,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 476,
+    "sbd": "46050006",
+    "name": "Văn Nguyễn Duy Anh",
+    "gender": "Nam",
+    "dob": "2009-07-03",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A6",
+    "subject": "Tiếng Anh",
+    "score": 16.6,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 477,
+    "sbd": "46050055",
+    "name": "Ngô Tuấn Kiệt",
+    "gender": "Nam",
+    "dob": "2009-05-19",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Tiếng Anh",
+    "score": 16.6,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 478,
+    "sbd": "46050069",
+    "name": "Nguyễn Thùy Lâm",
+    "gender": "Nữ",
+    "dob": "2009-05-18",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Tiếng Anh",
+    "score": 16.6,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 479,
+    "sbd": "46050130",
+    "name": "Trần Minh Quân",
+    "gender": "Nữ",
+    "dob": "2009-10-16",
+    "school": "THPT An Lương Đông",
+    "grade": "12A1",
+    "subject": "Tiếng Anh",
+    "score": 16.45,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 480,
+    "sbd": "46050089",
+    "name": "Nguyễn Hàm Hải Nam",
+    "gender": "Nam",
+    "dob": "2009-07-13",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A2",
+    "subject": "Tiếng Anh",
+    "score": 16.35,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 481,
+    "sbd": "46050180",
+    "name": "Nguyễn Thanh Tùng",
+    "gender": "Nam",
+    "dob": "2010-02-26",
+    "school": "THPT Nam Đông",
+    "grade": "11/3",
+    "subject": "Tiếng Anh",
+    "score": 16.35,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 482,
+    "sbd": "46050155",
+    "name": "Nguyễn Quang Thắng",
+    "gender": "Nam",
+    "dob": "2010-09-01",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A12",
+    "subject": "Tiếng Anh",
+    "score": 16.3,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 483,
+    "sbd": "46050034",
+    "name": "Dương Ngọc Hân",
+    "gender": "Nữ",
+    "dob": "2009-05-10",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Tiếng Anh",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 484,
+    "sbd": "46050059",
+    "name": "Lê Thị Ý Lan",
+    "gender": "Nữ",
+    "dob": "2010-01-31",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/1",
+    "subject": "Tiếng Anh",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 485,
+    "sbd": "46050198",
+    "name": "Nguyễn Xuân Đức",
+    "gender": "Nam",
+    "dob": "2010-04-24",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B1",
+    "subject": "Tiếng Anh",
+    "score": 16.2,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 486,
+    "sbd": "46050072",
+    "name": "Nguyễn Ngọc Xuân Mai",
+    "gender": "Nữ",
+    "dob": "2009-02-09",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/5",
+    "subject": "Tiếng Anh",
+    "score": 16.1,
+    "prize": "Ba"
+  },
+  {
+    "tt": 487,
+    "sbd": "46050001",
+    "name": "Trần Đại An",
+    "gender": "Nam",
+    "dob": "2009-01-29",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/5",
+    "subject": "Tiếng Anh",
+    "score": 16.05,
+    "prize": "Ba"
+  },
+  {
+    "tt": 488,
+    "sbd": "46050023",
+    "name": "Tôn Nữ Hương Giang",
+    "gender": "Nữ",
+    "dob": "2009-11-08",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Tiếng Anh",
+    "score": 15.95,
+    "prize": "Ba"
+  },
+  {
+    "tt": 489,
+    "sbd": "46050067",
+    "name": "Đỗ Nguyễn Khánh Linh",
+    "gender": "Nữ",
+    "dob": "2009-05-28",
+    "school": "THPT Nam Đông",
+    "grade": "12/3",
+    "subject": "Tiếng Anh",
+    "score": 15.9,
+    "prize": "Ba"
+  },
+  {
+    "tt": 490,
+    "sbd": "46050084",
+    "name": "Nguyễn Hồ Diễm My",
+    "gender": "Nữ",
+    "dob": "2009-09-16",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A13",
+    "subject": "Tiếng Anh",
+    "score": 15.85,
+    "prize": "Ba"
+  },
+  {
+    "tt": 491,
+    "sbd": "46050185",
+    "name": "Trương Nguyễn Bảo Vy",
+    "gender": "Nữ",
+    "dob": "2009-01-20",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B8",
+    "subject": "Tiếng Anh",
+    "score": 15.8,
+    "prize": "Ba"
+  },
+  {
+    "tt": 492,
+    "sbd": "46050199",
+    "name": "Phan Hữu Minh Đức",
+    "gender": "Nam",
+    "dob": "2010-07-16",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A9",
+    "subject": "Tiếng Anh",
+    "score": 15.8,
+    "prize": "Ba"
+  },
+  {
+    "tt": 493,
+    "sbd": "46050128",
+    "name": "Hồ Anh Quân",
+    "gender": "Nam",
+    "dob": "2009-04-05",
+    "school": "THPT Tam Giang",
+    "grade": "12A4",
+    "subject": "Tiếng Anh",
+    "score": 15.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 494,
+    "sbd": "46050136",
+    "name": "Nguyễn Phước Thọ Sơn",
+    "gender": "Nam",
+    "dob": "2009-07-27",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/14",
+    "subject": "Tiếng Anh",
+    "score": 15.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 495,
+    "sbd": "46050150",
+    "name": "Trần Thị Minh Thư",
+    "gender": "Nữ",
+    "dob": "2009-07-25",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A14",
+    "subject": "Tiếng Anh",
+    "score": 15.75,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0148",
-    "name": "Hồ Thị Hùng",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 11
+    "tt": 496,
+    "sbd": "46050025",
+    "name": "Đỗ Duy Hoàng",
+    "gender": "Nam",
+    "dob": "2009-09-23",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
+    "subject": "Tiếng Anh",
+    "score": 15.7,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0149",
-    "name": "Hồ Đức Quý",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 10
+    "tt": 497,
+    "sbd": "46050169",
+    "name": "Trần Hải Ngọc Trân",
+    "gender": "Nữ",
+    "dob": "2009-10-02",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Tiếng Anh",
+    "score": 15.7,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0150",
-    "name": "Trần Quốc Khoa",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 10
+    "tt": 498,
+    "sbd": "46050133",
+    "name": "Trần Thị Ngọc Quỳnh",
+    "gender": "Nữ",
+    "dob": "2010-08-19",
+    "school": "THPT Vinh Lộc",
+    "grade": "11A1",
+    "subject": "Tiếng Anh",
+    "score": 15.65,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0151",
-    "name": "Hoàng Thị Phú",
-    "school": "THPT Hương Thủy",
-    "subject": "Tin học",
-    "grade": 10
+    "tt": 499,
+    "sbd": "46050149",
+    "name": "Trần Thị Thu Thúy",
+    "gender": "Nữ",
+    "dob": "2010-10-11",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A5",
+    "subject": "Tiếng Anh",
+    "score": 15.6,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0152",
-    "name": "Lê Anh Hải",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 11
+    "tt": 500,
+    "sbd": "46050115",
+    "name": "Lê Thị Tịnh Như",
+    "gender": "Nữ",
+    "dob": "2009-03-08",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/3",
+    "subject": "Tiếng Anh",
+    "score": 15.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0153",
-    "name": "Đỗ Thị Phú",
-    "school": "THPT Gia Hội",
-    "subject": "Vật lý",
-    "grade": 12
+    "tt": 501,
+    "sbd": "46050144",
+    "name": "Nguyễn Thị Ái Thu",
+    "gender": "Nữ",
+    "dob": "2009-09-04",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Tiếng Anh",
+    "score": 15.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0154",
-    "name": "Hoàng Văn Hải",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 10
+    "tt": 502,
+    "sbd": "46050182",
+    "name": "Nguyễn Lê Bảo Uyên",
+    "gender": "Nữ",
+    "dob": "2010-06-01",
+    "school": "THPT An Lương Đông",
+    "grade": "11A1",
+    "subject": "Tiếng Anh",
+    "score": 15.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0155",
-    "name": "Phạm Xuân Tâm",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Ngữ văn",
-    "grade": 12
+    "tt": 503,
+    "sbd": "46050051",
+    "name": "Nguyễn Gia Khánh",
+    "gender": "Nữ",
+    "dob": "2010-04-07",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "11/11",
+    "subject": "Tiếng Anh",
+    "score": 15.45,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0156",
-    "name": "Lê Minh Phương",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 10
+    "tt": 504,
+    "sbd": "46050160",
+    "name": "Nguyễn Gia Tuệ Tri",
+    "gender": "Nam",
+    "dob": "2009-03-29",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B7",
+    "subject": "Tiếng Anh",
+    "score": 15.3,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0157",
-    "name": "Nguyễn Minh Phương",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 12
+    "tt": 505,
+    "sbd": "46050132",
+    "name": "Lại Thị Diễm Quỳnh",
+    "gender": "Nữ",
+    "dob": "2010-04-15",
+    "school": "THPT Nam Đông",
+    "grade": "11/3",
+    "subject": "Tiếng Anh",
+    "score": 15.25,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0158",
-    "name": "Nguyễn Thị Khánh",
-    "school": "THPT Gia Hội",
-    "subject": "Vật lý",
-    "grade": 11
+    "tt": 506,
+    "sbd": "46050153",
+    "name": "Hoàng Lê Vy Thảo",
+    "gender": "Nữ",
+    "dob": "2009-04-27",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A1",
+    "subject": "Tiếng Anh",
+    "score": 15.25,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0159",
-    "name": "Hồ Minh Tâm",
-    "school": "THPT Nguyễn Huệ",
+    "tt": 507,
+    "sbd": "46050173",
+    "name": "Võ Lê Thế Trường",
+    "gender": "Nam",
+    "dob": "2009-05-25",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
     "subject": "Tiếng Anh",
-    "grade": 10
+    "score": 15.25,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0160",
-    "name": "Nguyễn Quốc Minh",
-    "school": "THPT Hương Thủy",
-    "subject": "Lịch sử",
-    "grade": 10
+    "tt": 508,
+    "sbd": "46050039",
+    "name": "Nguyễn Tuấn Hưng",
+    "gender": "Nam",
+    "dob": "2009-10-13",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Tiếng Anh",
+    "score": 15.2,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0161",
-    "name": "Lê Xuân Linh",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 12
+    "tt": 509,
+    "sbd": "46050127",
+    "name": "Phạm Tố Quyên",
+    "gender": "Nữ",
+    "dob": "2009-10-03",
+    "school": "THPT Nam Đông",
+    "grade": "12/4",
+    "subject": "Tiếng Anh",
+    "score": 15.2,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0162",
-    "name": "Nguyễn Văn Hùng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 11
+    "tt": 510,
+    "sbd": "46050181",
+    "name": "Nguyễn Ngọc Tứ",
+    "gender": "Nam",
+    "dob": "2010-07-29",
+    "school": "THPT Phú Lộc",
+    "grade": "11B1",
+    "subject": "Tiếng Anh",
+    "score": 15.2,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0163",
-    "name": "Nguyễn Quốc Hải",
-    "school": "THPT Quảng Điền",
-    "subject": "Hóa học",
-    "grade": 11
+    "tt": 511,
+    "sbd": "46050191",
+    "name": "Ngô Hoài Ân",
+    "gender": "Nữ",
+    "dob": "2009-12-06",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Tiếng Anh",
+    "score": 15.2,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0164",
-    "name": "Hồ Bảo Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Pháp",
-    "grade": 10
+    "tt": 512,
+    "sbd": "46050041",
+    "name": "Cao Hoàng Hải",
+    "gender": "Nam",
+    "dob": "2010-02-25",
+    "school": "THPT Nam Đông",
+    "grade": "11/3",
+    "subject": "Tiếng Anh",
+    "score": 15.15,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0165",
-    "name": "Vũ Thị Phú",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tin học",
-    "grade": 12
+    "tt": 513,
+    "sbd": "46050134",
+    "name": "Nguyễn Ngọc Sáng",
+    "gender": "Nam",
+    "dob": "2010-06-09",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "11/9",
+    "subject": "Tiếng Anh",
+    "score": 15.15,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0166",
-    "name": "Võ Thanh Phú",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 12
+    "tt": 514,
+    "sbd": "46050013",
+    "name": "Lê Đức Thiện Bằng",
+    "gender": "Nam",
+    "dob": "2010-04-12",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B1",
+    "subject": "Tiếng Anh",
+    "score": 15.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0167",
-    "name": "Võ Thị Trang",
-    "school": "THPT Phong Điền",
-    "subject": "Tin học",
-    "grade": 10
+    "tt": 515,
+    "sbd": "46050163",
+    "name": "Phan Ngọc Thảo Trâm",
+    "gender": "Nữ",
+    "dob": "2009-09-10",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Tiếng Anh",
+    "score": 15.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0168",
-    "name": "Trần Bảo Trang",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Pháp",
-    "grade": 12
+    "tt": 516,
+    "sbd": "46050197",
+    "name": "Nguyễn Tuấn Đạt",
+    "gender": "Nam",
+    "dob": "2010-10-30",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/2",
+    "subject": "Tiếng Anh",
+    "score": 15.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0169",
-    "name": "Võ Đình Trang",
-    "school": "THPT Nguyễn Huệ",
+    "tt": 517,
+    "sbd": "46050085",
+    "name": "Trần Nữ Quỳnh My",
+    "gender": "Nữ",
+    "dob": "2009-01-29",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
     "subject": "Tiếng Anh",
-    "grade": 10
+    "score": 14.95,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0170",
-    "name": "Nguyễn Đức Linh",
-    "school": "THPT Phong Điền",
-    "subject": "Sinh học",
-    "grade": 12
+    "tt": 518,
+    "sbd": "46050070",
+    "name": "Nguyễn Văn Tùng Lâm",
+    "gender": "Nam",
+    "dob": "2009-08-05",
+    "school": "THPT Tam Giang",
+    "grade": "12A1",
+    "subject": "Tiếng Anh",
+    "score": 14.9,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0171",
-    "name": "Lê Đức Hoàng",
-    "school": "THPT Cao Thắng",
-    "subject": "Lịch sử",
-    "grade": 11
+    "tt": 519,
+    "sbd": "46050018",
+    "name": "Phạm Mai Trúc Diễm",
+    "gender": "Nữ",
+    "dob": "2009-06-12",
+    "school": "THPT Nam Đông",
+    "grade": "12/4",
+    "subject": "Tiếng Anh",
+    "score": 14.85,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0172",
-    "name": "Võ Quốc Phú",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Pháp",
-    "grade": 11
+    "tt": 520,
+    "sbd": "46050060",
+    "name": "Nguyễn Thị Mỹ Linh",
+    "gender": "Nữ",
+    "dob": "2009-02-02",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Tiếng Anh",
+    "score": 14.85,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0173",
-    "name": "Vũ Quốc Quý",
-    "school": "THPT Hai Bà Trưng",
+    "tt": 521,
+    "sbd": "46050031",
+    "name": "Cao Thanh Hà",
+    "gender": "Nữ",
+    "dob": "2009-03-27",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
     "subject": "Tiếng Anh",
-    "grade": 10
+    "score": 14.8,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0174",
-    "name": "Hồ Anh Hải",
-    "school": "THPT Cao Thắng",
-    "subject": "Địa lý",
-    "grade": 11
+    "tt": 522,
+    "sbd": "46050118",
+    "name": "Nguyễn Mai Thiên Phúc",
+    "gender": "Nam",
+    "dob": "2010-12-09",
+    "school": "THPT Thừa Lưu",
+    "grade": "11A1",
+    "subject": "Tiếng Anh",
+    "score": 14.8,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0175",
-    "name": "Hồ Mậu Khoa",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 11
+    "tt": 523,
+    "sbd": "46050151",
+    "name": "Đặng Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-10-23",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12D8",
+    "subject": "Tiếng Anh",
+    "score": 14.8,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0176",
-    "name": "Bùi Đức Phương",
-    "school": "THPT Hai Bà Trưng",
+    "tt": 524,
+    "sbd": "46050073",
+    "name": "Nguyễn Ngọc Giáng Mi",
+    "gender": "Nữ",
+    "dob": "2009-03-14",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
     "subject": "Tiếng Anh",
-    "grade": 10
+    "score": 14.7,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0177",
-    "name": "Vũ Văn Đạt",
-    "school": "THPT Phú Lộc",
+    "tt": 525,
+    "sbd": "46050093",
+    "name": "Phan Cao Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2010-03-24",
+    "school": "THPT Phong Điền",
+    "grade": "11/03",
     "subject": "Tiếng Anh",
-    "grade": 12
+    "score": 14.65,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0178",
-    "name": "Vũ Đức Hoàng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 12
+    "tt": 526,
+    "sbd": "46050036",
+    "name": "Phan Ngọc Bảo Hân",
+    "gender": "Nữ",
+    "dob": "2009-08-03",
+    "school": "THPT Tố Hữu",
+    "grade": "12B1",
+    "subject": "Tiếng Anh",
+    "score": 14.6,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0179",
-    "name": "Lê Bảo Quý",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 12
+    "tt": 527,
+    "sbd": "46050021",
+    "name": "Võ Ngọc Thùy Dương",
+    "gender": "Nữ",
+    "dob": "2010-05-17",
+    "school": "THPT Hương Trà",
+    "grade": "11B1",
+    "subject": "Tiếng Anh",
+    "score": 14.55,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0180",
-    "name": "Đỗ Bảo Hải",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 12
+    "tt": 528,
+    "sbd": "46050168",
+    "name": "Trần Huyền Trân",
+    "gender": "Nữ",
+    "dob": "2009-11-26",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Tiếng Anh",
+    "score": 14.55,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0181",
-    "name": "Bùi Quốc Hùng",
-    "school": "THPT Nguyễn Huệ",
+    "tt": 529,
+    "sbd": "46050112",
+    "name": "Đào Thị Hoàng Nhiên",
+    "gender": "Nữ",
+    "dob": "2009-01-22",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
     "subject": "Tiếng Anh",
-    "grade": 10
+    "score": 14.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0182",
-    "name": "Hồ Quốc Nam",
-    "school": "THPT Hai Bà Trưng",
+    "tt": 530,
+    "sbd": "46050002",
+    "name": "Lê Hoàng Phương Anh",
+    "gender": "Nữ",
+    "dob": "2009-02-06",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A2",
     "subject": "Tiếng Anh",
-    "grade": 12
+    "score": 14.4,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0183",
-    "name": "Phạm Anh Phú",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 10
+    "tt": 531,
+    "sbd": "46050061",
+    "name": "Trương Diệu Linh",
+    "gender": "Nữ",
+    "dob": "2009-03-11",
+    "school": "THPT An Lương Đông",
+    "grade": "12A3",
+    "subject": "Tiếng Anh",
+    "score": 14.4,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0184",
-    "name": "Hoàng Quốc Hà",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 10
+    "tt": 532,
+    "sbd": "46050166",
+    "name": "Nguyễn Lương Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2009-02-16",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Tiếng Anh",
+    "score": 14.3,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0185",
-    "name": "Trần Thị Phương",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 12
+    "tt": 533,
+    "sbd": "46050057",
+    "name": "Trần Hữu Kiệt",
+    "gender": "Nam",
+    "dob": "2010-05-10",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A5",
+    "subject": "Tiếng Anh",
+    "score": 14.25,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0186",
-    "name": "Nguyễn Thị Linh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 12
+    "tt": 534,
+    "sbd": "46050164",
+    "name": "Phạm Thị Ngọc Trâm",
+    "gender": "Nữ",
+    "dob": "2010-12-19",
+    "school": "THPT Nam Đông",
+    "grade": "11/2",
+    "subject": "Tiếng Anh",
+    "score": 14.25,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0187",
-    "name": "Hồ Hoàng Khánh",
-    "school": "THPT Quảng Điền",
+    "tt": 535,
+    "sbd": "46050017",
+    "name": "Ngô Phan Thế Cường",
+    "gender": "Nam",
+    "dob": "2009-08-15",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
     "subject": "Tiếng Anh",
-    "grade": 11
+    "score": 14.2,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0188",
-    "name": "Nguyễn Thị Linh",
-    "school": "THPT Hương Thủy",
+    "tt": 536,
+    "sbd": "46050186",
+    "name": "Huỳnh Thái Khánh Vân",
+    "gender": "Nữ",
+    "dob": "2009-11-10",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
     "subject": "Tiếng Anh",
-    "grade": 11
+    "score": 14.15,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0189",
-    "name": "Bùi Quốc Phú",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 11
+    "tt": 537,
+    "sbd": "46050062",
+    "name": "Trần Hà Khánh Linh",
+    "gender": "Nữ",
+    "dob": "2009-03-23",
+    "school": "THPT Tố Hữu",
+    "grade": "12B1",
+    "subject": "Tiếng Anh",
+    "score": 14.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0190",
-    "name": "Võ Bảo Hải",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 10
+    "tt": 538,
+    "sbd": "46050156",
+    "name": "Hoàng Cường Thịnh",
+    "gender": "Nam",
+    "dob": "2009-06-13",
+    "school": "THPT Phú Lộc",
+    "grade": "12B1",
+    "subject": "Tiếng Anh",
+    "score": 14.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0191",
-    "name": "Đỗ Quốc Khoa",
-    "school": "THPT Bùi Thị Xuân",
+    "tt": 539,
+    "sbd": "46050065",
+    "name": "Đoàn Xuân Nhật Linh",
+    "gender": "Nữ",
+    "dob": "2010-01-28",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "11B1",
     "subject": "Tiếng Anh",
-    "grade": 10
+    "score": 13.9,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0192",
-    "name": "Trần Mậu Quý",
-    "school": "THPT Hương Thủy",
-    "subject": "Vật lý",
-    "grade": 12
+    "tt": 540,
+    "sbd": "46050053",
+    "name": "Nguyễn Trung Kiên",
+    "gender": "Nam",
+    "dob": "2010-03-28",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "11/1",
+    "subject": "Tiếng Anh",
+    "score": 13.8,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0193",
-    "name": "Lê Đình Phương",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Pháp",
-    "grade": 10
+    "tt": 541,
+    "sbd": "46050113",
+    "name": "Ngô Thị Cẩm Nhung",
+    "gender": "Nữ",
+    "dob": "2010-05-03",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "11B1",
+    "subject": "Tiếng Anh",
+    "score": 13.8,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0194",
-    "name": "Nguyễn Anh Hưng",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 11
+    "tt": 542,
+    "sbd": "46050145",
+    "name": "Phan Thị Mỹ Thu",
+    "gender": "Nữ",
+    "dob": "2009-05-21",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Tiếng Anh",
+    "score": 13.8,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0195",
-    "name": "Phạm Minh Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 11
+    "tt": 543,
+    "sbd": "46050037",
+    "name": "Đào Nguyễn Gia Hân",
+    "gender": "Nữ",
+    "dob": "2010-09-27",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "11A1",
+    "subject": "Tiếng Anh",
+    "score": 13.7,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0196",
-    "name": "Trần Bảo Khánh",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 10
+    "tt": 544,
+    "sbd": "46050005",
+    "name": "Thân Ngọc Trâm Anh",
+    "gender": "Nữ",
+    "dob": "2009-04-04",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A2",
+    "subject": "Tiếng Anh",
+    "score": 13.65,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0197",
-    "name": "Phạm Xuân Tâm",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 10
+    "tt": 545,
+    "sbd": "46050008",
+    "name": "Trương Thị Khánh Bình",
+    "gender": "Nữ",
+    "dob": "2010-06-25",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "11/2",
+    "subject": "Tiếng Anh",
+    "score": 13.65,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0198",
-    "name": "Nguyễn Đình Quý",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 11
+    "tt": 546,
+    "sbd": "46050152",
+    "name": "Đỗ Nguyễn Uyên Thư",
+    "gender": "Nữ",
+    "dob": "2009-04-03",
+    "school": "THPT Cao Thắng",
+    "grade": "12/6",
+    "subject": "Tiếng Anh",
+    "score": 13.6,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0199",
-    "name": "Trần Thị Hưng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Vật lý",
-    "grade": 11
+    "tt": 547,
+    "sbd": "46050126",
+    "name": "Nguyễn Ngọc Thục Quyên",
+    "gender": "Nữ",
+    "dob": "2010-01-08",
+    "school": "THPT Hoá Châu",
+    "grade": "11B5",
+    "subject": "Tiếng Anh",
+    "score": 13.55,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0200",
-    "name": "Bùi Bảo Khoa",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 12
+    "tt": 548,
+    "sbd": "46050024",
+    "name": "Hoàng Thị Minh Hiền",
+    "gender": "Nữ",
+    "dob": "2009-02-03",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12A2",
+    "subject": "Tiếng Anh",
+    "score": 13.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0201",
-    "name": "Hoàng Xuân Minh",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 10
+    "tt": 549,
+    "sbd": "46050026",
+    "name": "Lê Trung Quang Huy",
+    "gender": "Nam",
+    "dob": "2009-08-22",
+    "school": "THPT Gia Hội",
+    "grade": "12/9",
+    "subject": "Tiếng Anh",
+    "score": 13.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0202",
-    "name": "Lê Thanh Quý",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 12
+    "tt": 550,
+    "sbd": "46050049",
+    "name": "Vũ Hoàng Anh Khoa",
+    "gender": "Nam",
+    "dob": "2009-07-11",
+    "school": "THPT Cao Thắng",
+    "grade": "12/9",
+    "subject": "Tiếng Anh",
+    "score": 13.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0203",
-    "name": "Hoàng Đức Hà",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 11
+    "tt": 551,
+    "sbd": "46050096",
+    "name": "Đào Khôi Nguyên",
+    "gender": "Nam",
+    "dob": "2009-11-24",
+    "school": "THPT Gia Hội",
+    "grade": "12/8",
+    "subject": "Tiếng Anh",
+    "score": 13.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0204",
-    "name": "Hồ Thị Quý",
-    "school": "THPT Hương Thủy",
-    "subject": "Toán",
-    "grade": 12
+    "tt": 552,
+    "sbd": "46050175",
+    "name": "Nguyễn Gia Tuệ",
+    "gender": "Nữ",
+    "dob": "2010-06-17",
+    "school": "THPT Thừa Lưu",
+    "grade": "11A1",
+    "subject": "Tiếng Anh",
+    "score": 13.45,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0205",
-    "name": "Hoàng Bảo Minh",
-    "school": "THPT Nguyễn Huệ",
+    "tt": 553,
+    "sbd": "46050071",
+    "name": "Lê Xuân Mai",
+    "gender": "Nữ",
+    "dob": "2009-03-05",
+    "school": "THPT Phong Điền",
+    "grade": "12/01",
+    "subject": "Tiếng Anh",
+    "score": 13.4,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 554,
+    "sbd": "46050095",
+    "name": "Võ Đức Khôi Nguyên",
+    "gender": "Nam",
+    "dob": "2009-12-17",
+    "school": "THPT Thuận Hóa",
+    "grade": "12/05",
     "subject": "Tiếng Anh",
-    "grade": 10
+    "score": 13.4,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0206",
-    "name": "Phạm Mậu Khoa",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 10
+    "tt": 555,
+    "sbd": "46050135",
+    "name": "Duơng Thành Sơn",
+    "gender": "Nam",
+    "dob": "2010-05-13",
+    "school": "THPT Phong Điền",
+    "grade": "11/01",
+    "subject": "Tiếng Anh",
+    "score": 13.35,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0207",
-    "name": "Đỗ Xuân Quý",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 10
+    "tt": 556,
+    "sbd": "46050042",
+    "name": "Lê Vũ Khánh Hằng",
+    "gender": "Nữ",
+    "dob": "2009-04-26",
+    "school": "THPT Hương Thủy",
+    "grade": "12/1",
+    "subject": "Tiếng Anh",
+    "score": 13.3,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0208",
-    "name": "Hồ Đình Khánh",
-    "school": "THPT Phong Điền",
-    "subject": "Lịch sử",
-    "grade": 10
+    "tt": 557,
+    "sbd": "46050050",
+    "name": "Lương Gia Khánh",
+    "gender": "Nam",
+    "dob": "2009-02-21",
+    "school": "THPT Phú Bài",
+    "grade": "12B2",
+    "subject": "Tiếng Anh",
+    "score": 13.3,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0209",
-    "name": "Hồ Bảo Phương",
-    "school": "THPT Quảng Điền",
-    "subject": "Ngữ văn",
-    "grade": 11
+    "tt": 558,
+    "sbd": "46050103",
+    "name": "Nguyễn Hoàng Thảo Nhi",
+    "gender": "Nữ",
+    "dob": "2009-11-27",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B8",
+    "subject": "Tiếng Anh",
+    "score": 13.3,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0210",
-    "name": "Trần Quốc Trang",
-    "school": "THPT Cao Thắng",
+    "tt": 559,
+    "sbd": "46050171",
+    "name": "Trần Hữu Minh Trí",
+    "gender": "Nam",
+    "dob": "2010-10-27",
+    "school": "THPT Gia Hội",
+    "grade": "11/6",
     "subject": "Tiếng Anh",
-    "grade": 10
+    "score": 13.25,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0211",
-    "name": "Trần Mậu Phương",
-    "school": "THPT Phú Lộc",
-    "subject": "Ngữ văn",
-    "grade": 12
+    "tt": 560,
+    "sbd": "46050009",
+    "name": "Võ Thị Hoài Băng",
+    "gender": "Nữ",
+    "dob": "2009-08-03",
+    "school": "THPT Thuận An",
+    "grade": "12/03",
+    "subject": "Tiếng Anh",
+    "score": 13.2,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0212",
-    "name": "Võ Quốc Hải",
-    "school": "THPT Hương Trà",
-    "subject": "Vật lý",
-    "grade": 10
+    "tt": 561,
+    "sbd": "46050129",
+    "name": "Lê Ngọc Minh Quân",
+    "gender": "Nam",
+    "dob": "2009-04-29",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Tiếng Anh",
+    "score": 13.2,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0213",
-    "name": "Đặng Đức Khoa",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 11
+    "tt": 562,
+    "sbd": "46050157",
+    "name": "Lê Diên Thịnh",
+    "gender": "Nam",
+    "dob": "2009-08-03",
+    "school": "THPT Đặng Trần Côn",
+    "grade": "12A1",
+    "subject": "Tiếng Anh",
+    "score": 13.2,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0214",
-    "name": "Phạm Đức Hà",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 12
+    "tt": 563,
+    "sbd": "46050111",
+    "name": "Trương Lê Uyên Nhiên",
+    "gender": "Nữ",
+    "dob": "2009-10-12",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B7",
+    "subject": "Tiếng Anh",
+    "score": 13.1,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0215",
-    "name": "Trần Minh Trang",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 12
+    "tt": 564,
+    "sbd": "46050139",
+    "name": "Nguyễn Lê Yến Thi",
+    "gender": "Nữ",
+    "dob": "2010-03-02",
+    "school": "THPT Hương Trà",
+    "grade": "11B1",
+    "subject": "Tiếng Anh",
+    "score": 13.1,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0216",
-    "name": "Bùi Anh Phương",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Sinh học",
-    "grade": 12
+    "tt": 565,
+    "sbd": "46050066",
+    "name": "Đậu Thùy Linh",
+    "gender": "Nữ",
+    "dob": "2009-08-28",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Tiếng Anh",
+    "score": 13.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0217",
-    "name": "Hoàng Thị Hà",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Sinh học",
-    "grade": 11
+    "tt": 566,
+    "sbd": "46050161",
+    "name": "Huỳnh Nhật Trung",
+    "gender": "Nam",
+    "dob": "2009-04-25",
+    "school": "THPT Gia Hội",
+    "grade": "12/11",
+    "subject": "Tiếng Anh",
+    "score": 13.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0218",
-    "name": "Đặng Hoàng Đạt",
-    "school": "THPT Phong Điền",
+    "tt": 567,
+    "sbd": "46050121",
+    "name": "Lê Ngọc Hoàng Phương",
+    "gender": "Nữ",
+    "dob": "2009-05-10",
+    "school": "THPT Phú Bài",
+    "grade": "12B2",
     "subject": "Tiếng Anh",
-    "grade": 12
+    "score": 12.95,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0219",
-    "name": "Nguyễn Mậu Hưng",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 12
+    "tt": 568,
+    "sbd": "46050033",
+    "name": "Trương Văn Hào",
+    "gender": "Nam",
+    "dob": "2009-02-27",
+    "school": "THPT Phú Bài",
+    "grade": "12B3",
+    "subject": "Tiếng Anh",
+    "score": 12.9,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0220",
-    "name": "Bùi Minh Đạt",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Pháp",
-    "grade": 10
+    "tt": 569,
+    "sbd": "46050063",
+    "name": "Trần Ngọc Phương Linh",
+    "gender": "Nữ",
+    "dob": "2009-01-28",
+    "school": "THPT Cao Thắng",
+    "grade": "12/8",
+    "subject": "Tiếng Anh",
+    "score": 12.9,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0221",
-    "name": "Đặng Văn Hoàng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 12
+    "tt": 570,
+    "sbd": "46050170",
+    "name": "Trần Thị Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2010-03-09",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "11/1",
+    "subject": "Tiếng Anh",
+    "score": 12.9,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0222",
-    "name": "Vũ Xuân Hưng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 12
+    "tt": 571,
+    "sbd": "46050047",
+    "name": "Huỳnh Đăng Khoa",
+    "gender": "Nam",
+    "dob": "2009-12-19",
+    "school": "TH, THCS, THPT FPT",
+    "grade": "11A3",
+    "subject": "Tiếng Anh",
+    "score": 12.85,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0223",
-    "name": "Võ Mậu Khánh",
-    "school": "THPT Gia Hội",
-    "subject": "Ngữ văn",
-    "grade": 11
+    "tt": 572,
+    "sbd": "46050104",
+    "name": "Nguyễn Ngọc Thảo Nhi",
+    "gender": "Nữ",
+    "dob": "2010-03-27",
+    "school": "THPT Phú Lộc",
+    "grade": "11B1",
+    "subject": "Tiếng Anh",
+    "score": 12.8,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0224",
-    "name": "Nguyễn Mậu Phương",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Pháp",
-    "grade": 11
+    "tt": 573,
+    "sbd": "46050158",
+    "name": "Lê Thùy Trang",
+    "gender": "Nữ",
+    "dob": "2009-02-23",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B1",
+    "subject": "Tiếng Anh",
+    "score": 12.75,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0225",
-    "name": "Lê Đức Linh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tin học",
-    "grade": 11
+    "tt": 574,
+    "sbd": "46060057",
+    "name": "Lê Thị Thanh Hằng",
+    "gender": "Nữ",
+    "dob": "2009-10-21",
+    "school": "THPT Hà Trung",
+    "grade": "12B5",
+    "subject": "Ngữ văn",
+    "score": 16.0,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0226",
-    "name": "Vũ Đức Trang",
+    "tt": 575,
+    "sbd": "46060153",
+    "name": "Thái Minh Quân",
+    "gender": "Nam",
+    "dob": "2009-02-02",
     "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 10
+    "grade": "12/6",
+    "subject": "Ngữ văn",
+    "score": 14.5,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0227",
-    "name": "Đỗ Đình Tâm",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 12
+    "tt": 576,
+    "sbd": "46060169",
+    "name": "Dương Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-12-27",
+    "school": "THPT Hương Thủy",
+    "grade": "11/06",
+    "subject": "Ngữ văn",
+    "score": 14.5,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0228",
-    "name": "Võ Thanh Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 11
+    "tt": 577,
+    "sbd": "46060054",
+    "name": "Trần Thị Bảo Hân",
+    "gender": "Nữ",
+    "dob": "2009-06-22",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/12",
+    "subject": "Ngữ văn",
+    "score": 14.0,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0229",
-    "name": "Trần Mậu Khánh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 10
+    "tt": 578,
+    "sbd": "46060071",
+    "name": "Trần Vân Lam",
+    "gender": "Nữ",
+    "dob": "2010-10-24",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A12",
+    "subject": "Ngữ văn",
+    "score": 14.0,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0230",
-    "name": "Trần Thanh Phương",
+    "tt": 579,
+    "sbd": "46060209",
+    "name": "Đặng Ngọc Gia Tuệ",
+    "gender": "Nữ",
+    "dob": "2009-07-27",
     "school": "THPT Hai Bà Trưng",
-    "subject": "Tin học",
-    "grade": 12
+    "grade": "12A8",
+    "subject": "Ngữ văn",
+    "score": 14.0,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0231",
-    "name": "Phạm Văn Linh",
-    "school": "THPT Cao Thắng",
-    "subject": "Lịch sử",
-    "grade": 10
+    "tt": 580,
+    "sbd": "46060226",
+    "name": "Đinh Thị Triệu Vỹ",
+    "gender": "Nữ",
+    "dob": "2010-05-07",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A5",
+    "subject": "Ngữ văn",
+    "score": 14.0,
+    "prize": "Nhì"
   },
   {
-    "sbd": "HSG2627-0232",
-    "name": "Đỗ Văn Hưng",
+    "tt": 581,
+    "sbd": "46060014",
+    "name": "Phan Bảo Trâm Anh",
+    "gender": "Nữ",
+    "dob": "2009-07-23",
     "school": "THPT Nguyễn Huệ",
-    "subject": "Toán",
-    "grade": 10
+    "grade": "12/12",
+    "subject": "Ngữ văn",
+    "score": 13.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0233",
-    "name": "Trần Văn Phú",
-    "school": "THPT Phú Lộc",
+    "tt": 582,
+    "sbd": "46060025",
+    "name": "Lê Minh Châu",
+    "gender": "Nữ",
+    "dob": "2010-06-27",
+    "school": "THPT Gia Hội",
+    "grade": "11/9",
     "subject": "Ngữ văn",
-    "grade": 12
+    "score": 13.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0234",
-    "name": "Bùi Quốc Đạt",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 12
+    "tt": 583,
+    "sbd": "46060091",
+    "name": "Lê Hà My",
+    "gender": "Nữ",
+    "dob": "2009-08-31",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/8",
+    "subject": "Ngữ văn",
+    "score": 13.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0235",
-    "name": "Đỗ Xuân Minh",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Anh",
-    "grade": 10
+    "tt": 584,
+    "sbd": "46060233",
+    "name": "Hồ Thị Như Ý",
+    "gender": "Nữ",
+    "dob": "2010-07-13",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "11D8",
+    "subject": "Ngữ văn",
+    "score": 13.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0236",
-    "name": "Nguyễn Minh Quý",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 12
+    "tt": 585,
+    "sbd": "46060019",
+    "name": "Đỗ Phương Anh",
+    "gender": "Nữ",
+    "dob": "2009-07-07",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B4",
+    "subject": "Ngữ văn",
+    "score": 13.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0237",
-    "name": "Hoàng Mậu Hà",
-    "school": "THPT Hương Trà",
+    "tt": 586,
+    "sbd": "46060074",
+    "name": "Châu Phương Linh",
+    "gender": "Nữ",
+    "dob": "2010-05-16",
+    "school": "THPT Cao Thắng",
+    "grade": "11/5",
     "subject": "Ngữ văn",
-    "grade": 10
+    "score": 13.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0238",
-    "name": "Trần Đức Khoa",
-    "school": "THPT Quảng Điền",
-    "subject": "Sinh học",
-    "grade": 12
+    "tt": 587,
+    "sbd": "46060107",
+    "name": "Dương Hoàng Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-06-16",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Ngữ văn",
+    "score": 13.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0239",
-    "name": "Bùi Quốc Nam",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 11
+    "tt": 588,
+    "sbd": "46060127",
+    "name": "Phạm  Thị Phương Nhi",
+    "gender": "Nữ",
+    "dob": "2009-07-11",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B7",
+    "subject": "Ngữ văn",
+    "score": 13.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0240",
-    "name": "Nguyễn Bảo Trang",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 11
+    "tt": 589,
+    "sbd": "46060145",
+    "name": "Lê Uyên Nhật Phương",
+    "gender": "Nữ",
+    "dob": "2010-04-08",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "11/03",
+    "subject": "Ngữ văn",
+    "score": 13.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0241",
-    "name": "Phạm Quốc Phương",
-    "school": "THPT Chuyên Quốc Học Huế",
+    "tt": 590,
+    "sbd": "46060188",
+    "name": "Võ Thị Thủy Tiên",
+    "gender": "Nữ",
+    "dob": "2010-07-29",
+    "school": "THPT An Lương Đông",
+    "grade": "11A4",
     "subject": "Ngữ văn",
-    "grade": 11
+    "score": 13.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0242",
-    "name": "Bùi Mậu Hoàng",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 11
+    "tt": 591,
+    "sbd": "46060200",
+    "name": "Lê Thị Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2009-02-20",
+    "school": "THPT Phú Bài",
+    "grade": "12B4",
+    "subject": "Ngữ văn",
+    "score": 13.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0243",
-    "name": "Võ Bảo Hưng",
-    "school": "THPT Phú Lộc",
-    "subject": "Sinh học",
-    "grade": 10
+    "tt": 592,
+    "sbd": "46060027",
+    "name": "Nguyễn Ngọc Minh Châu",
+    "gender": "Nữ",
+    "dob": "2009-10-03",
+    "school": "THPT A Lưới",
+    "grade": "12B1",
+    "subject": "Ngữ văn",
+    "score": 12.67,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0244",
-    "name": "Đỗ Minh Đạt",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 12
+    "tt": 593,
+    "sbd": "46060016",
+    "name": "Trương Thuỳ Anh",
+    "gender": "Nữ",
+    "dob": "2010-01-05",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "11/02",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0245",
-    "name": "Phạm Xuân Đạt",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 11
+    "tt": 594,
+    "sbd": "46060052",
+    "name": "Trương Lê Ngọc Hân",
+    "gender": "Nữ",
+    "dob": "2009-12-19",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A7",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0246",
-    "name": "Lê Bảo Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Lịch sử",
-    "grade": 11
+    "tt": 595,
+    "sbd": "46060055",
+    "name": "Võ Thị Bảo Hân",
+    "gender": "Nữ",
+    "dob": "2010-02-18",
+    "school": "THPT Hương Vinh",
+    "grade": "11A",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0247",
-    "name": "Đặng Mậu Hưng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 10
+    "tt": 596,
+    "sbd": "46060060",
+    "name": "Nguyễn Thị Diễm Hằng",
+    "gender": "Nữ",
+    "dob": "2009-01-30",
+    "school": "THPT An Lương Đông",
+    "grade": "12A3",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0248",
-    "name": "Võ Đức Linh",
-    "school": "THPT Cao Thắng",
-    "subject": "Địa lý",
-    "grade": 11
+    "tt": 597,
+    "sbd": "46060078",
+    "name": "Nguyễn Ngọc Phương Linh",
+    "gender": "Nữ",
+    "dob": "2010-04-12",
+    "school": "THPT Hương Thủy",
+    "grade": "11/04",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0249",
-    "name": "Hồ Thanh Minh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 10
+    "tt": 598,
+    "sbd": "46060079",
+    "name": "Nguyễn Thị Thùy Linh",
+    "gender": "Nữ",
+    "dob": "2010-01-21",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A10",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0250",
-    "name": "Hồ Xuân Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 11
+    "tt": 599,
+    "sbd": "46060097",
+    "name": "Hoàng Nguyễn Thy Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-02-28",
+    "school": "THPT Phú Lộc",
+    "grade": "12B3",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0251",
-    "name": "Võ Đình Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 12
+    "tt": 600,
+    "sbd": "46060101",
+    "name": "Trần Lê Phương Nguyên",
+    "gender": "Nữ",
+    "dob": "2010-10-08",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/1",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0252",
-    "name": "Vũ Anh Khánh",
-    "school": "THPT Hương Trà",
-    "subject": "Sinh học",
-    "grade": 12
+    "tt": 601,
+    "sbd": "46060105",
+    "name": "Trần Đặng Thu Ngân",
+    "gender": "Nữ",
+    "dob": "2009-11-30",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0253",
-    "name": "Phạm Mậu Hải",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 10
+    "tt": 602,
+    "sbd": "46060108",
+    "name": "Lê Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-09-01",
+    "school": "THPT Phú Bài",
+    "grade": "12B4",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0254",
-    "name": "Đỗ Văn Phú",
+    "tt": 603,
+    "sbd": "46060112",
+    "name": "Trần Minh Ngọc",
+    "gender": "Nữ",
+    "dob": "2010-04-03",
     "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 10
+    "grade": "11A12",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0255",
-    "name": "Nguyễn Đức Tâm",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 11
+    "tt": 604,
+    "sbd": "46060113",
+    "name": "Trần Thị Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-01-12",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0256",
-    "name": "Bùi Thanh Phú",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 12
+    "tt": 605,
+    "sbd": "46060118",
+    "name": "Dương Thị Ái Nhi",
+    "gender": "Nữ",
+    "dob": "2009-06-10",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0257",
-    "name": "Đặng Quốc Hùng",
-    "school": "THPT Gia Hội",
-    "subject": "Địa lý",
-    "grade": 11
+    "tt": 606,
+    "sbd": "46060137",
+    "name": "Đào Thị Quỳnh Như",
+    "gender": "Nữ",
+    "dob": "2010-02-19",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A5",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0258",
-    "name": "Phạm Mậu Hưng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 11
+    "tt": 607,
+    "sbd": "46060156",
+    "name": "Huỳnh Thị My Sa",
+    "gender": "Nữ",
+    "dob": "2010-07-09",
+    "school": "THPT Thuận An",
+    "grade": "11/01",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0259",
-    "name": "Hoàng Hoàng Anh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 12
+    "tt": 608,
+    "sbd": "46060173",
+    "name": "Nguyễn Ngọc Bảo Thư",
+    "gender": "Nữ",
+    "dob": "2010-06-01",
+    "school": "THPT Phú Bài",
+    "grade": "11B4",
+    "subject": "Ngữ văn",
+    "score": 12.5,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0260",
-    "name": "Lê Thị Nam",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Lịch sử",
-    "grade": 11
+    "tt": 609,
+    "sbd": "46060007",
+    "name": "Lê Trần Vân Anh",
+    "gender": "Nữ",
+    "dob": "2009-11-12",
+    "school": "THPT Hà Trung",
+    "grade": "12B3",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0261",
-    "name": "Đặng Anh Khoa",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 11
+    "tt": 610,
+    "sbd": "46060021",
+    "name": "Phan Lê Khánh Băng",
+    "gender": "Nữ",
+    "dob": "2009-07-31",
+    "school": "THPT Hoá Châu",
+    "grade": "12B1",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0262",
-    "name": "Hoàng Bảo Nam",
-    "school": "THPT Hương Thủy",
-    "subject": "Vật lý",
-    "grade": 11
+    "tt": 611,
+    "sbd": "46060062",
+    "name": "Đỗ Nguyễn Bảo Khanh",
+    "gender": "Nữ",
+    "dob": "2009-09-18",
+    "school": "THPT An Lương Đông",
+    "grade": "12A3",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0263",
-    "name": "Trần Minh Minh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 12
+    "tt": 612,
+    "sbd": "46060065",
+    "name": "Nguyễn Lê Hỷ Khương",
+    "gender": "Nữ",
+    "dob": "2009-02-12",
+    "school": "THPT Phú Bài",
+    "grade": "12B4",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0264",
-    "name": "Đặng Minh Đạt",
-    "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0265",
-    "name": "Bùi Minh Anh",
-    "school": "THPT Cao Thắng",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0266",
-    "name": "Đỗ Bảo Hải",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0267",
-    "name": "Bùi Hoàng Hoàng",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0268",
-    "name": "Lê Văn Hà",
-    "school": "THPT Cao Thắng",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0269",
-    "name": "Hồ Hoàng Hải",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0270",
-    "name": "Đặng Đình Phú",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0271",
-    "name": "Vũ Thị Trang",
-    "school": "THPT Phong Điền",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0272",
-    "name": "Vũ Thanh Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0273",
-    "name": "Đỗ Minh Anh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0274",
-    "name": "Lê Đức Hải",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0275",
-    "name": "Vũ Thanh Linh",
-    "school": "THPT Gia Hội",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0276",
-    "name": "Đặng Xuân Minh",
+    "tt": 613,
+    "sbd": "46060077",
+    "name": "Nguyễn Mai Phương Linh",
+    "gender": "Nữ",
+    "dob": "2010-08-30",
     "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0277",
-    "name": "Vũ Hoàng Tâm",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0278",
-    "name": "Võ Mậu Hưng",
-    "school": "THPT Quảng Điền",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0279",
-    "name": "Đỗ Minh Khoa",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0280",
-    "name": "Nguyễn Quốc Phương",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0281",
-    "name": "Bùi Anh Hoàng",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0282",
-    "name": "Nguyễn Hoàng Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0283",
-    "name": "Trần Đình Phú",
-    "school": "THPT Phong Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0284",
-    "name": "Đặng Thanh Hải",
-    "school": "THPT Phong Điền",
+    "grade": "11B3",
     "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0285",
-    "name": "Đặng Xuân Trang",
-    "school": "THPT Hương Trà",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0286",
-    "name": "Lê Thanh Anh",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 12
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0287",
-    "name": "Bùi Minh Tâm",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0288",
-    "name": "Nguyễn Mậu Hoàng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0289",
-    "name": "Nguyễn Văn Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0290",
-    "name": "Lê Quốc Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0291",
-    "name": "Phạm Minh Hùng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0292",
-    "name": "Vũ Thị Hoàng",
-    "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0293",
-    "name": "Nguyễn Bảo Hùng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0294",
-    "name": "Bùi Đình Phương",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0295",
-    "name": "Trần Minh Quý",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 12
+    "tt": 614,
+    "sbd": "46060080",
+    "name": "Phan Thị Khánh Linh",
+    "gender": "Nữ",
+    "dob": "2010-06-13",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "11/11",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0296",
-    "name": "Trần Đình Hùng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 11
+    "tt": 615,
+    "sbd": "46060102",
+    "name": "Bùi Thị Thảo Ngân",
+    "gender": "Nữ",
+    "dob": "2010-05-23",
+    "school": "THPT Thừa Lưu",
+    "grade": "11A1",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0297",
-    "name": "Trần Anh Quý",
+    "tt": 616,
+    "sbd": "46060115",
+    "name": "Trần Thị Kim Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-08-25",
     "school": "THPT Cao Thắng",
+    "grade": "12/6",
     "subject": "Ngữ văn",
-    "grade": 11
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0298",
-    "name": "Trần Đình Minh",
+    "tt": 617,
+    "sbd": "46060119",
+    "name": "Hoàng Thị Ngọc Nhi",
+    "gender": "Nữ",
+    "dob": "2008-03-07",
     "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0299",
-    "name": "Bùi Thị Phú",
-    "school": "THPT Phú Lộc",
+    "grade": "12/01",
     "subject": "Ngữ văn",
-    "grade": 10
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0300",
-    "name": "Trần Minh Trang",
-    "school": "THPT Cao Thắng",
+    "tt": 618,
+    "sbd": "46060121",
+    "name": "Hồ Phan Nữ Yến Nhi",
+    "gender": "Nữ",
+    "dob": "2010-09-18",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/4",
     "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0301",
-    "name": "Đặng Anh Hải",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0302",
-    "name": "Đỗ Minh Phú",
-    "school": "THPT Hương Thủy",
-    "subject": "Địa lý",
-    "grade": 12
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0303",
-    "name": "Hoàng Quốc Hưng",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 10
+    "tt": 619,
+    "sbd": "46060128",
+    "name": "Huỳnh Trương An Nhiên",
+    "gender": "Nữ",
+    "dob": "2010-01-15",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A2",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0304",
-    "name": "Hoàng Bảo Minh",
-    "school": "THPT Phú Lộc",
-    "subject": "Địa lý",
-    "grade": 11
+    "tt": 620,
+    "sbd": "46060135",
+    "name": "Nguyễn Yến Như",
+    "gender": "Nữ",
+    "dob": "2010-11-26",
+    "school": "THPT A Lưới",
+    "grade": "11A3",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0305",
-    "name": "Võ Đình Minh",
+    "tt": 621,
+    "sbd": "46060147",
+    "name": "Nguyễn Hạnh Phước",
+    "gender": "Nữ",
+    "dob": "2010-04-09",
     "school": "THPT Hương Trà",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0306",
-    "name": "Hoàng Xuân Phú",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0307",
-    "name": "Hoàng Văn Phương",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0308",
-    "name": "Hoàng Bảo Phú",
-    "school": "THPT Chuyên Quốc Học Huế",
+    "grade": "11B5",
     "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0309",
-    "name": "Hồ Minh Hưng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Lịch sử",
-    "grade": 11
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0310",
-    "name": "Lê Đình Phú",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tin học",
-    "grade": 11
+    "tt": 622,
+    "sbd": "46060148",
+    "name": "Lê Thị Kim Phượng",
+    "gender": "Nữ",
+    "dob": "2010-02-08",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/4",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0311",
-    "name": "Đặng Anh Hoàng",
-    "school": "THPT Nguyễn Huệ",
+    "tt": 623,
+    "sbd": "46060183",
+    "name": "Trần Lê Phương Thảo",
+    "gender": "Nữ",
+    "dob": "2010-10-08",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/1",
     "subject": "Ngữ văn",
-    "grade": 11
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0312",
-    "name": "Trần Minh Hoàng",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 10
+    "tt": 624,
+    "sbd": "46060191",
+    "name": "Lê Thị Thảo Trang",
+    "gender": "Nữ",
+    "dob": "2009-02-25",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A6",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0313",
-    "name": "Võ Đình Tâm",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 12
+    "tt": 625,
+    "sbd": "46060195",
+    "name": "Võ Phương Trinh",
+    "gender": "Nữ",
+    "dob": "2009-03-11",
+    "school": "THPT Cao Thắng",
+    "grade": "12/3",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0314",
-    "name": "Phạm Mậu Phú",
+    "tt": 626,
+    "sbd": "46060196",
+    "name": "Lê Xuân Thành Trung",
+    "gender": "Nam",
+    "dob": "2009-11-16",
     "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0315",
-    "name": "Đặng Thị Khánh",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0316",
-    "name": "Đặng Anh Linh",
-    "school": "THPT Gia Hội",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0317",
-    "name": "Lê Minh Hùng",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0318",
-    "name": "Trần Xuân Hoàng",
-    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A13",
     "subject": "Ngữ văn",
-    "grade": 11
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0319",
-    "name": "Bùi Thị Hùng",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Pháp",
-    "grade": 10
+    "tt": 627,
+    "sbd": "46060199",
+    "name": "Văn Thị Thuỳ Trâm",
+    "gender": "Nữ",
+    "dob": "2009-02-10",
+    "school": "THPT A Lưới",
+    "grade": "12B2",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0320",
-    "name": "Đặng Xuân Trang",
-    "school": "THPT Bùi Thị Xuân",
+    "tt": 628,
+    "sbd": "46060207",
+    "name": "Phạm Bùi Thanh Trúc",
+    "gender": "Nữ",
+    "dob": "2009-06-23",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
     "subject": "Ngữ văn",
-    "grade": 11
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0321",
-    "name": "Phạm Xuân Nam",
+    "tt": 629,
+    "sbd": "46060217",
+    "name": "Hoàng Vy",
+    "gender": "Nữ",
+    "dob": "2010-04-03",
     "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0322",
-    "name": "Lê Đức Minh",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0323",
-    "name": "Võ Bảo Hoàng",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0324",
-    "name": "Hồ Thị Hà",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0325",
-    "name": "Phạm Mậu Hà",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0326",
-    "name": "Nguyễn Mậu Hà",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 11
+    "grade": "11D8",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0327",
-    "name": "Vũ Hoàng Hà",
-    "school": "THPT Phú Lộc",
-    "subject": "Địa lý",
-    "grade": 11
+    "tt": 630,
+    "sbd": "46060222",
+    "name": "Đặng Ngọc Phương Vy",
+    "gender": "Nữ",
+    "dob": "2009-04-04",
+    "school": "THPT An Lương Đông",
+    "grade": "12C10",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0328",
-    "name": "Đỗ Mậu Anh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 11
+    "tt": 631,
+    "sbd": "46060224",
+    "name": "Nguyễn Thị Ái Vân",
+    "gender": "Nữ",
+    "dob": "2009-10-21",
+    "school": "THPT Đặng Trần Côn",
+    "grade": "12C3",
+    "subject": "Ngữ văn",
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0329",
-    "name": "Đặng Xuân Tâm",
-    "school": "THPT Bùi Thị Xuân",
+    "tt": 632,
+    "sbd": "46060232",
+    "name": "Nguyễn Thái Ân",
+    "gender": "Nữ",
+    "dob": "2009-01-17",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A2",
     "subject": "Ngữ văn",
-    "grade": 11
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0330",
-    "name": "Đỗ Mậu Anh",
+    "tt": 633,
+    "sbd": "46060235",
+    "name": "Trần Thùy Như Ý",
+    "gender": "Nữ",
+    "dob": "2009-08-15",
     "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0331",
-    "name": "Bùi Đình Hùng",
-    "school": "THPT Phú Lộc",
+    "grade": "12A14",
     "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0332",
-    "name": "Bùi Anh Linh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 12
+    "score": 12.0,
+    "prize": "Ba"
   },
   {
-    "sbd": "HSG2627-0333",
-    "name": "Đỗ Xuân Phú",
-    "school": "THPT Chuyên Quốc Học Huế",
+    "tt": 634,
+    "sbd": "46060002",
+    "name": "Nguyễn Phan Hoài An",
+    "gender": "Nữ",
+    "dob": "2009-05-21",
+    "school": "THPT Bình Điền",
+    "grade": "12/3",
     "subject": "Ngữ văn",
-    "grade": 12
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0334",
-    "name": "Nguyễn Anh Anh",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 11
+    "tt": 635,
+    "sbd": "46060013",
+    "name": "Nguyễn Thị Quỳnh Anh",
+    "gender": "Nữ",
+    "dob": "2009-08-29",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0335",
-    "name": "Hồ Minh Trang",
+    "tt": 636,
+    "sbd": "46060026",
+    "name": "Nguyễn Ngọc Bảo Châu",
+    "gender": "Nữ",
+    "dob": "2009-09-24",
     "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0336",
-    "name": "Hoàng Hoàng Phương",
-    "school": "THPT Phong Điền",
+    "grade": "12D8",
     "subject": "Ngữ văn",
-    "grade": 11
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0337",
-    "name": "Phạm Hoàng Minh",
-    "school": "THPT Quảng Điền",
-    "subject": "Vật lý",
-    "grade": 11
+    "tt": 637,
+    "sbd": "46060059",
+    "name": "Nguyễn Thanh Hằng",
+    "gender": "Nữ",
+    "dob": "2009-07-17",
+    "school": "THPT Hương Thủy",
+    "grade": "12/02",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0338",
-    "name": "Phạm Quốc Hưng",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 12
+    "tt": 638,
+    "sbd": "46060104",
+    "name": "Phạm Ngọc Kim Ngân",
+    "gender": "Nữ",
+    "dob": "2009-05-17",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0339",
-    "name": "Trần Thị Hà",
+    "tt": 639,
+    "sbd": "46060123",
+    "name": "Lê Ngọc Uyển Nhi",
+    "gender": "Nữ",
+    "dob": "2010-05-17",
     "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 11
+    "grade": "11/08",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0340",
-    "name": "Đỗ Đức Đạt",
+    "tt": 640,
+    "sbd": "46060160",
+    "name": "Trịnh Lê Bảo Thi",
+    "gender": "Nữ",
+    "dob": "2010-04-09",
     "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0341",
-    "name": "Nguyễn Mậu Khánh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0342",
-    "name": "Đặng Bảo Hùng",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 11
+    "grade": "11B1",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0343",
-    "name": "Hồ Văn Khánh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tin học",
-    "grade": 12
+    "tt": 641,
+    "sbd": "46060176",
+    "name": "Phan Ngọc Đăng Thư",
+    "gender": "Nữ",
+    "dob": "2009-12-14",
+    "school": "THPT Đặng Trần Côn",
+    "grade": "12C3",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0344",
-    "name": "Võ Hoàng Phú",
-    "school": "THPT Hương Thủy",
-    "subject": "Tin học",
-    "grade": 11
+    "tt": 642,
+    "sbd": "46060181",
+    "name": "Nguyễn Phước Phương Thảo",
+    "gender": "Nữ",
+    "dob": "2009-05-20",
+    "school": "THPT Hương Trà",
+    "grade": "12B5",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0345",
-    "name": "Võ Đình Hải",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 10
+    "tt": 643,
+    "sbd": "46060185",
+    "name": "Lê Thị Thuỳ Tiên",
+    "gender": "Nữ",
+    "dob": "2010-10-31",
+    "school": "THPT Thừa Lưu",
+    "grade": "11A1",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0346",
-    "name": "Đặng Đức Phương",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Anh",
-    "grade": 10
+    "tt": 644,
+    "sbd": "46060203",
+    "name": "Nguyễn Thái Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2009-07-11",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/12",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0347",
-    "name": "Vũ Đình Đạt",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 10
+    "tt": 645,
+    "sbd": "46060205",
+    "name": "Lê Thị Minh Trúc",
+    "gender": "Nữ",
+    "dob": "2009-10-14",
+    "school": "THPT Phú Bài",
+    "grade": "12B7",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0348",
-    "name": "Vũ Quốc Hà",
-    "school": "THPT Hương Thủy",
-    "subject": "Toán",
-    "grade": 12
+    "tt": 646,
+    "sbd": "46060211",
+    "name": "Trần Hữu Tình",
+    "gender": "Nam",
+    "dob": "2009-11-19",
+    "school": "THPT Nam Đông",
+    "grade": "12/4",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0349",
-    "name": "Phạm Thị Hưng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 11
+    "tt": 647,
+    "sbd": "46060218",
+    "name": "Hoàng Thị Nhật Vy",
+    "gender": "Nữ",
+    "dob": "2010-01-27",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/2",
+    "subject": "Ngữ văn",
+    "score": 11.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0350",
-    "name": "Phạm Hoàng Nam",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Hóa học",
-    "grade": 10
+    "tt": 648,
+    "sbd": "46060010",
+    "name": "Nguyễn Hoàng Minh Anh",
+    "gender": "Nữ",
+    "dob": "2009-02-15",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A8",
+    "subject": "Ngữ văn",
+    "score": 11.33,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0351",
-    "name": "Võ Xuân Linh",
-    "school": "THPT Hương Thủy",
-    "subject": "Vật lý",
-    "grade": 10
+    "tt": 649,
+    "sbd": "46060020",
+    "name": "Nguyễn Khánh Băng",
+    "gender": "Nữ",
+    "dob": "2009-09-02",
+    "school": "THPT An Lương Đông",
+    "grade": "12D13",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0352",
-    "name": "Nguyễn Mậu Tâm",
+    "tt": 650,
+    "sbd": "46060030",
+    "name": "Trần Hoàng Bảo Châu",
+    "gender": "Nữ",
+    "dob": "2010-11-05",
     "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0353",
-    "name": "Đỗ Mậu Quý",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0354",
-    "name": "Lê Xuân Khoa",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0355",
-    "name": "Lê Văn Đạt",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0356",
-    "name": "Đỗ Đức Phương",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0357",
-    "name": "Võ Đức Hưng",
-    "school": "THPT Hương Trà",
-    "subject": "Sinh học",
-    "grade": 10
+    "grade": "11D8",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0358",
-    "name": "Đỗ Anh Minh",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 10
+    "tt": 651,
+    "sbd": "46060031",
+    "name": "Trần Lê Hoàng Châu",
+    "gender": "Nữ",
+    "dob": "2010-06-02",
+    "school": "THPT A Lưới",
+    "grade": "11A1",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0359",
-    "name": "Đặng Mậu Trang",
+    "tt": 652,
+    "sbd": "46060035",
+    "name": "Lê Thị Hạnh Duyên",
+    "gender": "Nữ",
+    "dob": "2009-05-14",
     "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0360",
-    "name": "Bùi Bảo Tâm",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0361",
-    "name": "Trần Mậu Tâm",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0362",
-    "name": "Hồ Anh Hải",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0363",
-    "name": "Hoàng Thanh Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0364",
-    "name": "Đặng Anh Hà",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0365",
-    "name": "Lê Đức Khánh",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0366",
-    "name": "Hoàng Xuân Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0367",
-    "name": "Đỗ Thị Đạt",
-    "school": "THPT Gia Hội",
-    "subject": "Toán",
-    "grade": 10
+    "grade": "12B2",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0368",
-    "name": "Vũ Mậu Minh",
+    "tt": 653,
+    "sbd": "46060042",
+    "name": "Phan Quý Minh Hiền",
+    "gender": "Nữ",
+    "dob": "2010-07-01",
     "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0369",
-    "name": "Trần Anh Phương",
-    "school": "THPT Hương Trà",
+    "grade": "11/07",
     "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0370",
-    "name": "Nguyễn Văn Hùng",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 12
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0371",
-    "name": "Đỗ Văn Đạt",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 12
+    "tt": 654,
+    "sbd": "46060044",
+    "name": "Phan Thế Đại Huy",
+    "gender": "Nam",
+    "dob": "2010-06-28",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "11A3",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0372",
-    "name": "Hồ Đức Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
+    "tt": 655,
+    "sbd": "46060047",
+    "name": "Nguyễn Khánh Huyền",
+    "gender": "Nữ",
+    "dob": "2009-12-05",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/1",
     "subject": "Ngữ văn",
-    "grade": 12
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0373",
-    "name": "Hồ Anh Linh",
-    "school": "THPT Phú Lộc",
-    "subject": "Địa lý",
-    "grade": 11
+    "tt": 656,
+    "sbd": "46060048",
+    "name": "Trương Thị Ngọc Huyền",
+    "gender": "Nữ",
+    "dob": "2009-05-10",
+    "school": "THPT Bình Điền",
+    "grade": "12/2",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0374",
-    "name": "Phạm Thanh Tâm",
-    "school": "THPT Gia Hội",
-    "subject": "Lịch sử",
-    "grade": 12
+    "tt": 657,
+    "sbd": "46060051",
+    "name": "Nguyễn Lê Ngọc Hân",
+    "gender": "Nữ",
+    "dob": "2009-01-06",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B7",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-0375",
-    "name": "Phạm Hoàng Hoàng",
-    "school": "THPT Phong Điền",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0376",
-    "name": "Phạm Văn Phương",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0377",
-    "name": "Đỗ Hoàng Hải",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0378",
-    "name": "Hoàng Văn Linh",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0379",
-    "name": "Nguyễn Bảo Anh",
-    "school": "THPT Gia Hội",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0380",
-    "name": "Đỗ Đức Hải",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0381",
-    "name": "Phạm Bảo Hưng",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0382",
-    "name": "Võ Bảo Phương",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0383",
-    "name": "Hoàng Thanh Phú",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0384",
-    "name": "Hoàng Mậu Trang",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0385",
-    "name": "Bùi Quốc Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0386",
-    "name": "Hồ Đình Quý",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0387",
-    "name": "Đỗ Đình Nam",
-    "school": "THPT Hương Trà",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0388",
-    "name": "Vũ Hoàng Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0389",
-    "name": "Đặng Hoàng Tâm",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0390",
-    "name": "Lê Văn Minh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0391",
-    "name": "Hồ Hoàng Khánh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0392",
-    "name": "Hồ Xuân Đạt",
-    "school": "THPT Quảng Điền",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0393",
-    "name": "Vũ Văn Hoàng",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0394",
-    "name": "Nguyễn Mậu Anh",
-    "school": "THPT Phong Điền",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0395",
-    "name": "Trần Thị Khánh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0396",
-    "name": "Nguyễn Quốc Khánh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0397",
-    "name": "Hồ Văn Minh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0398",
-    "name": "Nguyễn Đức Hải",
-    "school": "THPT Phong Điền",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0399",
-    "name": "Võ Văn Hà",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0400",
-    "name": "Phạm Hoàng Tâm",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0401",
-    "name": "Đặng Thanh Khoa",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0402",
-    "name": "Bùi Đức Hùng",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0403",
-    "name": "Lê Hoàng Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0404",
-    "name": "Vũ Bảo Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0405",
-    "name": "Vũ Bảo Đạt",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0406",
-    "name": "Vũ Thị Hùng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0407",
-    "name": "Vũ Mậu Hưng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0408",
-    "name": "Vũ Thanh Phương",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0409",
-    "name": "Đỗ Đức Hà",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0410",
-    "name": "Vũ Xuân Tâm",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0411",
-    "name": "Đặng Mậu Hưng",
-    "school": "THPT Hương Thủy",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0412",
-    "name": "Võ Hoàng Minh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0413",
-    "name": "Hồ Đình Anh",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0414",
-    "name": "Đỗ Mậu Quý",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0415",
-    "name": "Hồ Mậu Linh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0416",
-    "name": "Võ Xuân Hoàng",
-    "school": "THPT Gia Hội",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0417",
-    "name": "Võ Anh Linh",
-    "school": "THPT Hương Trà",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0418",
-    "name": "Phạm Quốc Tâm",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0419",
-    "name": "Đặng Xuân Đạt",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0420",
-    "name": "Đỗ Xuân Minh",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0421",
-    "name": "Nguyễn Văn Anh",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0422",
-    "name": "Võ Đức Khoa",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0423",
-    "name": "Hồ Mậu Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0424",
-    "name": "Lê Bảo Anh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0425",
-    "name": "Hồ Minh Đạt",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0426",
-    "name": "Nguyễn Thanh Quý",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0427",
-    "name": "Hồ Thanh Anh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0428",
-    "name": "Bùi Văn Tâm",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0429",
-    "name": "Đặng Thanh Nam",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0430",
-    "name": "Đỗ Đình Hà",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0431",
-    "name": "Vũ Anh Trang",
-    "school": "THPT Cao Thắng",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0432",
-    "name": "Đặng Thị Hà",
-    "school": "THPT Hương Thủy",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0433",
-    "name": "Hoàng Xuân Minh",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0434",
-    "name": "Nguyễn Văn Hoàng",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0435",
-    "name": "Đặng Văn Phương",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0436",
-    "name": "Phạm Quốc Khoa",
-    "school": "THPT Gia Hội",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0437",
-    "name": "Võ Hoàng Khoa",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0438",
-    "name": "Hoàng Xuân Anh",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0439",
-    "name": "Võ Minh Khoa",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0440",
-    "name": "Đỗ Thanh Phú",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0441",
-    "name": "Phạm Thanh Tâm",
-    "school": "THPT Phong Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0442",
-    "name": "Vũ Đình Khoa",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0443",
-    "name": "Phạm Thị Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0444",
-    "name": "Trần Quốc Hưng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0445",
-    "name": "Võ Bảo Phương",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0446",
-    "name": "Nguyễn Minh Quý",
-    "school": "THPT Hương Thủy",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0447",
-    "name": "Nguyễn Mậu Khánh",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0448",
-    "name": "Bùi Thanh Phương",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0449",
-    "name": "Đỗ Đức Quý",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0450",
-    "name": "Hồ Đình Tâm",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0451",
-    "name": "Võ Minh Minh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0452",
-    "name": "Võ Anh Hải",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0453",
-    "name": "Trần Quốc Phương",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0454",
-    "name": "Vũ Thanh Đạt",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0455",
-    "name": "Đỗ Thanh Trang",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0456",
-    "name": "Vũ Văn Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0457",
-    "name": "Đặng Mậu Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0458",
-    "name": "Đặng Thanh Linh",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0459",
-    "name": "Trần Bảo Quý",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0460",
-    "name": "Hồ Minh Nam",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0461",
-    "name": "Trần Mậu Phú",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0462",
-    "name": "Võ Mậu Phương",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0463",
-    "name": "Phạm Thanh Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0464",
-    "name": "Nguyễn Minh Nam",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0465",
-    "name": "Võ Mậu Phương",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0466",
-    "name": "Lê Bảo Hùng",
-    "school": "THPT Hương Thủy",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0467",
-    "name": "Đỗ Thị Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0468",
-    "name": "Phạm Thị Nam",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0469",
-    "name": "Đỗ Minh Hải",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0470",
-    "name": "Phạm Anh Phú",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0471",
-    "name": "Hoàng Quốc Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0472",
-    "name": "Hoàng Đình Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0473",
-    "name": "Hồ Hoàng Quý",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0474",
-    "name": "Nguyễn Mậu Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0475",
-    "name": "Phạm Quốc Trang",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0476",
-    "name": "Hoàng Anh Hải",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0477",
-    "name": "Lê Hoàng Khánh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0478",
-    "name": "Đặng Xuân Phú",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0479",
-    "name": "Đỗ Anh Nam",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0480",
-    "name": "Hồ Mậu Quý",
-    "school": "THPT Phong Điền",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0481",
-    "name": "Nguyễn Văn Anh",
-    "school": "THPT Gia Hội",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0482",
-    "name": "Trần Anh Phú",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0483",
-    "name": "Phạm Đức Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0484",
-    "name": "Vũ Quốc Hưng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0485",
-    "name": "Hồ Thị Khoa",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0486",
-    "name": "Hồ Đức Hải",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0487",
-    "name": "Đặng Xuân Quý",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0488",
-    "name": "Nguyễn Đình Khoa",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0489",
-    "name": "Đỗ Anh Hùng",
-    "school": "THPT Cao Thắng",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0490",
-    "name": "Hoàng Thanh Đạt",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0491",
-    "name": "Võ Đình Hoàng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0492",
-    "name": "Đặng Thanh Khoa",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0493",
-    "name": "Lê Hoàng Phương",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0494",
-    "name": "Lê Hoàng Đạt",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0495",
-    "name": "Vũ Đức Hoàng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0496",
-    "name": "Hoàng Văn Khánh",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0497",
-    "name": "Vũ Bảo Hà",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0498",
-    "name": "Đặng Mậu Minh",
-    "school": "THPT Cao Thắng",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0499",
-    "name": "Đặng Anh Khánh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0500",
-    "name": "Trần Đức Hải",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0501",
-    "name": "Bùi Quốc Hoàng",
-    "school": "THPT Cao Thắng",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0502",
-    "name": "Lê Quốc Trang",
-    "school": "THPT Phong Điền",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0503",
-    "name": "Hoàng Xuân Hùng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0504",
-    "name": "Vũ Thanh Phú",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0505",
-    "name": "Vũ Mậu Tâm",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0506",
-    "name": "Hồ Anh Phú",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0507",
-    "name": "Đặng Xuân Hải",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0508",
-    "name": "Trần Thanh Đạt",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0509",
-    "name": "Hoàng Hoàng Trang",
-    "school": "THPT Phong Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0510",
-    "name": "Đặng Thanh Hưng",
-    "school": "THPT Gia Hội",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0511",
-    "name": "Đặng Bảo Khánh",
-    "school": "THPT Cao Thắng",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0512",
-    "name": "Lê Đình Minh",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0513",
-    "name": "Vũ Quốc Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0514",
-    "name": "Trần Thanh Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0515",
-    "name": "Hoàng Quốc Linh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0516",
-    "name": "Hồ Thanh Hùng",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0517",
-    "name": "Hoàng Thị Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0518",
-    "name": "Trần Anh Tâm",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0519",
-    "name": "Đặng Đình Nam",
-    "school": "THPT Hương Thủy",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0520",
-    "name": "Phạm Thanh Trang",
-    "school": "THPT Gia Hội",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0521",
-    "name": "Bùi Bảo Nam",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0522",
-    "name": "Phạm Minh Đạt",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0523",
-    "name": "Đỗ Bảo Khoa",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0524",
-    "name": "Hoàng Anh Anh",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0525",
-    "name": "Đỗ Quốc Hoàng",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0526",
-    "name": "Hồ Hoàng Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0527",
-    "name": "Nguyễn Hoàng Hoàng",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0528",
-    "name": "Bùi Đức Hùng",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0529",
-    "name": "Trần Đình Minh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0530",
-    "name": "Đặng Bảo Trang",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0531",
-    "name": "Trần Mậu Khánh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0532",
-    "name": "Đỗ Anh Hưng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0533",
-    "name": "Phạm Đình Hưng",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0534",
-    "name": "Phạm Thanh Khoa",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0535",
-    "name": "Đặng Thị Hùng",
-    "school": "THPT Quảng Điền",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0536",
-    "name": "Phạm Đình Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0537",
-    "name": "Võ Đức Hoàng",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0538",
-    "name": "Hồ Mậu Tâm",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0539",
-    "name": "Nguyễn Thị Hà",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0540",
-    "name": "Lê Đình Hùng",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0541",
-    "name": "Phạm Đức Quý",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0542",
-    "name": "Nguyễn Hoàng Hà",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0543",
-    "name": "Bùi Quốc Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0544",
-    "name": "Đặng Quốc Anh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0545",
-    "name": "Nguyễn Quốc Trang",
-    "school": "THPT Phong Điền",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0546",
-    "name": "Vũ Xuân Đạt",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0547",
-    "name": "Lê Mậu Tâm",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0548",
-    "name": "Nguyễn Hoàng Đạt",
-    "school": "THPT Hương Thủy",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0549",
-    "name": "Hoàng Đức Linh",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0550",
-    "name": "Hồ Hoàng Đạt",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0551",
-    "name": "Bùi Đức Nam",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0552",
-    "name": "Trần Hoàng Linh",
-    "school": "THPT Quảng Điền",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0553",
-    "name": "Bùi Thanh Khánh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0554",
-    "name": "Đỗ Anh Hoàng",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0555",
-    "name": "Trần Quốc Khánh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0556",
-    "name": "Đặng Mậu Hoàng",
-    "school": "THPT Phong Điền",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0557",
-    "name": "Bùi Bảo Tâm",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0558",
-    "name": "Hoàng Đức Nam",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0559",
-    "name": "Võ Bảo Linh",
-    "school": "THPT Quảng Điền",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0560",
-    "name": "Bùi Mậu Đạt",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0561",
-    "name": "Lê Minh Tâm",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0562",
-    "name": "Đỗ Đình Phương",
-    "school": "THPT Hương Thủy",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0563",
-    "name": "Vũ Anh Linh",
-    "school": "THPT Gia Hội",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0564",
-    "name": "Bùi Xuân Quý",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0565",
-    "name": "Võ Anh Tâm",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0566",
-    "name": "Hoàng Quốc Nam",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0567",
-    "name": "Trần Thanh Quý",
-    "school": "THPT Phong Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0568",
-    "name": "Lê Quốc Hưng",
-    "school": "THPT Gia Hội",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0569",
-    "name": "Phạm Quốc Quý",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0570",
-    "name": "Hoàng Xuân Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0571",
-    "name": "Nguyễn Văn Phương",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0572",
-    "name": "Đặng Quốc Hùng",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0573",
-    "name": "Trần Mậu Anh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0574",
-    "name": "Đặng Bảo Khoa",
-    "school": "THPT Phong Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0575",
-    "name": "Lê Đình Trang",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0576",
-    "name": "Nguyễn Thị Trang",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0577",
-    "name": "Đỗ Mậu Hùng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0578",
-    "name": "Lê Minh Hưng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0579",
-    "name": "Đỗ Anh Tâm",
-    "school": "THPT Phong Điền",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0580",
-    "name": "Lê Thanh Anh",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0581",
-    "name": "Hồ Thị Hoàng",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0582",
-    "name": "Hồ Xuân Anh",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0583",
-    "name": "Đỗ Đức Quý",
-    "school": "THPT Gia Hội",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0584",
-    "name": "Bùi Anh Linh",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0585",
-    "name": "Hoàng Thị Hùng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0586",
-    "name": "Trần Đức Phương",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0587",
-    "name": "Đỗ Mậu Quý",
-    "school": "THPT Hương Trà",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0588",
-    "name": "Đỗ Mậu Đạt",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0589",
-    "name": "Bùi Hoàng Hải",
-    "school": "THPT Quảng Điền",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0590",
-    "name": "Bùi Đình Phú",
-    "school": "THPT Phong Điền",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0591",
-    "name": "Phạm Anh Hải",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0592",
-    "name": "Vũ Thị Trang",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0593",
-    "name": "Bùi Mậu Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0594",
-    "name": "Phạm Xuân Phú",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0595",
-    "name": "Bùi Hoàng Hải",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0596",
-    "name": "Lê Thanh Linh",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0597",
-    "name": "Đặng Đình Phương",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0598",
-    "name": "Vũ Thị Hà",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0599",
-    "name": "Lê Thị Hưng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0600",
-    "name": "Bùi Văn Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0601",
-    "name": "Bùi Minh Quý",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0602",
-    "name": "Đỗ Xuân Nam",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0603",
-    "name": "Nguyễn Minh Hà",
-    "school": "THPT Phú Lộc",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0604",
-    "name": "Hoàng Minh Phương",
-    "school": "THPT Gia Hội",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0605",
-    "name": "Hoàng Đức Hùng",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0606",
-    "name": "Hoàng Mậu Linh",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0607",
-    "name": "Bùi Quốc Minh",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0608",
-    "name": "Bùi Xuân Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0609",
-    "name": "Trần Bảo Minh",
-    "school": "THPT Phong Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0610",
-    "name": "Hồ Xuân Khánh",
-    "school": "THPT Hương Trà",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0611",
-    "name": "Võ Xuân Hưng",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0612",
-    "name": "Đặng Thị Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0613",
-    "name": "Trần Minh Đạt",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0614",
-    "name": "Lê Đức Linh",
-    "school": "THPT Gia Hội",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0615",
-    "name": "Vũ Đức Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0616",
-    "name": "Võ Anh Hà",
-    "school": "THPT Gia Hội",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0617",
-    "name": "Phạm Thanh Nam",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0618",
-    "name": "Trần Thị Nam",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0619",
-    "name": "Vũ Minh Minh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0620",
-    "name": "Hoàng Xuân Hải",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0621",
-    "name": "Nguyễn Quốc Trang",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0622",
-    "name": "Bùi Văn Phú",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0623",
-    "name": "Lê Đức Trang",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0624",
-    "name": "Lê Văn Hà",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0625",
-    "name": "Hoàng Minh Nam",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0626",
-    "name": "Hoàng Thanh Hùng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0627",
-    "name": "Bùi Minh Hưng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0628",
-    "name": "Nguyễn Hoàng Nam",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0629",
-    "name": "Phạm Minh Tâm",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0630",
-    "name": "Bùi Thanh Nam",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0631",
-    "name": "Nguyễn Đình Hoàng",
-    "school": "THPT Hương Thủy",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0632",
-    "name": "Phạm Quốc Minh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0633",
-    "name": "Bùi Hoàng Nam",
-    "school": "THPT Cao Thắng",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0634",
-    "name": "Vũ Đình Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0635",
-    "name": "Đặng Bảo Quý",
-    "school": "THPT Gia Hội",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0636",
-    "name": "Đặng Đức Minh",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0637",
-    "name": "Hoàng Mậu Phú",
-    "school": "THPT Phong Điền",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0638",
-    "name": "Đỗ Hoàng Phương",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0639",
-    "name": "Đặng Anh Đạt",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0640",
-    "name": "Hồ Thị Hùng",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0641",
-    "name": "Lê Minh Hải",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0642",
-    "name": "Vũ Quốc Hùng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0643",
-    "name": "Hoàng Mậu Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0644",
-    "name": "Trần Thanh Anh",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0645",
-    "name": "Phạm Đình Linh",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0646",
-    "name": "Lê Xuân Hà",
-    "school": "THPT Cao Thắng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0647",
-    "name": "Bùi Văn Hải",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0648",
-    "name": "Trần Quốc Quý",
-    "school": "THPT Gia Hội",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0649",
-    "name": "Đặng Đức Hoàng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0650",
-    "name": "Lê Đức Nam",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0651",
-    "name": "Hoàng Quốc Hải",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0652",
-    "name": "Võ Bảo Hà",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0653",
-    "name": "Trần Văn Quý",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0654",
-    "name": "Võ Xuân Hải",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0655",
-    "name": "Trần Văn Trang",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0656",
-    "name": "Bùi Thanh Hoàng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0657",
-    "name": "Trần Bảo Khánh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0658",
-    "name": "Bùi Thanh Đạt",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0659",
-    "name": "Hồ Hoàng Đạt",
-    "school": "THPT Hương Trà",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0660",
-    "name": "Nguyễn Bảo Quý",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0661",
-    "name": "Hồ Văn Quý",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0662",
-    "name": "Bùi Mậu Hoàng",
-    "school": "THPT Quảng Điền",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0663",
-    "name": "Bùi Đình Hoàng",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0664",
-    "name": "Trần Hoàng Khánh",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0665",
-    "name": "Lê Đức Hùng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0666",
-    "name": "Đặng Văn Hùng",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0667",
-    "name": "Hoàng Bảo Khánh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0668",
-    "name": "Hoàng Bảo Minh",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0669",
-    "name": "Lê Xuân Đạt",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0670",
-    "name": "Đặng Mậu Trang",
-    "school": "THPT Phong Điền",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0671",
-    "name": "Lê Anh Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0672",
-    "name": "Hồ Thanh Tâm",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0673",
-    "name": "Đặng Đình Khánh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0674",
-    "name": "Vũ Đình Hải",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0675",
-    "name": "Lê Quốc Tâm",
-    "school": "THPT Phú Lộc",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0676",
-    "name": "Đỗ Hoàng Khoa",
-    "school": "THPT Hương Trà",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0677",
-    "name": "Đỗ Minh Anh",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0678",
-    "name": "Phạm Bảo Phương",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0679",
-    "name": "Vũ Quốc Tâm",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0680",
-    "name": "Nguyễn Xuân Phương",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0681",
-    "name": "Phạm Xuân Anh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0682",
-    "name": "Đỗ Thị Hoàng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0683",
-    "name": "Bùi Đình Quý",
-    "school": "THPT Gia Hội",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0684",
-    "name": "Bùi Xuân Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0685",
-    "name": "Võ Quốc Trang",
-    "school": "THPT Hương Trà",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0686",
-    "name": "Trần Mậu Minh",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0687",
-    "name": "Lê Hoàng Khoa",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0688",
-    "name": "Võ Minh Nam",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0689",
-    "name": "Lê Đức Linh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0690",
-    "name": "Trần Thị Hải",
-    "school": "THPT Phong Điền",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0691",
-    "name": "Hồ Anh Đạt",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0692",
-    "name": "Đặng Xuân Hoàng",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0693",
-    "name": "Bùi Xuân Quý",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0694",
-    "name": "Hoàng Mậu Phương",
-    "school": "THPT Gia Hội",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0695",
-    "name": "Hồ Đình Minh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0696",
-    "name": "Hoàng Văn Trang",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0697",
-    "name": "Trần Minh Khánh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0698",
-    "name": "Nguyễn Bảo Hùng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0699",
-    "name": "Lê Văn Khánh",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0700",
-    "name": "Võ Đình Nam",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0701",
-    "name": "Bùi Quốc Trang",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0702",
-    "name": "Hồ Thanh Nam",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0703",
-    "name": "Võ Quốc Linh",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0704",
-    "name": "Bùi Hoàng Hoàng",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0705",
-    "name": "Bùi Bảo Hùng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0706",
-    "name": "Hoàng Anh Minh",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0707",
-    "name": "Hồ Văn Anh",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0708",
-    "name": "Nguyễn Bảo Nam",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0709",
-    "name": "Trần Văn Linh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0710",
-    "name": "Phạm Bảo Khánh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0711",
-    "name": "Hồ Hoàng Nam",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0712",
-    "name": "Đặng Văn Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0713",
-    "name": "Vũ Mậu Anh",
-    "school": "THPT Gia Hội",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0714",
-    "name": "Đỗ Anh Trang",
-    "school": "THPT Hương Thủy",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0715",
-    "name": "Phạm Thanh Nam",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0716",
-    "name": "Vũ Xuân Khánh",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0717",
-    "name": "Đỗ Anh Hải",
-    "school": "THPT Hương Trà",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0718",
-    "name": "Phạm Mậu Khoa",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0719",
-    "name": "Trần Quốc Anh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0720",
-    "name": "Võ Bảo Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0721",
-    "name": "Phạm Anh Đạt",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0722",
-    "name": "Trần Văn Nam",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0723",
-    "name": "Nguyễn Văn Khoa",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0724",
-    "name": "Hồ Bảo Hải",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0725",
-    "name": "Vũ Thanh Anh",
-    "school": "THPT Cao Thắng",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0726",
-    "name": "Hoàng Đình Nam",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0727",
-    "name": "Đặng Văn Nam",
-    "school": "THPT Phong Điền",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0728",
-    "name": "Bùi Bảo Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0729",
-    "name": "Đặng Bảo Quý",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0730",
-    "name": "Đặng Thanh Hải",
-    "school": "THPT Hương Thủy",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0731",
-    "name": "Đỗ Quốc Hoàng",
-    "school": "THPT Hương Trà",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0732",
-    "name": "Phạm Thị Trang",
-    "school": "THPT Phú Lộc",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0733",
-    "name": "Bùi Đức Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0734",
-    "name": "Bùi Đức Khánh",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0735",
-    "name": "Phạm Đình Linh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0736",
-    "name": "Nguyễn Mậu Đạt",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0737",
-    "name": "Hoàng Đình Hoàng",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0738",
-    "name": "Nguyễn Minh Đạt",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0739",
-    "name": "Võ Đức Anh",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0740",
-    "name": "Đỗ Minh Phú",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0741",
-    "name": "Trần Mậu Phú",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0742",
-    "name": "Phạm Mậu Quý",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0743",
-    "name": "Hồ Bảo Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0744",
-    "name": "Võ Anh Đạt",
-    "school": "THPT Gia Hội",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0745",
-    "name": "Võ Đình Linh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0746",
-    "name": "Hoàng Thanh Nam",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0747",
-    "name": "Võ Hoàng Nam",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0748",
-    "name": "Trần Văn Hải",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0749",
-    "name": "Hoàng Đình Quý",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0750",
-    "name": "Hồ Thanh Khoa",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0751",
-    "name": "Hoàng Hoàng Khoa",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0752",
-    "name": "Nguyễn Quốc Hà",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0753",
-    "name": "Bùi Mậu Phú",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0754",
-    "name": "Đặng Văn Anh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0755",
-    "name": "Lê Minh Nam",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0756",
-    "name": "Nguyễn Quốc Hải",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0757",
-    "name": "Trần Đức Minh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0758",
-    "name": "Trần Thanh Hải",
-    "school": "THPT Quảng Điền",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0759",
-    "name": "Võ Hoàng Minh",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0760",
-    "name": "Đặng Đức Tâm",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0761",
-    "name": "Đỗ Mậu Hưng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0762",
-    "name": "Trần Đình Linh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0763",
-    "name": "Vũ Minh Hoàng",
-    "school": "THPT Hương Thủy",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0764",
-    "name": "Hồ Thị Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0765",
-    "name": "Bùi Hoàng Hùng",
-    "school": "THPT Quảng Điền",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0766",
-    "name": "Vũ Mậu Tâm",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0767",
-    "name": "Hoàng Mậu Phú",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0768",
-    "name": "Hồ Mậu Phương",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0769",
-    "name": "Đỗ Quốc Khánh",
-    "school": "THPT Phong Điền",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0770",
-    "name": "Phạm Đình Minh",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0771",
-    "name": "Hoàng Anh Tâm",
-    "school": "THPT Phong Điền",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0772",
-    "name": "Lê Đình Minh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0773",
-    "name": "Bùi Thanh Hoàng",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0774",
-    "name": "Vũ Đình Khoa",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0775",
-    "name": "Bùi Bảo Hưng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0776",
-    "name": "Võ Minh Phú",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0777",
-    "name": "Đỗ Đình Anh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0778",
-    "name": "Hồ Đình Hà",
-    "school": "THPT Hương Trà",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0779",
-    "name": "Lê Hoàng Hà",
-    "school": "THPT Quảng Điền",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0780",
-    "name": "Phạm Mậu Hùng",
-    "school": "THPT Gia Hội",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0781",
-    "name": "Hoàng Quốc Phương",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0782",
-    "name": "Võ Đình Phú",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0783",
-    "name": "Đặng Bảo Khoa",
-    "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0784",
-    "name": "Lê Thanh Khoa",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0785",
-    "name": "Võ Đình Hoàng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0786",
-    "name": "Lê Đình Tâm",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0787",
-    "name": "Lê Thanh Linh",
-    "school": "THPT Quảng Điền",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0788",
-    "name": "Phạm Thị Linh",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0789",
-    "name": "Vũ Anh Hà",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0790",
-    "name": "Võ Bảo Linh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0791",
-    "name": "Nguyễn Thanh Khánh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0792",
-    "name": "Hồ Đình Khánh",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0793",
-    "name": "Lê Văn Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0794",
-    "name": "Đặng Thanh Phương",
-    "school": "THPT Hương Thủy",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0795",
-    "name": "Vũ Hoàng Hà",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0796",
-    "name": "Hồ Đức Anh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0797",
-    "name": "Hồ Anh Phương",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0798",
-    "name": "Nguyễn Bảo Linh",
-    "school": "THPT Phong Điền",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0799",
-    "name": "Võ Đức Linh",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0800",
-    "name": "Đặng Xuân Phương",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0801",
-    "name": "Hồ Hoàng Hùng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0802",
-    "name": "Trần Mậu Phú",
-    "school": "THPT Hương Trà",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0803",
-    "name": "Lê Xuân Khoa",
-    "school": "THPT Phong Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0804",
-    "name": "Đặng Mậu Hoàng",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0805",
-    "name": "Bùi Xuân Đạt",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0806",
-    "name": "Bùi Mậu Hưng",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0807",
-    "name": "Nguyễn Đình Khoa",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0808",
-    "name": "Vũ Bảo Khánh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0809",
-    "name": "Lê Xuân Hùng",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0810",
-    "name": "Hoàng Anh Hưng",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0811",
-    "name": "Nguyễn Thanh Linh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0812",
-    "name": "Phạm Thị Quý",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0813",
-    "name": "Võ Minh Nam",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0814",
-    "name": "Đặng Xuân Anh",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0815",
-    "name": "Lê Hoàng Phương",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0816",
-    "name": "Đỗ Mậu Quý",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0817",
-    "name": "Bùi Anh Hải",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0818",
-    "name": "Hồ Anh Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0819",
-    "name": "Nguyễn Văn Đạt",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0820",
-    "name": "Đỗ Thanh Khoa",
-    "school": "THPT Phong Điền",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0821",
-    "name": "Nguyễn Mậu Đạt",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0822",
-    "name": "Trần Xuân Quý",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0823",
-    "name": "Lê Thanh Minh",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0824",
-    "name": "Hoàng Thanh Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0825",
-    "name": "Võ Minh Anh",
-    "school": "THPT Phong Điền",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0826",
-    "name": "Nguyễn Xuân Quý",
-    "school": "THPT Cao Thắng",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0827",
-    "name": "Võ Hoàng Hùng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0828",
-    "name": "Đỗ Minh Đạt",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0829",
-    "name": "Lê Hoàng Hưng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0830",
-    "name": "Đặng Xuân Anh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0831",
-    "name": "Lê Minh Hưng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0832",
-    "name": "Nguyễn Quốc Hưng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0833",
-    "name": "Hoàng Xuân Quý",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0834",
-    "name": "Đặng Minh Trang",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0835",
-    "name": "Hồ Anh Phương",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0836",
-    "name": "Đặng Hoàng Hùng",
-    "school": "THPT Hương Thủy",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0837",
-    "name": "Hoàng Thanh Trang",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0838",
-    "name": "Nguyễn Xuân Khoa",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0839",
-    "name": "Lê Quốc Nam",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0840",
-    "name": "Lê Minh Hùng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0841",
-    "name": "Hồ Thị Hà",
-    "school": "THPT Gia Hội",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0842",
-    "name": "Trần Bảo Hà",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0843",
-    "name": "Phạm Văn Nam",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0844",
-    "name": "Trần Đình Hoàng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0845",
-    "name": "Bùi Minh Hùng",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0846",
-    "name": "Đỗ Quốc Nam",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0847",
-    "name": "Hồ Thị Đạt",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0848",
-    "name": "Phạm Văn Trang",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0849",
-    "name": "Hồ Văn Minh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0850",
-    "name": "Đặng Văn Trang",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0851",
-    "name": "Đỗ Minh Quý",
-    "school": "THPT Phong Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0852",
-    "name": "Trần Đình Nam",
-    "school": "THPT Hương Thủy",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0853",
-    "name": "Đặng Anh Khánh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0854",
-    "name": "Lê Đức Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0855",
-    "name": "Đặng Xuân Hoàng",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0856",
-    "name": "Hoàng Thanh Minh",
-    "school": "THPT Hương Thủy",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0857",
-    "name": "Hồ Đình Hải",
-    "school": "THPT Cao Thắng",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0858",
-    "name": "Vũ Thanh Trang",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0859",
-    "name": "Bùi Đức Linh",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0860",
-    "name": "Võ Đình Khánh",
-    "school": "THPT Phong Điền",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0861",
-    "name": "Nguyễn Anh Khoa",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0862",
-    "name": "Phạm Minh Hưng",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0863",
-    "name": "Phạm Đức Tâm",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0864",
-    "name": "Vũ Hoàng Tâm",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0865",
-    "name": "Võ Anh Hải",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0866",
-    "name": "Hồ Minh Hà",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0867",
-    "name": "Đỗ Quốc Khoa",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0868",
-    "name": "Võ Đình Hà",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0869",
-    "name": "Bùi Mậu Khoa",
-    "school": "THPT Quảng Điền",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0870",
-    "name": "Trần Đình Hùng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0871",
-    "name": "Đặng Minh Phú",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0872",
-    "name": "Võ Văn Anh",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0873",
-    "name": "Lê Xuân Khoa",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0874",
-    "name": "Hồ Anh Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0875",
-    "name": "Phạm Thanh Phương",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0876",
-    "name": "Hồ Bảo Hải",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0877",
-    "name": "Nguyễn Văn Hà",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0878",
-    "name": "Đặng Đình Anh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0879",
-    "name": "Trần Minh Trang",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0880",
-    "name": "Vũ Mậu Hải",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0881",
-    "name": "Võ Anh Linh",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0882",
-    "name": "Đỗ Minh Đạt",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0883",
-    "name": "Võ Thị Hà",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0884",
-    "name": "Đỗ Anh Hùng",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0885",
-    "name": "Đỗ Bảo Hưng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0886",
-    "name": "Đặng Xuân Trang",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0887",
-    "name": "Đỗ Đức Khánh",
-    "school": "THPT Quảng Điền",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0888",
-    "name": "Bùi Hoàng Tâm",
-    "school": "THPT Phú Lộc",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0889",
-    "name": "Phạm Minh Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0890",
-    "name": "Lê Bảo Hoàng",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0891",
-    "name": "Hoàng Hoàng Anh",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0892",
-    "name": "Nguyễn Đình Phương",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0893",
-    "name": "Trần Bảo Quý",
-    "school": "THPT Hương Trà",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0894",
-    "name": "Đặng Bảo Phương",
-    "school": "THPT Quảng Điền",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0895",
-    "name": "Hồ Xuân Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0896",
-    "name": "Nguyễn Đức Hà",
-    "school": "THPT Hương Thủy",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0897",
-    "name": "Phạm Minh Nam",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0898",
-    "name": "Đặng Quốc Khoa",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0899",
-    "name": "Lê Xuân Nam",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0900",
-    "name": "Bùi Văn Minh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0901",
-    "name": "Phạm Đình Anh",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0902",
-    "name": "Nguyễn Thanh Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0903",
-    "name": "Đỗ Quốc Khoa",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0904",
-    "name": "Võ Hoàng Hải",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0905",
-    "name": "Đỗ Thanh Hùng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0906",
-    "name": "Đỗ Mậu Khánh",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0907",
-    "name": "Hoàng Thị Hoàng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0908",
-    "name": "Trần Thanh Linh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0909",
-    "name": "Đỗ Xuân Linh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0910",
-    "name": "Đỗ Mậu Khoa",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0911",
-    "name": "Bùi Đức Hoàng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0912",
-    "name": "Hoàng Hoàng Hải",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0913",
-    "name": "Võ Mậu Khánh",
-    "school": "THPT Hương Trà",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0914",
-    "name": "Hồ Hoàng Linh",
-    "school": "THPT Hương Trà",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0915",
-    "name": "Đặng Quốc Khoa",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0916",
-    "name": "Hoàng Thị Quý",
-    "school": "THPT Phong Điền",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0917",
-    "name": "Võ Thị Nam",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0918",
-    "name": "Trần Anh Hùng",
-    "school": "THPT Gia Hội",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0919",
-    "name": "Đỗ Xuân Trang",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0920",
-    "name": "Vũ Thị Tâm",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0921",
-    "name": "Nguyễn Minh Hà",
-    "school": "THPT Gia Hội",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0922",
-    "name": "Vũ Hoàng Minh",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0923",
-    "name": "Lê Đức Tâm",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0924",
-    "name": "Bùi Mậu Minh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0925",
-    "name": "Nguyễn Thị Hùng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0926",
-    "name": "Đặng Mậu Phương",
-    "school": "THPT Hương Trà",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0927",
-    "name": "Võ Xuân Hà",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0928",
-    "name": "Hồ Quốc Tâm",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0929",
-    "name": "Lê Mậu Đạt",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0930",
-    "name": "Đỗ Văn Trang",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0931",
-    "name": "Nguyễn Hoàng Tâm",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0932",
-    "name": "Đặng Thị Minh",
-    "school": "THPT Phong Điền",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0933",
-    "name": "Trần Văn Nam",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0934",
-    "name": "Trần Quốc Hải",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0935",
-    "name": "Hoàng Minh Tâm",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0936",
-    "name": "Đặng Đức Phương",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0937",
-    "name": "Đỗ Đức Quý",
-    "school": "THPT Hương Thủy",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0938",
-    "name": "Bùi Văn Khánh",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0939",
-    "name": "Hồ Thị Linh",
-    "school": "THPT Phong Điền",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0940",
-    "name": "Võ Mậu Nam",
-    "school": "THPT Gia Hội",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0941",
-    "name": "Hoàng Đình Quý",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0942",
-    "name": "Nguyễn Mậu Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0943",
-    "name": "Lê Đình Quý",
-    "school": "THPT Hương Thủy",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0944",
-    "name": "Võ Thị Hoàng",
-    "school": "THPT Phú Lộc",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0945",
-    "name": "Võ Bảo Khánh",
-    "school": "THPT Phong Điền",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0946",
-    "name": "Hồ Thanh Tâm",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0947",
-    "name": "Đặng Quốc Trang",
-    "school": "THPT Gia Hội",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0948",
-    "name": "Phạm Thị Hùng",
-    "school": "THPT Quảng Điền",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0949",
-    "name": "Đỗ Văn Đạt",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0950",
-    "name": "Phạm Xuân Nam",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0951",
-    "name": "Võ Hoàng Linh",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0952",
-    "name": "Phạm Minh Phú",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0953",
-    "name": "Vũ Quốc Tâm",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0954",
-    "name": "Vũ Văn Tâm",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0955",
-    "name": "Phạm Xuân Quý",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0956",
-    "name": "Đỗ Đình Khánh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0957",
-    "name": "Nguyễn Bảo Phương",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0958",
-    "name": "Trần Đức Trang",
-    "school": "THPT Phú Lộc",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0959",
-    "name": "Bùi Văn Hải",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0960",
-    "name": "Võ Xuân Nam",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0961",
-    "name": "Trần Thị Nam",
-    "school": "THPT Phong Điền",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0962",
-    "name": "Nguyễn Đình Linh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0963",
-    "name": "Đỗ Đức Hải",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0964",
-    "name": "Phạm Xuân Phú",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0965",
-    "name": "Hoàng Anh Minh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0966",
-    "name": "Đặng Hoàng Linh",
-    "school": "THPT Hương Thủy",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0967",
-    "name": "Bùi Thị Hưng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0968",
-    "name": "Hoàng Thị Hải",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0969",
-    "name": "Lê Thị Hải",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0970",
-    "name": "Đặng Hoàng Linh",
-    "school": "THPT Hương Trà",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0971",
-    "name": "Hoàng Mậu Hà",
-    "school": "THPT Hương Trà",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0972",
-    "name": "Đặng Bảo Quý",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0973",
-    "name": "Đỗ Đình Phương",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0974",
-    "name": "Đặng Thanh Linh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0975",
-    "name": "Võ Anh Phú",
-    "school": "THPT Phú Lộc",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0976",
-    "name": "Phạm Mậu Anh",
-    "school": "THPT Phong Điền",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0977",
-    "name": "Phạm Đình Minh",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0978",
-    "name": "Bùi Hoàng Tâm",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0979",
-    "name": "Phạm Hoàng Minh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0980",
-    "name": "Trần Văn Phú",
-    "school": "THPT Hương Thủy",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0981",
-    "name": "Hồ Thị Hoàng",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0982",
-    "name": "Lê Mậu Hưng",
-    "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0983",
-    "name": "Nguyễn Đình Trang",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0984",
-    "name": "Hồ Văn Tâm",
-    "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0985",
-    "name": "Lê Anh Linh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0986",
-    "name": "Nguyễn Thanh Khánh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0987",
-    "name": "Bùi Văn Hà",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0988",
-    "name": "Hoàng Đình Khoa",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0989",
-    "name": "Hoàng Đức Quý",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0990",
-    "name": "Vũ Thanh Phương",
-    "school": "THPT Gia Hội",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0991",
-    "name": "Võ Đình Hùng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0992",
-    "name": "Lê Hoàng Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0993",
-    "name": "Đỗ Thanh Hà",
-    "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0994",
-    "name": "Bùi Minh Minh",
-    "school": "THPT Phú Lộc",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-0995",
-    "name": "Nguyễn Xuân Hưng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0996",
-    "name": "Hồ Bảo Hoàng",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0997",
-    "name": "Trần Quốc Khoa",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-0998",
-    "name": "Vũ Quốc Hoàng",
-    "school": "THPT Phong Điền",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-0999",
-    "name": "Lê Đức Trang",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1000",
-    "name": "Võ Thanh Tâm",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1001",
-    "name": "Võ Hoàng Linh",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1002",
-    "name": "Đặng Mậu Khoa",
-    "school": "THPT Phú Lộc",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1003",
-    "name": "Võ Mậu Hoàng",
-    "school": "THPT Phú Lộc",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1004",
-    "name": "Hoàng Thanh Phú",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1005",
-    "name": "Phạm Mậu Nam",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1006",
-    "name": "Trần Đức Đạt",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1007",
-    "name": "Phạm Thanh Đạt",
-    "school": "THPT Quảng Điền",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1008",
-    "name": "Vũ Đình Trang",
-    "school": "THPT Hương Thủy",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1009",
-    "name": "Nguyễn Xuân Khánh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1010",
-    "name": "Hồ Hoàng Khoa",
-    "school": "THPT Gia Hội",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1011",
-    "name": "Nguyễn Hoàng Khánh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1012",
-    "name": "Đặng Thị Phú",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1013",
-    "name": "Đặng Bảo Quý",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1014",
-    "name": "Vũ Minh Phương",
-    "school": "THPT Hương Trà",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1015",
-    "name": "Nguyễn Xuân Hoàng",
-    "school": "THPT Cao Thắng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1016",
-    "name": "Vũ Anh Phương",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1017",
-    "name": "Hoàng Đức Khánh",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1018",
-    "name": "Lê Thanh Trang",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1019",
-    "name": "Hoàng Anh Hưng",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1020",
-    "name": "Hồ Thanh Phú",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1021",
-    "name": "Lê Anh Anh",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1022",
-    "name": "Võ Anh Hưng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1023",
-    "name": "Trần Anh Hà",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1024",
-    "name": "Hoàng Quốc Đạt",
-    "school": "THPT Quảng Điền",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1025",
-    "name": "Trần Quốc Hà",
-    "school": "THPT Cao Thắng",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1026",
-    "name": "Hoàng Đình Quý",
-    "school": "THPT Hương Thủy",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1027",
-    "name": "Đỗ Văn Anh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1028",
-    "name": "Bùi Đình Hà",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1029",
-    "name": "Lê Thị Hà",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1030",
-    "name": "Phạm Minh Nam",
-    "school": "THPT Phú Lộc",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1031",
-    "name": "Đặng Minh Đạt",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1032",
-    "name": "Lê Minh Minh",
-    "school": "THPT Quảng Điền",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1033",
-    "name": "Lê Thị Hà",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1034",
-    "name": "Đỗ Đình Khoa",
-    "school": "THPT Hương Trà",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1035",
-    "name": "Bùi Thanh Anh",
-    "school": "THPT Phú Lộc",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1036",
-    "name": "Vũ Hoàng Hà",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1037",
-    "name": "Đặng Bảo Hải",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1038",
-    "name": "Võ Thanh Khoa",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1039",
-    "name": "Vũ Bảo Phú",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1040",
-    "name": "Bùi Bảo Khoa",
-    "school": "THPT Gia Hội",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1041",
-    "name": "Phạm Quốc Khánh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1042",
-    "name": "Hồ Đình Hưng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1043",
-    "name": "Võ Bảo Hoàng",
-    "school": "THPT Gia Hội",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1044",
-    "name": "Phạm Hoàng Hải",
-    "school": "THPT Hương Trà",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1045",
-    "name": "Bùi Bảo Phú",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1046",
-    "name": "Phạm Đức Phú",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1047",
-    "name": "Võ Mậu Hà",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1048",
-    "name": "Võ Văn Nam",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1049",
-    "name": "Bùi Hoàng Khánh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1050",
-    "name": "Đặng Thị Nam",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1051",
-    "name": "Vũ Thanh Quý",
-    "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1052",
-    "name": "Vũ Xuân Hải",
-    "school": "THPT Hương Thủy",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1053",
-    "name": "Vũ Đình Hoàng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1054",
-    "name": "Đặng Mậu Trang",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1055",
-    "name": "Trần Quốc Nam",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1056",
-    "name": "Nguyễn Thị Minh",
-    "school": "THPT Gia Hội",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1057",
-    "name": "Lê Minh Nam",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1058",
-    "name": "Hồ Văn Hùng",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1059",
-    "name": "Nguyễn Quốc Tâm",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1060",
-    "name": "Hoàng Hoàng Linh",
-    "school": "THPT Gia Hội",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1061",
-    "name": "Phạm Anh Linh",
-    "school": "THPT Cao Thắng",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1062",
-    "name": "Nguyễn Đình Hà",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1063",
-    "name": "Hồ Xuân Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1064",
-    "name": "Lê Bảo Linh",
-    "school": "THPT Cao Thắng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1065",
-    "name": "Vũ Quốc Trang",
-    "school": "THPT Gia Hội",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1066",
-    "name": "Đỗ Đức Khoa",
-    "school": "THPT Phong Điền",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1067",
-    "name": "Hồ Đình Nam",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1068",
-    "name": "Hoàng Đình Đạt",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1069",
-    "name": "Đặng Hoàng Nam",
-    "school": "THPT Phú Lộc",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1070",
-    "name": "Bùi Anh Nam",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1071",
-    "name": "Lê Đức Khoa",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1072",
-    "name": "Võ Mậu Hùng",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1073",
-    "name": "Đặng Hoàng Quý",
-    "school": "THPT Phú Lộc",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1074",
-    "name": "Hồ Đức Hải",
-    "school": "THPT Phú Lộc",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1075",
-    "name": "Lê Anh Anh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1076",
-    "name": "Hồ Minh Tâm",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1077",
-    "name": "Nguyễn Xuân Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1078",
-    "name": "Vũ Mậu Hải",
-    "school": "THPT Hương Trà",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1079",
-    "name": "Võ Đức Minh",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1080",
-    "name": "Đỗ Anh Linh",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1081",
-    "name": "Võ Đình Hùng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1082",
-    "name": "Võ Văn Anh",
-    "school": "THPT Gia Hội",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1083",
-    "name": "Trần Minh Hoàng",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1084",
-    "name": "Hoàng Minh Hà",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1085",
-    "name": "Hoàng Thị Hà",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1086",
-    "name": "Hoàng Quốc Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1087",
-    "name": "Trần Thị Hải",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1088",
-    "name": "Vũ Anh Hoàng",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1089",
-    "name": "Hồ Thị Nam",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1090",
-    "name": "Đặng Mậu Hoàng",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1091",
-    "name": "Phạm Quốc Hưng",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1092",
-    "name": "Phạm Thanh Linh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1093",
-    "name": "Võ Thị Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1094",
-    "name": "Bùi Hoàng Quý",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1095",
-    "name": "Trần Hoàng Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1096",
-    "name": "Vũ Đức Anh",
-    "school": "THPT Hương Thủy",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1097",
-    "name": "Bùi Hoàng Anh",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1098",
-    "name": "Phạm Hoàng Hoàng",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1099",
-    "name": "Hồ Văn Khánh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1100",
-    "name": "Phạm Anh Khánh",
-    "school": "THPT Hương Thủy",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1101",
-    "name": "Hồ Quốc Minh",
-    "school": "THPT Phong Điền",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1102",
-    "name": "Phạm Đình Đạt",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1103",
-    "name": "Trần Hoàng Minh",
-    "school": "THPT Gia Hội",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1104",
-    "name": "Hoàng Anh Nam",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1105",
-    "name": "Lê Hoàng Hải",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1106",
-    "name": "Hồ Bảo Linh",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1107",
-    "name": "Võ Xuân Phương",
-    "school": "THPT Hương Trà",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1108",
-    "name": "Hoàng Xuân Minh",
-    "school": "THPT Phú Lộc",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1109",
-    "name": "Đặng Bảo Anh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1110",
-    "name": "Võ Thị Khoa",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1111",
-    "name": "Trần Đức Phú",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1112",
-    "name": "Lê Đình Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1113",
-    "name": "Nguyễn Hoàng Khoa",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1114",
-    "name": "Vũ Mậu Hùng",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1115",
-    "name": "Lê Đức Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1116",
-    "name": "Trần Xuân Linh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1117",
-    "name": "Trần Bảo Hưng",
-    "school": "THPT Cao Thắng",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1118",
-    "name": "Lê Thanh Hoàng",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1119",
-    "name": "Đặng Bảo Hùng",
-    "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1120",
-    "name": "Đỗ Hoàng Đạt",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1121",
-    "name": "Hoàng Đức Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1122",
-    "name": "Lê Đình Quý",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1123",
-    "name": "Đỗ Hoàng Quý",
-    "school": "THPT Hương Trà",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1124",
-    "name": "Bùi Văn Hà",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1125",
-    "name": "Phạm Đình Anh",
-    "school": "THPT Cao Thắng",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1126",
-    "name": "Lê Anh Hà",
-    "school": "THPT Hương Thủy",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1127",
-    "name": "Vũ Mậu Đạt",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1128",
-    "name": "Hồ Bảo Minh",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1129",
-    "name": "Nguyễn Minh Hưng",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1130",
-    "name": "Bùi Thanh Hải",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1131",
-    "name": "Vũ Minh Quý",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1132",
-    "name": "Võ Thị Linh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1133",
-    "name": "Trần Văn Trang",
-    "school": "THPT Cao Thắng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1134",
-    "name": "Bùi Văn Khoa",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1135",
-    "name": "Trần Đình Nam",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1136",
-    "name": "Phạm Minh Tâm",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1137",
-    "name": "Vũ Đức Anh",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1138",
-    "name": "Võ Quốc Tâm",
-    "school": "THPT Phong Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1139",
-    "name": "Bùi Anh Linh",
-    "school": "THPT Phong Điền",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1140",
-    "name": "Đặng Đức Linh",
-    "school": "THPT Hương Trà",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1141",
-    "name": "Bùi Minh Phương",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1142",
-    "name": "Đỗ Quốc Minh",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1143",
-    "name": "Đỗ Thị Nam",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1144",
-    "name": "Lê Anh Khoa",
-    "school": "THPT Phú Lộc",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1145",
-    "name": "Đỗ Xuân Tâm",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1146",
-    "name": "Phạm Bảo Hoàng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1147",
-    "name": "Trần Bảo Khánh",
-    "school": "THPT Phong Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1148",
-    "name": "Hoàng Văn Hà",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1149",
-    "name": "Đặng Đình Đạt",
-    "school": "THPT Gia Hội",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1150",
-    "name": "Hồ Đức Nam",
-    "school": "THPT Phong Điền",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1151",
-    "name": "Đỗ Văn Hà",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1152",
-    "name": "Lê Xuân Hùng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1153",
-    "name": "Đặng Văn Minh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1154",
-    "name": "Bùi Quốc Hải",
-    "school": "THPT Quảng Điền",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1155",
-    "name": "Đặng Xuân Hà",
-    "school": "THPT Quảng Điền",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1156",
-    "name": "Bùi Anh Hoàng",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1157",
-    "name": "Hoàng Xuân Anh",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1158",
-    "name": "Trần Quốc Đạt",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Sinh học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1159",
-    "name": "Phạm Thị Phú",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1160",
-    "name": "Bùi Minh Khánh",
-    "school": "THPT Hương Trà",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1161",
-    "name": "Bùi Anh Đạt",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1162",
-    "name": "Lê Thị Khoa",
-    "school": "THPT Gia Hội",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1163",
-    "name": "Nguyễn Thị Hùng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1164",
-    "name": "Đỗ Thị Phương",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1165",
-    "name": "Vũ Quốc Nam",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1166",
-    "name": "Lê Văn Minh",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1167",
-    "name": "Vũ Bảo Hùng",
-    "school": "THPT Cao Thắng",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1168",
-    "name": "Lê Đình Trang",
-    "school": "THPT Cao Thắng",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1169",
-    "name": "Vũ Anh Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1170",
-    "name": "Võ Quốc Trang",
-    "school": "THPT Phú Lộc",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1171",
-    "name": "Bùi Minh Khánh",
-    "school": "THPT Hương Thủy",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1172",
-    "name": "Trần Đức Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1173",
-    "name": "Võ Thị Đạt",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1174",
-    "name": "Hoàng Đức Hà",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1175",
-    "name": "Bùi Thị Hùng",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1176",
-    "name": "Nguyễn Quốc Hưng",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1177",
-    "name": "Võ Đức Phú",
-    "school": "THPT Hương Trà",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1178",
-    "name": "Đặng Minh Tâm",
-    "school": "THPT Phong Điền",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1179",
-    "name": "Đỗ Đình Hải",
-    "school": "THPT Hương Trà",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1180",
-    "name": "Đỗ Bảo Khánh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1181",
-    "name": "Nguyễn Hoàng Linh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1182",
-    "name": "Đặng Minh Phú",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1183",
-    "name": "Phạm Anh Hùng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1184",
-    "name": "Hoàng Bảo Hải",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1185",
-    "name": "Phạm Bảo Phương",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1186",
-    "name": "Vũ Quốc Quý",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1187",
-    "name": "Phạm Thị Tâm",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1188",
-    "name": "Nguyễn Bảo Nam",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1189",
-    "name": "Lê Xuân Phú",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1190",
-    "name": "Trần Thị Khánh",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1191",
-    "name": "Lê Bảo Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1192",
-    "name": "Võ Thị Hà",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1193",
-    "name": "Trần Mậu Hà",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1194",
-    "name": "Bùi Minh Hà",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1195",
-    "name": "Bùi Mậu Quý",
-    "school": "THPT Phong Điền",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1196",
-    "name": "Đặng Bảo Nam",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1197",
-    "name": "Đặng Thị Quý",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1198",
-    "name": "Hoàng Anh Hùng",
-    "school": "THPT Gia Hội",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1199",
-    "name": "Đỗ Thanh Khánh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1200",
-    "name": "Lê Anh Khánh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1201",
-    "name": "Võ Thanh Hà",
-    "school": "THPT Hương Trà",
-    "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1202",
-    "name": "Bùi Thị Nam",
-    "school": "THPT Phong Điền",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1203",
-    "name": "Đỗ Văn Anh",
-    "school": "THPT Phú Lộc",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1204",
-    "name": "Nguyễn Thanh Minh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1205",
-    "name": "Hồ Mậu Anh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1206",
-    "name": "Hồ Hoàng Phương",
-    "school": "THPT Cao Thắng",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1207",
-    "name": "Bùi Quốc Anh",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1208",
-    "name": "Hoàng Thanh Tâm",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1209",
-    "name": "Trần Thanh Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1210",
-    "name": "Võ Quốc Hải",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1211",
-    "name": "Đỗ Anh Hà",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1212",
-    "name": "Võ Minh Nam",
-    "school": "THPT Gia Hội",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1213",
-    "name": "Nguyễn Mậu Minh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1214",
-    "name": "Vũ Thị Linh",
-    "school": "THPT Hương Thủy",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1215",
-    "name": "Lê Thanh Khoa",
-    "school": "THPT Hương Thủy",
+    "tt": 658,
+    "sbd": "46060066",
+    "name": "Nguyễn Đỗ Hoàn Kim",
+    "gender": "Nữ",
+    "dob": "2009-10-02",
+    "school": "THPT Tam Giang",
+    "grade": "12A5",
     "subject": "Ngữ văn",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1216",
-    "name": "Vũ Thanh Đạt",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1217",
-    "name": "Võ Thanh Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1218",
-    "name": "Nguyễn Bảo Trang",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1219",
-    "name": "Vũ Hoàng Phú",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1220",
-    "name": "Võ Thị Minh",
-    "school": "THPT Phú Lộc",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1221",
-    "name": "Đỗ Thanh Khánh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1222",
-    "name": "Hồ Thị Khánh",
-    "school": "THPT Hương Trà",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1223",
-    "name": "Nguyễn Bảo Phú",
-    "school": "THPT Phong Điền",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1224",
-    "name": "Võ Văn Phú",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1225",
-    "name": "Bùi Minh Đạt",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1226",
-    "name": "Trần Đức Đạt",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1227",
-    "name": "Bùi Anh Hà",
-    "school": "THPT Hương Thủy",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1228",
-    "name": "Võ Đức Anh",
-    "school": "THPT Quảng Điền",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1229",
-    "name": "Phạm Quốc Nam",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1230",
-    "name": "Võ Quốc Phú",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1231",
-    "name": "Vũ Minh Anh",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1232",
-    "name": "Bùi Anh Hoàng",
-    "school": "THPT Hương Trà",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1233",
-    "name": "Bùi Hoàng Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1234",
-    "name": "Lê Quốc Linh",
-    "school": "THPT Hương Trà",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1235",
-    "name": "Bùi Hoàng Khánh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1236",
-    "name": "Hồ Thanh Anh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1237",
-    "name": "Nguyễn Xuân Phương",
-    "school": "THPT Hương Thủy",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1238",
-    "name": "Hồ Thị Linh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1239",
-    "name": "Đặng Anh Khánh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1240",
-    "name": "Lê Đình Hà",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1241",
-    "name": "Đặng Đình Anh",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1242",
-    "name": "Trần Xuân Hoàng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1243",
-    "name": "Bùi Mậu Tâm",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1244",
-    "name": "Đỗ Đức Linh",
-    "school": "THPT Cao Thắng",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1245",
-    "name": "Hoàng Minh Hùng",
-    "school": "THPT Phong Điền",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1246",
-    "name": "Đỗ Bảo Trang",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1247",
-    "name": "Hồ Minh Hưng",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1248",
-    "name": "Lê Đức Minh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1249",
-    "name": "Võ Hoàng Hải",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1250",
-    "name": "Hoàng Hoàng Linh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Lịch sử",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1251",
-    "name": "Võ Hoàng Trang",
-    "school": "THPT Phú Lộc",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1252",
-    "name": "Đỗ Bảo Anh",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1253",
-    "name": "Vũ Thanh Khánh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1254",
-    "name": "Nguyễn Mậu Nam",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1255",
-    "name": "Vũ Bảo Phú",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tin học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1256",
-    "name": "Vũ Hoàng Hải",
-    "school": "THPT Gia Hội",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1257",
-    "name": "Hồ Mậu Phương",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1258",
-    "name": "Hoàng Văn Minh",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1259",
-    "name": "Võ Văn Hưng",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1260",
-    "name": "Vũ Hoàng Khánh",
-    "school": "THPT Cao Thắng",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1261",
-    "name": "Trần Bảo Hải",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1262",
-    "name": "Nguyễn Đức Hà",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1263",
-    "name": "Trần Văn Trang",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1264",
-    "name": "Trần Văn Trang",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1265",
-    "name": "Đỗ Đình Nam",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1266",
-    "name": "Đỗ Thanh Phương",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1267",
-    "name": "Phạm Quốc Trang",
-    "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1268",
-    "name": "Đặng Bảo Hà",
-    "school": "THPT Hương Trà",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1269",
-    "name": "Võ Đình Anh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1270",
-    "name": "Trần Mậu Hưng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1271",
-    "name": "Nguyễn Anh Hải",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Tiếng Pháp",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1272",
-    "name": "Nguyễn Văn Hoàng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1273",
-    "name": "Đặng Mậu Quý",
-    "school": "THPT Hương Trà",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1274",
-    "name": "Võ Anh Hùng",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1275",
-    "name": "Nguyễn Quốc Khánh",
-    "school": "THPT Bùi Thị Xuân",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1276",
-    "name": "Đặng Mậu Minh",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1277",
-    "name": "Đặng Minh Hùng",
-    "school": "THPT Phong Điền",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1278",
-    "name": "Hoàng Bảo Quý",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1279",
-    "name": "Bùi Đình Hưng",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Vật lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1280",
-    "name": "Hoàng Xuân Khoa",
-    "school": "THPT Cao Thắng",
-    "subject": "Địa lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1281",
-    "name": "Trần Hoàng Quý",
-    "school": "THPT Quảng Điền",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1282",
-    "name": "Đỗ Thị Khoa",
-    "school": "THPT Quảng Điền",
-    "subject": "Sinh học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1283",
-    "name": "Nguyễn Anh Anh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1284",
-    "name": "Hồ Hoàng Khoa",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1285",
-    "name": "Nguyễn Văn Minh",
-    "school": "THPT Cao Thắng",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1286",
-    "name": "Trần Văn Trang",
-    "school": "THPT Hương Thủy",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1287",
-    "name": "Đỗ Minh Quý",
-    "school": "THPT Hương Trà",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1288",
-    "name": "Nguyễn Thị Hùng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Tin học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1289",
-    "name": "Vũ Hoàng Hoàng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1290",
-    "name": "Hồ Hoàng Phương",
-    "school": "THPT Quảng Điền",
-    "subject": "Sinh học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1291",
-    "name": "Đặng Xuân Hà",
-    "school": "THPT Phong Điền",
-    "subject": "Tiếng Anh",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1292",
-    "name": "Hoàng Bảo Hùng",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1293",
-    "name": "Trần Xuân Đạt",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1294",
-    "name": "Vũ Thanh Phú",
-    "school": "THPT Cao Thắng",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1295",
-    "name": "Lê Minh Phương",
-    "school": "THPT Quảng Điền",
-    "subject": "Lịch sử",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1296",
-    "name": "Bùi Văn Hưng",
-    "school": "THPT Gia Hội",
-    "subject": "Tiếng Pháp",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1297",
-    "name": "Phạm Thị Minh",
-    "school": "THPT Phú Lộc",
-    "subject": "Hóa học",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1298",
-    "name": "Võ Quốc Đạt",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Địa lý",
-    "grade": 10
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1299",
+    "tt": 659,
+    "sbd": "46060081",
     "name": "Trần Thị Linh",
-    "school": "THPT Hương Thủy",
-    "subject": "Ngữ văn",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1300",
-    "name": "Phạm Xuân Đạt",
-    "school": "THPT Phong Điền",
-    "subject": "Địa lý",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1301",
-    "name": "Lê Thị Minh",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1302",
-    "name": "Đỗ Thị Khoa",
-    "school": "THPT Hương Trà",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1303",
-    "name": "Phạm Quốc Đạt",
-    "school": "THPT Hương Thủy",
-    "subject": "Vật lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1304",
-    "name": "Nguyễn Thị Hà",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Hóa học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1305",
-    "name": "Hoàng Mậu Anh",
-    "school": "THPT Quảng Điền",
-    "subject": "Địa lý",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1306",
-    "name": "Nguyễn Hoàng Hải",
-    "school": "THPT Hương Thủy",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1307",
-    "name": "Vũ Xuân Quý",
-    "school": "THPT Cao Thắng",
-    "subject": "Tin học",
-    "grade": 10
-  },
-  {
-    "sbd": "HSG2627-1308",
-    "name": "Phạm Thị Linh",
-    "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1309",
-    "name": "Hoàng Xuân Quý",
+    "gender": "Nữ",
+    "dob": "2009-01-06",
     "school": "THPT Phú Lộc",
-    "subject": "Tiếng Anh",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1310",
-    "name": "Võ Đình Trang",
-    "school": "THPT Nguyễn Huệ",
+    "grade": "12B2",
     "subject": "Ngữ văn",
-    "grade": 10
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1311",
-    "name": "Nguyễn Thị Minh",
-    "school": "THPT Quảng Điền",
-    "subject": "Tin học",
-    "grade": 10
+    "tt": 660,
+    "sbd": "46060082",
+    "name": "Trần Thị Khánh Linh",
+    "gender": "Nữ",
+    "dob": "2010-12-06",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B1",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1312",
-    "name": "Võ Minh Trang",
+    "tt": 661,
+    "sbd": "46060083",
+    "name": "Dụng Thị Kim Liên",
+    "gender": "Nữ",
+    "dob": "2010-06-19",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B1",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 662,
+    "sbd": "46060088",
+    "name": "Đặng Lê Hoàng Lâm",
+    "gender": "Nam",
+    "dob": "2009-05-20",
     "school": "THPT Cao Thắng",
-    "subject": "Địa lý",
-    "grade": 10
+    "grade": "12/9",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1313",
-    "name": "Lê Xuân Hùng",
-    "school": "THPT Phú Lộc",
-    "subject": "Sinh học",
-    "grade": 11
+    "tt": 663,
+    "sbd": "46060089",
+    "name": "Lê Thị Phương Mai",
+    "gender": "Nữ",
+    "dob": "2009-01-15",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A4",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1314",
-    "name": "Đỗ Đức Hà",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 10
+    "tt": 664,
+    "sbd": "46060090",
+    "name": "Hồ Thị Kiều My",
+    "gender": "Nữ",
+    "dob": "2009-07-04",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A4",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1315",
-    "name": "Bùi Thị Đạt",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Vật lý",
-    "grade": 12
+    "tt": 665,
+    "sbd": "46060096",
+    "name": "Hồ Thị Thanh Nga",
+    "gender": "Nữ",
+    "dob": "2009-06-24",
+    "school": "THPT An Lương Đông",
+    "grade": "12D13",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1316",
-    "name": "Hồ Thanh Tâm",
-    "school": "THPT Cao Thắng",
-    "subject": "Sinh học",
-    "grade": 11
+    "tt": 666,
+    "sbd": "46060111",
+    "name": "Nguyễn Thị Ánh Ngọc",
+    "gender": "Nữ",
+    "dob": "2010-04-03",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A5",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1317",
-    "name": "Nguyễn Quốc Nam",
+    "tt": 667,
+    "sbd": "46060120",
+    "name": "Huỳnh Thị Thảo Nhi",
+    "gender": "Nữ",
+    "dob": "2009-03-06",
+    "school": "THPT Bình Điền",
+    "grade": "12/2",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 668,
+    "sbd": "46060132",
+    "name": "Bùi Trần Quỳnh Như",
+    "gender": "Nữ",
+    "dob": "2009-11-08",
+    "school": "THPT Nam Đông",
+    "grade": "12/4",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 669,
+    "sbd": "46060136",
+    "name": "Phạm Thị Quỳnh Như",
+    "gender": "Nữ",
+    "dob": "2010-06-17",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A5",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 670,
+    "sbd": "46060152",
+    "name": "Lê Văn Anh Quân",
+    "gender": "Nam",
+    "dob": "2010-09-24",
+    "school": "THPT Vinh Lộc",
+    "grade": "11B1",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 671,
+    "sbd": "46060154",
+    "name": "Thái Thị Minh Quân",
+    "gender": "Nữ",
+    "dob": "2009-06-06",
     "school": "THPT Nguyễn Đình Chiểu",
-    "subject": "Vật lý",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1318",
-    "name": "Hoàng Đức Tâm",
-    "school": "THPT Cao Thắng",
-    "subject": "Hóa học",
-    "grade": 11
-  },
-  {
-    "sbd": "HSG2627-1319",
-    "name": "Phạm Minh Tâm",
-    "school": "THPT Nguyễn Huệ",
+    "grade": "12A2",
     "subject": "Ngữ văn",
-    "grade": 10
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1320",
-    "name": "Hồ Thị Phương",
-    "school": "THPT Chuyên Quốc Học Huế",
-    "subject": "Toán",
-    "grade": 12
-  },
-  {
-    "sbd": "HSG2627-1321",
-    "name": "Vũ Đình Minh",
-    "school": "THPT Chuyên Quốc Học Huế",
+    "tt": 672,
+    "sbd": "46060162",
+    "name": "Nguyễn Thị Thanh Thuý",
+    "gender": "Nữ",
+    "dob": "2010-02-12",
+    "school": "THPT Tố Hữu",
+    "grade": "11A1",
     "subject": "Ngữ văn",
-    "grade": 11
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1322",
-    "name": "Đặng Đức Đạt",
+    "tt": 673,
+    "sbd": "46060172",
+    "name": "Lê Võ Thanh Thư",
+    "gender": "Nữ",
+    "dob": "2009-12-08",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/7",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 674,
+    "sbd": "46060180",
+    "name": "Hồ Nguyễn Hạ Thảo",
+    "gender": "Nữ",
+    "dob": "2010-04-02",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/1",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 675,
+    "sbd": "46060186",
+    "name": "Nguyễn Hoàng Thuỷ Tiên",
+    "gender": "Nữ",
+    "dob": "2010-03-26",
+    "school": "THPT Hà Trung",
+    "grade": "11/01",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 676,
+    "sbd": "46060189",
+    "name": "Đào Thủy Tiên",
+    "gender": "Nữ",
+    "dob": "2009-06-29",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/9",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 677,
+    "sbd": "46060194",
+    "name": "Trần Nguyễn Tố Trinh",
+    "gender": "Nữ",
+    "dob": "2009-11-30",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/8",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 678,
+    "sbd": "46060197",
+    "name": "Nguyễn Thanh Trà",
+    "gender": "Nữ",
+    "dob": "2009-03-30",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 679,
+    "sbd": "46060206",
+    "name": "Nguyễn Trần Thanh Trúc",
+    "gender": "Nữ",
+    "dob": "2009-06-17",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12D8",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 680,
+    "sbd": "46060210",
+    "name": "Lâm Thị Thanh Tâm",
+    "gender": "Nữ",
+    "dob": "2008-06-04",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/8",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 681,
+    "sbd": "46060215",
+    "name": "Trần Nguyễn Cát Tường",
+    "gender": "Nữ",
+    "dob": "2009-08-10",
     "school": "THPT Gia Hội",
-    "subject": "Địa lý",
-    "grade": 10
+    "grade": "12/10",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1323",
-    "name": "Vũ Xuân Hải",
+    "tt": 682,
+    "sbd": "46060236",
+    "name": "Đặng Thị Như Ý",
+    "gender": "Nữ",
+    "dob": "2009-06-04",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 683,
+    "sbd": "46060238",
+    "name": "Phan Nguyễn Tâm Đan",
+    "gender": "Nữ",
+    "dob": "2009-09-20",
     "school": "THPT Hương Trà",
-    "subject": "Hóa học",
-    "grade": 11
+    "grade": "12B3",
+    "subject": "Ngữ văn",
+    "score": 11.0,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1324",
-    "name": "Hoàng Hoàng Hoàng",
-    "school": "THPT Nguyễn Huệ",
-    "subject": "Tin học",
-    "grade": 12
+    "tt": 684,
+    "sbd": "46060018",
+    "name": "Trần Nguyễn Thuỳ Anh",
+    "gender": "Nữ",
+    "dob": "2009-12-05",
+    "school": "THPT Hương Thủy",
+    "grade": "12/09",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1325",
-    "name": "Hoàng Thị Nam",
-    "school": "THPT Hai Bà Trưng",
-    "subject": "Sinh học",
-    "grade": 10
+    "tt": 685,
+    "sbd": "46060028",
+    "name": "Phan Thái Minh Châu",
+    "gender": "Nữ",
+    "dob": "2010-01-19",
+    "school": "THPT Phú Bài",
+    "grade": "11B3",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
   },
   {
-    "sbd": "HSG2627-1326",
-    "name": "Hoàng Hoàng Tâm",
+    "tt": 686,
+    "sbd": "46060032",
+    "name": "Đặng Thị Bảo Châu",
+    "gender": "Nữ",
+    "dob": "2009-01-01",
+    "school": "THPT Cao Thắng",
+    "grade": "12/7",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 687,
+    "sbd": "46060041",
+    "name": "Nguyễn Hà Minh Hiền",
+    "gender": "Nữ",
+    "dob": "2010-06-14",
+    "school": "THPT Gia Hội",
+    "grade": "11/4",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 688,
+    "sbd": "46060043",
+    "name": "Võ Thị Diệu Hiền",
+    "gender": "Nữ",
+    "dob": "2010-08-29",
+    "school": "THPT Phú Bài",
+    "grade": "11B4",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 689,
+    "sbd": "46060046",
+    "name": "Lê Thu Huyền",
+    "gender": "Nữ",
+    "dob": "2009-05-02",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 690,
+    "sbd": "46060061",
+    "name": "Nguyễn Thị Thanh Hằng",
+    "gender": "Nữ",
+    "dob": "2009-07-28",
+    "school": "THPT Đặng Trần Côn",
+    "grade": "12A1",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 691,
+    "sbd": "46060064",
+    "name": "Nguyễn Thị Ngọc Khánh",
+    "gender": "Nữ",
+    "dob": "2010-03-18",
+    "school": "THPT Thừa Lưu",
+    "grade": "11A5",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 692,
+    "sbd": "46060067",
+    "name": "Nguyễn Đại Chí Kiên",
+    "gender": "Nam",
+    "dob": "2009-02-25",
     "school": "THPT Phú Lộc",
+    "grade": "12B3",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 693,
+    "sbd": "46060068",
+    "name": "Trần Nguyễn Thoại Kiều",
+    "gender": "Nữ",
+    "dob": "2010-10-01",
+    "school": "THPT An Lương Đông",
+    "grade": "11B6",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 694,
+    "sbd": "46060087",
+    "name": "Hoàng Thanh Lâm",
+    "gender": "Nam",
+    "dob": "2010-07-30",
+    "school": "THPT Hương Trà",
+    "grade": "11B1",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 695,
+    "sbd": "46060094",
+    "name": "Võ Trần Thảo My",
+    "gender": "Nữ",
+    "dob": "2009-10-20",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/5",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 696,
+    "sbd": "46060110",
+    "name": "Lê Trần Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2010-05-02",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "11A3",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 697,
+    "sbd": "46060114",
+    "name": "Trần Thị Kim Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-01-13",
+    "school": "THPT Phong Điền",
+    "grade": "12/03",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 698,
+    "sbd": "46060116",
+    "name": "Đinh Huyền Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-10-24",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 699,
+    "sbd": "46060129",
+    "name": "Nguyễn Tịnh Nhiên",
+    "gender": "Nữ",
+    "dob": "2009-09-08",
+    "school": "THPT Phong Điền",
+    "grade": "12/02",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 700,
+    "sbd": "46060133",
+    "name": "Hoàng Hoài Như",
+    "gender": "Nữ",
+    "dob": "2009-07-28",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/2",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 701,
+    "sbd": "46060139",
+    "name": "Nguyễn Quang Nhật",
+    "gender": "Nam",
+    "dob": "2008-01-14",
+    "school": "THPT Đặng Trần Côn",
+    "grade": "12C3",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 702,
+    "sbd": "46060144",
+    "name": "Dương Ngọc Khánh Phương",
+    "gender": "Nữ",
+    "dob": "2009-06-21",
+    "school": "THPT Đặng Trần Côn",
+    "grade": "12C1",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 703,
+    "sbd": "46060159",
+    "name": "Hồ Thị Thu Sương",
+    "gender": "Nữ",
+    "dob": "2009-04-21",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A8",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 704,
+    "sbd": "46060170",
+    "name": "Hoàng Trần Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-04-03",
+    "school": "THPT Thuận An",
+    "grade": "12/02",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 705,
+    "sbd": "46060174",
+    "name": "Nguyễn Thị Minh Thư",
+    "gender": "Nữ",
+    "dob": "2010-01-16",
+    "school": "THPT Hoá Châu",
+    "grade": "11B3",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 706,
+    "sbd": "46060178",
+    "name": "Trương Thị Anh Thư",
+    "gender": "Nữ",
+    "dob": "2010-11-30",
+    "school": "THPT Bình Điền",
+    "grade": "11/1",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 707,
+    "sbd": "46060213",
+    "name": "Lê Thị Cẩm Tú",
+    "gender": "Nữ",
+    "dob": "2010-09-25",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "11A1",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 708,
+    "sbd": "46060216",
+    "name": "Nguyễn Phương Uyên",
+    "gender": "Nữ",
+    "dob": "2010-11-04",
+    "school": "THPT A Lưới",
+    "grade": "11A1",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 709,
+    "sbd": "46060221",
+    "name": "Đoàn Trần Tường Vy",
+    "gender": "Nữ",
+    "dob": "2010-05-26",
+    "school": "THPT Vinh Lộc",
+    "grade": "11A1",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 710,
+    "sbd": "46060227",
+    "name": "Trần Thị Bình Yên",
+    "gender": "Nữ",
+    "dob": "2009-05-13",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 711,
+    "sbd": "46060230",
+    "name": "Hồ Thị Kim Ánh",
+    "gender": "Nữ",
+    "dob": "2010-09-17",
+    "school": "THPT Thuận An",
+    "grade": "11/02",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 712,
+    "sbd": "46060234",
+    "name": "Nguyễn Thị Như Ý",
+    "gender": "Nữ",
+    "dob": "2009-10-27",
+    "school": "THPT Phong Điền",
+    "grade": "12/01",
+    "subject": "Ngữ văn",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 713,
+    "sbd": "46060058",
+    "name": "Nguyễn Thanh Hằng",
+    "gender": "Nữ",
+    "dob": "2009-05-29",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/3",
+    "subject": "Ngữ văn",
+    "score": 10.33,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 714,
+    "sbd": "46070093",
+    "name": "Lê Nguyễn Kim Ngân",
+    "gender": "Nữ",
+    "dob": "2009-03-26",
+    "school": "THPT Hà Trung",
+    "grade": "12B6",
     "subject": "Lịch sử",
-    "grade": 11
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 715,
+    "sbd": "46070128",
+    "name": "Trần Thị Hoài Ni",
+    "gender": "Nữ",
+    "dob": "2009-01-01",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B7",
+    "subject": "Lịch sử",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 716,
+    "sbd": "46070138",
+    "name": "Trần Văn Anh Quân",
+    "gender": "Nam",
+    "dob": "2009-01-30",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Lịch sử",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 717,
+    "sbd": "46070219",
+    "name": "Nguyễn Văn Thành Đạt",
+    "gender": "Nam",
+    "dob": "2009-03-05",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Lịch sử",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 718,
+    "sbd": "46070008",
+    "name": "Nguyễn Thị Lan Anh",
+    "gender": "Nữ",
+    "dob": "2009-09-06",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A6",
+    "subject": "Lịch sử",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 719,
+    "sbd": "46070020",
+    "name": "Nguyễn Ngọc Khánh Chi",
+    "gender": "Nữ",
+    "dob": "2009-12-13",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Lịch sử",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 720,
+    "sbd": "46070048",
+    "name": "Nguyễn Văn Hưng",
+    "gender": "Nam",
+    "dob": "2009-01-18",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A8",
+    "subject": "Lịch sử",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 721,
+    "sbd": "46070077",
+    "name": "Đoàn Ngọc Trà My",
+    "gender": "Nữ",
+    "dob": "2009-11-11",
+    "school": "THPT Nam Đông",
+    "grade": "12/1",
+    "subject": "Lịch sử",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 722,
+    "sbd": "46070102",
+    "name": "Nguyễn Lê  Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-06-22",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A12",
+    "subject": "Lịch sử",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 723,
+    "sbd": "46070012",
+    "name": "Trần Hoàng Anh",
+    "gender": "Nữ",
+    "dob": "2009-10-16",
+    "school": "THPT Hương Thủy",
+    "grade": "12/8",
+    "subject": "Lịch sử",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 724,
+    "sbd": "46070089",
+    "name": "Trương Văn Minh Nghĩa",
+    "gender": "Nam",
+    "dob": "2009-01-06",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A4",
+    "subject": "Lịch sử",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 725,
+    "sbd": "46070129",
+    "name": "Phan Thị Kim Ny",
+    "gender": "Nữ",
+    "dob": "2009-01-27",
+    "school": "THPT Phú Lộc",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 726,
+    "sbd": "46070139",
+    "name": "Ngô Đình Tứ Quý",
+    "gender": "Nam",
+    "dob": "2009-10-29",
+    "school": "THPT Đặng Trần Côn",
+    "grade": "12C3",
+    "subject": "Lịch sử",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 727,
+    "sbd": "46070149",
+    "name": "Trần Nguyễn Minh Thi",
+    "gender": "Nữ",
+    "dob": "2009-05-04",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Lịch sử",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 728,
+    "sbd": "46070157",
+    "name": "Nguyễn Nhã Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-02-09",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Lịch sử",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 729,
+    "sbd": "46070005",
+    "name": "Châu Hà Anh",
+    "gender": "Nữ",
+    "dob": "2009-09-08",
+    "school": "THPT Hương Trà",
+    "grade": "12B5",
+    "subject": "Lịch sử",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 730,
+    "sbd": "46070019",
+    "name": "Lê Gia Bảo",
+    "gender": "Nam",
+    "dob": "2009-12-02",
+    "school": "THPT Phú Bài",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 731,
+    "sbd": "46070090",
+    "name": "Trần Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-03-04",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Lịch sử",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 732,
+    "sbd": "46070097",
+    "name": "Trần Thị Thảo Ngân",
+    "gender": "Nữ",
+    "dob": "2009-10-25",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B8",
+    "subject": "Lịch sử",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 733,
+    "sbd": "46070125",
+    "name": "Trương Thị Thanh Nhạn",
+    "gender": "Nữ",
+    "dob": "2009-08-29",
+    "school": "THPT Hương Vinh",
+    "grade": "12/02",
+    "subject": "Lịch sử",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 734,
+    "sbd": "46070147",
+    "name": "Nguyễn Hà Đăng Thanh",
+    "gender": "Nữ",
+    "dob": "2009-05-31",
+    "school": "THPT Cao Thắng",
+    "grade": "12/6",
+    "subject": "Lịch sử",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 735,
+    "sbd": "46070179",
+    "name": "Văn Trần Bảo Trâm",
+    "gender": "Nữ",
+    "dob": "2009-03-09",
+    "school": "THPT Phú Lộc",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 736,
+    "sbd": "46070220",
+    "name": "Đặng Bá Hiếu Đức",
+    "gender": "Nam",
+    "dob": "2009-03-24",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A4",
+    "subject": "Lịch sử",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 737,
+    "sbd": "46070016",
+    "name": "Phạm Hạ Băng",
+    "gender": "Nữ",
+    "dob": "2009-07-21",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Lịch sử",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 738,
+    "sbd": "46070039",
+    "name": "Hoàng Phước Huy Hiệu",
+    "gender": "Nam",
+    "dob": "2009-09-23",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 739,
+    "sbd": "46070042",
+    "name": "Phạm Trần Bảo Hà",
+    "gender": "Nữ",
+    "dob": "2009-05-23",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A1",
+    "subject": "Lịch sử",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 740,
+    "sbd": "46070091",
+    "name": "Đoàn Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-02-02",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A6",
+    "subject": "Lịch sử",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 741,
+    "sbd": "46070099",
+    "name": "Lê Khánh Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-03-19",
+    "school": "THPT Gia Hội",
+    "grade": "12/9",
+    "subject": "Lịch sử",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 742,
+    "sbd": "46070164",
+    "name": "Nguyễn Thị Diệu Thảo",
+    "gender": "Nữ",
+    "dob": "2009-09-29",
+    "school": "THPT Gia Hội",
+    "grade": "12/11",
+    "subject": "Lịch sử",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 743,
+    "sbd": "46070175",
+    "name": "Trần Thị Hoàng Trang",
+    "gender": "Nữ",
+    "dob": "2010-06-16",
+    "school": "THPT Hà Trung",
+    "grade": "11/1",
+    "subject": "Lịch sử",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 744,
+    "sbd": "46070044",
+    "name": "Hồ Ngọc Tâm Hân",
+    "gender": "Nữ",
+    "dob": "2009-11-12",
+    "school": "THPT Gia Hội",
+    "grade": "12/12",
+    "subject": "Lịch sử",
+    "score": 15.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 745,
+    "sbd": "46070058",
+    "name": "Trần Anh Khoa",
+    "gender": "Nam",
+    "dob": "2009-06-24",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Lịch sử",
+    "score": 15.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 746,
+    "sbd": "46070145",
+    "name": "Đặng Thị Diệu Quỳnh",
+    "gender": "Nữ",
+    "dob": "2010-04-28",
+    "school": "THPT Hà Trung",
+    "grade": "11/03",
+    "subject": "Lịch sử",
+    "score": 15.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 747,
+    "sbd": "46070152",
+    "name": "Phan Thị Bảo Thuý",
+    "gender": "Nữ",
+    "dob": "2009-08-22",
+    "school": "THPT Tố Hữu",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 15.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 748,
+    "sbd": "46070165",
+    "name": "Nguyễn Thị Thanh Thảo",
+    "gender": "Nữ",
+    "dob": "2009-02-08",
+    "school": "THPT Phú Lộc",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 15.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 749,
+    "sbd": "46070191",
+    "name": "La Huỳnh Phước Tú",
+    "gender": "Nam",
+    "dob": "2009-01-10",
+    "school": "THPT Hà Trung",
+    "grade": "12B5",
+    "subject": "Lịch sử",
+    "score": 15.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 750,
+    "sbd": "46070001",
+    "name": "Nguyễn Trần Nhật An",
+    "gender": "Nam",
+    "dob": "2009-04-14",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A2",
+    "subject": "Lịch sử",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 751,
+    "sbd": "46070059",
+    "name": "Trần Đình Khoa",
+    "gender": "Nam",
+    "dob": "2009-03-28",
+    "school": "THPT Thuận An",
+    "grade": "12/03",
+    "subject": "Lịch sử",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 752,
+    "sbd": "46070066",
+    "name": "Trần Thị Nhật Linh",
+    "gender": "Nữ",
+    "dob": "2009-12-05",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Lịch sử",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 753,
+    "sbd": "46070094",
+    "name": "Lê Xuân Ngân",
+    "gender": "Nữ",
+    "dob": "2009-07-16",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A11",
+    "subject": "Lịch sử",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 754,
+    "sbd": "46070135",
+    "name": "Nguyễn Đỗ Gia Phúc",
+    "gender": "Nữ",
+    "dob": "2009-07-15",
+    "school": "TH, THCS, THPT Song ngữ Quốc tế Anh quốc",
+    "grade": "12/02",
+    "subject": "Lịch sử",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 755,
+    "sbd": "46070137",
+    "name": "Trần Kim Quyên",
+    "gender": "Nữ",
+    "dob": "2009-09-06",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Lịch sử",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 756,
+    "sbd": "46070143",
+    "name": "Phan Diễm Quỳnh",
+    "gender": "Nữ",
+    "dob": "2010-08-26",
+    "school": "THPT Phú Lộc",
+    "grade": "11B2",
+    "subject": "Lịch sử",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 757,
+    "sbd": "46070146",
+    "name": "Trần Trường Sơn",
+    "gender": "Nam",
+    "dob": "2008-12-06",
+    "school": "THPT An Lương Đông",
+    "grade": "12D13",
+    "subject": "Lịch sử",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 758,
+    "sbd": "46070167",
+    "name": "Phan Thị Yến Thảo",
+    "gender": "Nữ",
+    "dob": "2009-02-01",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Lịch sử",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 759,
+    "sbd": "46070209",
+    "name": "Phạm Thị Diệu Ánh",
+    "gender": "Nữ",
+    "dob": "2009-01-04",
+    "school": "THPT An Lương Đông",
+    "grade": "12D13",
+    "subject": "Lịch sử",
+    "score": 15.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 760,
+    "sbd": "46070063",
+    "name": "Lê Hà Diệu Linh",
+    "gender": "Nữ",
+    "dob": "2009-04-29",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/8",
+    "subject": "Lịch sử",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 761,
+    "sbd": "46070068",
+    "name": "Đặng Khánh Linh",
+    "gender": "Nữ",
+    "dob": "2009-06-20",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/9",
+    "subject": "Lịch sử",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 762,
+    "sbd": "46070095",
+    "name": "Nguyễn Thanh Ngân",
+    "gender": "Nữ",
+    "dob": "2010-11-15",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A7",
+    "subject": "Lịch sử",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 763,
+    "sbd": "46070111",
+    "name": "Nguyễn Thị Tuyết Nhi",
+    "gender": "Nữ",
+    "dob": "2009-01-18",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A13",
+    "subject": "Lịch sử",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 764,
+    "sbd": "46070155",
+    "name": "Hoàng Như Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-05-21",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12D9",
+    "subject": "Lịch sử",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 765,
+    "sbd": "46070173",
+    "name": "Đặng Trần Ngọc Tiên",
+    "gender": "Nữ",
+    "dob": "2009-05-21",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A13",
+    "subject": "Lịch sử",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 766,
+    "sbd": "46070190",
+    "name": "Huỳnh Nguyễn Minh Tâm",
+    "gender": "Nữ",
+    "dob": "2009-02-08",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A12",
+    "subject": "Lịch sử",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 767,
+    "sbd": "46070196",
+    "name": "Lê Hoàng Đình Tấn",
+    "gender": "Nam",
+    "dob": "2009-03-25",
+    "school": "THPT Phú Bài",
+    "grade": "12B11",
+    "subject": "Lịch sử",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 768,
+    "sbd": "46070202",
+    "name": "Lê Trần Nhật Vy",
+    "gender": "Nữ",
+    "dob": "2009-07-10",
+    "school": "THPT Gia Hội",
+    "grade": "12/13",
+    "subject": "Lịch sử",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 769,
+    "sbd": "46070002",
+    "name": "Võ Thị Xuân An",
+    "gender": "Nữ",
+    "dob": "2009-02-17",
+    "school": "THPT Phú Lộc",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 770,
+    "sbd": "46070021",
+    "name": "Phạm Thị Kim Chi",
+    "gender": "Nữ",
+    "dob": "2009-07-05",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A9",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 771,
+    "sbd": "46070025",
+    "name": "Phạm Văn Thành Danh",
+    "gender": "Nam",
+    "dob": "2009-11-15",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B3",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 772,
+    "sbd": "46070032",
+    "name": "Lê Đình Dũng",
+    "gender": "Nam",
+    "dob": "2009-10-03",
+    "school": "THPT An Lương Đông",
+    "grade": "12D13",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 773,
+    "sbd": "46070064",
+    "name": "Lê Nguyễn Khánh Linh",
+    "gender": "Nữ",
+    "dob": "2009-10-29",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A1",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 774,
+    "sbd": "46070067",
+    "name": "Tô Hoàng Phương Linh",
+    "gender": "Nữ",
+    "dob": "2009-06-15",
+    "school": "THPT Phú Bài",
+    "grade": "12B4",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 775,
+    "sbd": "46070083",
+    "name": "Nguyễn Duy Bảo Nam",
+    "gender": "Nam",
+    "dob": "2010-04-18",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "11/1",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 776,
+    "sbd": "46070130",
+    "name": "Phạm Nhật Ny",
+    "gender": "Nữ",
+    "dob": "2009-03-13",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 777,
+    "sbd": "46070163",
+    "name": "Nguyễn Thị Diệu Thảo",
+    "gender": "Nữ",
+    "dob": "2009-08-28",
+    "school": "THPT Gia Hội",
+    "grade": "12/12",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 778,
+    "sbd": "46070169",
+    "name": "Đoàn Phương Thảo",
+    "gender": "Nữ",
+    "dob": "2009-03-14",
+    "school": "THPT Cao Thắng",
+    "grade": "12/1",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 779,
+    "sbd": "46070198",
+    "name": "Nguyễn Hoàng Phương Uyên",
+    "gender": "Nữ",
+    "dob": "2009-11-03",
+    "school": "THPT Phú Bài",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 780,
+    "sbd": "46070024",
+    "name": "Tôn Nữ Phương Cơ",
+    "gender": "Nữ",
+    "dob": "2009-06-19",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/2",
+    "subject": "Lịch sử",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 781,
+    "sbd": "46070074",
+    "name": "Nguyễn Thị Thảo May",
+    "gender": "Nữ",
+    "dob": "2010-03-15",
+    "school": "THPT Thừa Lưu",
+    "grade": "11A1",
+    "subject": "Lịch sử",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 782,
+    "sbd": "46070092",
+    "name": "Phạm Thị Ái Nguyện",
+    "gender": "Nữ",
+    "dob": "2009-06-09",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/1",
+    "subject": "Lịch sử",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 783,
+    "sbd": "46070105",
+    "name": "Ngô Nguyễn Khánh Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-09-18",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/6",
+    "subject": "Lịch sử",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 784,
+    "sbd": "46070174",
+    "name": "Lê Thị Yến Trang",
+    "gender": "Nữ",
+    "dob": "2009-10-28",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12D8",
+    "subject": "Lịch sử",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 785,
+    "sbd": "46070194",
+    "name": "Nguyễn Thị Cẩm Tú",
+    "gender": "Nữ",
+    "dob": "2008-09-28",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/7",
+    "subject": "Lịch sử",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 786,
+    "sbd": "46070216",
+    "name": "Nguyễn Hải Đăng",
+    "gender": "Nam",
+    "dob": "2009-06-24",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A7",
+    "subject": "Lịch sử",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 787,
+    "sbd": "46070007",
+    "name": "Nguyễn Cao Bảo Anh",
+    "gender": "Nữ",
+    "dob": "2010-04-12",
+    "school": "THPT Phú Bài",
+    "grade": "11B4",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 788,
+    "sbd": "46070033",
+    "name": "Hoàng Hà Giang",
+    "gender": "Nữ",
+    "dob": "2009-02-05",
+    "school": "THPT Hương Trà",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 789,
+    "sbd": "46070035",
+    "name": "Nguyễn Thị Thanh Hiếu",
+    "gender": "Nữ",
+    "dob": "2009-11-01",
+    "school": "THPT Hương Trà",
+    "grade": "12B7",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 790,
+    "sbd": "46070069",
+    "name": "Huỳnh Nguyễn Lisa",
+    "gender": "Nữ",
+    "dob": "2009-03-30",
+    "school": "THPT Hương Trà",
+    "grade": "12B1",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 791,
+    "sbd": "46070070",
+    "name": "Hoàng Thị Ly",
+    "gender": "Nữ",
+    "dob": "2009-12-10",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12D7",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 792,
+    "sbd": "46070072",
+    "name": "Lê Công Lâm",
+    "gender": "Nam",
+    "dob": "2009-08-14",
+    "school": "THPT Hoá Châu",
+    "grade": "12B1",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 793,
+    "sbd": "46070081",
+    "name": "Nguyễn Nhật Mỹ",
+    "gender": "Nam",
+    "dob": "2010-06-08",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "11B3",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 794,
+    "sbd": "46070109",
+    "name": "Nguyễn Ngọc Uyên Nhi",
+    "gender": "Nữ",
+    "dob": "2010-05-18",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "11/11",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 795,
+    "sbd": "46070114",
+    "name": "Phan Nguyễn Hoàng Nhi",
+    "gender": "Nữ",
+    "dob": "2010-05-27",
+    "school": "THPT Nam Đông",
+    "grade": "11/3",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 796,
+    "sbd": "46070148",
+    "name": "Nguyễn Phúc Huyền Thi",
+    "gender": "Nữ",
+    "dob": "2009-08-23",
+    "school": "THPT Hương Trà",
+    "grade": "12B6",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 797,
+    "sbd": "46070166",
+    "name": "Nguyễn Thị Thanh Thảo",
+    "gender": "Nữ",
+    "dob": "2009-05-09",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B5",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 798,
+    "sbd": "46070178",
+    "name": "Đoàn Thị Minh Trang",
+    "gender": "Nữ",
+    "dob": "2009-08-29",
+    "school": "THPT Gia Hội",
+    "grade": "12/12",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 799,
+    "sbd": "46070205",
+    "name": "Trần Ngọc Bảo Vân",
+    "gender": "Nữ",
+    "dob": "2009-06-06",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A10",
+    "subject": "Lịch sử",
+    "score": 14.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 800,
+    "sbd": "46070010",
+    "name": "Nguyễn Đoàn Việt Anh",
+    "gender": "Nam",
+    "dob": "2009-10-29",
+    "school": "THPT Nam Đông",
+    "grade": "12/1",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 801,
+    "sbd": "46070015",
+    "name": "Nguyễn Trần Khánh Băng",
+    "gender": "Nữ",
+    "dob": "2009-03-11",
+    "school": "THPT Phong Điền",
+    "grade": "12/02",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 802,
+    "sbd": "46070026",
+    "name": "Đổ Thị Ngọc Diểm",
+    "gender": "Nữ",
+    "dob": "2009-03-06",
+    "school": "THPT Hương Thủy",
+    "grade": "12/9",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 803,
+    "sbd": "46070107",
+    "name": "Đinh Hồng Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2010-02-10",
+    "school": "THPT Nam Đông",
+    "grade": "11/3",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 804,
+    "sbd": "46070112",
+    "name": "Nguyễn Thị Uyển Nhi",
+    "gender": "Nữ",
+    "dob": "2010-04-30",
+    "school": "THPT Hà Trung",
+    "grade": "11/3",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 805,
+    "sbd": "46070124",
+    "name": "Nguyễn Huỳnh Quỳnh Như",
+    "gender": "Nữ",
+    "dob": "2010-07-01",
+    "school": "THPT Thuận An",
+    "grade": "11/01",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 806,
+    "sbd": "46070134",
+    "name": "Nguyễn Ngô Thiên Phúc",
+    "gender": "Nữ",
+    "dob": "2009-01-01",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A14",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 807,
+    "sbd": "46070153",
+    "name": "Nguyễn Đình Thái",
+    "gender": "Nam",
+    "dob": "2009-01-07",
+    "school": "THPT An Lương Đông",
+    "grade": "12D13",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 808,
+    "sbd": "46070161",
+    "name": "Hà Mai Xuân Ngọc Thảo",
+    "gender": "Nữ",
+    "dob": "2009-07-14",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B7",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 809,
+    "sbd": "46070182",
+    "name": "Lê Nguyễn Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2009-11-13",
+    "school": "THPT Gia Hội",
+    "grade": "12/12",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 810,
+    "sbd": "46070185",
+    "name": "Võ Thị Thanh Trúc",
+    "gender": "Nữ",
+    "dob": "2009-10-15",
+    "school": "THPT Hương Trà",
+    "grade": "12B6",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 811,
+    "sbd": "46070214",
+    "name": "Nguyễn Hà Đông",
+    "gender": "Nam",
+    "dob": "2009-03-02",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B3",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 812,
+    "sbd": "46070218",
+    "name": "Nguyễn Văn Đạt",
+    "gender": "Nam",
+    "dob": "2009-09-17",
+    "school": "THPT Hà Trung",
+    "grade": "12/02",
+    "subject": "Lịch sử",
+    "score": 13.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 813,
+    "sbd": "46070013",
+    "name": "Trần Thị Hoài Anh",
+    "gender": "Nữ",
+    "dob": "2009-07-23",
+    "school": "THPT Tam Giang",
+    "grade": "12A5",
+    "subject": "Lịch sử",
+    "score": 13.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 814,
+    "sbd": "46070023",
+    "name": "Trần Thị Lệ Châu",
+    "gender": "Nữ",
+    "dob": "2009-01-07",
+    "school": "THPT Phú Lộc",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 13.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 815,
+    "sbd": "46070030",
+    "name": "Trần Nữ Hạnh Dung",
+    "gender": "Nữ",
+    "dob": "2009-09-05",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A13",
+    "subject": "Lịch sử",
+    "score": 13.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 816,
+    "sbd": "46070031",
+    "name": "Lê Thị Phương Duyên",
+    "gender": "Nữ",
+    "dob": "2009-12-24",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B4",
+    "subject": "Lịch sử",
+    "score": 13.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 817,
+    "sbd": "46070076",
+    "name": "Nguyễn Hữu Quốc Minh",
+    "gender": "Nam",
+    "dob": "2009-09-02",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Lịch sử",
+    "score": 13.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 818,
+    "sbd": "46070100",
+    "name": "Lương Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-10-25",
+    "school": "THPT Thuận An",
+    "grade": "12/01",
+    "subject": "Lịch sử",
+    "score": 13.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 819,
+    "sbd": "46070186",
+    "name": "Ngô Văn Anh Tuấn",
+    "gender": "Nam",
+    "dob": "2010-01-02",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "11B1",
+    "subject": "Lịch sử",
+    "score": 13.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 820,
+    "sbd": "46070212",
+    "name": "Đậu Thị Như Ý",
+    "gender": "Nữ",
+    "dob": "2009-09-09",
+    "school": "THPT Phú Lộc",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 13.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 821,
+    "sbd": "46070009",
+    "name": "Nguyễn Thị Quỳnh Anh",
+    "gender": "Nữ",
+    "dob": "2009-04-22",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12D10",
+    "subject": "Lịch sử",
+    "score": 13.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 822,
+    "sbd": "46070011",
+    "name": "Phan Ngọc Anh",
+    "gender": "Nữ",
+    "dob": "2010-08-19",
+    "school": "THPT Hoá Châu",
+    "grade": "11B3",
+    "subject": "Lịch sử",
+    "score": 13.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 823,
+    "sbd": "46070014",
+    "name": "Tạ Thị Tâm Anh",
+    "gender": "Nữ",
+    "dob": "2009-02-09",
+    "school": "THPT Bình Điền",
+    "grade": "12/1",
+    "subject": "Lịch sử",
+    "score": 13.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 824,
+    "sbd": "46070017",
+    "name": "Phạm Trần Khánh Băng",
+    "gender": "Nữ",
+    "dob": "2009-12-12",
+    "school": "THPT Phú Bài",
+    "grade": "12B10",
+    "subject": "Lịch sử",
+    "score": 13.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 825,
+    "sbd": "46070034",
+    "name": "Hoàng Phan Hương Giang",
+    "gender": "Nữ",
+    "dob": "2009-08-28",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B4",
+    "subject": "Lịch sử",
+    "score": 13.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 826,
+    "sbd": "46070052",
+    "name": "Đào Thị Diễm Hương",
+    "gender": "Nữ",
+    "dob": "2010-01-13",
+    "school": "THPT Hoá Châu",
+    "grade": "11B5",
+    "subject": "Lịch sử",
+    "score": 13.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 827,
+    "sbd": "46070158",
+    "name": "Nguyễn Trần Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-12-16",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/12",
+    "subject": "Lịch sử",
+    "score": 13.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 828,
+    "sbd": "46070159",
+    "name": "Phan Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-01-11",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/9",
+    "subject": "Lịch sử",
+    "score": 13.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 829,
+    "sbd": "46070029",
+    "name": "Hoàng Lê Thùy Dung",
+    "gender": "Nữ",
+    "dob": "2009-07-31",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A14",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 830,
+    "sbd": "46070038",
+    "name": "Nguyễn Xuân Thanh Hiền",
+    "gender": "Nữ",
+    "dob": "2009-02-22",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A3",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 831,
+    "sbd": "46070050",
+    "name": "Võ Duy Hưng",
+    "gender": "Nam",
+    "dob": "2010-02-05",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "11/8",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 832,
+    "sbd": "46070051",
+    "name": "Lê Thị Mỹ Hương",
+    "gender": "Nữ",
+    "dob": "2010-07-23",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "11A1",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 833,
+    "sbd": "46070060",
+    "name": "Trần Ngô Minh Khương",
+    "gender": "Nam",
+    "dob": "2010-04-27",
+    "school": "THPT Thuận An",
+    "grade": "11/08",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 834,
+    "sbd": "46070073",
+    "name": "Thái Ngọc Thanh Mai",
+    "gender": "Nữ",
+    "dob": "2009-04-21",
+    "school": "THPT Hoá Châu",
+    "grade": "12B3",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 835,
+    "sbd": "46070088",
+    "name": "Nguyễn Đắc Minh Nghĩa",
+    "gender": "Nam",
+    "dob": "2009-12-08",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/13",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 836,
+    "sbd": "46070104",
+    "name": "Nguyễn Thị Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2010-07-26",
+    "school": "THPT Hoá Châu",
+    "grade": "11B3",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 837,
+    "sbd": "46070110",
+    "name": "Nguyễn Thị Thảo Nhi",
+    "gender": "Nữ",
+    "dob": "2009-07-20",
+    "school": "THPT Phong Điền",
+    "grade": "12/02",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 838,
+    "sbd": "46070116",
+    "name": "Đoàn Lê Bảo Nhi",
+    "gender": "Nữ",
+    "dob": "2009-10-06",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/1",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 839,
+    "sbd": "46070123",
+    "name": "Nguyễn Hoa Ý Như",
+    "gender": "Nữ",
+    "dob": "2010-02-19",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B4",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 840,
+    "sbd": "46070136",
+    "name": "Nguyễn Hữu Nam Phương",
+    "gender": "Nữ",
+    "dob": "2010-01-24",
+    "school": "THPT Cao Thắng",
+    "grade": "11/5",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 841,
+    "sbd": "46070168",
+    "name": "Trương Nguyễn Thanh Thảo",
+    "gender": "Nữ",
+    "dob": "2009-02-06",
+    "school": "THPT Phong Điền",
+    "grade": "12/01",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 842,
+    "sbd": "46070177",
+    "name": "Đoàn Thị Huyền Trang",
+    "gender": "Nữ",
+    "dob": "2010-02-17",
+    "school": "THPT Vinh Lộc",
+    "grade": "11A2",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 843,
+    "sbd": "46070183",
+    "name": "Nguyễn Thị Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2009-01-24",
+    "school": "THPT Vinh Lộc",
+    "grade": "12B2",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 844,
+    "sbd": "46070188",
+    "name": "Lê Phước Tài",
+    "gender": "Nam",
+    "dob": "2009-06-01",
+    "school": "THPT Nam Đông",
+    "grade": "12/3",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 845,
+    "sbd": "46070199",
+    "name": "Trần Thị Trúc  Uyên",
+    "gender": "Nữ",
+    "dob": "2009-09-21",
+    "school": "THPT Gia Hội",
+    "grade": "12/12",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 846,
+    "sbd": "46070200",
+    "name": "Nguyễn Quốc Việt",
+    "gender": "Nam",
+    "dob": "2009-06-10",
+    "school": "THPT An Lương Đông",
+    "grade": "12C8",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 847,
+    "sbd": "46070206",
+    "name": "Trần Thị Thúy Vân",
+    "gender": "Nữ",
+    "dob": "2009-06-10",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B5",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 848,
+    "sbd": "46070208",
+    "name": "Đặng Hải Yến",
+    "gender": "Nữ",
+    "dob": "2009-04-03",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/12",
+    "subject": "Lịch sử",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 849,
+    "sbd": "46080099",
+    "name": "Lê Hoàng Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-08-13",
+    "school": "THPT Bình Điền",
+    "grade": "12/2",
+    "subject": "Địa lí",
+    "score": 17.0,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 850,
+    "sbd": "46080060",
+    "name": "Đoàn Nguyễn Anh Khôi",
+    "gender": "Nam",
+    "dob": "2009-10-05",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A8",
+    "subject": "Địa lí",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 851,
+    "sbd": "46080105",
+    "name": "Lê Như Linh Nhi",
+    "gender": "Nữ",
+    "dob": "2009-10-31",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A9",
+    "subject": "Địa lí",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 852,
+    "sbd": "46080139",
+    "name": "Hoàng Thị Nhật Thu",
+    "gender": "Nữ",
+    "dob": "2009-10-09",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B5",
+    "subject": "Địa lí",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 853,
+    "sbd": "46080090",
+    "name": "Trịnh Đình Nam",
+    "gender": "Nam",
+    "dob": "2009-12-08",
+    "school": "THPT Phú Lộc",
+    "grade": "12B2",
+    "subject": "Địa lí",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 854,
+    "sbd": "46080097",
+    "name": "Trần Uyên Ngân",
+    "gender": "Nữ",
+    "dob": "2009-11-02",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/14",
+    "subject": "Địa lí",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 855,
+    "sbd": "46080001",
+    "name": "Nguyễn Thị Khánh An",
+    "gender": "Nữ",
+    "dob": "2009-05-04",
+    "school": "THPT Bình Điền",
+    "grade": "12/3",
+    "subject": "Địa lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 856,
+    "sbd": "46080005",
+    "name": "Lê Nguyên Hải Anh",
+    "gender": "Nữ",
+    "dob": "2009-10-31",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A7",
+    "subject": "Địa lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 857,
+    "sbd": "46080006",
+    "name": "Lê Thị Mỹ Anh",
+    "gender": "Nữ",
+    "dob": "2009-09-12",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Địa lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 858,
+    "sbd": "46080011",
+    "name": "Nguyễn Ngọc Quỳnh Anh",
+    "gender": "Nữ",
+    "dob": "2009-06-03",
+    "school": "THPT Phú Lộc",
+    "grade": "12B2",
+    "subject": "Địa lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 859,
+    "sbd": "46080093",
+    "name": "Trần Hữu Tuấn Nghĩa",
+    "gender": "Nam",
+    "dob": "2009-11-22",
+    "school": "THPT An Lương Đông",
+    "grade": "12D13",
+    "subject": "Địa lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 860,
+    "sbd": "46080110",
+    "name": "Nguyễn Thị Thanh Nhung",
+    "gender": "Nữ",
+    "dob": "2010-04-23",
+    "school": "THPT Bình Điền",
+    "grade": "11/2",
+    "subject": "Địa lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 861,
+    "sbd": "46080156",
+    "name": "Ngô Hoàng Yến Trang",
+    "gender": "Nữ",
+    "dob": "2010-08-31",
+    "school": "THPT Phú Bài",
+    "grade": "11B4",
+    "subject": "Địa lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 862,
+    "sbd": "46080190",
+    "name": "Hồ Thị Thúy Vân",
+    "gender": "Nữ",
+    "dob": "2009-10-13",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/3",
+    "subject": "Địa lí",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 863,
+    "sbd": "46080032",
+    "name": "Nguyễn Mạnh Hiếu",
+    "gender": "Nam",
+    "dob": "2009-08-26",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A6",
+    "subject": "Địa lí",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 864,
+    "sbd": "46080041",
+    "name": "Lê Tuấn Huy",
+    "gender": "Nam",
+    "dob": "2009-03-19",
+    "school": "THPT Phú Lộc",
+    "grade": "12B2",
+    "subject": "Địa lí",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 865,
+    "sbd": "46080112",
+    "name": "Lê Thị Tâm Nhân",
+    "gender": "Nữ",
+    "dob": "2009-08-04",
+    "school": "THPT An Lương Đông",
+    "grade": "12D13",
+    "subject": "Địa lí",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 866,
+    "sbd": "46080175",
+    "name": "Lê Thanh Tân",
+    "gender": "Nam",
+    "dob": "2008-07-24",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A5",
+    "subject": "Địa lí",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 867,
+    "sbd": "46080016",
+    "name": "Lê Thị Thanh Bình",
+    "gender": "Nữ",
+    "dob": "2009-07-23",
+    "school": "THPT Gia Hội",
+    "grade": "12/12",
+    "subject": "Địa lí",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 868,
+    "sbd": "46080049",
+    "name": "Đinh Như Quốc Hưng",
+    "gender": "Nam",
+    "dob": "2010-09-17",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A4",
+    "subject": "Địa lí",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 869,
+    "sbd": "46080080",
+    "name": "Trần Hữu Lập",
+    "gender": "Nam",
+    "dob": "2009-09-17",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/7",
+    "subject": "Địa lí",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 870,
+    "sbd": "46080082",
+    "name": "Trương Thụy Ánh Minh",
+    "gender": "Nữ",
+    "dob": "2009-07-16",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A8",
+    "subject": "Địa lí",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 871,
+    "sbd": "46080092",
+    "name": "Nguyễn Trần Thảo Nghi",
+    "gender": "Nữ",
+    "dob": "2009-08-23",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/7",
+    "subject": "Địa lí",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 872,
+    "sbd": "46080168",
+    "name": "Trần Thị Bảo Tuyết",
+    "gender": "Nữ",
+    "dob": "2009-06-04",
+    "school": "THPT Nam Đông",
+    "grade": "12/2",
+    "subject": "Địa lí",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 873,
+    "sbd": "46080195",
+    "name": "Nguyễn Thị Yên",
+    "gender": "Nữ",
+    "dob": "2009-09-01",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A14",
+    "subject": "Địa lí",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 874,
+    "sbd": "46080020",
+    "name": "Hoàng Ngọc Trân Châu",
+    "gender": "Nữ",
+    "dob": "2009-06-22",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A8",
+    "subject": "Địa lí",
+    "score": 14.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 875,
+    "sbd": "46080026",
+    "name": "Phan Thị Thuỳ Dung",
+    "gender": "Nữ",
+    "dob": "2009-12-08",
+    "school": "THPT Thuận An",
+    "grade": "12/06",
+    "subject": "Địa lí",
+    "score": 14.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 876,
+    "sbd": "46080037",
+    "name": "Lê Nguyễn Nhữ Hoàng",
+    "gender": "Nam",
+    "dob": "2009-11-10",
+    "school": "THPT Nam Đông",
+    "grade": "12/3",
+    "subject": "Địa lí",
+    "score": 14.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 877,
+    "sbd": "46080073",
+    "name": "Trần Thị Thuỳ Linh",
+    "gender": "Nữ",
+    "dob": "2009-12-26",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/14",
+    "subject": "Địa lí",
+    "score": 14.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 878,
+    "sbd": "46080135",
+    "name": "Hồ Hà Thu Sương",
+    "gender": "Nữ",
+    "dob": "2009-04-13",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/5",
+    "subject": "Địa lí",
+    "score": 14.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 879,
+    "sbd": "46080140",
+    "name": "Hoàng Minh Thuý",
+    "gender": "Nữ",
+    "dob": "2009-10-17",
+    "school": "THPT An Lương Đông",
+    "grade": "12D13",
+    "subject": "Địa lí",
+    "score": 14.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 880,
+    "sbd": "46080018",
+    "name": "Lê Quốc Bảo",
+    "gender": "Nam",
+    "dob": "2010-11-05",
+    "school": "THPT Gia Hội",
+    "grade": "11/09",
+    "subject": "Địa lí",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 881,
+    "sbd": "46080100",
+    "name": "Mai Hoài Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-01-31",
+    "school": "THPT Gia Hội",
+    "grade": "12/9",
+    "subject": "Địa lí",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 882,
+    "sbd": "46080167",
+    "name": "Đỗ Nguyễn Tuấn Trường",
+    "gender": "Nam",
+    "dob": "2009-10-16",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B7",
+    "subject": "Địa lí",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 883,
+    "sbd": "46080173",
+    "name": "Võ Hoàng Tố Tâm",
+    "gender": "Nữ",
+    "dob": "2010-04-18",
+    "school": "THPT Phú Bài",
+    "grade": "11B1",
+    "subject": "Địa lí",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 884,
+    "sbd": "46080182",
+    "name": "Trần Thị Nhã Uyên",
+    "gender": "Nữ",
+    "dob": "2010-06-26",
+    "school": "THPT Bình Điền",
+    "grade": "11/3",
+    "subject": "Địa lí",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 885,
+    "sbd": "46080189",
+    "name": "Trần Thị Bảo Vy",
+    "gender": "Nữ",
+    "dob": "2009-02-05",
+    "school": "THPT Tố Hữu",
+    "grade": "12B5",
+    "subject": "Địa lí",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 886,
+    "sbd": "46080033",
+    "name": "Trần Quốc Hiếu",
+    "gender": "Nam",
+    "dob": "2010-07-26",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/6",
+    "subject": "Địa lí",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 887,
+    "sbd": "46080102",
+    "name": "Võ Lê Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2010-11-07",
+    "school": "THPT Bình Điền",
+    "grade": "11/2",
+    "subject": "Địa lí",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 888,
+    "sbd": "46080136",
+    "name": "Phạm Hoàng Bảo Thi",
+    "gender": "Nữ",
+    "dob": "2009-10-24",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/9",
+    "subject": "Địa lí",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 889,
+    "sbd": "46080157",
+    "name": "Trần Đỗ Thị Hoài Trang",
+    "gender": "Nữ",
+    "dob": "2009-09-16",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B4",
+    "subject": "Địa lí",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 890,
+    "sbd": "46080159",
+    "name": "Trần Thị Thu Trinh",
+    "gender": "Nữ",
+    "dob": "2009-01-05",
+    "school": "THPT Bình Điền",
+    "grade": "12/2",
+    "subject": "Địa lí",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 891,
+    "sbd": "46080193",
+    "name": "Lê Phương Minh Vũ",
+    "gender": "Nam",
+    "dob": "2009-07-10",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/12",
+    "subject": "Địa lí",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 892,
+    "sbd": "46080017",
+    "name": "Nguyễn Duy Bình",
+    "gender": "Nam",
+    "dob": "2009-12-06",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/9",
+    "subject": "Địa lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 893,
+    "sbd": "46080022",
+    "name": "Hồ Nguyên Chương",
+    "gender": "Nam",
+    "dob": "2009-07-20",
+    "school": "THPT Cao Thắng",
+    "grade": "12/7",
+    "subject": "Địa lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 894,
+    "sbd": "46080029",
+    "name": "Lê Hương Giang",
+    "gender": "Nữ",
+    "dob": "2009-03-14",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B4",
+    "subject": "Địa lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 895,
+    "sbd": "46080031",
+    "name": "Nguyễn Thị Hồng Gấm",
+    "gender": "Nữ",
+    "dob": "2009-01-09",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/10",
+    "subject": "Địa lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 896,
+    "sbd": "46080036",
+    "name": "Hồ Ngọc Minh Hoàng",
+    "gender": "Nam",
+    "dob": "2009-12-28",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A12",
+    "subject": "Địa lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 897,
+    "sbd": "46080042",
+    "name": "Lê Thị Diệu Huyền",
+    "gender": "Nữ",
+    "dob": "2009-04-26",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B1",
+    "subject": "Địa lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 898,
+    "sbd": "46080094",
+    "name": "Nguyễn Thị Kim Ngân",
+    "gender": "Nữ",
+    "dob": "2009-01-25",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/13",
+    "subject": "Địa lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 899,
+    "sbd": "46080116",
+    "name": "Phạm Lê Thảo Như",
+    "gender": "Nữ",
+    "dob": "2009-12-11",
+    "school": "THPT Gia Hội",
+    "grade": "12/12",
+    "subject": "Địa lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 900,
+    "sbd": "46080171",
+    "name": "Nguyễn Văn Tuệ",
+    "gender": "Nam",
+    "dob": "2009-12-05",
+    "school": "THPT Gia Hội",
+    "grade": "12/9",
+    "subject": "Địa lí",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 901,
+    "sbd": "46080027",
+    "name": "Lê Thị Ánh Dương",
+    "gender": "Nữ",
+    "dob": "2009-01-13",
+    "school": "THPT Gia Hội",
+    "grade": "12/13",
+    "subject": "Địa lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 902,
+    "sbd": "46080038",
+    "name": "Nguyễn Như Hoàng",
+    "gender": "Nam",
+    "dob": "2010-01-09",
+    "school": "THPT Nam Đông",
+    "grade": "11/3",
+    "subject": "Địa lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 903,
+    "sbd": "46080196",
+    "name": "Nguyễn Khoa Ngọc Zin",
+    "gender": "Nữ",
+    "dob": "2009-03-24",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B2",
+    "subject": "Địa lí",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 904,
+    "sbd": "46080015",
+    "name": "Vương Nguyễn Quỳnh Anh",
+    "gender": "Nữ",
+    "dob": "2009-08-20",
+    "school": "THPT Tố Hữu",
+    "grade": "12B1",
+    "subject": "Địa lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 905,
+    "sbd": "46080024",
+    "name": "Nguyễn Thị Huyền Diệu",
+    "gender": "Nữ",
+    "dob": "2009-03-14",
+    "school": "THPT Hương Thủy",
+    "grade": "12/8",
+    "subject": "Địa lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 906,
+    "sbd": "46080025",
+    "name": "Nguyễn Thị Dung",
+    "gender": "Nữ",
+    "dob": "2009-09-11",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A9",
+    "subject": "Địa lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 907,
+    "sbd": "46080091",
+    "name": "Nguyễn Thị Thúy Nga",
+    "gender": "Nữ",
+    "dob": "2009-01-07",
+    "school": "THPT Phú Lộc",
+    "grade": "12B2",
+    "subject": "Địa lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 908,
+    "sbd": "46080111",
+    "name": "Phạm Thanh Nhàn",
+    "gender": "Nữ",
+    "dob": "2009-08-12",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/9",
+    "subject": "Địa lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 909,
+    "sbd": "46080125",
+    "name": "Nguyễn Văn Phúc",
+    "gender": "Nam",
+    "dob": "2009-03-03",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/7",
+    "subject": "Địa lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 910,
+    "sbd": "46080191",
+    "name": "Lê Thị Diệu Vân",
+    "gender": "Nữ",
+    "dob": "2010-04-08",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "11/10",
+    "subject": "Địa lí",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 911,
+    "sbd": "46080002",
+    "name": "Võ Thị Bình An",
+    "gender": "Nữ",
+    "dob": "2009-11-04",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B3",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 912,
+    "sbd": "46080003",
+    "name": "Đoàn Trần Thùy An",
+    "gender": "Nữ",
+    "dob": "2009-06-29",
+    "school": "THPT Phú Bài",
+    "grade": "12B10",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 913,
+    "sbd": "46080065",
+    "name": "Hoàng Thùy Linh",
+    "gender": "Nữ",
+    "dob": "2010-01-01",
+    "school": "THPT Gia Hội",
+    "grade": "11/11",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 914,
+    "sbd": "46080076",
+    "name": "Đặng Trần Bảo Long",
+    "gender": "Nam",
+    "dob": "2009-01-02",
+    "school": "THPT Hương Thủy",
+    "grade": "12/11",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 915,
+    "sbd": "46080081",
+    "name": "Hoàng Thị Khánh Minh",
+    "gender": "Nữ",
+    "dob": "2009-10-12",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/13",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 916,
+    "sbd": "46080107",
+    "name": "Đinh Thị Yến Nhi",
+    "gender": "Nữ",
+    "dob": "2009-09-20",
+    "school": "THPT Hương Trà",
+    "grade": "12b6",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 917,
+    "sbd": "46080124",
+    "name": "Nguyễn Ngọc Phát",
+    "gender": "Nam",
+    "dob": "2009-04-25",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/12",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 918,
+    "sbd": "46080152",
+    "name": "Nguyễn Thị Thảo Tiên",
+    "gender": "Nữ",
+    "dob": "2009-09-13",
+    "school": "THPT Gia Hội",
+    "grade": "12/13",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 919,
+    "sbd": "46080179",
+    "name": "Nguyễn Phương Uyên",
+    "gender": "Nữ",
+    "dob": "2009-10-10",
+    "school": "THPT Phú Bài",
+    "grade": "12B5",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 920,
+    "sbd": "46080192",
+    "name": "Nguyễn Thị Thảo Vân",
+    "gender": "Nữ",
+    "dob": "2010-03-04",
+    "school": "THPT An Lương Đông",
+    "grade": "11D12",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 921,
+    "sbd": "46080198",
+    "name": "Nguyễn Thị Như Ý",
+    "gender": "Nữ",
+    "dob": "2009-12-15",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A14",
+    "subject": "Địa lí",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 922,
+    "sbd": "46080044",
+    "name": "Võ Thị Hà",
+    "gender": "Nữ",
+    "dob": "2009-10-20",
+    "school": "THPT Phú Bài",
+    "grade": "12B4",
+    "subject": "Địa lí",
+    "score": 13.1,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 923,
+    "sbd": "46080004",
+    "name": "Hồ Ngọc Kỳ Anh",
+    "gender": "Nữ",
+    "dob": "2009-11-30",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/12",
+    "subject": "Địa lí",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 924,
+    "sbd": "46080021",
+    "name": "Trần Đình Chính",
+    "gender": "Nam",
+    "dob": "2009-09-15",
+    "school": "THPT Cao Thắng",
+    "grade": "12/6",
+    "subject": "Địa lí",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 925,
+    "sbd": "46080046",
+    "name": "Đỗ Khánh Hà",
+    "gender": "Nữ",
+    "dob": "2010-09-03",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B3",
+    "subject": "Địa lí",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 926,
+    "sbd": "46080148",
+    "name": "Võ Nguyễn Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-09-04",
+    "school": "THPT Vinh Lộc",
+    "grade": "12B2",
+    "subject": "Địa lí",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 927,
+    "sbd": "46080169",
+    "name": "Lâm Quang Tuấn",
+    "gender": "Nam",
+    "dob": "2010-10-22",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "11A1",
+    "subject": "Địa lí",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 928,
+    "sbd": "46080174",
+    "name": "Hồ Hoàng Nhật Tân",
+    "gender": "Nam",
+    "dob": "2009-03-04",
+    "school": "THPT A Lưới",
+    "grade": "12B4",
+    "subject": "Địa lí",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 929,
+    "sbd": "46080194",
+    "name": "Văn Công Vũ",
+    "gender": "Nam",
+    "dob": "2009-03-13",
+    "school": "THPT Vinh Lộc",
+    "grade": "12B1",
+    "subject": "Địa lí",
+    "score": 13.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 930,
+    "sbd": "46080010",
+    "name": "Nguyễn Bảo Anh",
+    "gender": "Nữ",
+    "dob": "2009-09-08",
+    "school": "THPT Thuận An",
+    "grade": "12/05",
+    "subject": "Địa lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 931,
+    "sbd": "46080051",
+    "name": "Nguyễn Thị Dạ Hương",
+    "gender": "Nữ",
+    "dob": "2009-06-13",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/12",
+    "subject": "Địa lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 932,
+    "sbd": "46080056",
+    "name": "Phan Đình Hải",
+    "gender": "Nam",
+    "dob": "2009-03-25",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B7",
+    "subject": "Địa lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 933,
+    "sbd": "46080063",
+    "name": "Lê Tường Lam",
+    "gender": "Nữ",
+    "dob": "2010-02-13",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A12",
+    "subject": "Địa lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 934,
+    "sbd": "46080106",
+    "name": "Nguyễn Thị Yến Nhi",
+    "gender": "Nữ",
+    "dob": "2009-03-08",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A2",
+    "subject": "Địa lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 935,
+    "sbd": "46080137",
+    "name": "Lê Thị Kim Thoa",
+    "gender": "Nữ",
+    "dob": "2010-11-02",
+    "school": "THPT An Lương Đông",
+    "grade": "11D12",
+    "subject": "Địa lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 936,
+    "sbd": "46080176",
+    "name": "Nguyễn Hữu Tây",
+    "gender": "Nam",
+    "dob": "2009-06-23",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A9",
+    "subject": "Địa lí",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 937,
+    "sbd": "46080014",
+    "name": "Trần Phan Hoài  Anh",
+    "gender": "Nữ",
+    "dob": "2010-10-23",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "11/6",
+    "subject": "Địa lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 938,
+    "sbd": "46080078",
+    "name": "Nguyễn Ngọc Đan Lê",
+    "gender": "Nữ",
+    "dob": "2009-07-22",
+    "school": "THPT Hương Thủy",
+    "grade": "12/5",
+    "subject": "Địa lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 939,
+    "sbd": "46080098",
+    "name": "Lê Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-06-09",
+    "school": "THPT Nam Đông",
+    "grade": "12/1",
+    "subject": "Địa lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 940,
+    "sbd": "46080127",
+    "name": "Ngô Thị Yến Phương",
+    "gender": "Nữ",
+    "dob": "2009-05-22",
+    "school": "THPT An Lương Đông",
+    "grade": "12D13",
+    "subject": "Địa lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 941,
+    "sbd": "46080129",
+    "name": "Châu Lê Khánh Quỳnh",
+    "gender": "Nữ",
+    "dob": "2009-06-26",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A14",
+    "subject": "Địa lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 942,
+    "sbd": "46080143",
+    "name": "Hoàng Nguyễn Khánh Thy",
+    "gender": "Nữ",
+    "dob": "2010-03-02",
+    "school": "THPT Phú Bài",
+    "grade": "11B4",
+    "subject": "Địa lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 943,
+    "sbd": "46080144",
+    "name": "Nguyễn Trần Kim Thy",
+    "gender": "Nữ",
+    "dob": "2009-05-11",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B2",
+    "subject": "Địa lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 944,
+    "sbd": "46080145",
+    "name": "Phan Trung Thành",
+    "gender": "Nam",
+    "dob": "2010-12-11",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "11B5",
+    "subject": "Địa lí",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 945,
+    "sbd": "46080007",
+    "name": "Lê Thị Quỳnh Anh",
+    "gender": "Nữ",
+    "dob": "2009-03-15",
+    "school": "THPT Đặng Huy Trứ",
+    "grade": "12/9",
+    "subject": "Địa lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 946,
+    "sbd": "46080013",
+    "name": "Phan Trần Lan Anh",
+    "gender": "Nữ",
+    "dob": "2009-01-21",
+    "school": "THPT Nam Đông",
+    "grade": "12/1",
+    "subject": "Địa lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 947,
+    "sbd": "46080089",
+    "name": "Trần Huỳnh Hoài Nam",
+    "gender": "Nam",
+    "dob": "2009-02-20",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/10",
+    "subject": "Địa lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 948,
+    "sbd": "46080186",
+    "name": "Nguyễn Đăng Vinh",
+    "gender": "Nam",
+    "dob": "2010-10-09",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A12",
+    "subject": "Địa lí",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 949,
+    "sbd": "46080069",
+    "name": "Nguyễn Thị Mỹ Linh",
+    "gender": "Nữ",
+    "dob": "2010-01-09",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A6",
+    "subject": "Địa lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 950,
+    "sbd": "46080088",
+    "name": "Nguyễn Ngọc Bảo Nam",
+    "gender": "Nam",
+    "dob": "2010-01-22",
+    "school": "THPT Hoá Châu",
+    "grade": "11B4",
+    "subject": "Địa lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 951,
+    "sbd": "46080104",
+    "name": "Lê Mai Phương Nhi",
+    "gender": "Nữ",
+    "dob": "2010-10-31",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "11A5",
+    "subject": "Địa lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 952,
+    "sbd": "46080115",
+    "name": "Phan Thị Tố Như",
+    "gender": "Nữ",
+    "dob": "2010-06-11",
+    "school": "THPT Phú Bài",
+    "grade": "11B4",
+    "subject": "Địa lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 953,
+    "sbd": "46080149",
+    "name": "Trần Thị Kim Thương",
+    "gender": "Nữ",
+    "dob": "2009-11-19",
+    "school": "THPT Cao Thắng",
+    "grade": "12/6",
+    "subject": "Địa lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 954,
+    "sbd": "46080158",
+    "name": "Hồ Ngọc Phương Trinh",
+    "gender": "Nữ",
+    "dob": "2009-07-24",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B1",
+    "subject": "Địa lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 955,
+    "sbd": "46080160",
+    "name": "Nguyễn Minh Trung",
+    "gender": "Nam",
+    "dob": "2009-11-05",
+    "school": "THPT Thừa Lưu",
+    "grade": "12A5",
+    "subject": "Địa lí",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 956,
+    "sbd": "46080050",
+    "name": "Nguyễn Lê Quỳnh Hương",
+    "gender": "Nữ",
+    "dob": "2009-12-22",
+    "school": "THPT Hương Trà",
+    "grade": "12B6",
+    "subject": "Địa lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 957,
+    "sbd": "46080084",
+    "name": "Hồ Thị Trà My",
+    "gender": "Nữ",
+    "dob": "2009-07-27",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "12/5",
+    "subject": "Địa lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 958,
+    "sbd": "46080101",
+    "name": "Phan Hà Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2010-08-28",
+    "school": "THPT Nguyễn Sinh Cung",
+    "grade": "11/6",
+    "subject": "Địa lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 959,
+    "sbd": "46080141",
+    "name": "La Thị Thuý",
+    "gender": "Nữ",
+    "dob": "2009-02-19",
+    "school": "THPT Thuận An",
+    "grade": "12/07",
+    "subject": "Địa lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 960,
+    "sbd": "46080177",
+    "name": "Hoàng Thị Vân Uyên",
+    "gender": "Nữ",
+    "dob": "2009-12-23",
+    "school": "THPT Hương Trà",
+    "grade": "12B3",
+    "subject": "Địa lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 961,
+    "sbd": "46080187",
+    "name": "Lê Nguyễn Thảo Vy",
+    "gender": "Nữ",
+    "dob": "2009-05-06",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B2",
+    "subject": "Địa lí",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 962,
+    "sbd": "46080071",
+    "name": "Phan Trần Huyền Linh",
+    "gender": "Nữ",
+    "dob": "2010-01-05",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B4",
+    "subject": "Địa lí",
+    "score": 11.6,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 963,
+    "sbd": "46080034",
+    "name": "Trần Quang Hiền",
+    "gender": "Nam",
+    "dob": "2010-01-03",
+    "school": "THPT A Lưới",
+    "grade": "11A3",
+    "subject": "Địa lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 964,
+    "sbd": "46080064",
+    "name": "Dương Thị Thùy Linh",
+    "gender": "Nữ",
+    "dob": "2009-08-12",
+    "school": "THPT Nam Đông",
+    "grade": "12/5",
+    "subject": "Địa lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 965,
+    "sbd": "46080121",
+    "name": "Nguyễn Thị Phương Oanh",
+    "gender": "Nữ",
+    "dob": "2009-01-24",
+    "school": "THPT Bùi Thị Xuân",
+    "grade": "12B6",
+    "subject": "Địa lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 966,
+    "sbd": "46080122",
+    "name": "Phan Thị Ngọc Oanh",
+    "gender": "Nữ",
+    "dob": "2009-01-09",
+    "school": "THPT Phú Bài",
+    "grade": "12B5",
+    "subject": "Địa lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 967,
+    "sbd": "46080170",
+    "name": "Nguyễn Văn Duy Tuấn",
+    "gender": "Nam",
+    "dob": "2009-09-09",
+    "school": "THPT Đặng Trần Côn",
+    "grade": "12C2",
+    "subject": "Địa lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 968,
+    "sbd": "46080184",
+    "name": "Võ Thị Cẩm Uyên",
+    "gender": "Nữ",
+    "dob": "2009-06-10",
+    "school": "THPT Hương Trà",
+    "grade": "12B6",
+    "subject": "Địa lí",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 969,
+    "sbd": "46080012",
+    "name": "Nguyễn Thị Ngọc Anh",
+    "gender": "Nữ",
+    "dob": "2010-01-05",
+    "school": "THPT Nam Đông",
+    "grade": "11/3",
+    "subject": "Địa lí",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 970,
+    "sbd": "46080128",
+    "name": "Lê Đức Quân",
+    "gender": "Nam",
+    "dob": "2010-08-26",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "11A1",
+    "subject": "Địa lí",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 971,
+    "sbd": "46080150",
+    "name": "Trần Thị Thu Thảo",
+    "gender": "Nữ",
+    "dob": "2010-08-05",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "11B2",
+    "subject": "Địa lí",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 972,
+    "sbd": "46090024",
+    "name": "Trần Đình Tony",
+    "gender": "Nam",
+    "dob": "2009-04-05",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/10",
+    "subject": "Tiếng Pháp",
+    "score": 18.05,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 973,
+    "sbd": "46090015",
+    "name": "Đào Thị Hoàng Nhi",
+    "gender": "Nữ",
+    "dob": "2009-06-14",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A1",
+    "subject": "Tiếng Pháp",
+    "score": 17.1,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 974,
+    "sbd": "46090011",
+    "name": "Nguyễn Trần Ngọc Khánh",
+    "gender": "Nữ",
+    "dob": "2009-11-18",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A3",
+    "subject": "Tiếng Pháp",
+    "score": 16.15,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 975,
+    "sbd": "46090027",
+    "name": "Trần Hữu Nhất Tâm",
+    "gender": "Nam",
+    "dob": "2009-06-16",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A12",
+    "subject": "Tiếng Pháp",
+    "score": 14.4,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 976,
+    "sbd": "46090012",
+    "name": "Trình Hà My",
+    "gender": "Nữ",
+    "dob": "2009-04-04",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/10",
+    "subject": "Tiếng Pháp",
+    "score": 14.15,
+    "prize": "Ba"
+  },
+  {
+    "tt": 977,
+    "sbd": "46090022",
+    "name": "Nguyễn Thị Minh Thùy",
+    "gender": "Nữ",
+    "dob": "2009-03-26",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/13",
+    "subject": "Tiếng Pháp",
+    "score": 13.65,
+    "prize": "Ba"
+  },
+  {
+    "tt": 978,
+    "sbd": "46090020",
+    "name": "Trần Bảo Ngọc Quyên",
+    "gender": "Nữ",
+    "dob": "2009-09-10",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/10",
+    "subject": "Tiếng Pháp",
+    "score": 13.4,
+    "prize": "Ba"
+  },
+  {
+    "tt": 979,
+    "sbd": "46090010",
+    "name": "Nguyễn Đắc Hải",
+    "gender": "Nam",
+    "dob": "2010-12-29",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A3",
+    "subject": "Tiếng Pháp",
+    "score": 13.35,
+    "prize": "Ba"
+  },
+  {
+    "tt": 980,
+    "sbd": "46090016",
+    "name": "Ngô Thanh Thùy Nhiên",
+    "gender": "Nữ",
+    "dob": "2009-09-22",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/13",
+    "subject": "Tiếng Pháp",
+    "score": 13.35,
+    "prize": "Ba"
+  },
+  {
+    "tt": 981,
+    "sbd": "46090013",
+    "name": "Trần Phạm Thiên Ngân",
+    "gender": "Nữ",
+    "dob": "2009-11-21",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A3",
+    "subject": "Tiếng Pháp",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 982,
+    "sbd": "46090001",
+    "name": "Nguyễn Lê Tâm Anh",
+    "gender": "Nữ",
+    "dob": "2009-10-29",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/13",
+    "subject": "Tiếng Pháp",
+    "score": 12.95,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 983,
+    "sbd": "46090004",
+    "name": "Trần Thị Bảo Châu",
+    "gender": "Nữ",
+    "dob": "2009-10-21",
+    "school": "THPT Trần Văn Kỷ",
+    "grade": "12B8",
+    "subject": "Tiếng Pháp",
+    "score": 12.45,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 984,
+    "sbd": "46090018",
+    "name": "Nguyễn Việt Quý Như",
+    "gender": "Nữ",
+    "dob": "2009-05-29",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/10",
+    "subject": "Tiếng Pháp",
+    "score": 11.8,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 985,
+    "sbd": "46090021",
+    "name": "Phan Thị Như Quỳnh",
+    "gender": "Nữ",
+    "dob": "2009-03-10",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A14",
+    "subject": "Tiếng Pháp",
+    "score": 11.15,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 986,
+    "sbd": "46090008",
+    "name": "Đặng Hồ Ngọc Hân",
+    "gender": "Nữ",
+    "dob": "2010-09-18",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A9",
+    "subject": "Tiếng Pháp",
+    "score": 11.1,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 987,
+    "sbd": "46090019",
+    "name": "Ngô Hồng Nhật Phi",
+    "gender": "Nam",
+    "dob": "2009-09-21",
+    "school": "THPT Nguyễn Trường Tộ",
+    "grade": "12A8",
+    "subject": "Tiếng Pháp",
+    "score": 10.4,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 988,
+    "sbd": "46090026",
+    "name": "Lê Hà Thiên Trúc",
+    "gender": "Nữ",
+    "dob": "2009-02-01",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A13",
+    "subject": "Tiếng Pháp",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 989,
+    "sbd": "46100003",
+    "name": "Nguyễn Trần Vân Anh",
+    "gender": "Nữ",
+    "dob": "2009-07-30",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A14",
+    "subject": "Tiếng Nhật",
+    "score": 16.6,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 990,
+    "sbd": "46100004",
+    "name": "Phan Thị Bảo Châu",
+    "gender": "Nữ",
+    "dob": "2009-11-29",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A8",
+    "subject": "Tiếng Nhật",
+    "score": 14.6,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 991,
+    "sbd": "46100001",
+    "name": "Bùi Nguyễn Vân Anh",
+    "gender": "Nữ",
+    "dob": "2009-06-15",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/10",
+    "subject": "Tiếng Nhật",
+    "score": 14.2,
+    "prize": "Ba"
+  },
+  {
+    "tt": 992,
+    "sbd": "46100002",
+    "name": "Nguyễn Hoàng Trâm Anh",
+    "gender": "Nữ",
+    "dob": "2009-03-21",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/10",
+    "subject": "Tiếng Nhật",
+    "score": 12.4,
+    "prize": "Ba"
+  },
+  {
+    "tt": 993,
+    "sbd": "46100009",
+    "name": "Nguyễn Lê Thanh Trúc",
+    "gender": "Nữ",
+    "dob": "2010-04-26",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "11A11",
+    "subject": "Tiếng Nhật",
+    "score": 12.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 994,
+    "sbd": "46100006",
+    "name": "Nguyễn Lê Xuân Nhi",
+    "gender": "Nữ",
+    "dob": "2009-09-21",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/13",
+    "subject": "Tiếng Nhật",
+    "score": 11.85,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 995,
+    "sbd": "46110021",
+    "name": "Nguyễn Trí Dũng",
+    "gender": "Nam",
+    "dob": "2009-02-06",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A4",
+    "subject": "Tin học",
+    "score": 17.4,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 996,
+    "sbd": "46110035",
+    "name": "Lê Đức Thái Hòa",
+    "gender": "Nam",
+    "dob": "2010-11-05",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B1",
+    "subject": "Tin học",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 997,
+    "sbd": "46110031",
+    "name": "Lê Gia Quốc Huy",
+    "gender": "Nam",
+    "dob": "2009-09-05",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A5",
+    "subject": "Tin học",
+    "score": 15.75,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 998,
+    "sbd": "46110027",
+    "name": "Phan Công Hoàng",
+    "gender": "Nam",
+    "dob": "2009-06-06",
+    "school": "THPT Nguyễn Huệ",
+    "grade": "12/7",
+    "subject": "Tin học",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 999,
+    "sbd": "46110022",
+    "name": "Huỳnh Đặng Hải Dương",
+    "gender": "Nam",
+    "dob": "2009-07-31",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B1",
+    "subject": "Tin học",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1000,
+    "sbd": "46110054",
+    "name": "Lê Quang Long",
+    "gender": "Nam",
+    "dob": "2009-01-04",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Tin học",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1001,
+    "sbd": "46110092",
+    "name": "Huỳnh Hoàng Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2009-05-27",
+    "school": "THPT Vinh Lộc",
+    "grade": "12A2",
+    "subject": "Tin học",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1002,
+    "sbd": "46110103",
+    "name": "Hà Văn Võ",
+    "gender": "Nam",
+    "dob": "2009-02-13",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A5",
+    "subject": "Tin học",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1003,
+    "sbd": "46110080",
+    "name": "Nguyễn Công Quang",
+    "gender": "Nam",
+    "dob": "2009-09-02",
+    "school": "THPT Vinh Xuân",
+    "grade": "12B2",
+    "subject": "Tin học",
+    "score": 14.4,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1004,
+    "sbd": "46110019",
+    "name": "Phan Thị Hải Châu",
+    "gender": "Nữ",
+    "dob": "2009-09-17",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "12/2",
+    "subject": "Tin học",
+    "score": 13.15,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1005,
+    "sbd": "46110016",
+    "name": "Nguyễn Đăng Bảo",
+    "gender": "Nam",
+    "dob": "2009-09-25",
+    "school": "THPT Cao Thắng",
+    "grade": "12/9",
+    "subject": "Tin học",
+    "score": 13.1,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1006,
+    "sbd": "46110011",
+    "name": "Chế Quang Hoàng Bách",
+    "gender": "Nam",
+    "dob": "2009-07-15",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A7",
+    "subject": "Tin học",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1007,
+    "sbd": "46110105",
+    "name": "Nguyễn Phước Ân",
+    "gender": "Nam",
+    "dob": "2010-07-12",
+    "school": "THPT Nguyễn Chí Thanh",
+    "grade": "11/1",
+    "subject": "Tin học",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1008,
+    "sbd": "46110045",
+    "name": "Nguyễn Trần Đăng Khoa",
+    "gender": "Nam",
+    "dob": "2010-05-19",
+    "school": "THPT Vinh Xuân",
+    "grade": "11B1",
+    "subject": "Tin học",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1009,
+    "sbd": "46110073",
+    "name": "Hồ Quý Nhân",
+    "gender": "Nam",
+    "dob": "2009-11-19",
+    "school": "THPT An Lương Đông",
+    "grade": "12A1",
+    "subject": "Tin học",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1010,
+    "sbd": "46110074",
+    "name": "Lê Qúy Hoàng Nhân",
+    "gender": "Nam",
+    "dob": "2009-12-26",
+    "school": "THPT Hương Thủy",
+    "grade": "12/2",
+    "subject": "Tin học",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1011,
+    "sbd": "46110038",
+    "name": "Lê Hoàng Hải",
+    "gender": "Nam",
+    "dob": "2009-11-01",
+    "school": "THPT Hà Trung",
+    "grade": "12B1",
+    "subject": "Tin học",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1012,
+    "sbd": "46110055",
+    "name": "Nguyễn Hoàng Thiên Long",
+    "gender": "Nam",
+    "dob": "2009-02-11",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A6",
+    "subject": "Tin học",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1013,
+    "sbd": "46110023",
+    "name": "Huỳnh Quốc Hiếu",
+    "gender": "Nam",
+    "dob": "2009-06-29",
+    "school": "THPT Phú Lộc",
+    "grade": "12B3",
+    "subject": "Tin học",
+    "score": 10.4,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1014,
+    "sbd": "46110094",
+    "name": "Hoàng Lê Anh Tuấn",
+    "gender": "Nam",
+    "dob": "2009-02-07",
+    "school": "THPT Nguyễn Đình Chiểu",
+    "grade": "12A3",
+    "subject": "Tin học",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1015,
+    "sbd": "46110097",
+    "name": "Lê Đình Hoàng Tín",
+    "gender": "Nam",
+    "dob": "2009-02-02",
+    "school": "THPT Phong Điền",
+    "grade": "12/02",
+    "subject": "Tin học",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1016,
+    "sbd": "46120041",
+    "name": "Lê Nguyễn Thanh Khiêm",
+    "gender": "Nam",
+    "dob": "2009-06-21",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1017,
+    "sbd": "46120026",
+    "name": "Lê Trung Tấn Huy",
+    "gender": "Nam",
+    "dob": "2009-10-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1018,
+    "sbd": "46120005",
+    "name": "Lê Viết Xuân Bách",
+    "gender": "Nam",
+    "dob": "2009-11-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1019,
+    "sbd": "46120016",
+    "name": "Hồ Ngọc Thùy Dương",
+    "gender": "Nữ",
+    "dob": "2010-03-29",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1020,
+    "sbd": "46120018",
+    "name": "Lê Trung Hiếu",
+    "gender": "Nam",
+    "dob": "2010-12-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Toán 2",
+    "subject": "Toán (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1021,
+    "sbd": "46120091",
+    "name": "Hoàng Trọng Thông",
+    "gender": "Nam",
+    "dob": "2010-06-04",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1022,
+    "sbd": "46120010",
+    "name": "Tạ Lê Quốc Bảo",
+    "gender": "Nam",
+    "dob": "2010-11-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1023,
+    "sbd": "46120013",
+    "name": "Nguyễn Văn Trần Dinh",
+    "gender": "Nam",
+    "dob": "2009-12-27",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1024,
+    "sbd": "46120059",
+    "name": "Nguyễn Gia Lương",
+    "gender": "Nam",
+    "dob": "2009-04-24",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Lý 1",
+    "subject": "Toán (Chuyên)",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1025,
+    "sbd": "46120083",
+    "name": "Trần Nguyễn Anh Quân",
+    "gender": "Nam",
+    "dob": "2010-08-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1026,
+    "sbd": "46120105",
+    "name": "Nguyễn Đăng Hoàng Vũ",
+    "gender": "Nam",
+    "dob": "2010-12-10",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1027,
+    "sbd": "46120033",
+    "name": "Phạm Anh Hào",
+    "gender": "Nam",
+    "dob": "2009-02-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1028,
+    "sbd": "46120081",
+    "name": "Lương Đình Nhật Quang",
+    "gender": "Nam",
+    "dob": "2010-04-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1029,
+    "sbd": "46120044",
+    "name": "Hoàng Dương Khánh",
+    "gender": "Nam",
+    "dob": "2010-05-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1030,
+    "sbd": "46120066",
+    "name": "Nguyễn Khắc Hưng Nam",
+    "gender": "Nam",
+    "dob": "2011-02-03",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1031,
+    "sbd": "46120108",
+    "name": "Lê Doãn Đạt",
+    "gender": "Nam",
+    "dob": "2011-06-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Toán 1",
+    "subject": "Toán (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1032,
+    "sbd": "46130004",
+    "name": "Trần Tuấn Anh",
+    "gender": "Nam",
+    "dob": "2009-04-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Lý 1",
+    "subject": "Vật lí (Chuyên)",
+    "score": 18.0,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 1033,
+    "sbd": "46130030",
+    "name": "Lê Hoàng Anh Khoa",
+    "gender": "Nam",
+    "dob": "2009-11-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Toán 1",
+    "subject": "Vật lí (Chuyên)",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1034,
+    "sbd": "46130015",
+    "name": "Hồ Hữu Hoàng",
+    "gender": "Nam",
+    "dob": "2009-03-31",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Lý 1",
+    "subject": "Vật lí (Chuyên)",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1035,
+    "sbd": "46130033",
+    "name": "Nguyễn Vũ Anh Kiệt",
+    "gender": "Nam",
+    "dob": "2009-01-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Lý 1",
+    "subject": "Vật lí (Chuyên)",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1036,
+    "sbd": "46130064",
+    "name": "Trần Phúc Tuấn Tú",
+    "gender": "Nam",
+    "dob": "2009-06-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Lý 1",
+    "subject": "Vật lí (Chuyên)",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1037,
+    "sbd": "46130013",
+    "name": "Lê Trần Ngọc Hiếu",
+    "gender": "Nam",
+    "dob": "2010-06-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Lý 1",
+    "subject": "Vật lí (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1038,
+    "sbd": "46130067",
+    "name": "Ngô Đức Đại",
+    "gender": "Nam",
+    "dob": "2009-07-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Lý 1",
+    "subject": "Vật lí (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1039,
+    "sbd": "46130029",
+    "name": "Võ Minh Khang",
+    "gender": "Nam",
+    "dob": "2010-01-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Lý 1",
+    "subject": "Vật lí (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1040,
+    "sbd": "46130066",
+    "name": "Trần Viễn Đông",
+    "gender": "Nam",
+    "dob": "2010-10-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Lý 1",
+    "subject": "Vật lí (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1041,
+    "sbd": "46140026",
+    "name": "Võ Trần Nguyên Khang",
+    "gender": "Nam",
+    "dob": "2009-12-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Toán 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 18.5,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 1042,
+    "sbd": "46140054",
+    "name": "Trần Hữu Thiện Nhân",
+    "gender": "Nam",
+    "dob": "2009-11-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1043,
+    "sbd": "46140058",
+    "name": "Trần Anh Nhật",
+    "gender": "Nam",
+    "dob": "2010-07-22",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1044,
+    "sbd": "46140063",
+    "name": "Bùi Đăng Phước",
+    "gender": "Nam",
+    "dob": "2009-09-04",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1045,
+    "sbd": "46140013",
+    "name": "Hoàng Công Lê Huy",
+    "gender": "Nam",
+    "dob": "2010-08-24",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1046,
+    "sbd": "46140080",
+    "name": "Phạm Nguyễn Thiên Ân",
+    "gender": "Nam",
+    "dob": "2010-02-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1047,
+    "sbd": "46140019",
+    "name": "Trần Ngọc Gia Huy",
+    "gender": "Nam",
+    "dob": "2009-07-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1048,
+    "sbd": "46140057",
+    "name": "Nguyễn Đăng Nhất",
+    "gender": "Nam",
+    "dob": "2009-09-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1049,
+    "sbd": "46140070",
+    "name": "Trịnh Hồng Tiến",
+    "gender": "Nam",
+    "dob": "2010-01-22",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1050,
+    "sbd": "46140039",
+    "name": "Trần Lê Bảo Long",
+    "gender": "Nam",
+    "dob": "2009-03-21",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1051,
+    "sbd": "46140007",
+    "name": "Lê Trần Bảo Châu",
+    "gender": "Nữ",
+    "dob": "2010-08-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1052,
+    "sbd": "46140041",
+    "name": "Mai Nhật Minh",
+    "gender": "Nam",
+    "dob": "2010-01-28",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Hóa 2",
+    "subject": "Hoá học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1053,
+    "sbd": "46140050",
+    "name": "Phạm Trần Bảo Nhi",
+    "gender": "Nữ",
+    "dob": "2011-03-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Hóa 2",
+    "subject": "Hoá học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1054,
+    "sbd": "46140068",
+    "name": "Hoàng Thế Thắng",
+    "gender": "Nam",
+    "dob": "2010-10-30",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Hóa 1",
+    "subject": "Hoá học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1055,
+    "sbd": "46150013",
+    "name": "Hoàng Anh Dũng",
+    "gender": "Nam",
+    "dob": "2009-02-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 17.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1056,
+    "sbd": "46150033",
+    "name": "Hoàng Nguyễn Bảo Khánh",
+    "gender": "Nữ",
+    "dob": "2010-02-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 17.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1057,
+    "sbd": "46150009",
+    "name": "Trương Thị Nhã Bình",
+    "gender": "Nữ",
+    "dob": "2009-06-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1058,
+    "sbd": "46150030",
+    "name": "Nguyễn Anh Khoa",
+    "gender": "Nam",
+    "dob": "2011-06-24",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Sinh 2",
+    "subject": "Sinh học (Chuyên)",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1059,
+    "sbd": "46150035",
+    "name": "Phan Gia Nguyên Khôi",
+    "gender": "Nam",
+    "dob": "2009-10-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1060,
+    "sbd": "46150066",
+    "name": "Hà Công Minh Quân",
+    "gender": "Nam",
+    "dob": "2009-02-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1061,
+    "sbd": "46150008",
+    "name": "Lưu Hương Bình",
+    "gender": "Nữ",
+    "dob": "2010-04-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1062,
+    "sbd": "46150031",
+    "name": "Nguyễn Hữu Nguyên Khoa",
+    "gender": "Nam",
+    "dob": "2011-10-05",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Sinh 2",
+    "subject": "Sinh học (Chuyên)",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1063,
+    "sbd": "46150061",
+    "name": "Châu Hồ Ngọc Nhân",
+    "gender": "Nam",
+    "dob": "2009-03-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1064,
+    "sbd": "46150022",
+    "name": "Nguyễn Thái Khánh Hà",
+    "gender": "Nữ",
+    "dob": "2010-01-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 14.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1065,
+    "sbd": "46150020",
+    "name": "Trần Đức Huy",
+    "gender": "Nam",
+    "dob": "2011-04-29",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1066,
+    "sbd": "46150073",
+    "name": "Lê Chí Thành",
+    "gender": "Nam",
+    "dob": "2009-12-22",
+    "school": "THPT Nam Đông",
+    "grade": "12/4",
+    "subject": "Sinh học (Chuyên)",
+    "score": 12.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1067,
+    "sbd": "46150017",
+    "name": "Lâm Quang Huy",
+    "gender": "Nam",
+    "dob": "2009-04-17",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1068,
+    "sbd": "46150050",
+    "name": "Châu Phan Khôi Nguyên",
+    "gender": "Nam",
+    "dob": "2011-05-17",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Sinh 2",
+    "subject": "Sinh học (Chuyên)",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1069,
+    "sbd": "46150029",
+    "name": "Đường Bảo Khiêm",
+    "gender": "Nam",
+    "dob": "2011-11-03",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1070,
+    "sbd": "46150080",
+    "name": "Trần Nguyễn Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2009-02-04",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1071,
+    "sbd": "46150041",
+    "name": "Phan Bình Bảo Lâm",
+    "gender": "Nam",
+    "dob": "2011-10-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Sinh 2",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1072,
+    "sbd": "46150053",
+    "name": "Nguyễn Ngọc Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2010-02-05",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1073,
+    "sbd": "46150087",
+    "name": "Nguyễn Võ Ngọc Ánh",
+    "gender": "Nữ",
+    "dob": "2009-03-28",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1074,
+    "sbd": "46150006",
+    "name": "Đinh Văn Việt Anh",
+    "gender": "Nam",
+    "dob": "2009-12-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1075,
+    "sbd": "46150007",
+    "name": "Hoàng Như Bách",
+    "gender": "Nam",
+    "dob": "2009-09-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 2",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1076,
+    "sbd": "46150014",
+    "name": "Trần Tiến Dũng",
+    "gender": "Nam",
+    "dob": "2011-04-30",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1077,
+    "sbd": "46150016",
+    "name": "Trần Mạnh Hoàng",
+    "gender": "Nam",
+    "dob": "2009-11-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1078,
+    "sbd": "46150037",
+    "name": "Hồ Phước Nhật Long",
+    "gender": "Nam",
+    "dob": "2009-02-08",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1079,
+    "sbd": "46150042",
+    "name": "Nguyễn Châu Minh",
+    "gender": "Nữ",
+    "dob": "2009-01-05",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1080,
+    "sbd": "46150044",
+    "name": "Phan Nguyễn Ngọc Minh",
+    "gender": "Nữ",
+    "dob": "2009-10-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1081,
+    "sbd": "46150054",
+    "name": "Tôn Thất Lê Nguyên",
+    "gender": "Nam",
+    "dob": "2009-02-28",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1082,
+    "sbd": "46150055",
+    "name": "Lê Khánh Ngân",
+    "gender": "Nữ",
+    "dob": "2009-06-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1083,
+    "sbd": "46150064",
+    "name": "Lê Ngọc Mai Phương",
+    "gender": "Nữ",
+    "dob": "2009-03-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1084,
+    "sbd": "46150065",
+    "name": "Trần Hữu Quyền",
+    "gender": "Nam",
+    "dob": "2009-07-03",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 2",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1085,
+    "sbd": "46150068",
+    "name": "Trương Nam Sơn",
+    "gender": "Nam",
+    "dob": "2010-01-08",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Toán 2",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1086,
+    "sbd": "46150074",
+    "name": "Nguyễn Ngọc Thành",
+    "gender": "Nam",
+    "dob": "2009-11-23",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1087,
+    "sbd": "46150077",
+    "name": "Nguyễn Ngọc Quỳnh Tiên",
+    "gender": "Nữ",
+    "dob": "2009-11-13",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1088,
+    "sbd": "46150085",
+    "name": "Hoàng Hải Yến",
+    "gender": "Nữ",
+    "dob": "2009-04-07",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sinh 1",
+    "subject": "Sinh học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1089,
+    "sbd": "46160046",
+    "name": "Nguyễn Quang Tuấn Huy",
+    "gender": "Nam",
+    "dob": "2010-01-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 16.3,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1090,
+    "sbd": "46160178",
+    "name": "Lê Nguyên Vũ",
+    "gender": "Nam",
+    "dob": "2009-05-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 16.3,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1091,
+    "sbd": "46160006",
+    "name": "Lê Việt Anh",
+    "gender": "Nam",
+    "dob": "2008-09-07",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1092,
+    "sbd": "46160118",
+    "name": "Bùi Thiện Nhân",
+    "gender": "Nam",
+    "dob": "2010-01-01",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1093,
+    "sbd": "46160140",
+    "name": "Võ Anh Quân",
+    "gender": "Nam",
+    "dob": "2009-02-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 15.95,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1094,
+    "sbd": "46160044",
+    "name": "Nguyễn Hữu Quang Huy",
+    "gender": "Nam",
+    "dob": "2009-10-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 15.55,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1095,
+    "sbd": "46160139",
+    "name": "Phan Anh Quân",
+    "gender": "Nam",
+    "dob": "2009-12-15",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 15.4,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1096,
+    "sbd": "46160070",
+    "name": "Nguyễn Minh Khương",
+    "gender": "Nam",
+    "dob": "2010-04-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 15.35,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1097,
+    "sbd": "46160098",
+    "name": "Phạm Nguyễn Khánh Nam",
+    "gender": "Nam",
+    "dob": "2009-06-29",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 14.95,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1098,
+    "sbd": "46160121",
+    "name": "Nguyễn Hải Minh Nhật",
+    "gender": "Nam",
+    "dob": "2011-04-28",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 14.95,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1099,
+    "sbd": "46160024",
+    "name": "Trần Lê Gia Bảo",
+    "gender": "Nam",
+    "dob": "2009-10-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 14.85,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1100,
+    "sbd": "46160059",
+    "name": "Nguyễn Thúc Bảo Kha",
+    "gender": "Nam",
+    "dob": "2009-04-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 14.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1101,
+    "sbd": "46160085",
+    "name": "Nguyễn Đình Lâm",
+    "gender": "Nam",
+    "dob": "2009-10-28",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.9,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1102,
+    "sbd": "46160141",
+    "name": "Nguyễn Hồ Như Quỳnh",
+    "gender": "Nữ",
+    "dob": "2009-01-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.9,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1103,
+    "sbd": "46160035",
+    "name": "Lê Kỳ Dung",
+    "gender": "Nữ",
+    "dob": "2009-07-05",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.8,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1104,
+    "sbd": "46160086",
+    "name": "Tôn Nữ Thùy Lâm",
+    "gender": "Nữ",
+    "dob": "2009-03-27",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.8,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1105,
+    "sbd": "46160117",
+    "name": "Tống Ngọc An Nhiên",
+    "gender": "Nữ",
+    "dob": "2009-02-15",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.7,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1106,
+    "sbd": "46160137",
+    "name": "Nguyễn Lê Mỹ Quyên",
+    "gender": "Nữ",
+    "dob": "2009-05-29",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.55,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1107,
+    "sbd": "46160013",
+    "name": "Phạm Nguyễn Quỳnh Anh",
+    "gender": "Nữ",
+    "dob": "2009-09-21",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1108,
+    "sbd": "46160156",
+    "name": "Lê Phúc Toàn",
+    "gender": "Nam",
+    "dob": "2010-02-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Toán 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.4,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1109,
+    "sbd": "46160114",
+    "name": "Trần Phương Nhi",
+    "gender": "Nữ",
+    "dob": "2010-11-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.35,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1110,
+    "sbd": "46160171",
+    "name": "Nguyễn Phan Thanh Tùng",
+    "gender": "Nam",
+    "dob": "2011-10-10",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1111,
+    "sbd": "46160020",
+    "name": "Hà Xuân Bảo",
+    "gender": "Nam",
+    "dob": "2009-05-09",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.2,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1112,
+    "sbd": "46160011",
+    "name": "Phan Hoàng Bảo Anh",
+    "gender": "Nam",
+    "dob": "2009-08-31",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.1,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1113,
+    "sbd": "46160151",
+    "name": "Lê Hoàng Thanh Thảo",
+    "gender": "Nữ",
+    "dob": "2010-07-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.1,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1114,
+    "sbd": "46160014",
+    "name": "Trần Bảo Anh",
+    "gender": "Nữ",
+    "dob": "2010-07-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.05,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1115,
+    "sbd": "46160123",
+    "name": "Tạ Ngọc Khánh Nhật",
+    "gender": "Nam",
+    "dob": "2009-01-01",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 13.05,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1116,
+    "sbd": "46160051",
+    "name": "Phạm Vũ Bảo Hân",
+    "gender": "Nữ",
+    "dob": "2010-01-13",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.95,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1117,
+    "sbd": "46160080",
+    "name": "Trần Bình Nhã Linh",
+    "gender": "Nữ",
+    "dob": "2010-10-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.95,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1118,
+    "sbd": "46160034",
+    "name": "Võ Phương Minh Châu",
+    "gender": "Nữ",
+    "dob": "2009-01-04",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.65,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1119,
+    "sbd": "46160143",
+    "name": "Lê Viết Dương Thanh",
+    "gender": "Nam",
+    "dob": "2009-12-25",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.65,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1120,
+    "sbd": "46160058",
+    "name": "Nguyễn Thế Hải",
+    "gender": "Nam",
+    "dob": "2009-07-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Lý 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.6,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1121,
+    "sbd": "46160045",
+    "name": "Nguyễn Nhật Huy",
+    "gender": "Nam",
+    "dob": "2010-12-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.45,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1122,
+    "sbd": "46160025",
+    "name": "Trần Thế Bảo",
+    "gender": "Nam",
+    "dob": "2009-11-28",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.35,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1123,
+    "sbd": "46160128",
+    "name": "Lê Ngô Nhất Phương",
+    "gender": "Nữ",
+    "dob": "2010-11-22",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.35,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1124,
+    "sbd": "46160177",
+    "name": "Hồ Nguyên Vũ",
+    "gender": "Nam",
+    "dob": "2011-03-22",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.35,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1125,
+    "sbd": "46160124",
+    "name": "Nguyễn Hồng Phúc",
+    "gender": "Nam",
+    "dob": "2011-03-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1126,
+    "sbd": "46160022",
+    "name": "Nguyễn Văn Hoàng Bảo",
+    "gender": "Nam",
+    "dob": "2011-01-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.05,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1127,
+    "sbd": "46160048",
+    "name": "Phan Đức Nhật Huy",
+    "gender": "Nam",
+    "dob": "2009-03-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.05,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1128,
+    "sbd": "46160129",
+    "name": "Nguyễn Hoàng Thu Phương",
+    "gender": "Nữ",
+    "dob": "2010-11-17",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.05,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1129,
+    "sbd": "46160029",
+    "name": "Hồ Minh Châu",
+    "gender": "Nữ",
+    "dob": "2009-04-03",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1130,
+    "sbd": "46160055",
+    "name": "Nguyễn Quang Hưng",
+    "gender": "Nam",
+    "dob": "2009-11-18",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "12 chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1131,
+    "sbd": "46160105",
+    "name": "Nguyễn Thanh Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-11-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.9,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1132,
+    "sbd": "46160084",
+    "name": "Huỳnh Huy Lâm",
+    "gender": "Nam",
+    "dob": "2009-06-25",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.85,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1133,
+    "sbd": "46160095",
+    "name": "Trần Lê Na",
+    "gender": "Nữ",
+    "dob": "2009-01-08",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.85,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1134,
+    "sbd": "46160102",
+    "name": "Lê Hưng Nguyên",
+    "gender": "Nam",
+    "dob": "2009-05-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.85,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1135,
+    "sbd": "46160082",
+    "name": "Lê Quốc Long",
+    "gender": "Nam",
+    "dob": "2010-06-28",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.8,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1136,
+    "sbd": "46160091",
+    "name": "Phan Phúc Minh",
+    "gender": "Nam",
+    "dob": "2010-12-28",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.8,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1137,
+    "sbd": "46160148",
+    "name": "Nguyễn Hoàng Minh Thư",
+    "gender": "Nữ",
+    "dob": "2009-08-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.8,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1138,
+    "sbd": "46160100",
+    "name": "Phan Phương Nghi",
+    "gender": "Nữ",
+    "dob": "2009-02-02",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "12 chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1139,
+    "sbd": "46160132",
+    "name": "Phan Nam Phương",
+    "gender": "Nữ",
+    "dob": "2009-06-13",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1140,
+    "sbd": "46160001",
+    "name": "Lê Phạm Phước An",
+    "gender": "Nữ",
+    "dob": "2011-02-24",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.7,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1141,
+    "sbd": "46160016",
+    "name": "Đặng Hoàng Anh",
+    "gender": "Nữ",
+    "dob": "2009-01-21",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.65,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1142,
+    "sbd": "46160094",
+    "name": "Nguyễn Thảo My",
+    "gender": "Nữ",
+    "dob": "2009-02-07",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.65,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1143,
+    "sbd": "46160112",
+    "name": "Nguyễn Mai Phương Nhi",
+    "gender": "Nữ",
+    "dob": "2011-09-08",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1144,
+    "sbd": "46160166",
+    "name": "Trần Minh Tuyên",
+    "gender": "Nam",
+    "dob": "2011-03-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.45,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1145,
+    "sbd": "46160179",
+    "name": "Nguyễn Ngọc Hồng Ánh",
+    "gender": "Nữ",
+    "dob": "2009-06-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.45,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1146,
+    "sbd": "46160181",
+    "name": "Tôn Thất Phương Đông",
+    "gender": "Nam",
+    "dob": "2011-09-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.45,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1147,
+    "sbd": "46160068",
+    "name": "Phan Nguyễn Anh Khôi",
+    "gender": "Nam",
+    "dob": "2011-04-13",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.4,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1148,
+    "sbd": "46160056",
+    "name": "Hoàng Ngọc Hương",
+    "gender": "Nữ",
+    "dob": "2011-08-21",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.3,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1149,
+    "sbd": "46160015",
+    "name": "Đào Đông Anh",
+    "gender": "Nam",
+    "dob": "2010-01-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1150,
+    "sbd": "46160012",
+    "name": "Phan Huyền Lam Anh",
+    "gender": "Nữ",
+    "dob": "2010-06-17",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.2,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1151,
+    "sbd": "46160053",
+    "name": "Lương Nguyễn Khánh Hòa",
+    "gender": "Nữ",
+    "dob": "2010-07-08",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.2,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1152,
+    "sbd": "46160160",
+    "name": "Lê Thị Bảo Trâm",
+    "gender": "Nữ",
+    "dob": "2011-10-31",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.15,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1153,
+    "sbd": "46160122",
+    "name": "Phạm Minh Nhật",
+    "gender": "Nam",
+    "dob": "2011-03-30",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.1,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1154,
+    "sbd": "46160146",
+    "name": "Hoàng Văn Chí Thành",
+    "gender": "Nam",
+    "dob": "2011-08-25",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.1,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1155,
+    "sbd": "46160002",
+    "name": "Lê Thùy An",
+    "gender": "Nữ",
+    "dob": "2010-08-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.05,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1156,
+    "sbd": "46160026",
+    "name": "Đinh Gia Bảo",
+    "gender": "Nam",
+    "dob": "2011-12-30",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.05,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1157,
+    "sbd": "46160136",
+    "name": "Võ Văn Nhật Quang",
+    "gender": "Nam",
+    "dob": "2011-07-04",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.05,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1158,
+    "sbd": "46160007",
+    "name": "Nguyễn Nhật Minh Anh",
+    "gender": "Nữ",
+    "dob": "2009-06-02",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A4",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1159,
+    "sbd": "46160109",
+    "name": "Trần Vy Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-11-25",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1160,
+    "sbd": "46160138",
+    "name": "Trần Thục Quyên",
+    "gender": "Nữ",
+    "dob": "2011-05-31",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.9,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1161,
+    "sbd": "46160009",
+    "name": "Nguyễn Thục Anh",
+    "gender": "Nữ",
+    "dob": "2011-11-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.85,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1162,
+    "sbd": "46160050",
+    "name": "Nguyễn Phương Bảo Hân",
+    "gender": "Nữ",
+    "dob": "2009-06-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.8,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1163,
+    "sbd": "46160103",
+    "name": "Lê Ngọc Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2010-11-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.8,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1164,
+    "sbd": "46160043",
+    "name": "Võ Ngọc Hương Giang",
+    "gender": "Nữ",
+    "dob": "2010-10-01",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.7,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1165,
+    "sbd": "46160047",
+    "name": "Nguyễn Trường Huy",
+    "gender": "Nam",
+    "dob": "2011-11-04",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.7,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1166,
+    "sbd": "46160071",
+    "name": "Hoàng Minh Kiệt",
+    "gender": "Nam",
+    "dob": "2009-05-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.65,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1167,
+    "sbd": "46160028",
+    "name": "Nguyễn Trần Khánh Chi",
+    "gender": "Nữ",
+    "dob": "2009-01-25",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1168,
+    "sbd": "46160069",
+    "name": "Tôn Thất Khôi",
+    "gender": "Nam",
+    "dob": "2010-02-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1169,
+    "sbd": "46160079",
+    "name": "Nguyễn Thị Hải Linh",
+    "gender": "Nữ",
+    "dob": "2009-08-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1170,
+    "sbd": "46160081",
+    "name": "Trần Phương Linh",
+    "gender": "Nữ",
+    "dob": "2011-04-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1171,
+    "sbd": "46160162",
+    "name": "Dương Quỳnh Bảo Trân",
+    "gender": "Nữ",
+    "dob": "2009-11-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1172,
+    "sbd": "46160023",
+    "name": "Phạm Đăng Bảo",
+    "gender": "Nam",
+    "dob": "2009-02-21",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "12 chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.4,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1173,
+    "sbd": "46160030",
+    "name": "Nguyễn Ngọc Bảo Châu",
+    "gender": "Nữ",
+    "dob": "2009-03-25",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.4,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1174,
+    "sbd": "46160065",
+    "name": "Hoàng Ngọc An Khánh",
+    "gender": "Nữ",
+    "dob": "2010-07-31",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.4,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1175,
+    "sbd": "46160108",
+    "name": "Lê Phan Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-08-08",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.4,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1176,
+    "sbd": "46160119",
+    "name": "Phan Quỳnh Như",
+    "gender": "Nữ",
+    "dob": "2009-06-17",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.35,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1177,
+    "sbd": "46160078",
+    "name": "Mai Văn Nhật Linh",
+    "gender": "Nữ",
+    "dob": "2011-11-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1178,
+    "sbd": "46160064",
+    "name": "Trần Hoàng Anh Khoa",
+    "gender": "Nam",
+    "dob": "2010-06-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.2,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1179,
+    "sbd": "46160153",
+    "name": "Huỳnh Thế Phúc Thịnh",
+    "gender": "Nam",
+    "dob": "2009-04-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.2,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1180,
+    "sbd": "46160075",
+    "name": "Bùi Phương Linh",
+    "gender": "Nữ",
+    "dob": "2010-05-27",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.1,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1181,
+    "sbd": "46160099",
+    "name": "Nguyễn Hồ Đông Nghi",
+    "gender": "Nữ",
+    "dob": "2009-02-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 1",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.1,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1182,
+    "sbd": "46160033",
+    "name": "Trần Đông Châu",
+    "gender": "Nữ",
+    "dob": "2009-07-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.05,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1183,
+    "sbd": "46160057",
+    "name": "Dương Nhật Tâm Hạnh",
+    "gender": "Nữ",
+    "dob": "2011-01-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Anh 2",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1184,
+    "sbd": "46160126",
+    "name": "Hoàng Minh Phương",
+    "gender": "Nữ",
+    "dob": "2009-07-13",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A12",
+    "subject": "Tiếng Anh (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1185,
+    "sbd": "46190092",
+    "name": "Trương Thùy Nhung",
+    "gender": "Nữ",
+    "dob": "2009-08-17",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 18.0,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 1186,
+    "sbd": "46190020",
+    "name": "Phan Khánh Giang",
+    "gender": "Nữ",
+    "dob": "2009-01-27",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1187,
+    "sbd": "46190027",
+    "name": "Trần Thị Minh Huyền",
+    "gender": "Nữ",
+    "dob": "2010-02-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1188,
+    "sbd": "46190063",
+    "name": "Lê Đặng Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-01-15",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1189,
+    "sbd": "46190117",
+    "name": "Trần Nguyễn Dạ Thảo",
+    "gender": "Nữ",
+    "dob": "2009-06-30",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 16.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1190,
+    "sbd": "46190090",
+    "name": "Trương Phúc An Nhiên",
+    "gender": "Nữ",
+    "dob": "2010-04-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1191,
+    "sbd": "46190069",
+    "name": "Dương Nguyễn Minh Ngọc",
+    "gender": "Nữ",
+    "dob": "2010-05-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1192,
+    "sbd": "46190099",
+    "name": "Lê Bảo Phương",
+    "gender": "Nữ",
+    "dob": "2010-06-29",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1193,
+    "sbd": "46190086",
+    "name": "Nguyễn Hạnh Nhiên",
+    "gender": "Nữ",
+    "dob": "2010-09-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 14.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1194,
+    "sbd": "46190132",
+    "name": "Nguyễn Hoàng Như Ý",
+    "gender": "Nữ",
+    "dob": "2009-12-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 14.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1195,
+    "sbd": "46190018",
+    "name": "Trương Nguyễn Phương Du",
+    "gender": "Nam",
+    "dob": "2009-02-06",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A8",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 14.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1196,
+    "sbd": "46190124",
+    "name": "Phan Nguyễn Phúc Minh Tuệ",
+    "gender": "Nữ",
+    "dob": "2010-07-01",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 14.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1197,
+    "sbd": "46190003",
+    "name": "Lê Nữ Phương Anh",
+    "gender": "Nữ",
+    "dob": "2011-02-24",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1198,
+    "sbd": "46190033",
+    "name": "Lê Bảo Hân",
+    "gender": "Nữ",
+    "dob": "2011-07-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1199,
+    "sbd": "46190058",
+    "name": "Phạm Nguyễn Tuệ Minh",
+    "gender": "Nữ",
+    "dob": "2011-07-23",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1200,
+    "sbd": "46190061",
+    "name": "Đặng Vũ Quỳnh Nga",
+    "gender": "Nữ",
+    "dob": "2009-01-31",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1201,
+    "sbd": "46190115",
+    "name": "Nguyễn Phương Thư",
+    "gender": "Nữ",
+    "dob": "2009-06-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1202,
+    "sbd": "46190121",
+    "name": "Bùi Thị Hạ Trinh",
+    "gender": "Nữ",
+    "dob": "2010-07-30",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1203,
+    "sbd": "46190007",
+    "name": "Phạm Tống Y Anh",
+    "gender": "Nữ",
+    "dob": "2009-11-27",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1204,
+    "sbd": "46190009",
+    "name": "Đặng Nguyễn Thùy Anh",
+    "gender": "Nữ",
+    "dob": "2010-02-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1205,
+    "sbd": "46190050",
+    "name": "Lê Nguyễn Ngọc Liên",
+    "gender": "Nữ",
+    "dob": "2009-05-09",
+    "school": "THPT Hai Bà Trưng",
+    "grade": "12A8",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1206,
+    "sbd": "46190074",
+    "name": "Nguyễn Thị Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2008-12-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1207,
+    "sbd": "46190093",
+    "name": "Hoàng Khánh Nhã",
+    "gender": "Nữ",
+    "dob": "2011-09-13",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "10 chuyên Văn 1",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1208,
+    "sbd": "46190125",
+    "name": "Hồ Nguyễn Cát Tường",
+    "gender": "Nữ",
+    "dob": "2010-01-21",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1209,
+    "sbd": "46190010",
+    "name": "Lê Thị Ngọc Bích",
+    "gender": "Nữ",
+    "dob": "2009-01-13",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1210,
+    "sbd": "46190012",
+    "name": "Lê Ngô Minh Châu",
+    "gender": "Nữ",
+    "dob": "2011-02-28",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1211,
+    "sbd": "46190022",
+    "name": "Trần Thị Minh Hiếu",
+    "gender": "Nữ",
+    "dob": "2010-04-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1212,
+    "sbd": "46190026",
+    "name": "Trần Khánh Huyền",
+    "gender": "Nữ",
+    "dob": "2011-05-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1213,
+    "sbd": "46190032",
+    "name": "Hồ Ngọc Hân",
+    "gender": "Nữ",
+    "dob": "2010-11-17",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1214,
+    "sbd": "46190035",
+    "name": "Phan Nguyễn Bảo Hân",
+    "gender": "Nữ",
+    "dob": "2010-10-14",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "11 chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1215,
+    "sbd": "46190036",
+    "name": "Trương Lê Gia Hân",
+    "gender": "Nữ",
+    "dob": "2011-02-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1216,
+    "sbd": "46190079",
+    "name": "Trần Ngọc Bảo Nhi",
+    "gender": "Nữ",
+    "dob": "2010-06-04",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1217,
+    "sbd": "46190095",
+    "name": "Trần Lê Tâm Như",
+    "gender": "Nữ",
+    "dob": "2009-10-05",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1218,
+    "sbd": "46190098",
+    "name": "Võ Xuân Anh Nhật",
+    "gender": "Nữ",
+    "dob": "2010-07-05",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1219,
+    "sbd": "46190110",
+    "name": "Nguyễn Anh Thi",
+    "gender": "Nữ",
+    "dob": "2010-01-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1220,
+    "sbd": "46190113",
+    "name": "Nguyễn Ánh Bảo Thy",
+    "gender": "Nữ",
+    "dob": "2011-04-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1221,
+    "sbd": "46190120",
+    "name": "Phan Thị Kiều Trang",
+    "gender": "Nữ",
+    "dob": "2009-08-07",
+    "school": "THPT Phan Đăng Lưu",
+    "grade": "12A12",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1222,
+    "sbd": "46190001",
+    "name": "Võ Nguyễn Thanh An",
+    "gender": "Nữ",
+    "dob": "2011-10-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1223,
+    "sbd": "46190021",
+    "name": "Nguyễn Ngọc Phương Giao",
+    "gender": "Nữ",
+    "dob": "2009-03-23",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1224,
+    "sbd": "46190023",
+    "name": "Hà Thị Xuân Hiền",
+    "gender": "Nữ",
+    "dob": "2010-03-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1225,
+    "sbd": "46190039",
+    "name": "Nguyễn Minh Hằng",
+    "gender": "Nữ",
+    "dob": "2009-09-08",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "12 chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1226,
+    "sbd": "46190040",
+    "name": "Võ Thị Thu Hằng",
+    "gender": "Nữ",
+    "dob": "2009-09-08",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1227,
+    "sbd": "46190067",
+    "name": "Nguyễn Ngọc Khánh Ngân",
+    "gender": "Nữ",
+    "dob": "2010-02-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1228,
+    "sbd": "46190083",
+    "name": "Trần Uyên Nhi",
+    "gender": "Nữ",
+    "dob": "2011-05-05",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1229,
+    "sbd": "46190114",
+    "name": "Nguyễn Đan Thy",
+    "gender": "Nữ",
+    "dob": "2010-03-13",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "11 chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1230,
+    "sbd": "46190126",
+    "name": "Nguyễn Hồng Thảo Uyên",
+    "gender": "Nữ",
+    "dob": "2011-07-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1231,
+    "sbd": "46190127",
+    "name": "Thái Lâm Uyên",
+    "gender": "Nữ",
+    "dob": "2011-02-15",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1232,
+    "sbd": "46190128",
+    "name": "Nguyễn Lê Vy",
+    "gender": "Nữ",
+    "dob": "2009-03-27",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "12 chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1233,
+    "sbd": "46190019",
+    "name": "Nguyễn Ngọc Hương Giang",
+    "gender": "Nữ",
+    "dob": "2010-01-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1234,
+    "sbd": "46190028",
+    "name": "Đỗ Dương Khánh Huyền",
+    "gender": "Nữ",
+    "dob": "2011-09-09",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1235,
+    "sbd": "46190030",
+    "name": "Nguyễn Thị Phương Hà",
+    "gender": "Nữ",
+    "dob": "2009-04-04",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1236,
+    "sbd": "46190034",
+    "name": "Nguyễn Ngọc Gia Hân",
+    "gender": "Nữ",
+    "dob": "2009-07-09",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1237,
+    "sbd": "46190047",
+    "name": "Ngô Bùi Tú Linh",
+    "gender": "Nữ",
+    "dob": "2009-09-30",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1238,
+    "sbd": "46190048",
+    "name": "Trịnh Thị Khánh Linh",
+    "gender": "Nữ",
+    "dob": "2009-06-01",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "12 chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1239,
+    "sbd": "46190052",
+    "name": "Đồng Thùy Mai",
+    "gender": "Nữ",
+    "dob": "2011-05-27",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1240,
+    "sbd": "46190057",
+    "name": "Nguyễn Trần Thảo Minh",
+    "gender": "Nữ",
+    "dob": "2010-05-31",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1241,
+    "sbd": "46190062",
+    "name": "Bùi Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2011-02-10",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1242,
+    "sbd": "46190073",
+    "name": "Nguyễn Lê Tường Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-01-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1243,
+    "sbd": "46190075",
+    "name": "Bạch Hà Phương Nhi",
+    "gender": "Nữ",
+    "dob": "2011-04-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1244,
+    "sbd": "46190081",
+    "name": "Trần Thảo Nhi",
+    "gender": "Nữ",
+    "dob": "2010-04-17",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "11 chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1245,
+    "sbd": "46190087",
+    "name": "Nguyễn Trần Hạnh Nhiên",
+    "gender": "Nữ",
+    "dob": "2010-10-17",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1246,
+    "sbd": "46190091",
+    "name": "Võ Nguyễn An Nhiên",
+    "gender": "Nữ",
+    "dob": "2011-08-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1247,
+    "sbd": "46190097",
+    "name": "Nguyễn Minh Nhật",
+    "gender": "Nam",
+    "dob": "2010-09-01",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Văn",
+    "subject": "Ngữ văn (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1248,
+    "sbd": "46200031",
+    "name": "Lê Minh Quyền",
+    "gender": "Nam",
+    "dob": "2010-05-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 17.0,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 1249,
+    "sbd": "46200011",
+    "name": "Nguyễn Minh Hiển",
+    "gender": "Nam",
+    "dob": "2009-07-25",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 16.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1250,
+    "sbd": "46200008",
+    "name": "Nguyễn Quang Hiếu",
+    "gender": "Nam",
+    "dob": "2010-05-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1251,
+    "sbd": "46200036",
+    "name": "Huỳnh Thị Minh Thư",
+    "gender": "Nữ",
+    "dob": "2009-07-09",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1252,
+    "sbd": "46200026",
+    "name": "Trần Duy Bình Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-08-30",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1253,
+    "sbd": "46200044",
+    "name": "Trần Thùy Cát Tường",
+    "gender": "Nữ",
+    "dob": "2009-08-15",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1254,
+    "sbd": "46200025",
+    "name": "Trương Khánh Nguyên",
+    "gender": "Nữ",
+    "dob": "2010-11-29",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 14.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1255,
+    "sbd": "46200009",
+    "name": "Trương Ngọc Hiếu",
+    "gender": "Nam",
+    "dob": "2010-07-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1256,
+    "sbd": "46200010",
+    "name": "Phan Thị Thanh Hiền",
+    "gender": "Nữ",
+    "dob": "2010-02-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1257,
+    "sbd": "46200015",
+    "name": "Dương Khánh Linh",
+    "gender": "Nữ",
+    "dob": "2010-03-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1258,
+    "sbd": "46200035",
+    "name": "Lê Phước Thiện",
+    "gender": "Nam",
+    "dob": "2009-06-23",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 12.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1259,
+    "sbd": "46200014",
+    "name": "Thái Thụy Khanh",
+    "gender": "Nữ",
+    "dob": "2009-09-06",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 12.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1260,
+    "sbd": "46200019",
+    "name": "Nguyễn Nhật Lệ",
+    "gender": "Nữ",
+    "dob": "2010-02-21",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 12.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1261,
+    "sbd": "46200032",
+    "name": "Nguyễn Hải Quân",
+    "gender": "Nam",
+    "dob": "2010-11-29",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1262,
+    "sbd": "46200022",
+    "name": "Hồ Ngọc Thảo Nguyên",
+    "gender": "Nữ",
+    "dob": "2009-09-18",
+    "school": "THPT Cao Thắng",
+    "grade": "12/6",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1263,
+    "sbd": "46200034",
+    "name": "Ngô Thị Như Quỳnh",
+    "gender": "Nữ",
+    "dob": "2009-03-28",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Sử",
+    "subject": "Lịch sử (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1264,
+    "sbd": "46210035",
+    "name": "Phạm Thị Thanh Thảo",
+    "gender": "Nữ",
+    "dob": "2010-10-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 17.25,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 1265,
+    "sbd": "46210039",
+    "name": "Đoàn Đại Phương Vũ",
+    "gender": "Nam",
+    "dob": "2009-12-08",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1266,
+    "sbd": "46210010",
+    "name": "Trần Đăng Khoa",
+    "gender": "Nam",
+    "dob": "2009-12-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1267,
+    "sbd": "46210041",
+    "name": "Trần Ngọc Minh Đăng",
+    "gender": "Nam",
+    "dob": "2010-09-04",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 15.5,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1268,
+    "sbd": "46210021",
+    "name": "Lê Trần Khánh Ngân",
+    "gender": "Nữ",
+    "dob": "2010-12-16",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1269,
+    "sbd": "46210029",
+    "name": "Nguyễn Thị Anh Thy",
+    "gender": "Nữ",
+    "dob": "2009-02-10",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1270,
+    "sbd": "46210012",
+    "name": "Lê Hoàng Phương Linh",
+    "gender": "Nữ",
+    "dob": "2010-02-03",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1271,
+    "sbd": "46210022",
+    "name": "Lê Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-10-11",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1272,
+    "sbd": "46210001",
+    "name": "Nguyễn Lê Gia An",
+    "gender": "Nữ",
+    "dob": "2009-10-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1273,
+    "sbd": "46210025",
+    "name": "Nguyễn Hữu Tâm Phương",
+    "gender": "Nữ",
+    "dob": "2009-02-01",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1274,
+    "sbd": "46210038",
+    "name": "Cái Thị Minh Vy",
+    "gender": "Nữ",
+    "dob": "2010-01-27",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 13.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1275,
+    "sbd": "46210004",
+    "name": "Phạm Nguyễn Khánh Chi",
+    "gender": "Nữ",
+    "dob": "2009-03-03",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1276,
+    "sbd": "46210027",
+    "name": "Lê Thị Đỗ Quyên",
+    "gender": "Nữ",
+    "dob": "2010-08-07",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1277,
+    "sbd": "46210030",
+    "name": "Phan Lê Kim Thùy",
+    "gender": "Nữ",
+    "dob": "2010-12-23",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 12.5,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1278,
+    "sbd": "46210005",
+    "name": "Phan Thế Nhật Huy",
+    "gender": "Nam",
+    "dob": "2009-01-07",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1279,
+    "sbd": "46210032",
+    "name": "Nguyễn Lê Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-10-01",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 11.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1280,
+    "sbd": "46210036",
+    "name": "Lê Trần Bảo Trâm",
+    "gender": "Nữ",
+    "dob": "2009-01-03",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1281,
+    "sbd": "46210037",
+    "name": "Nguyễn Trần Thanh Trúc",
+    "gender": "Nữ",
+    "dob": "2010-06-23",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1282,
+    "sbd": "46210008",
+    "name": "Trần Ngọc Bảo Hân",
+    "gender": "Nữ",
+    "dob": "2009-10-20",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1283,
+    "sbd": "46210011",
+    "name": "Nguyễn Văn Khánh",
+    "gender": "Nam",
+    "dob": "2010-09-05",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1284,
+    "sbd": "46210014",
+    "name": "Lê Xuân Quốc Minh",
+    "gender": "Nam",
+    "dob": "2009-12-30",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1285,
+    "sbd": "46210009",
+    "name": "Nguyễn Lê Minh Hương",
+    "gender": "Nữ",
+    "dob": "2009-04-13",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1286,
+    "sbd": "46210023",
+    "name": "Trần Thị Bích Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-11-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1287,
+    "sbd": "46210024",
+    "name": "Nguyễn Thảo Nhi",
+    "gender": "Nữ",
+    "dob": "2009-09-29",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Địa",
+    "subject": "Địa lí (Chuyên)",
+    "score": 10.75,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1288,
+    "sbd": "46220059",
+    "name": "Huỳnh Bội Trân",
+    "gender": "Nữ",
+    "dob": "2009-07-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 18.3,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 1289,
+    "sbd": "46220006",
+    "name": "Nguyễn Ngọc Châu",
+    "gender": "Nữ",
+    "dob": "2011-05-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 18.05,
+    "prize": "Nhất"
+  },
+  {
+    "tt": 1290,
+    "sbd": "46220038",
+    "name": "Nguyễn Bùi Hồng Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-01-08",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 17.2,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1291,
+    "sbd": "46220022",
+    "name": "Hồ Đăng Khoa",
+    "gender": "Nam",
+    "dob": "2010-01-19",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 17.15,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1292,
+    "sbd": "46220045",
+    "name": "Nguyễn Tô Uyên Nhã",
+    "gender": "Nữ",
+    "dob": "2009-02-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 16.7,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1293,
+    "sbd": "46220031",
+    "name": "Phạm Thị Uyên Minh",
+    "gender": "Nữ",
+    "dob": "2009-12-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 16.3,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1294,
+    "sbd": "46220002",
+    "name": "Ngô Nhật Anh",
+    "gender": "Nữ",
+    "dob": "2010-01-27",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 15.1,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1295,
+    "sbd": "46220036",
+    "name": "Lê Bảo Ngọc",
+    "gender": "Nữ",
+    "dob": "2009-05-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 14.05,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1296,
+    "sbd": "46220004",
+    "name": "Đặng Văn Khánh Bảo",
+    "gender": "Nam",
+    "dob": "2010-09-25",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 12.3,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1297,
+    "sbd": "46220027",
+    "name": "Phan Nguyễn Khánh Linh",
+    "gender": "Nữ",
+    "dob": "2009-08-24",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 12.3,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1298,
+    "sbd": "46220042",
+    "name": "Nguyễn Ngọc An Nhiên",
+    "gender": "Nữ",
+    "dob": "2009-07-30",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 12.1,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1299,
+    "sbd": "46220034",
+    "name": "Hoàng Nguyễn Hiếu Nghi",
+    "gender": "Nữ",
+    "dob": "2011-04-07",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 11.95,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1300,
+    "sbd": "46220044",
+    "name": "Trần Duy An Nhiên",
+    "gender": "Nữ",
+    "dob": "2010-10-05",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 11.45,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1301,
+    "sbd": "46220016",
+    "name": "Đặng Nguyễn Gia Hân",
+    "gender": "Nữ",
+    "dob": "2011-08-15",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Pháp",
+    "subject": "Tiếng Pháp (Chuyên)",
+    "score": 11.15,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1302,
+    "sbd": "46230002",
+    "name": "Lê Hoàng Hà Anh",
+    "gender": "Nữ",
+    "dob": "2009-08-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Nhật",
+    "subject": "Tiếng Nhật (Chuyên)",
+    "score": 15.2,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1303,
+    "sbd": "46230018",
+    "name": "Tôn Nữ Lê Phước Bảo Khanh",
+    "gender": "Nữ",
+    "dob": "2011-05-29",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Nhật",
+    "subject": "Tiếng Nhật (Chuyên)",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1304,
+    "sbd": "46230046",
+    "name": "Ngô Lâm Hạnh Thảo",
+    "gender": "Nữ",
+    "dob": "2009-12-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Nhật",
+    "subject": "Tiếng Nhật (Chuyên)",
+    "score": 13.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1305,
+    "sbd": "46230013",
+    "name": "Trần Lê Ngọc Hân",
+    "gender": "Nữ",
+    "dob": "2009-10-15",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Nhật",
+    "subject": "Tiếng Nhật (Chuyên)",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1306,
+    "sbd": "46230025",
+    "name": "Ngô Nguyễn Cát Ly",
+    "gender": "Nữ",
+    "dob": "2010-05-07",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Nhật",
+    "subject": "Tiếng Nhật (Chuyên)",
+    "score": 11.6,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1307,
+    "sbd": "46230005",
+    "name": "Nguyễn Ngọc Ngân Chi",
+    "gender": "Nữ",
+    "dob": "2010-02-01",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Nhật",
+    "subject": "Tiếng Nhật (Chuyên)",
+    "score": 11.2,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1308,
+    "sbd": "46230053",
+    "name": "Hoàng Thái Uyên",
+    "gender": "Nữ",
+    "dob": "2010-09-02",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Nhật",
+    "subject": "Tiếng Nhật (Chuyên)",
+    "score": 11.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1309,
+    "sbd": "46230044",
+    "name": "Hoàng Ngọc Anh Thư",
+    "gender": "Nữ",
+    "dob": "2009-06-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Nhật",
+    "subject": "Tiếng Nhật (Chuyên)",
+    "score": 10.35,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1310,
+    "sbd": "46230047",
+    "name": "Nguyễn Ngọc Thủy Tiên",
+    "gender": "Nữ",
+    "dob": "2009-02-13",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Nhật",
+    "subject": "Tiếng Nhật (Chuyên)",
+    "score": 10.15,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1311,
+    "sbd": "46230029",
+    "name": "Bạch Lê Trà My",
+    "gender": "Nữ",
+    "dob": "2009-12-15",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Nhật",
+    "subject": "Tiếng Nhật (Chuyên)",
+    "score": 10.05,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1312,
+    "sbd": "46240007",
+    "name": "Nguyễn Gia Bách",
+    "gender": "Nam",
+    "dob": "2010-01-12",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Tin",
+    "subject": "Tin học (Chuyên)",
+    "score": 16.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1313,
+    "sbd": "46240086",
+    "name": "Nguyễn Kim Lê Tuấn",
+    "gender": "Nam",
+    "dob": "2009-03-22",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Tin 1",
+    "subject": "Tin học (Chuyên)",
+    "score": 15.25,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1314,
+    "sbd": "46240039",
+    "name": "Nguyễn Nam Khánh",
+    "gender": "Nam",
+    "dob": "2009-08-23",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Tin 1",
+    "subject": "Tin học (Chuyên)",
+    "score": 15.0,
+    "prize": "Nhì"
+  },
+  {
+    "tt": 1315,
+    "sbd": "46240073",
+    "name": "Nguyễn Hữu Thành",
+    "gender": "Nam",
+    "dob": "2010-07-26",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Tin",
+    "subject": "Tin học (Chuyên)",
+    "score": 14.75,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1316,
+    "sbd": "46240069",
+    "name": "Nguyễn Phúc Thuận",
+    "gender": "Nữ",
+    "dob": "2011-04-21",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Toán 1",
+    "subject": "Tin học (Chuyên)",
+    "score": 14.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1317,
+    "sbd": "46240051",
+    "name": "Lê Vũ Nhật Minh",
+    "gender": "Nam",
+    "dob": "2010-01-21",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Tin",
+    "subject": "Tin học (Chuyên)",
+    "score": 14.0,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1318,
+    "sbd": "46240092",
+    "name": "Lê Nguyễn Hải Đăng",
+    "gender": "Nam",
+    "dob": "2009-02-17",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Toán 1",
+    "subject": "Tin học (Chuyên)",
+    "score": 13.25,
+    "prize": "Ba"
+  },
+  {
+    "tt": 1319,
+    "sbd": "46240068",
+    "name": "Tôn Thất Hữu Thiện",
+    "gender": "Nam",
+    "dob": "2009-10-18",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Tin 1",
+    "subject": "Tin học (Chuyên)",
+    "score": 12.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1320,
+    "sbd": "46240010",
+    "name": "Lê Văn Bảo Duy",
+    "gender": "Nam",
+    "dob": "2011-02-10",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Tin",
+    "subject": "Tin học (Chuyên)",
+    "score": 12.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1321,
+    "sbd": "46240049",
+    "name": "Bùi Phước Quang Minh",
+    "gender": "Nam",
+    "dob": "2009-01-01",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Tin 1",
+    "subject": "Tin học (Chuyên)",
+    "score": 11.25,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1322,
+    "sbd": "46240096",
+    "name": "Phan Lê Phúc Đức",
+    "gender": "Nam",
+    "dob": "2011-08-16",
+    "school": "THPT chuyên Khoa học Huế",
+    "grade": "10 chuyên Tin",
+    "subject": "Tin học (Chuyên)",
+    "score": 10.5,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1323,
+    "sbd": "46240014",
+    "name": "Lê Tiến Hoàng Hiếu",
+    "gender": "Nam",
+    "dob": "2009-12-22",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Tin 1",
+    "subject": "Tin học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1324,
+    "sbd": "46240034",
+    "name": "Trần Đức Khoa",
+    "gender": "Nam",
+    "dob": "2010-03-17",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "11 Chuyên Tin",
+    "subject": "Tin học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1325,
+    "sbd": "46240046",
+    "name": "Trần Xuân Tuấn Kiệt",
+    "gender": "Nam",
+    "dob": "2011-09-08",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "10 Chuyên Tin",
+    "subject": "Tin học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": 1326,
+    "sbd": "46240065",
+    "name": "Trần Lê Anh Quân",
+    "gender": "Nam",
+    "dob": "2009-01-14",
+    "school": "THPT Chuyên Quốc Học-Huế",
+    "grade": "12 Chuyên Tin 1",
+    "subject": "Tin học (Chuyên)",
+    "score": 10.0,
+    "prize": "Khuyến khích"
+  },
+  {
+    "tt": null,
+    "sbd": "",
+    "name": "",
+    "gender": "",
+    "dob": "",
+    "school": "",
+    "grade": "",
+    "subject": "",
+    "score": null,
+    "prize": ""
   }
 ];
 
