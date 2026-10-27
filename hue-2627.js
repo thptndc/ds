@@ -1,6 +1,7 @@
 ﻿/**
  * Dữ liệu Kỳ thi chọn học sinh giỏi THPT Huế 2026-2027 
- * Tổng số học sinh: 1327
+ * Tổng số học sinh đạt giải: 1326
+ * Cơ cấu giải: 17 giải Nhất, 245 giải Nhì, 446 giải Ba, 618 giải Khuyến khích
  */
 
 const hsgData2627 = [
