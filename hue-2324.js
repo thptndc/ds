@@ -14314,33 +14314,3 @@ const hsgData2324 = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = hsgData2324;
 }
-
-/**
- * Script chuẩn hóa Tiếng Việt (NFC) và định dạng cho dữ liệu HSG Huế 2023-2024
- * Giữ nguyên vẹn 100% cấu trúc thuộc tính và đủ 1192 học sinh.
- */
-
-// Hàm chuẩn hóa chuỗi Unicode Tiếng Việt chuẩn (NFC)
-function normalizeText(str) {
-  if (typeof str !== 'string') return str;
-  return str.normalize('NFC').trim();
-}
-
-// Hàm chuẩn hóa toàn bộ mảng dữ liệu gốc hsgData2324
-function processHsgData(rawData) {
-  return rawData.map(item => ({
-    tt: item.tt,
-    sbd: item.sbd,
-    name: normalizeText(item.name),
-    gender: normalizeText(item.gender),
-    dob: normalizeText(item.dob),
-    school: normalizeText(item.school),
-    grade: normalizeText(item.grade),
-    subject: normalizeText(item.subject),
-    score: item.score,
-    prize: normalizeText(item.prize)
-  }));
-}
-
-// Áp dụng chuẩn hóa cho mảng hsgData2324 gốc
-const hsgData2324Normalized = processHsgData(hsgData2324);
