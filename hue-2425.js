@@ -15427,6 +15427,6 @@ const hsgData2425 = [
   }
 ];
 
-if (typeof module !== 'undefined' && module.exports) {{
+if (typeof module !== 'undefined' && module.exports) {
     module.exports = hsgData2425;
-}}
+}
