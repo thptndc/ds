@@ -15922,3 +15922,4 @@ const hsgData2627 = [
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = hsgData2627;
 }
+window.hsgData2627 = hsgData2627;
